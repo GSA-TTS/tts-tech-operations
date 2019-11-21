@@ -111,7 +111,7 @@ Start the [request process] (https://handbook.18f.gov/software/) when a user nee
 
 Microsoft, Adobe, Zoom, Mural, and InVision require that you go into the back-end and manually add the person into the account. 
 
-Administration guide: See the following [administration guide](https://docs.google.com/document/d/18Htav6TIgasBvvSroI8H_sQXxnvMlra2k9iabBwQYUs/edit#) and document guide (https://docs.google.com/document/d/1qIms6TcYOQ24BerQrxAFzTKAqVS6VNCpWklwTsxBmWA/edit#) for links to the user lists, back-end accounts, and template responses.
+Administration guide: See the following [administration guide](https://docs.google.com/document/d/18Htav6TIgasBvvSroI8H_sQXxnvMlra2k9iabBwQYUs/edit#) and [document guide] (https://docs.google.com/document/d/1qIms6TcYOQ24BerQrxAFzTKAqVS6VNCpWklwTsxBmWA/edit#) for links to the user lists, back-end accounts, and template responses.
 
 ### Play Manage Software Requests (Onboarding)
 >Play: Microsoft Software Request
@@ -122,11 +122,21 @@ Administration guide: See the following [administration guide](https://docs.goog
 [Mural How-To Guide](https://docs.google.com/document/d/1VCxeilrxP-8wiX75DHcuVPBE3RgsODKJ-u5urGs-eaI/edit) - How to administer the TTS Mural account
 [Mural user list](https://docs.google.com/spreadsheets/d/1DT_3_SDM8ezbaN3I0FnN3ZYVtJpgkyXqYkO54FcnBro/edit)
 - Canned Response
+
 -- New member account
-_Hi XXXX,  I have taken the liberty of adding you to the 18F account for full member access, here is the link if you do not receive an email to that effect. Feel free to reach out if you have any questions._
+
+_Hi XXXX,  I have taken the liberty of adding you to the TTS account for full member access, here is the link if you do not receive an email to that effect. Feel free to reach out if you have any questions._
+
 -- Guest account
+
 _Would it be possible for your partners to take on Guest accounts? Guests are internal stakeholders, partners and clients working on or reviewing a project or workshop. They have slightly restricted access, but they can collaborate in a mural and access private rooms. Would that meet your needs?_
+
+-- Reactivate account
+
+_Hi XXXX,  I have taken the liberty of reactivating you to the TTS account for full member access, here is the link if you do not receive an email to that effect. Feel free to reach out if you have any questions._
+
 --- Request for a member account (when already have one)
+
 _Hi XXXX, It looks like you are already a member in this account, if you would like a link to Mural, I can send you one. If you need access to a board you are working with, please have the creator of that Mural workspace send you a link._
 
 >Play: Sketch Software Request
