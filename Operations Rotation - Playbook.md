@@ -111,7 +111,7 @@ Start the [request process] (https://handbook.18f.gov/software/) when a user nee
 
 Microsoft, Adobe, Zoom, Mural, and InVision require that you go into the back-end and manually add the person into the account. 
 
-Administration guide: See the following [administration guide](https://docs.google.com/document/d/18Htav6TIgasBvvSroI8H_sQXxnvMlra2k9iabBwQYUs/edit#) and [document guide] (https://docs.google.com/document/d/1qIms6TcYOQ24BerQrxAFzTKAqVS6VNCpWklwTsxBmWA/edit#) for links to the user lists, back-end accounts, and template responses.
+Administration guide: See the following [administration guide](https://docs.google.com/document/d/18Htav6TIgasBvvSroI8H_sQXxnvMlra2k9iabBwQYUs/edit#) and [document guide](https://docs.google.com/document/d/1qIms6TcYOQ24BerQrxAFzTKAqVS6VNCpWklwTsxBmWA/edit#) for links to the user lists, back-end accounts, and template responses.
 
 ### Play Manage Software Requests (Onboarding)
 >Play: Microsoft Software Request
