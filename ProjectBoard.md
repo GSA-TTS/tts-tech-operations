@@ -17,7 +17,10 @@ An opportunity for the team to inspect itself and create a plan for improvements
 A chance to look back and see what has been done and to communicate that with stakeholders. 
 
 ## Epics
-TBD
+- Create an issue for the epic
+- Label it with the label "epic"
+- Move it to the epic column
+- Create a label related to that epic and use that label for related issues
 
 ## Cards
 
@@ -43,7 +46,7 @@ TBD
 >
 > **Acceptance Criteria:**
 ##Boards
-### Cloumns 
+### Columns 
 **Definition of "Done"**
 
 An agile "Definition of Done" (DoD) captures the team's agreed-upon standards for how we get work done at a consistent level of quality. Having a DoD ensures that non-functional requirements (NFRs) don't have to be re-litigated for every piece of work taken on, cards can be focused on just the relevant details, and new team members aren't surprised by assumed expectations of their colleagues.
@@ -62,7 +65,6 @@ Before advancing a card from one column to the next on the board, it should meet
 - Backlog/Ready (when they are sequenced alongside other stories prioritized for attention)
 - In Progress (when someone is actively working on the issue)
 - Blocked/waiting (when there's a dependency on someone responding or something happening outside the team)
-- Awaiting Acceptance (when work is considered complete and awaiting review/merging/feedback)
 - Done (when work warrants demonstration to stakeholders and is awaiting the next sprint review)
 
 #### New Issues
