@@ -3,7 +3,7 @@
 TTS Tech Portfolio oversee/manage/coordinate everything technology-related that cuts across TTS, or anything technology-related that will affect TTS from the outside. 
 
 
-## Wow we operate
+## How we operate
 -   We work in the open, with rare exceptions
 -   We follow the Amazon model of [reversible decisions](https://fs.blog/2018/04/reversible-irreversible-decisions/)
 -   Issues in the board should be split to be *size:* weeks, and ideally *size:* days
