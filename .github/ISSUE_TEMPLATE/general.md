@@ -1,5 +1,5 @@
 ---
-name: General issue template
+name: General
 about: For general Tech Portfolio work
 title: ""
 labels: ""
