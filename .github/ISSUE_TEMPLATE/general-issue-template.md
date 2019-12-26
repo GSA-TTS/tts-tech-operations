@@ -1,17 +1,24 @@
 ---
 name: General issue template
 about: For general Tech Portfolio work
-title: ''
-labels: ''
-assignees: ''
-
+title: ""
+labels: ""
+assignees: ""
 ---
 
-**User Story:**
+## User stories
 
-**Implementation:**
+<!-- one or more -->
 
-- [ ] [first thing to do]
-- [ ] [another thing to do]
+- As a ..., I want ... so that ...
+- As a ..., I want ... so that ...
 
-**Acceptance Criteria:**
+## Implementation
+
+- [ ] [first small task]
+- [ ] [another small task]
+
+## Acceptance criteria
+
+- [definitive thing]
+- [other definitive thing]
