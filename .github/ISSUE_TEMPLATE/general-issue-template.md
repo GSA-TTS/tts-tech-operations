@@ -6,6 +6,10 @@ labels: ""
 assignees: ""
 ---
 
+## Background information
+
+<!-- description, links, etc. -->
+
 ## User stories
 
 <!-- one or more -->
