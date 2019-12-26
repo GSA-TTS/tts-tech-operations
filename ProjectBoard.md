@@ -92,20 +92,7 @@ General agenda (with max time for each):
 
 ### Assignments
 
-- If you would like to work on an issue, assign yourself to it before it gets to the ready column
-
-### Card template:
-
-> **Title:**
->
-> **User Story:**
->
-> **Implementation:**
->
-> - [ ] [first thing to do]
-> - [ ] [another thing to do]
->
-> **Acceptance Criteria:**
+- If you would like to work on an issue, assign yourself to it before it gets to the `Ready` column
 
 ## Project Board
 
