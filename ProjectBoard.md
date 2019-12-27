@@ -92,7 +92,7 @@ General agenda (with max time for each):
 
 ### Assignments
 
-- If you would like to work on an issue, assign yourself to it before it gets to the `Ready` column
+- If you would like to work on an issue, assign yourself to it once it is in the `Backlog` column
 
 ## Project Board
 
