@@ -2,9 +2,10 @@
 
 ## General Instructions
 
-### Radiating intent
-
-Let the rest of the team know you are starting an issue by to start an issue by copying the link of the issue into our private chat and @-ing the rest of the team.
+- An issue should be created when a task:
+  - Is the responsibility of our team (versus something like a personal HR-related task)
+  - Will take more than 30 minutes (but not necessarily for things like recurring or TTS-wide meetings)
+- Let the rest of the team know you are starting an issue (radiate intent) by copying the link of the issue into our private chat and @-ing the rest of the team.
 
 ## Workflow Ceremonies
 
