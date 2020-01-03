@@ -28,11 +28,16 @@
  >Play: DNS Activity
 Documentation: [DNS Handbook page](https://github.com/18F/dns)
 
+### Pull Requests
+
+[Pull Requests for Responsible TTS Tech Portfolio Repository](https://github.com/search?utf8=%E2%9C%93&q=state%3Aopen+is%3Apr+repo%3A18F%2Faws-admin+repo%3A18F%2Fghad+repo%3A18F%2Ftts-tech-portfolio+repo%3A18F%2Fvulnerability-disclosure-policy+repo%3A18F%2FDNS+repo%3A18f%2Ftock+repo%3A18f%2Fhandbook+repo%3A18F%2Fbefore-you-ship+repo%3A18F%2Fchandika+repo%3A18F%2Fopen-source-policy+repo%3A18F%2Flaptop+repo%3A18F%2Fchat+repo%3A18F%2Fbug-bounty+repo%3A18F%2Flaptop++repo%3A18F%2Fraktabija&type=Issues&ref=advsearch&l=&l=)
+
 ## Security 
  >Play: GitHubSecurity
-Documentation: [18F Security Issues Page on GitHub]()	 
+Documentation: [18F Security Issues Page on GitHub](https://github.com/search?o=asc&q=user%3A18F+user%3AGSA+author%3Aapp%2Fdependabot+is%3Aopen+archived%3Afalse&s=created&type=Issues)	 
 
 >Play: Security Triaging
+[Notes](https://docs.google.com/document/d/10OrSjLKdi2FssAMLZDnKne79r7V9hy-D2pmqWXA703k/edit)
 - HackerOne: 
 -- #bug-bounty-partners
 - Incidents
