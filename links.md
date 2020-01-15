@@ -1,10 +1,12 @@
 ## General
+
 [Onboarding/Offboarding](https://docs.google.com/document/d/1kF41y1AbVCkdXE5XStuthOM-1VIA48UimN9W3E9Jk68/edit)
 
 [Software Purchases and Management Folder](https://drive.google.com/drive/folders/1R2TAsyc3fXnKdJZeB-1uKDxRIq1ta_4p)
 All of these documents (and more!) are accessible here.
 
 ## Money
+
 [FY20 Contractual Services Lines of Accounting](https://docs.google.com/spreadsheets/d/1P_OfocNGGDq9Mivl3yc8DmjMN_AXqSmFRs74m3Ue8Ww/edit?ts=5db9bddd#gid=1655384448)
 
 `TTS SaaS` is the one we generally use for purchases of SaaS/IaaS.
@@ -99,8 +101,8 @@ The request sheet and form were the start of the new SaaS buy process. We were n
 [Software Request Form](https://docs.google.com/forms/d/1Pk8hVrBrvFN41DKeLqOwWKykCHu3umqH7jFEHBbj-mE/edit)
 
 Links to Handbook pages
-	[Purchase requests](https://handbook.18f.gov/purchase-requests/)
-		[Software under $10,000](https://handbook.18f.gov/software/)
+[Purchase requests](https://handbook.18f.gov/purchase-requests/)
+[Software under \$10,000](https://handbook.18f.gov/software/)
 These handbook pages will need to be updated once C2 is deprecated and the new process is in place.
 
 [TTS-Wide Contracts](https://docs.google.com/spreadsheets/d/1ugJMb5lzwriP0e0Jkf2GMrxbBtjrsvQkSGUJZUA5e44/edit)
