@@ -1,6 +1,6 @@
 ## Overview
 
-TTS Tech Portfolio oversee/manage/coordinate everything technology-related that cuts across TTS, or anything technology-related that will affect TTS from the outside. 
+TTS Tech Portfolio oversee/manage/coordinate everything technology-related that cuts across TTS, or anything technology-related that will affect TTS from the outside.
 
 
 ## How we operate
@@ -14,7 +14,7 @@ TTS Tech Portfolio oversee/manage/coordinate everything technology-related that 
 
 ## Documentation
 
-See the [TTS Tech Portfolio wiki](https://github.com/18F/tts-tech-portfolio/wiki/Documents-for-TTS-Tech-Porfolio) for more information about:
+See [the list of links](links.md) for more information about:
 
 -   General Info
 -   Money Info
