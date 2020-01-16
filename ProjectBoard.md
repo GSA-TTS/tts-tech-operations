@@ -56,6 +56,7 @@ The Sprint Review includes the following elements:
 - If there are any final decisions, finished documents, etc that have been completed, those items are reviewed in greater detail.
 - The Meeting Leader discusses the Backlog as it stands.
 - The entire group collaborates on what to do next, so that the Sprint Review provides valuable input to subsequent Sprint Planning.
+- Any potential [success stories](https://docs.google.com/document/d/1HmAtF3A4HUvn2HRV_nfgaXxlO8spqIJmkOP8nJoUqQs/edit) are noted
 
 General agenda (with max time for each):
 
