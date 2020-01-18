@@ -22,6 +22,8 @@ The Director does the following:
 - Official GSA Supervisor responsibilities, such as:
   - [Leave approvals](https://handbook.18f.gov/leave/)
   - [Performance management](https://handbook.18f.gov/performance-management/)
+- Solutions leadership responsibilities, such as:
+  - Attending Senior Management Team (SMT) meetings
 - Ensuring the team members feel supported as individuals
 - Ensuring the team is supported by other leadership
 - Resolving conflicts within the team, including being a tie-breaker when needed
