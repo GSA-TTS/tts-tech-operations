@@ -1,10 +1,4 @@
 
-
-provider "github" {
-  organization = "its-a-lisa"
-  token = "008e162effe4ae657fa1733131ef3e3f3c2c952e"
-}
-
 resource "github_issue_label" "its-a-lisa_tts-tech-portfolio_de_ae" {
     color       =  "71767a"
     description =  "Anomalous activity is detected in a timely manner and the potential impact of events is understood"
