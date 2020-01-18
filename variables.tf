@@ -1,5 +1,5 @@
 variable "github_token" {
-  default = "008e162effe4ae657fa1733131ef3e3f3c2c952e"
+  default = "96281f1b5c54ecac42fe9c7f4da42d8f28403863"
   description = "GitHub API Token"
 }
 
@@ -7,3 +7,4 @@ variable "github_organization" {
   default = "its-a-lisa"
   description = "GitHub Organization its-a-lisa"
 }
+
