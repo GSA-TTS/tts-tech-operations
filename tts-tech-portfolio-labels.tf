@@ -2,7 +2,7 @@
 
 provider "github" {
   organization = "its-a-lisa"
-  token = "1de2913acdab682857668604c567d2ea5216e7a0"
+  token = "008e162effe4ae657fa1733131ef3e3f3c2c952e"
 }
 
 resource "github_issue_label" "its-a-lisa_tts-tech-portfolio_de_ae" {
