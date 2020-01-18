@@ -368,7 +368,7 @@ resource "github_issue_label" "its-a-lisa_tts-tech-portfolio_epic_internal_workf
     name        = " epic: internal workflow/procedures"
 }
 
-resource "github_issue_label" "its-a-lisa_tts-tech-portfolio_epic_secret_management {
+resource "github_issue_label" "its-a-lisa_tts-tech-portfolio_epic_secret_management" {
     color       = " 0ceda6"
     description = ""  
     repository  =  "tts-tech-portfolio"
