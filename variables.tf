@@ -1,5 +1,5 @@
 variable "github_token" {
-  default = "96281f1b5c54ecac42fe9c7f4da42d8f28403863"
+  default = ""
   description = "GitHub API Token"
 }
 
