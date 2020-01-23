@@ -84,7 +84,7 @@
 1. #admins-mural
 1. #admins-slack
 1. #admins-trello
-1. #admins-zoon
+1. #admins-zoom
 1. #it-issues
 1. #tts-tech-portfolio
 1. #infrastructure
