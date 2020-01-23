@@ -60,9 +60,9 @@ The Sprint Review includes the following elements:
 
 General agenda (with max time for each):
 
-1. 5 mins: `Blocked`
-1. 5 mins: `New Issues`
 1. 40 mins: Go through all issues in `Done` with demos as applicable
+1. 5 mins: `In progress`
+1. 5 mins: `Waiting/Blocked`
 1. 10 mins: Q&A and suggestions from stakeholders
 
 ## Epics
