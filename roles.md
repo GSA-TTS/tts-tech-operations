@@ -2,7 +2,7 @@
 
 - [Continuity of Operations (COOP)](https://sites.google.com/a/gsa.gov/continuity/home) Alternate [Emergency Coordinator](https://sites.google.com/a/gsa.gov/continuity/home/emergency-coordinators-ecs) for TTS
 - Director/Supervisor
-- FAS Systems Governance Committee (FSGC) representative
+- [FAS Systems Governance Committee (FSGC)](https://sites.google.com/a/gsa.gov/fas-systems-governance/home) representative
 - Mac Working Group representative
 - [Operations Rotation](Operations%20Rotation%20-%20Playbook.md) person
 - Money
