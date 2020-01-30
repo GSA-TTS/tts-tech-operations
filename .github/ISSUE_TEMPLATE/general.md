@@ -1,28 +1,15 @@
 ---
 name: General
-about: For general Tech Portfolio work
+about: generic issue for the tech portfolio
 title: ""
 labels: ""
 assignees: ""
 ---
 
-## Background information
+## User story
+what problem are we trying to solve and for whom?
 
-<!-- description, links, etc. -->
+## Background
 
-## User stories
-
-<!-- one or more -->
-
-- As a ..., I want ... so that ...
-- As a ..., I want ... so that ...
-
-## Implementation
-
-- [ ] [first small task]
-- [ ] [another small task]
-
-## Acceptance criteria
-
-- [definitive thing]
-- [other definitive thing]
+## Acceptance Criteria
+- [ ] 
