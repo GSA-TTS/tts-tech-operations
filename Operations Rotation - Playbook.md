@@ -1,62 +1,8 @@
-# TTS Tech Portfolio- Operations Rotation
+# Operations Rotation Playbook
 
-## Playbook
+[Create an issue using the Operations Rotation template](https://github.com/18F/tts-tech-portfolio/issues/new?template=ops.md) before each Rotation to track tasks.
 
-### Meetings
-
-> Play: Infrastructure Meeting
-
-- Review action items 32 hrs in advance
-- Follow up on any items
-- Compile agenda 48 hrs in advance
-- Send agenda 24 hrs in advance
-- Lead meeting
-
-> Play: CTO Liaison Meeting
-
-- Review [trello board](https://trello.com/b/BFp37KQ6/gsa-cto-tts-liaison)
-
-> Play: Scrum - Sprint Planning
-
-- Review board prior to meeting
-
-> Play: Scrum - Daily Standup
-
-- Lead meeting
-
-> Play: Scrum - Review/Retro
-
-- Lead retro
-
-> Play: Operations Rotation - Handover
-
-### DNS
-
-> Play: DNS Activity
-> Documentation: [DNS Handbook page](https://github.com/18F/dns)
-
-### Pull Requests
-
-[Pull Requests for Responsible TTS Tech Portfolio Repository](https://github.com/search?utf8=%E2%9C%93&q=state%3Aopen+is%3Apr+repo%3A18F%2Faws-admin+repo%3A18F%2Fghad+repo%3A18F%2Ftts-tech-portfolio+repo%3A18F%2Fvulnerability-disclosure-policy+repo%3A18F%2FDNS+repo%3A18f%2Fhandbook+repo%3A18F%2Fbefore-you-ship+repo%3A18F%2Fchandika+repo%3A18F%2Fopen-source-policy+repo%3A18F%2Flaptop+repo%3A18F%2Fchat+repo%3A18F%2Fbug-bounty+repo%3A18F%2Flaptop++repo%3A18F%2Fraktabija&type=Issues&ref=advsearch&l=&l=)
-
-### Data
-
-- [Updating the public IT Standards dataset](https://github.com/GSA/data/tree/master/enterprise-architecture#updating-the-list)
-
-## Security
-
-> Play: GitHubSecurity
-> Documentation: [18F Security Issues Page on GitHub](https://github.com/search?o=asc&q=user%3A18F+user%3AGSA+author%3Aapp%2Fdependabot+is%3Aopen+archived%3Afalse&s=created&type=Issues)
-
-> Play: Security Triaging
-> [Notes](https://docs.google.com/document/d/10OrSjLKdi2FssAMLZDnKne79r7V9hy-D2pmqWXA703k/edit)
-
-- HackerOne:
-  -- #bug-bounty-partners
-- Incidents
-  -- #incident-response
-
-### Micropurchase Requests
+## Micropurchase Requests
 
 > Play: Micropurchase Procedure
 
@@ -180,8 +126,9 @@ If employees are asking to be removed from Omigraffle, this software does not ha
 > [Sublime License Key](https://docs.google.com/document/d/18k8yuM9oXQA7MNr-qvfq8gXliSHOb_bWElohb-KaObw/edit#)
 
 > Play: AWS Software Request
-> [AWS Account Setup](https://docs.google.com/document/d/1gHTa3w-N8jyPXK_qx2bEDniFcUOTlAvITYiQI_G8lrY/edit)
-> [AWS Accounts](https://docs.google.com/spreadsheets/d/1DedSCiU9AsCAAVvAFZT0_Ii7AFIKlI-JNifzlpHNbDg/edit#gid=807365900)
+
+- [AWS Account Setup](https://docs.google.com/document/d/1gHTa3w-N8jyPXK_qx2bEDniFcUOTlAvITYiQI_G8lrY/edit)
+- [AWS Accounts](https://docs.google.com/spreadsheets/d/1DedSCiU9AsCAAVvAFZT0_Ii7AFIKlI-JNifzlpHNbDg/edit#gid=807365900)
 
 > Play: Sandbox accounts Software Request
 > [sandbox accounts](https://docs.google.com/spreadsheets/d/1DedSCiU9AsCAAVvAFZT0_Ii7AFIKlI-JNifzlpHNbDg/edit#gid=807365900)
@@ -209,9 +156,3 @@ If employees are asking to be removed from Omigraffle, this software does not ha
 > Play: Adobe Software Request
 
 - Canned Response: \_Please request through the Service Desk. Updating the Handbook with info about this.
-
-### Play Manage Software Requests (Offboarding)
-
-Remember, it is not all giving out license, you have to take them away too! TTS Talent will reach out to the current SaaS PM to send them this [document](https://docs.google.com/spreadsheets/d/1IlFY5AAvTyuS7yDHk5_odJGHYZDU_MN9HNGKJ2zXwi0/edit) so that they can check off the boxes of when they have either manually removed or requested removal of a former employee from the software.\_
-
-Simply go into both the software back-end account and remove the individual, then go in and update the user lists by deleting the cell with the person’s name and information.
