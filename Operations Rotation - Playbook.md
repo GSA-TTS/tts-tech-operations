@@ -77,34 +77,34 @@
 
 ## Communications Monitoring
 
-- Slack Channels
+### Slack Channels
 
-1. #admins-aws
-1. #admins-dmarc
-1. #admins-mural
-1. #admins-slack
-1. #admins-trello
-1. #admins-zoom
-1. #it-issues
-1. #tts-tech-portfolio
-1. #infrastructure
-1. #admings-github
-1. #admins-dns
-1. #admins-govdelivery
-1. #bug-bounty-partners
-1. #cto-tts-liason-private
-1. #tts-tech-portfolio-alerts
-1. #mac
-1. #bug-bounty-partners
-1. #tts-shared-services
-1. #tts-tech-portfolio
-1. #incident-response
-1. #questions
-1. #devops-public
-1. #solutions
-1. #admins
+- #admins-github
+- #admins-aws
+- #admins-dmarc
+- #admins-dns
+- #admins-govdelivery
+- #admins-iaas
+- #admins-mural
+- #admins-slack
+- #admins-trello
+- #admins-zoom
+- #bug-bounty-partners
+- #bug-bounty-partners
+- #cto-tts-liason-private
+- #devops-public
+- #incident-response
+- #infrastructure
+- #it-issues
+- #mac
+- #questions
+- #solutions
+- #tts-shared-services
+- #tts-tech-portfolio
+- #tts-tech-portfolio
+- #tts-tech-portfolio-alerts
 
-- Google Groups
+### Google Groups
 
 | Group                     | Permission |
 | ------------------------- | ---------- |
