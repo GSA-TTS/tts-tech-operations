@@ -36,7 +36,6 @@
 - #admins-trello
 - #admins-zoom
 - #bug-bounty-partners
-- #bug-bounty-partners
 - #cto-tts-liason-private
 - #devops-public
 - #incident-response
@@ -46,7 +45,6 @@
 - #questions
 - #solutions
 - #tts-shared-services
-- #tts-tech-portfolio
 - #tts-tech-portfolio
 - #tts-tech-portfolio-alerts
 
