@@ -1,6 +1,6 @@
 # Operations Rotation Playbook
 
-[Create an issue using the Operations Rotation template](https://github.com/18F/tts-tech-portfolio/issues/new?template=ops.md) before each Rotation to track tasks.
+[Create an issue using the Operations Rotation template](https://github.com/18F/tts-tech-portfolio/issues/new?template=ops.md) before each Rotation to track tasks. Close once the rotation has ended.
 
 ## Micropurchase Requests
 

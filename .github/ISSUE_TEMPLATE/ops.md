@@ -17,6 +17,7 @@ Each of the following should be done within the dates above. See the [playbook](
   - [ ] Review and update [Trello board](https://trello.com/b/BFp37KQ6/gsa-cto-tts-liaison)
 - [ ] Lead [Sprint Review](https://github.com/18F/tts-tech-portfolio/blob/master/ProjectBoard.md#sprint-reviews)
 - [ ] Lead [Retro](https://github.com/18F/tts-tech-portfolio/blob/master/ProjectBoard.md#retros)
+  - [ ] Move Action Items into issues
 - [ ] Let the next person on Operations Rotation know what is outstanding
 
 ## GitHub
