@@ -34,4 +34,4 @@ Ensure you are present in the following and are responding as needed:
 
 ## Other
 
-- Perform any outstanding [`ACCOUNT DEACTIVATION` offboarding tasks](https://docs.google.com/spreadsheets/d/1IlFY5AAvTyuS7yDHk5_odJGHYZDU_MN9HNGKJ2zXwi0/edit)
+- [ ] Perform any outstanding `ACCOUNT DEACTIVATION` [offboarding tasks](https://docs.google.com/spreadsheets/d/1IlFY5AAvTyuS7yDHk5_odJGHYZDU_MN9HNGKJ2zXwi0/edit)
