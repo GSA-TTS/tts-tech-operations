@@ -4,8 +4,6 @@
 
 ## Micropurchase Requests
 
-> Play: Micropurchase Procedure
-
 1. People submit micropurchase request form
 1. Request goes into spreadsheet
 1. Melanie/Ethan do initial triage to determine if it should go to `Pending TTS Software Team review`
@@ -68,89 +66,96 @@
 
 ## System Management - Cloud Management
 
-> Play: AWS Account
-> [Creating new accounts](https://before-you-ship.18f.gov/infrastructure/aws/#creating-new-accounts)
+[Creating new AWS accounts](https://before-you-ship.18f.gov/infrastructure/aws/#creating-new-accounts)
 
 ## System Management - Software Management
 
-> Play: Managing Software requests
-> Start the [request process](https://handbook.18f.gov/software/) when a user needs a piece of software they will make a request by sending an email will be sent to tts-software@gsa.gov and show on the [Software Group](https://groups.google.com/a/gsa.gov/forum/?utm_medium=email&utm_source=footer#!forum/tts-software) and whomever is in rotation will answer it. Once the operations rotation receives the email they send a canned response to the requestor letting them know that they’ve gotten it. Once operations rotation person has completed all of their tasks, they will mark the item complete.
+### Play: Managing Software requests
+
+Start the [request process](https://handbook.18f.gov/software/) when a user needs a piece of software they will make a request by sending an email will be sent to tts-software@gsa.gov and show on the [Software Group](https://groups.google.com/a/gsa.gov/forum/?utm_medium=email&utm_source=footer#!forum/tts-software) and whomever is in rotation will answer it. Once the operations rotation receives the email they send a canned response to the requestor letting them know that they’ve gotten it. Once operations rotation person has completed all of their tasks, they will mark the item complete.
 
 Microsoft, Adobe, Zoom, Mural, and InVision require that you go into the back-end and manually add the person into the account.
 
-Administration guide: See the following [administration guide](https://docs.google.com/document/d/18Htav6TIgasBvvSroI8H_sQXxnvMlra2k9iabBwQYUs/edit#) and [document guide](https://docs.google.com/document/d/1qIms6TcYOQ24BerQrxAFzTKAqVS6VNCpWklwTsxBmWA/edit#) for links to the user lists, back-end accounts, and template responses.
+See the following [administration guide](https://docs.google.com/document/d/18Htav6TIgasBvvSroI8H_sQXxnvMlra2k9iabBwQYUs/edit#) and [document guide](https://docs.google.com/document/d/1qIms6TcYOQ24BerQrxAFzTKAqVS6VNCpWklwTsxBmWA/edit#) for links to the user lists, back-end accounts, and template responses.
 
-### Play Manage Software Requests (Onboarding)
+### Play: Manage Software Requests (Onboarding)
 
-> Play: Microsoft Software Request
-> [Point them to Office documentation](https://handbook.18f.gov/office/)
+### Play: Microsoft Software Request
 
-> Play: Mural Software Request
-> [Mural How-To Guide](https://docs.google.com/document/d/1VCxeilrxP-8wiX75DHcuVPBE3RgsODKJ-u5urGs-eaI/edit) - How to administer the TTS Mural account
-> [Mural user list](https://docs.google.com/spreadsheets/d/1DT_3_SDM8ezbaN3I0FnN3ZYVtJpgkyXqYkO54FcnBro/edit)
+Point them to [Office documentation](https://handbook.18f.gov/office/).
 
-- Canned Response
+### Play: Mural Software Request
 
--- New member account
+- [Mural How-To Guide](https://docs.google.com/document/d/1VCxeilrxP-8wiX75DHcuVPBE3RgsODKJ-u5urGs-eaI/edit) - How to administer the TTS Mural account
+- [Mural user list](https://docs.google.com/spreadsheets/d/1DT_3_SDM8ezbaN3I0FnN3ZYVtJpgkyXqYkO54FcnBro/edit)
 
-_Hi XXXX, I have taken the liberty of adding you to the TTS account for full member access, here is the link if you do not receive an email to that effect. Feel free to reach out if you have any questions._
+#### Canned Response
 
--- Guest account
+##### New member account
 
-_Would it be possible for your partners to take on Guest accounts? Guests are internal stakeholders, partners and clients working on or reviewing a project or workshop. They have slightly restricted access, but they can collaborate in a mural and access private rooms. Would that meet your needs?_
+> Hi XXXX, I have taken the liberty of adding you to the TTS account for full member access, here is the link if you do not receive an email to that effect. Feel free to reach out if you have any questions.
 
--- Reactivate account
+##### Guest account
 
-_Hi XXXX, I have taken the liberty of reactivating you to the TTS account for full member access, here is the link if you do not receive an email to that effect. Feel free to reach out if you have any questions._
+> Would it be possible for your partners to take on Guest accounts? Guests are internal stakeholders, partners and clients working on or reviewing a project or workshop. They have slightly restricted access, but they can collaborate in a mural and access private rooms. Would that meet your needs?
 
---- Request for a member account (when already have one)
+##### Reactivate account
 
-_Hi XXXX, It looks like you are already a member in this account, if you would like a link to Mural, I can send you one. If you need access to a board you are working with, please have the creator of that Mural workspace send you a link._
+> Hi XXXX, I have taken the liberty of reactivating you to the TTS account for full member access, here is the link if you do not receive an email to that effect. Feel free to reach out if you have any questions.
 
-> Play: Sketch Software Request
-> [Sketch Handbook page](https://handbook.18f.gov/sketch/#for-admins)
+##### Request for a member account (when already have one)
 
-- Canned Response: _See instructions in the Handbook._
+> Hi XXXX, It looks like you are already a member in this account, if you would like a link to Mural, I can send you one. If you need access to a board you are working with, please have the creator of that Mural workspace send you a link.
 
-> Play: Omnigraffle Software Request
+### Play: Sketch Software Request
 
-1. v6 (not 7+)
-1. License Owner: 18F Software (GSA)
-1. [Omnigraffle License key](https://docs.google.com/document/d/18k8yuM9oXQA7MNr-qvfq8gXliSHOb_bWElohb-KaObw/edit#)
+[Sketch Handbook page](https://handbook.18f.gov/sketch/#for-admins)
+
+Canned Response: _See instructions in the Handbook._
+
+### Play: Omnigraffle Software Request
+
+- v6 (not 7+)
+- License Owner: 18F Software (GSA)
+- [Omnigraffle License key](https://docs.google.com/document/d/18k8yuM9oXQA7MNr-qvfq8gXliSHOb_bWElohb-KaObw/edit#)
 
 If employees are asking to be removed from Omigraffle, this software does not have that capability since it only inputs a code and there is not limit to users, Omnigraffle is just removed when the out boarded employee turns their Macbook in.
 
-> Play: Sublime Text Software Request
-> [Sublime License Key](https://docs.google.com/document/d/18k8yuM9oXQA7MNr-qvfq8gXliSHOb_bWElohb-KaObw/edit#)
+### Play: Sublime Text Software Request
 
-> Play: AWS Software Request
+[Sublime License Key](https://docs.google.com/document/d/18k8yuM9oXQA7MNr-qvfq8gXliSHOb_bWElohb-KaObw/edit#)
+
+### Play: AWS Software Request
 
 - [AWS Account Setup](https://docs.google.com/document/d/1gHTa3w-N8jyPXK_qx2bEDniFcUOTlAvITYiQI_G8lrY/edit)
 - [AWS Accounts](https://docs.google.com/spreadsheets/d/1DedSCiU9AsCAAVvAFZT0_Ii7AFIKlI-JNifzlpHNbDg/edit#gid=807365900)
 
-> Play: Sandbox accounts Software Request
-> [sandbox accounts](https://docs.google.com/spreadsheets/d/1DedSCiU9AsCAAVvAFZT0_Ii7AFIKlI-JNifzlpHNbDg/edit#gid=807365900)
+#### Play: Sandbox accounts Software Request
 
-> Play: NPM Software Request
+[sandbox accounts](https://docs.google.com/spreadsheets/d/1DedSCiU9AsCAAVvAFZT0_Ii7AFIKlI-JNifzlpHNbDg/edit#gid=807365900)
 
-> Play: SSLMATE Software Request
+### Play: NPM Software Request
 
-> Play: SauceLabs Software Request
+### Play: SSLMATE Software Request
 
-> Play: Twillo Software Request
+### Play: SauceLabs Software Request
 
-> Play: Trello Software Request
+### Play: Twillo Software Request
 
-> Play: GitHub Software Request
+### Play: Trello Software Request
 
-> Play: CloudCheckr Software Request
+### Play: GitHub Software Request
 
-> Play: Dotgov.gov Software Request
+### Play: CloudCheckr Software Request
 
-> Play: Zoom Software Request
+### Play: Dotgov.gov Software Request
 
-> Play: InVision Software Request
+### Play: Zoom Software Request
 
-> Play: Adobe Software Request
+### Play: InVision Software Request
 
-- Canned Response: \_Please request through the Service Desk. Updating the Handbook with info about this.
+### Play: Adobe Software Request
+
+Canned Response:
+
+> Please request through the Service Desk. Updating the Handbook with info about this.
