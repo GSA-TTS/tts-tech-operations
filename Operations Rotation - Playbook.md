@@ -58,20 +58,7 @@
 
 ### Micropurchase Requests
 
-1. People submit micropurchase request form
-1. Request goes into spreadsheet
-1. Melanie/Ethan do initial triage to determine if it should go to `Pending TTS Software Team review`
-1. Tech Portfolio reviews to check if it has:
-   1. An ATO
-   1. Prior FITARA approval
-      1. Check the FITARA Trello board - if not on we need to go through approval process
-1. If Yes to both, change Status to “Pending Supervisor Approval”
-1. Once the Supervisor/AO approval steps are completed (these are automated by email), status is automatically moved to “Pending P-card Purchaser”.
-1. John: complete P-Card purchase
-1. John: Manually enter the Pegasys CC id for the P-Card holder
-1. Change Status in spreadsheet to “Completed”
-1. This “completed” action triggers the Pegasys reimbursement request.
-1. Request is routed to the AO who then approves.
+See the [Purchase Requests](https://handbook.tts.gsa.gov/purchase-requests/#behind-the-scenes) page in the Handbook.
 
 ## Communications Monitoring
 
