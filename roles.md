@@ -13,6 +13,8 @@
 - System authorizations
   - Authorizing Official
   - Backup
-- [Infrastructure-as-a-Service (IaaS)](https://before-you-ship.18f.gov/infrastructure/) administrator
+- Infrastructure
+  - [DotGov points of contact](https://home.dotgov.gov/management/#points-of-contact)
+  - [Infrastructure-as-a-Service (IaaS)](https://before-you-ship.18f.gov/infrastructure/)
 - Tech Portfolio Specialist / all team members
 - TTS SaaS PM
