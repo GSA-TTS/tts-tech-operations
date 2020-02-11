@@ -14,10 +14,12 @@
   - Authorizing Official
   - Backup
 - [Infrastructure-as-a-Service (IaaS)](https://before-you-ship.18f.gov/infrastructure/) administrator
-- Tech Portfolio Specialist / all team members
+- [Tech Portfolio Specialist](https://join.tts.gsa.gov/join/technology-portfolio-specialist/) / all team members
 - TTS SaaS PM
 
 ## Director
+
+_[Original job post](https://join.tts.gsa.gov/join/technology-portfolio-director/)_
 
 The Director does the following:
 
