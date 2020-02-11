@@ -28,6 +28,7 @@ The Director does the following:
   - Attending Senior Management Team (SMT) meetings
 - Ensuring the team members feel supported as individuals
 - Ensuring the team is supported by other leadership
+- Ensuring the team fulfills its various [responsibilities](https://handbook.tts.gsa.gov/tech-portfolio/), including meeting deadlines
 - Resolving conflicts within the team, including being a tie-breaker when needed
 
 The following are _not_ responsibilities of the Director specifically, in contrast to managers in other teams/organizations:
