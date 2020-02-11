@@ -33,8 +33,8 @@ The Director does the following:
 - Ensuring the team fulfills its various [responsibilities](https://handbook.tts.gsa.gov/tech-portfolio/), including meeting deadlines
 - Resolving conflicts within the team, including being a tie-breaker when needed
 
-The following are _not_ responsibilities of the Director specifically, in contrast to managers in other teams/organizations:
+To make the team as flat as possible, the Director shares the following responsibilities with the rest of the team:
 
-- Focusing on strategy
+- Determining strategy
 - Setting vision/goals/deadlines
-- Assigning tasks
+- Assigning tasks (self-organizing preferred)
