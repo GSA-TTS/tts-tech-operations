@@ -1,95 +1,39 @@
-# TTS Tech Portfolio- Operations Rotation
+# Operations Rotation Playbook
 
-## Playbook
+[Create an issue using the Operations Rotation template](https://github.com/18F/tts-tech-portfolio/issues/new?template=ops.md) before each Rotation to track tasks. Close once the rotation has ended.
 
-### Meetings
-
-> Play: Infrastructure Meeting
-
-- Review action items 32 hrs in advance
-- Follow up on any items
-- Compile agenda 48 hrs in advance
-- Send agenda 24 hrs in advance
-- Lead meeting
-
-> Play: CTO Liaison Meeting
-
-- Review [trello board](https://trello.com/b/BFp37KQ6/gsa-cto-tts-liaison)
-
-> Play: Scrum - Sprint Planning
-
-- Review board prior to meeting
-
-> Play: Scrum - Daily Standup
-
-- Lead meeting
-
-> Play: Scrum - Review/Retro
-
-- Lead retro
-
-> Play: Operations Rotation - Handover
-
-### DNS
-
-> Play: DNS Activity
-> Documentation: [DNS Handbook page](https://github.com/18F/dns)
-
-### Pull Requests
-
-[Pull Requests for Responsible TTS Tech Portfolio Repository](https://github.com/search?utf8=%E2%9C%93&q=state%3Aopen+is%3Apr+repo%3A18F%2Faws-admin+repo%3A18F%2Fghad+repo%3A18F%2Ftts-tech-portfolio+repo%3A18F%2Fvulnerability-disclosure-policy+repo%3A18F%2FDNS+repo%3A18f%2Fhandbook+repo%3A18F%2Fbefore-you-ship+repo%3A18F%2Fchandika+repo%3A18F%2Fopen-source-policy+repo%3A18F%2Flaptop+repo%3A18F%2Fchat+repo%3A18F%2Fbug-bounty+repo%3A18F%2Flaptop++repo%3A18F%2Fraktabija&type=Issues&ref=advsearch&l=&l=)
-
-### Data
-
-- [Updating the public IT Standards dataset](https://github.com/GSA/data/tree/master/enterprise-architecture#updating-the-list)
-
-## Security
-
-> Play: GitHubSecurity
-> Documentation: [18F Security Issues Page on GitHub](https://github.com/search?o=asc&q=user%3A18F+user%3AGSA+author%3Aapp%2Fdependabot+is%3Aopen+archived%3Afalse&s=created&type=Issues)
-
-> Play: Security Triaging
-> [Notes](https://docs.google.com/document/d/10OrSjLKdi2FssAMLZDnKne79r7V9hy-D2pmqWXA703k/edit)
-
-- HackerOne:
-  -- #bug-bounty-partners
-- Incidents
-  -- #incident-response
-
-### Micropurchase Requests
+## Micropurchase Requests
 
 See the [Purchase Requests](https://handbook.tts.gsa.gov/purchase-requests/#behind-the-scenes) page in the Handbook.
 
 ## Communications Monitoring
 
-- Slack Channels
+### Slack Channels
 
-1. #admins-aws
-1. #admins-dmarc
-1. #admins-mural
-1. #admins-slack
-1. #admins-trello
-1. #admins-zoom
-1. #it-issues
-1. #tts-tech-portfolio
-1. #infrastructure
-1. #admings-github
-1. #admins-dns
-1. #admins-govdelivery
-1. #bug-bounty-partners
-1. #cto-tts-liason-private
-1. #tts-tech-portfolio-alerts
-1. #mac
-1. #bug-bounty-partners
-1. #tts-shared-services
-1. #tts-tech-portfolio
-1. #incident-response
-1. #questions
-1. #devops-public
-1. #solutions
-1. #admins
+- #admins-github
+- #admins-aws
+- #admins-dmarc
+- #admins-dns
+- #admins-govdelivery
+- #admins-iaas
+- #admins-mural
+- #admins-slack
+- #admins-trello
+- #admins-zoom
+- #bug-bounty-partners
+- #cto-tts-liason-private
+- #devops-public
+- #incident-response
+- #infrastructure
+- #it-issues
+- #mac
+- #questions
+- #solutions
+- #tts-shared-services
+- #tts-tech-portfolio
+- #tts-tech-portfolio-alerts
 
-- Google Groups
+### Google Groups
 
 | Group                     | Permission |
 | ------------------------- | ---------- |
@@ -202,9 +146,3 @@ If employees are asking to be removed from Omigraffle, this software does not ha
 Canned Response:
 
 > Please request through the Service Desk. Updating the Handbook with info about this.
-
-### Play Manage Software Requests (Offboarding)
-
-Remember, it is not all giving out license, you have to take them away too! TTS Talent will reach out to the current SaaS PM to send them this [document](https://docs.google.com/spreadsheets/d/1IlFY5AAvTyuS7yDHk5_odJGHYZDU_MN9HNGKJ2zXwi0/edit) so that they can check off the boxes of when they have either manually removed or requested removal of a former employee from the software.\_
-
-Simply go into both the software back-end account and remove the individual, then go in and update the user lists by deleting the cell with the person’s name and information.
