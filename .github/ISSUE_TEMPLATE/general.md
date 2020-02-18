@@ -1,28 +1,28 @@
----
-name: General
-about: For general Tech Portfolio work
-title: ""
-labels: ""
-assignees: ""
----
+---	
+name: General	
+about: For general Tech Portfolio work	
+title: ""	
+labels: ""	
+assignees: ""	
+---	
 
-## Background information
+## Background information	
 
-<!-- description, links, etc. -->
+<!-- description, links, etc. -->	
 
-## User stories
+## User stories	
 
-<!-- one or more -->
+<!-- one or more -->	
 
-- As a ..., I want ... so that ...
-- As a ..., I want ... so that ...
+- As a ..., I want ... so that ...	
+- As a ..., I want ... so that ...	
 
-## Implementation
+## Implementation	
 
-- [ ] [first small task]
-- [ ] [another small task]
+- [ ] [first small task]	
+- [ ] [another small task]	
 
-## Acceptance criteria
+## Acceptance criteria	
 
-- [definitive thing]
+- [definitive thing]	
 - [other definitive thing]
