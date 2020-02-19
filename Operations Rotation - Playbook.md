@@ -143,6 +143,8 @@ If employees are asking to be removed from Omigraffle, this software does not ha
 
 ### Play: Adobe Software Request
 
+### Play: SnagIt Request
+
 Canned Response:
 
 > Please request through the Service Desk. Updating the Handbook with info about this.
