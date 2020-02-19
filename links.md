@@ -116,3 +116,14 @@ These handbook pages will need to be updated once C2 is deprecated and the new p
 [COR Playbook](https://docs.google.com/document/d/14xOFvIGwlG0Gbd52o1D4AyJ52RqzHpX91nfEYJKu5qQ/edit#)
 
 [CTO Liaison Trello board](https://trello.com/b/BFp37KQ6/gsa-cto-tts-liaison)
+
+## Interviewing
+
+- [Director interview guide](https://docs.google.com/document/d/1K9OYhN_nQ5823pkOoJN9gZ1SpzhGeZ0RxnM-1HShQ_g/edit)
+- [Intern questions](https://docs.google.com/spreadsheets/d/1gfsc9PQ6Vv_vqFG9nxjHDAQVXOkgVDk4F-Z_574zFXE/edit#gid=407293530)
+- [Specialist interview guide](https://docs.google.com/document/d/1rbRiYFcFiFO6vtPfA21nkURKgtkGtp2j9qe1mkWc9IA/edit)
+
+### Other resources
+
+- [18F Engineering Hiring Guide](https://eng-hiring.18f.gov/)
+- [data.gov engineer interview guide](https://docs.google.com/document/d/1v2sWrH3wFIJdACFQPcJKFcgjCjaVX02YDHaoMGPR_Zo/edit)
