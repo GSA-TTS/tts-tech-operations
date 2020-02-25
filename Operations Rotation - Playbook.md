@@ -6,6 +6,10 @@
 
 See the [Purchase Requests](https://handbook.tts.gsa.gov/purchase-requests/#behind-the-scenes) page in the Handbook.
 
+## Micropurchase Requests
+
+Check if we've recieved any feedback in the [TTS Tech Portfolio anonymous spreadsheet](https://docs.google.com/spreadsheets/d/1ahj7CuoTAYr5c7miDCeGhplYx_wW1yj6ApMFLRdY-7Q/edit#gid=1730986218). 
+
 ## Communications Monitoring
 
 ### Slack Channels
