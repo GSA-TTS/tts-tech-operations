@@ -39,3 +39,4 @@ Ensure you are present in the following and are responding as needed:
 - [ ] Perform any outstanding `ACCOUNT DEACTIVATION` [offboarding tasks](https://docs.google.com/spreadsheets/d/1IlFY5AAvTyuS7yDHk5_odJGHYZDU_MN9HNGKJ2zXwi0/edit)
 - [ ] Check and act on open [Bug Bounty reports](https://hackerone.com/bugs)
 - [ ] Go through [General Requests Form responses](https://docs.google.com/spreadsheets/d/15UT10wouN2wuYABN02npzg8ETH3PFlFdXBWPJTsP3Hw/edit#gid=2127744834)
+- [ ] Make an announcement in the #tts-tech-portfolio and #infrastructure channel that you are now signing off from OpsRotation and provide the link to the [Anonymous TTS Tech Portfolio form](https://docs.google.com/forms/d/1xVyoXvWjcoY9UsHgogMSVxSuOm1SEFEzYfGIuZMsJGA/edit)
