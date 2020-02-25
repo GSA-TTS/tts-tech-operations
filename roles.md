@@ -18,6 +18,7 @@
   - [Infrastructure-as-a-Service (IaaS)](https://before-you-ship.18f.gov/infrastructure/)
 - [Tech Portfolio Specialist](https://join.tts.gsa.gov/join/technology-portfolio-specialist/) / all team members
 - TTS SaaS PM
+- [TTS Digital Council](https://docs.google.com/document/d/1v_kidGvpfVsMze-hJdaApI61Q3Vr6E-zZ5t79drnqIM/edit) member
 
 ## Director
 
