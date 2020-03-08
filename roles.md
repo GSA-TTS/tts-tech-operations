@@ -1,43 +1,43 @@
 # Roles
 
-- [Continuity of Operations (COOP)](https://sites.google.com/a/gsa.gov/continuity/home) Alternate [Emergency Coordinator](https://sites.google.com/a/gsa.gov/continuity/home/emergency-coordinators-ecs) for TTS
-- [Director](#director)
-- [FAS Systems Governance Committee (FSGC)](https://sites.google.com/a/gsa.gov/fas-systems-governance/home) representative
-- Mac Working Group representative
-- [Operations Rotation](Operations%20Rotation%20-%20Playbook.md) person
-- Money
-  - [Contracting Officer Representative (COR)](https://docs.google.com/document/d/14xOFvIGwlG0Gbd52o1D4AyJ52RqzHpX91nfEYJKu5qQ/edit) for TTS-wide software/infrastructure purchases
-  - [P-Card](https://drive.google.com/drive/folders/1CkxpHq0mDFeAnXlaMQJ9RQOCioVHckgs)
-    - Holder
-    - Approving Official
-- System authorizations
-  - Authorizing Official
-  - Backup
-- Infrastructure
-  - [DotGov points of contact](https://home.dotgov.gov/management/#points-of-contact)
-  - [Infrastructure-as-a-Service (IaaS)](https://before-you-ship.18f.gov/infrastructure/)
-- [Tech Portfolio Specialist](https://join.tts.gsa.gov/join/technology-portfolio-specialist/) / all team members
-- TTS SaaS PM
-- [TTS Digital Council](https://docs.google.com/document/d/1v_kidGvpfVsMze-hJdaApI61Q3Vr6E-zZ5t79drnqIM/edit) member
+| Role | Director | Cyber Specialist | Information Specialist |
+| --- | --- | --- | --- |
+| [Operations Rotation](Operations%20Rotation%20-%20Playbook.md) person | X | X | X |
+| [FAS Systems Governance Committee (FSGC)](https://sites.google.com/a/gsa.gov/fas-systems-governance/home) representative | X | --- | --- |
+| Mac Working Group representative | X | --- | --- |
+| [Continuity of Operations (COOP)](https://sites.google.com/a/gsa.gov/continuity/home) Alternate [Emergency Coordinator](https://sites.google.com/a/gsa.gov/continuity/home/emergency-coordinators-ecs) for TTS |    X      | --- | --- |
+| [Contracting Officer Representative (COR)](https://docs.google.com/document/d/14xOFvIGwlG0Gbd52o1D4AyJ52RqzHpX91nfEYJKu5qQ/edit) for TTS-wide software/infrastructure purchases | --- | --- | X |
+| [P-Card](https://drive.google.com/drive/folders/1CkxpHq0mDFeAnXlaMQJ9RQOCioVHckgs) Holder | --- | --- | X |
+| [P-Card](https://drive.google.com/drive/folders/1CkxpHq0mDFeAnXlaMQJ9RQOCioVHckgs) Approving Official  | X | --- | --- |
+| Cybersecurity Authorizing Official  | X | --- | --- |
+| Cybersecurity Authorizing Official backup | --- | X | --- |
+| [DotGov points of contact](https://home.dotgov.gov/management/#points-of-contact) | X | --- | --- |
+| [Infrastructure-as-a-Service (IaaS)](https://before-you-ship.18f.gov/infrastructure/) | --- | --- | X |
+| [TTS Digital Council](https://docs.google.com/document/d/1v_kidGvpfVsMze-hJdaApI61Q3Vr6E-zZ5t79drnqIM/edit) member | X | --- | --- |
+| TTS SaaS PM | --- | X | --- |
 
-## Director
+## Team Organization
+To make the team as flat as possible (avoiding [command and control](https://en.wikipedia.org/wiki/Command_and_control)), regardless of role, all team members contribute to the:
 
-_[Original job post](https://join.tts.gsa.gov/join/technology-portfolio-director/)_
+- Determing deadlines
+- Setting vision/goals/strategy
+- Assigning tasks (self-organizing preferred)
 
-The Director does the following:
+## Beyond the above, the Director does the following:
 
+### Director Duties
 - Official GSA Supervisor responsibilities, such as:
   - [Leave approvals](https://handbook.18f.gov/leave/)
   - [Performance management](https://handbook.18f.gov/performance-management/)
 - Solutions leadership responsibilities, such as:
   - Attending Senior Management Team (SMT) meetings
+
+### Director Philosophy
 - Ensuring the team members feel supported as individuals
 - Ensuring the team is supported by other leadership
 - Ensuring the team fulfills its various [responsibilities](https://handbook.tts.gsa.gov/tech-portfolio/), including meeting deadlines
 - Resolving conflicts within the team, including being a tie-breaker when needed
 
-To make the team as flat as possible (avoiding [command and control](https://en.wikipedia.org/wiki/Command_and_control)), the Director shares the following responsibilities with the rest of the team:
-
-- Determining strategy
-- Setting vision/goals/deadlines
-- Assigning tasks (self-organizing preferred)
+##  Original Job Announcements
+- [Tech Portfolio Specialist](https://join.tts.gsa.gov/join/technology-portfolio-specialist/) x 2
+- [Technology Director](https://join.tts.gsa.gov/join/technology-portfolio-director/)
