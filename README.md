@@ -6,10 +6,25 @@ TTS Tech Portfolio oversee/manage/coordinate everything technology-related that 
 
 - We work in the open, with rare exceptions
 - We follow the Amazon model of [reversible decisions](https://fs.blog/2018/04/reversible-irreversible-decisions/)
-- Issues in the board should be split to be _size:_ weeks, and ideally _size:_ days
 - We try to minimize [toil](https://landing.google.com/sre/sre-book/chapters/eliminating-toil/) and having to be reactionary for TTS and especially ourselves
 - We optimize for team member happiness and productivity
-- All meetings have a shared notes doc (if they aren't over Slack), and have clear action items following
+- [Kanban](https://drive.google.com/file/d/0B0Qfvc1P_XBFVk5rM2tGcDBoUjQ/view)-ish and [Scrum](https://www.scrum.org/resources/what-is-scrum)-y
+- Sooner is better than later, later (or never) is better than sooner
+- Write things down
+- Discussions → action items
+
+
+
+### Exceptions to working in the open
+- When the information needs to remain confidential... for *security* reasons
+- When the information needs to remain confidential... for *contractual* reasons
+- When the information needs to remain confidential... for *personnel* reasons
+
+### Times when it is best to use reversible decisions
+- When talking _about_ something takes longer than _just doing_ something
+- When we are either accountable or repsonsible for the procedure or outcome
+- When we pair it with [radiating intent](https://medium.com/@ElizAyer/dont-ask-forgiveness-radiate-intent-d36fd22393a3)
+- When the decision can actually be reversed 
 
 ## Documentation
 
