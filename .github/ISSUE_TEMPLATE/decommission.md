@@ -26,4 +26,4 @@ assignees: ""
   - [ ] [Slack](https://handbook.18f.gov/slack/#integrations)
 - [ ] Archive the Slack channel
 - [ ] Archive the issue tracker (Trello, etc.)
-- [ ] Optional: Put up a Federalist site with an embedded Google Form at [the same URL](https://federalist-docs.18f.gov/pages/how-federalist-works/custom-urls/). See [the Fugacious page](https://fugacious.18f.gov/) ([code](https://github.com/18F/fugacious-landing)) as an example.
+- [ ] Optional: Update the domain's DNS by setting its CNAME to a Google Form. See [the Fugacious page](https://fugacious.18f.gov/) ([code](https://github.com/18F/fugacious-landing)) as an example.
