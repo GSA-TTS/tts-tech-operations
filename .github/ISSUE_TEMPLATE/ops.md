@@ -37,16 +37,7 @@ Ensure you are present in the following and are responding as needed:
 ## Other
 
 - [ ] Perform any outstanding `ACCOUNT DEACTIVATION` [offboarding tasks](https://docs.google.com/spreadsheets/d/1IlFY5AAvTyuS7yDHk5_odJGHYZDU_MN9HNGKJ2zXwi0/edit)
-- [ ] Check and act on Vulnerability Disclosures
-  - Check
-    - [ ] [VDP Platform](https://hackerone.com/bugs)
-    - [ ] [Form](https://docs.google.com/forms/d/e/1FAIpQLSdhr6REOq8QRZ3C2cRWVHWbjcGgdNL8_nVSGY1cBSl1-tfkWA/viewform)
-    - [ ] [Email](https://groups.google.com/a/gsa.gov/forum/#!forum/tts-vulnerability-reports)
-  - Act
-    - [ ] Create 90 day calendar reminders with a reminder set for every 20 days
-    - [ ] If needed, loop in internal stakeholders
-    - [ ] If needed, vector to appropriate agency or vendor
 - [ ] Go through [General Requests Form responses](https://docs.google.com/spreadsheets/d/15UT10wouN2wuYABN02npzg8ETH3PFlFdXBWPJTsP3Hw/edit#gid=2127744834)
 - [ ] Check the [anonymous feedback responses](https://docs.google.com/spreadsheets/d/1ahj7CuoTAYr5c7miDCeGhplYx_wW1yj6ApMFLRdY-7Q/edit?usp=forms_web_b#gid=1730986218), and do the following as applicable:
-   - Create or comment on issues
-   - Drop anonymized feedback in #tts-tech-portfolio and the [kudos collector](https://docs.google.com/document/d/1JucZ_-P84VJLQ-ZI-VcYV2PVWOEuSW5DKCebCZECmTk/edit)
+  - Create or comment on issues
+  - Drop anonymized feedback in #tts-tech-portfolio and the [kudos collector](https://docs.google.com/document/d/1JucZ_-P84VJLQ-ZI-VcYV2PVWOEuSW5DKCebCZECmTk/edit)
