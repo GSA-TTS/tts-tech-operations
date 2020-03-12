@@ -15,6 +15,7 @@
 | [P-Card](https://drive.google.com/drive/folders/1CkxpHq0mDFeAnXlaMQJ9RQOCioVHckgs) Approving Official                                                                                                          | X        | ---              | ---                    |
 | [P-Card](https://drive.google.com/drive/folders/1CkxpHq0mDFeAnXlaMQJ9RQOCioVHckgs) Holder                                                                                                                      | ---      | ---              | X                      |
 | SaaS PM                                                                                                                                                                                                        | ---      | X                | ---                    |
+| [Vulnerability Disclosure Lead](#vulnerability-disclosure-lead)                                                                                                                                                | ---      | X                | ---                    |
 
 ## Team Organization
 
@@ -24,11 +25,27 @@ To make the team as flat as possible (avoiding [command and control](https://en.
 - Setting vision/goals/strategy
 - Assigning tasks (self-organizing preferred)
 
+## Vulnerability Disclosure Lead
+
+This person will regularly:
+
+- Check
+  - [Platform (HackerOne)](https://hackerone.com/bugs)
+  - [Form](https://docs.google.com/forms/d/e/1FAIpQLSdhr6REOq8QRZ3C2cRWVHWbjcGgdNL8_nVSGY1cBSl1-tfkWA/viewform)
+  - [Email](https://groups.google.com/a/gsa.gov/forum/#!forum/tts-vulnerability-reports)
+- Act
+  - Create 90 day calendar reminders with a reminder set for every 20 days
+  - If needed, loop in internal stakeholders
+  - If needed, vector to appropriate agency or vendor
+- Coordinate on policy changes, etc. with:
+  - TTS
+  - The platform vendor
+
 ## Director
 
 ### Duties
 
-Beyond the above, the Director does the following:
+Beyond the [team responsibilities](#team-organization), the Director does the following:
 
 - Official GSA Supervisor responsibilities, such as:
   - [Leave approvals](https://handbook.18f.gov/leave/)
