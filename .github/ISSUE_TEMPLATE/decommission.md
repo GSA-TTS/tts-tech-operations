@@ -14,7 +14,7 @@ assignees: ""
 - [ ] Clean up any DNS entries that are no longer needed, from [the DNS repository](https://github.com/18F/dns) or elsewhere.
 - [ ] If applicable, update DNS entries to point to new urls or [set up redirect(s)](https://github.com/18F/pages-redirects#domain-redirects).
 - [ ] If there's a custom (second-level) domain, figure out what to do with it.
-- [ ] If the site operates on Federalist, contact [federalist-support@gsa.gov](mailto:federalist-support@gsa.gov) to remove the [custom domain](https://cloud.gov/docs/management/custom-domains/) for the site within Federalist's space in cloud.gov
+- [ ] If the site was operated on Federalist, contact [federalist-support@gsa.gov](mailto:federalist-support@gsa.gov) to deprovision the [custom domain](https://cloud.gov/docs/management/custom-domains/) for the site
 - [ ] Assuming it has an ATO, notify GSA IT that the system no longer exists. Ask in [#infrastructure](https://gsa-tts.slack.com/messages/infrastructure) for help.
 - [ ] Email GSA Privacy Office at [gsa.privacyact@gsa.gov](mailto:gsa.privacyact@gsa.gov) so they can take down the [SORN](https://before-you-ship.18f.gov/privacy/)
 - [ ] Fill out and send the `Disposal Notification Template`, which can be found in the list of [IT Security Forms](https://insite.gsa.gov/portal/content/627238)
