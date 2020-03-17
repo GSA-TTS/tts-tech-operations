@@ -8,14 +8,7 @@ assignees: ""
 
 ## Background information
 
-<!-- description, links, etc. -->
-
-## User stories
-
-<!-- one or more -->
-
-- As a ..., I want ... so that ...
-- As a ..., I want ... so that ...
+<!-- description, what problem we are trying to solve, links, etc. -->
 
 ## Implementation
 
