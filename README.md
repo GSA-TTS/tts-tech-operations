@@ -13,18 +13,18 @@ TTS Tech Portfolio oversee/manage/coordinate everything technology-related that 
 - Write things down
 - Discussions → action items
 
-
-
 ### Exceptions to working in the open
-- When the information needs to remain confidential... for *security* reasons
-- When the information needs to remain confidential... for *contractual* reasons
-- When the information needs to remain confidential... for *personnel* reasons
+
+- When the information needs to remain confidential... for _security_ reasons
+- When the information needs to remain confidential... for _contractual_ reasons
+- When the information needs to remain confidential... for _personnel_ reasons
 
 ### Times when it is best to use reversible decisions
+
 - When talking _about_ something takes longer than _just doing_ something
 - When we are either accountable or repsonsible for the procedure or outcome
 - When we pair it with [radiating intent](https://medium.com/@ElizAyer/dont-ask-forgiveness-radiate-intent-d36fd22393a3)
-- When the decision can actually be reversed 
+- When the decision can actually be reversed
 
 ## Documentation
 
@@ -43,7 +43,6 @@ We are tracking the work for the Tech Portfolio team on our the public [18F GitH
 ## Feedback
 
 We're open and excited to hear [(anonymous) feedback](https://docs.google.com/forms/d/1Z9ozErUeMW2mmo4VW-0wfYXD7GllbvCuuZ9AVNAyS_s/edit) to hear how we're doing!
-
 
 ## License
 

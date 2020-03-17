@@ -1,10 +1,10 @@
----	
+---
 name: New GitHub org
 about: Checklist for creating a new GitHub organization
-title: ""	
-labels: ""	
-assignees: ""	
----	
+title: ""
+labels: ""
+assignees: ""
+---
 
 ## Why do you want a dedicated GitHub org?
 
@@ -19,5 +19,5 @@ assignees: ""
    - [ ] Add @18F/tts-tech-portfolio members and @tts-bot as Owners so we can do offboarding and other admin-y things.
 1. [ ] Ensure that all your webhooks, integrations, etc. are in place.
 1. [ ] [Transfer repositories.](https://help.github.com/en/github/administering-a-repository/transferring-a-repository)
-   — GitHub does redirects, but you'll want to make sure it doesn't break things like deployment.
+       — GitHub does redirects, but you'll want to make sure it doesn't break things like deployment.
 1. [ ] Add to the [list of organizations](https://handbook.tts.gsa.gov/github/#organizations).
