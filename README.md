@@ -12,6 +12,9 @@ TTS Tech Portfolio oversee/manage/coordinate everything technology-related that 
 - Sooner is better than later, later (or never) is better than sooner
 - Write things down
 - Discussions → action items
+- We use opinionated code/file formatters
+  - [`terraform fmt`](https://www.terraform.io/docs/commands/fmt.html)
+  - [Prettier](https://prettier.io/)
 
 ### Exceptions to working in the open
 
