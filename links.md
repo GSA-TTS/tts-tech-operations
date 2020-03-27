@@ -129,4 +129,3 @@ These handbook pages will need to be updated once C2 is deprecated and the new p
 
 - [18F Engineering Hiring Guide](https://eng-hiring.18f.gov/)
 - [data.gov engineer interview guide](https://docs.google.com/document/d/1v2sWrH3wFIJdACFQPcJKFcgjCjaVX02YDHaoMGPR_Zo/edit)
-

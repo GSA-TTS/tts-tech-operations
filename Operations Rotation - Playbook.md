@@ -49,7 +49,9 @@ See the [Purchase Requests](https://handbook.tts.gsa.gov/purchase-requests/#behi
 ## Vulnerability Management
 
 ### Vulnerability Disclosure Responisbilities
+
 **First Responder**
+
 - Set an email alert via Google Calendar at the 77-day (11 weeks) mark from the date the reporter sent the email, so that, if no response or resolution has yet been made, the team has about 2 weeks to bring the issue to resolution and close out the issue with the reporter.
 
 ## Knowledge Management
@@ -70,7 +72,6 @@ Start the [request process](https://handbook.18f.gov/software/) when a user need
 Microsoft, Adobe, Zoom, Mural, and InVision require that you go into the back-end and manually add the person into the account.
 
 See the following [administration guide](https://docs.google.com/document/d/18Htav6TIgasBvvSroI8H_sQXxnvMlra2k9iabBwQYUs/edit#) and [document guide](https://docs.google.com/document/d/1qIms6TcYOQ24BerQrxAFzTKAqVS6VNCpWklwTsxBmWA/edit#) for links to the user lists, back-end accounts, and template responses.
-
 
 ### Play: Microsoft Software Request
 
@@ -125,7 +126,6 @@ If employees are asking to be removed from Omigraffle, this software does not ha
 #### Play: Sandbox accounts Software Request
 
 [sandbox accounts](https://docs.google.com/spreadsheets/d/1DedSCiU9AsCAAVvAFZT0_Ii7AFIKlI-JNifzlpHNbDg/edit#gid=807365900)
-
 
 ### Play: Trello Software Request
 
