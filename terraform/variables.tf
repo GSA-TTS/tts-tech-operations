@@ -26,7 +26,7 @@ variable "issue_labels" {
     "RS.IM - Response Improvements"                      = "FFFFFF"
     "RS.MI - Mitigation"                                 = "FFFFFF"
     "RS.RP - Response Planning"                          = "FFFFFF"
-    "groomed: delegate"                                    = "d5bfff"
+    "groomed: delegate"                                  = "d5bfff"
     "groomed: decide"                                    = "d5bfff"
     "groomed: accepted"                                  = "d5bfff"
     "groomed: draft - final"                             = "d5bfff"
