@@ -13,7 +13,6 @@ variable "issue_labels" {
     "ID.RA - Risk Assessment"                            = "FFFFFF"
     "ID.RM - Risk Management Strategy"                   = "FFFFFF"
     "ID.SC - Supply Chain Risk Management"               = "FFFFFF"
-    "ID.SC - Supply Chain Risk Management"               = "FFFFFF"
     "PR.AC - Identity Management and Access Control"     = "FFFFFF"
     "PR.AT - Awareness and Training"                     = "FFFFFF"
     "PR.DS - Data Security"                              = "FFFFFF"
