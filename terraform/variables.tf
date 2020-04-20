@@ -53,5 +53,6 @@ variable "issue_labels" {
     "epic: acquisition procurement and budgeting"        = "6ecbdb"
     "epic: customer service and communication"           = "6ecbdb"
     "epic: dogfood-ing"                                  = "6ecbdb"
+     "sprint: new"                          = "a6b557"
   }
 }
