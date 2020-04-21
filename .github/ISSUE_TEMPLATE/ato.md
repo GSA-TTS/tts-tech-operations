@@ -2,7 +2,7 @@
 name: ATO
 about: Checklist for an Authority to Operate
 title: "ATO for [system] - due [date]"
-labels: ""
+labels: "ATO"
 assignees: ""
 ---
 
