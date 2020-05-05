@@ -8,7 +8,7 @@ assignees: ""
 
 ## Background information
 
-<!-- description, links, etc. -->
+<!-- description, links, what is the problem we are trying to solve, etc. -->
 
 ## User stories
 
