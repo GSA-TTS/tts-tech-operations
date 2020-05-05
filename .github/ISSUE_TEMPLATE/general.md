@@ -17,12 +17,11 @@ assignees: ""
 - As a ..., I want ... so that ...
 - As a ..., I want ... so that ...
 
-## Implementation
-
-- [ ] [first small task]
-- [ ] [another small task]
-
 ## Acceptance criteria
 
 - [definitive thing]
 - [other definitive thing]
+
+---
+
+The assignee should add some checkboxes as a "sketch" of the steps to complete, which may evolve.
