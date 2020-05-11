@@ -12,10 +12,7 @@ assignees: ""
 
 ## User stories
 
-<!-- one or more -->
-
-- As a ..., I want ... so that ...
-- As a ..., I want ... so that ...
+<!-- one or more "As a ..., I want ... so that ..." -->
 
 ## Acceptance criteria
 
