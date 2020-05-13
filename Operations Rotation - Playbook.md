@@ -2,36 +2,26 @@
 
 [Create an issue using the Operations Rotation template](https://github.com/18F/tts-tech-portfolio/issues/new?template=ops.md) before each Rotation to track tasks. Close once the rotation has ended.
 
-## Micropurchase Requests
-
-See the [Purchase Requests](https://handbook.tts.gsa.gov/purchase-requests/#behind-the-scenes) page in the Handbook.
-
 ## Communications Monitoring
 
 ### Slack Channels
+| Channel name        | Responsibility           |
+| ------------- |:-------------:| 
+| #admins-github      | Typically used for folks to request new accounts or transfer accounts | 
+| #admins-dmarc      | Used to coordinate Agari | 
+| #admins-dns     | Look for failure for DNS jobs | 
+| #admins-govdelivery     | unsure | 
+| #admins-iaas    | unsure | 
+| #admins-mural    | Typically used for folks to request new accounts | 
+| #admins-mural    | Mostly managed by GSA IT, but recommend monitoring if a question pops up | 
+| #admins-trello    | Typically used for folks to request new accounts | 
+| #cto-tts-liason-private    | Communication avenue between the CTO's office & TTS | 
+| #cto-ciso-tts-liason-private    | Communication avenue between the CTO's plust the CISO's office & TTS | 
+| #incident-response   | Channel to post incidents that need responding to | 
+| #infrastructure   | Main channel where folks come to talk to the TTS Tech Portfolio team | 
+| #it-issues  | Channel folks come to when having IT Issues, other non Tech Portfolio typically also chime in and a common response is to ask the IT Service Desk | 
+| ##questions   | Main channel where folks ask any random question other non Tech Portfolio typically also chime in | 
 
-- #admins-github
-- #admins-aws
-- #admins-dmarc
-- #admins-dns
-- #admins-govdelivery
-- #admins-iaas
-- #admins-mural
-- #admins-slack
-- #admins-trello
-- #admins-zoom
-- #bug-bounty-partners
-- #cto-tts-liason-private
-- #devops-public
-- #incident-response
-- #infrastructure
-- #it-issues
-- #mac
-- #questions
-- #solutions
-- #tts-shared-services
-- #tts-tech-portfolio
-- #tts-tech-portfolio-alerts
 
 ### Google Groups
 
@@ -46,13 +36,6 @@ See the [Purchase Requests](https://handbook.tts.gsa.gov/purchase-requests/#behi
 | TTS Technology Portfolio  | Owner      |
 | TTS Vulnerability Reports | Owner      |
 
-## Vulnerability Management
-
-### Vulnerability Disclosure Responisbilities
-
-**First Responder**
-
-- Set an email alert via Google Calendar at the 77-day (11 weeks) mark from the date the reporter sent the email, so that, if no response or resolution has yet been made, the team has about 2 weeks to bring the issue to resolution and close out the issue with the reporter.
 
 ## Knowledge Management
 
@@ -67,11 +50,11 @@ See the [Purchase Requests](https://handbook.tts.gsa.gov/purchase-requests/#behi
 
 ### Play: Managing Software requests
 
-Start the [request process](https://handbook.18f.gov/software/) when a user needs a piece of software they will make a request by sending an email will be sent to tts-software@gsa.gov and show on the [Software Group](https://groups.google.com/a/gsa.gov/forum/?utm_medium=email&utm_source=footer#!forum/tts-software) and whomever is in rotation will answer it. Once the operations rotation receives the email they send a canned response to the requestor letting them know that they’ve gotten it. Once operations rotation person has completed all of their tasks, they will mark the item complete.
+Members of TTS will start the [request process](https://handbook.18f.gov/software/) when a user needs a piece of software that the TTS Tech Portfolio Manages. They will make a request by sending an email will be sent to tts-software@gsa.gov and show on the [Software Group](https://groups.google.com/a/gsa.gov/forum/?utm_medium=email&utm_source=footer#!forum/tts-software) and whomever is in rotation will answer it. Once the operations rotation receives the email they send a canned response to the requestor letting them know that they’ve gotten it. Once operations rotation person has completed all of their tasks, they will mark the item complete.
 
-Microsoft, Adobe, Zoom, Mural, and InVision require that you go into the back-end and manually add the person into the account.
+Microsoft, Trello, Mural, and InVision require that you go into the back-end and manually add the person into the account.
 
-See the following [administration guide](https://docs.google.com/document/d/18Htav6TIgasBvvSroI8H_sQXxnvMlra2k9iabBwQYUs/edit#) and [document guide](https://docs.google.com/document/d/1qIms6TcYOQ24BerQrxAFzTKAqVS6VNCpWklwTsxBmWA/edit#) for links to the user lists, back-end accounts, and template responses.
+See the following [administration guide](https://docs.google.com/document/d/18Htav6TIgasBvvSroI8H_sQXxnvMlra2k9iabBwQYUs/edit#) and [document guide](https://github.com/18F/tts-tech-portfolio/blob/master/links.md) for links to the user lists, back-end accounts, and template responses.
 
 ### Play: Microsoft Software Request
 
@@ -80,31 +63,19 @@ Point them to [Office documentation](https://handbook.18f.gov/office/).
 ### Play: Mural Software Request
 
 - [Mural How-To Guide](https://docs.google.com/document/d/1VCxeilrxP-8wiX75DHcuVPBE3RgsODKJ-u5urGs-eaI/edit) - How to administer the TTS Mural account
-- [Mural user list](https://docs.google.com/spreadsheets/d/1DT_3_SDM8ezbaN3I0FnN3ZYVtJpgkyXqYkO54FcnBro/edit)
+- [Mural user list](https://docs.google.com/spreadsheets/d/1V_1BoiM7A8fuqkvTFfv4Ma5ckc4NuesphX4OE58zgow/edit)
 
-#### Canned Response
-
-##### New member account
-
-> Hi XXXX, I have taken the liberty of adding you to the TTS account for full member access, here is the link if you do not receive an email to that effect. Feel free to reach out if you have any questions.
-
-##### Guest account
-
-> Would it be possible for your partners to take on Guest accounts? Guests are internal stakeholders, partners and clients working on or reviewing a project or workshop. They have slightly restricted access, but they can collaborate in a mural and access private rooms. Would that meet your needs?
-
-##### Reactivate account
-
-> Hi XXXX, I have taken the liberty of reactivating you to the TTS account for full member access, here is the link if you do not receive an email to that effect. Feel free to reach out if you have any questions.
-
-##### Request for a member account (when already have one)
-
-> Hi XXXX, It looks like you are already a member in this account, if you would like a link to Mural, I can send you one. If you need access to a board you are working with, please have the creator of that Mural workspace send you a link.
 
 ### Play: Sketch Software Request
 
 [Sketch Handbook page](https://handbook.18f.gov/sketch/#for-admins)
 
-Canned Response: _See instructions in the Handbook._
+Canned Response: 
+Please proceed with downloading and installing from the vendor:
+https://www.sketch.com/get/
+
+You have been granted access to the license you will need here:
+https://docs.google.com/document/d/1Qrn4J7mOcpGv51krZOyxpz93mBDp22hzl2wtVLulhUU/edit
 
 ### Play: Omnigraffle Software Request
 
@@ -116,7 +87,7 @@ If employees are asking to be removed from Omigraffle, this software does not ha
 
 ### Play: Sublime Text Software Request
 
-[Sublime License Key](https://docs.google.com/document/d/18k8yuM9oXQA7MNr-qvfq8gXliSHOb_bWElohb-KaObw/edit#)
+[Sublime License Key](https://docs.google.com/document/d/1Oy-dh_s2T9KgOYLWs2tu4ZBe9nfIGj7PZWDOX3dQaLg/edit?ts=5ea1ecfe)
 
 ### Play: AWS Software Request
 
@@ -127,16 +98,12 @@ If employees are asking to be removed from Omigraffle, this software does not ha
 
 [sandbox accounts](https://docs.google.com/spreadsheets/d/1DedSCiU9AsCAAVvAFZT0_Ii7AFIKlI-JNifzlpHNbDg/edit#gid=807365900)
 
-### Play: Trello Software Request
-
-### Play: GitHub Software Request
-
-### Play: Zoom Software Request
-
-### Play: InVision Software Request
 
 ### Play: Adobe Software Request
 
 Canned Response:
 
-> Please request through the Service Desk. Updating the Handbook with info about this.
+You can request Acrobat Pro or Creative Cloud by submitting a Software Request through the GSA IT Help Desk. Make sure to specify that you are on a Mac.
+
+Thanks!
+-TTS Tech Portfolio
