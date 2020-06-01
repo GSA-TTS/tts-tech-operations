@@ -12,6 +12,19 @@ You and your team onboarding buddy must follow the instructions in [the Onboardi
 
 Our Onboarding Checklist helps us fulfill important security and compliance requirements, so each new team member needs to have their own checklist in our issue-tracker to document their progress. This is true even if you're rejoining the cloud.gov team after being in it previously.
 
+### Checklist
+
+When someone new joins the TTS Tech Portoflio team:
+
+1. The TTS Tech Portoflio director or deputy director adds the new team member to the `tts-tech-portfolio` team in GitHub. This constitutes 'formal approval` by leadership and enables access to to the [Tech Portfolio GitHub repos]({{site.baseurl}}/github-repos) for the next step
+1. [Create a new card in the Tech Portfolio Github repo.](https://github.com/18F/tts-tech-portfolio/issues/new?template=onboarding.md&title=onboard+%5Bname%5D)
+1. Replace "NewPerson" with the new person's name and "Buddy" with the onboarding buddy's name.
+1. Submit the card.
+1. Assign the person who bravely volunteered to be the new person's Onboarding Buddy to the card.
+1. Put the issue into the _In Progress_ column.
+
+In order to get NewPerson productively contributing to the TTS Tech Portfolio team, Buddy should help NewPerson complete a prescribed set of tasks that will bring them up to speed.
+
 ## Tools and project artifacts
 
 Whenever possible, we err on the side of putting data where the public can see it. Some data might be kept in Google Drive for convenience of presentation, commenting, etc. but we consider public GitHub repositories the intended destination whenever possible.
