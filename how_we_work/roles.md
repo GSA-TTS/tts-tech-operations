@@ -11,7 +11,7 @@
 | [FAS Systems Governance Committee (FSGC)](https://sites.google.com/a/gsa.gov/fas-systems-governance/home) representative                                                                             | X        | ---              | ---                    |
 | [Infrastructure-as-a-Service (IaaS)](https://before-you-ship.18f.gov/infrastructure/)                                                                                                                | ---      | ---              | X                      |
 | Mac Working Group representative                                                                                                                                                                     | X        | ---              | ---                    |
-| [Operations Rotation](Operations%20Rotation%20-%20Playbook.md) person                                                                                                                                | X        | X                | X                      |
+| [Operations Rotation](ops_rotation.md) person                                                                                                                                                        | X        | X                | X                      |
 | [P-Card](https://drive.google.com/drive/folders/1CkxpHq0mDFeAnXlaMQJ9RQOCioVHckgs) Approving Official                                                                                                | X        | ---              | ---                    |
 | [P-Card](https://drive.google.com/drive/folders/1CkxpHq0mDFeAnXlaMQJ9RQOCioVHckgs) Holder                                                                                                            | ---      | ---              | X                      |
 | SaaS PM                                                                                                                                                                                              | ---      | X                | ---                    |
@@ -48,8 +48,8 @@ This person will regularly:
 Beyond the [team responsibilities](#team-organization), the Director does the following:
 
 - Official GSA Supervisor responsibilities, such as:
-  - [Leave approvals](https://handbook.18f.gov/leave/)
-  - [Performance management](https://handbook.18f.gov/performance-management/)
+  - [Leave approvals](https://handbook.tts.gsa.gov/leave/)
+  - [Performance management](https://handbook.tts.gsa.gov/performance-management/)
 - Solutions leadership responsibilities, such as:
   - Attending Senior Management Team (SMT) meetings
 

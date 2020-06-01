@@ -107,8 +107,8 @@ The request sheet and form were the start of the new SaaS buy process. We were n
 [Software Request Form](https://docs.google.com/forms/d/1Pk8hVrBrvFN41DKeLqOwWKykCHu3umqH7jFEHBbj-mE/edit)
 
 Links to Handbook pages
-[Purchase requests](https://handbook.18f.gov/purchase-requests/)
-[Software under \$10,000](https://handbook.18f.gov/software/)
+[Purchase requests](https://handbook.tts.gsa.gov/purchase-requests/)
+[Software under \$10,000](https://handbook.tts.gsa.gov/software/)
 These handbook pages will need to be updated once C2 is deprecated and the new process is in place.
 
 [TTS-Wide Contracts](https://docs.google.com/spreadsheets/d/1ugJMb5lzwriP0e0Jkf2GMrxbBtjrsvQkSGUJZUA5e44/edit)
