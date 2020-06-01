@@ -1,6 +1,6 @@
 # Joining the TTS Tech Portfolio team
 
-The goal of the Tech Portfolio is to oversee/manage/coordinate everything technology-related that cuts across TTS, or anything technology-related that will affect TTS from the outside: particularly security, compliance, infrastructure, and tech policy. 
+The goal of the Tech Portfolio is to oversee/manage/coordinate everything technology-related that cuts across TTS, or anything technology-related that will affect TTS from the outside: particularly security, compliance, infrastructure, and tech policy.
 
 ## Onboarding
 
@@ -30,4 +30,3 @@ Several tools are used for project management, but the main one you will probabl
 We try to move others to the [opencontrol](https://github.com/opencontrol) or [fisma-ready](https://github.com/fisma-ready) GitHub organizations whenever appropriate.
 
 To release: `ci.fr.cloud.gov -> deploy-cf project`
-
