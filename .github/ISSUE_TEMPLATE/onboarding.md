@@ -18,14 +18,10 @@ assignees: ""
 ### Getting to know TTS Tech Portfolio
 
 - [ ] Figure out who your onboarding buddy is (they should reach out to you) and make sure this issue is assigned to them in our [Github Project board](https://github.com/orgs/18F/projects/11?fullscreen=true).
-- [ ] Read [the team onboarding document](https://github.com/18f/tts-tech-portfolio/how-we-work/Onboarding.md) for more context about TTS Tech Portfolio.
-- [ ] Bookmark the [pertinent links listed here](https://github.com/18f/tts-tech-portfolio/how-we-work/internal-links.md).
-- [ ] Read the [TTS Tech Portfolio Handbook]({{site.baseurl}}/tech-portfolio) page for a highlevel overview of what we do
-
-### Getting to know TTS Tech Portfolio works
-
-- [ ] Read the [Workflow document]({{site.baseurl}}/workflow) to learn about how we work.
-- [ ] We use a [Github Projects tracking board](hhttps://github.com/orgs/18F/projects/11?fullscreen=true) .
+- [ ] Read [the team onboarding document](https://github.com/18F/tts-tech-portfolio/blob/master/how_we_work/onboarding.md) for more context about TTS Tech Portfolio.
+- [ ] Bookmark the [pertinent links listed here](https://github.com/18F/tts-tech-portfolio/blob/master/how_we_work/internal_links.md).
+- [ ] Read the [TTS Tech Portfolio Handbook page](https://handbook.tts.gsa.gov/tech-portfolio/) for an overview of what we do
+- [ ] Read the [Workflow document](https://github.com/18F/tts-tech-portfolio/blob/master/how_we_work/workflow.md) to learn about how we work.
 
 ### Required items for all team members
 
@@ -52,7 +48,7 @@ Learn our policies and procedures:
 
 ### Dogfood-ing
 
-- [ ] [Request access to 18F Google Analytics](https://handbook.18f.gov/google-analytics/), so you can view cloud.gov site analytics ([including for the dashboard](https://docs.google.com/document/d/1gSbP2ak2a3QLpCZIF_KlbQ2QHE6RjDI-7ZnnrJZvMDE/edit)).
+- [ ] [Request access to 18F Google Analytics](https://handbook.tts.gsa.gov/google-analytics/), so you can view cloud.gov site analytics ([including for the dashboard](https://docs.google.com/document/d/1gSbP2ak2a3QLpCZIF_KlbQ2QHE6RjDI-7ZnnrJZvMDE/edit)).
 - [ ] Learn about [setting up a local development environment](https://cloud.gov/docs/ops/setting-up-a-local-development-environment/), which contains setup instructions for GSA Macs for the rest of these software items.
 
 - [ ] [Sign up for a cloud.gov account with your GSA email address](https://cloud.gov/signup/).

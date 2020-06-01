@@ -67,7 +67,7 @@ See the [Purchase Requests](https://handbook.tts.gsa.gov/purchase-requests/#behi
 
 ### Play: Managing Software requests
 
-Start the [request process](https://handbook.18f.gov/software/) when a user needs a piece of software they will make a request by sending an email will be sent to tts-software@gsa.gov and show on the [Software Group](https://groups.google.com/a/gsa.gov/forum/?utm_medium=email&utm_source=footer#!forum/tts-software) and whomever is in rotation will answer it. Once the operations rotation receives the email they send a canned response to the requestor letting them know that they’ve gotten it. Once operations rotation person has completed all of their tasks, they will mark the item complete.
+Start the [request process](https://handbook.tts.gsa.gov/software/) when a user needs a piece of software they will make a request by sending an email will be sent to tts-software@gsa.gov and show on the [Software Group](https://groups.google.com/a/gsa.gov/forum/?utm_medium=email&utm_source=footer#!forum/tts-software) and whomever is in rotation will answer it. Once the operations rotation receives the email they send a canned response to the requestor letting them know that they’ve gotten it. Once operations rotation person has completed all of their tasks, they will mark the item complete.
 
 Microsoft, Adobe, Zoom, Mural, and InVision require that you go into the back-end and manually add the person into the account.
 
@@ -75,7 +75,7 @@ See the following [administration guide](https://docs.google.com/document/d/18Ht
 
 ### Play: Microsoft Software Request
 
-Point them to [Office documentation](https://handbook.18f.gov/office/).
+Point them to [Office documentation](https://handbook.tts.gsa.gov/office/).
 
 ### Play: Mural Software Request
 
@@ -102,7 +102,7 @@ Point them to [Office documentation](https://handbook.18f.gov/office/).
 
 ### Play: Sketch Software Request
 
-[Sketch Handbook page](https://handbook.18f.gov/sketch/#for-admins)
+[Sketch Handbook page](https://handbook.tts.gsa.gov/sketch/#for-admins)
 
 Canned Response: _See instructions in the Handbook._
 

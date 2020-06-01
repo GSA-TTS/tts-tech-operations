@@ -4,7 +4,7 @@ The goal of the Tech Portfolio is to oversee/manage/coordinate everything techno
 
 ## Onboarding
 
-Get through [the 18F onboarding guide for your discipline](https://handbook.18f.gov/#teams) first. (Contractors, we're presuming you have an equivalent process you've gone through for onboarding with your employer.)
+Get through [the 18F onboarding guide for your discipline](https://handbook.tts.gsa.gov/#teams) first. (Contractors, we're presuming you have an equivalent process you've gone through for onboarding with your employer.)
 
 Everyone joining the TTS Tech Portfolio team will get assigned a team onboarding buddy. This person should be working on similar things to what you will be working on, so that they can answer questions in your domain.
 

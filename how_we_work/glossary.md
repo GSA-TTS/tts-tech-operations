@@ -11,4 +11,4 @@
 
 ## Other Glossaries
 
-Also see [the Cloud Foundry glossary](http://docs.cloudfoundry.org/concepts/glossary.html) for terms that are specific to the technology powering our platform.
+Also see [the Cloud Foundry glossary](http://docs.cloudfoundry.org/concepts/glossary.html) for terms that are specific to the technology powering cloud.gov.

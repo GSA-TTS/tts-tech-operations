@@ -48,8 +48,8 @@ This person will regularly:
 Beyond the [team responsibilities](#team-organization), the Director does the following:
 
 - Official GSA Supervisor responsibilities, such as:
-  - [Leave approvals](https://handbook.18f.gov/leave/)
-  - [Performance management](https://handbook.18f.gov/performance-management/)
+  - [Leave approvals](https://handbook.tts.gsa.gov/leave/)
+  - [Performance management](https://handbook.tts.gsa.gov/performance-management/)
 - Solutions leadership responsibilities, such as:
   - Attending Senior Management Team (SMT) meetings
 
