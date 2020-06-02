@@ -45,8 +45,14 @@ Learn our policies and procedures:
 - [ ] Identify a straightforward, well-groomed first story, ideally something they could conceivably complete in their first two/three weeks using their existing skills. Discuss the context with them, then make them the assignee for the card.
 - [ ] Ask the Director or Deputy Director to have the person shadow whomever is on [OpsRotation](https://github.com/18F/tts-tech-portfolio/blob/master/how_we_work/ops_rotation.md), so they can see how we handle support and read with those within TTS.
 
-## Required items for all team members
+### Required items for all team members
 
 - [ ] [Add them to the @tech-portfolio user group in Slack.](https://get.slack.help/hc/en-us/articles/212906697-User-Groups#edit-a-user-group)
 - [ ] Add them to the recurring TTS Tech Portfolio meetings that are relevant for them in [the team calendar](https://calendar.google.com/calendar?cid=Z3NhLmdvdl82aDI5YnF1ZGx0NGVoZTVzOWswOGlmdGZxMEBncm91cC5jYWxlbmRhci5nb29nbGUuY29t).
 - [ ] Add them to the [@18F/tts-tech-portfolio](https://github.com/orgs/18F/teams/tts-tech-portfolio) team on GitHub.
+
+### Google Groups
+
+- [ ] [TTS Software](https://groups.google.com/a/gsa.gov/forum/#!managemembers/tts-software/add)
+- [ ] [TTS Technology Portfolio](https://groups.google.com/a/gsa.gov/forum/#!managemembers/devops/add)
+- [ ] [TTS Vulnerability Reports](https://groups.google.com/a/gsa.gov/forum/#!managemembers/tts-vulnerability-reports/add)
