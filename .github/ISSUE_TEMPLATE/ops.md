@@ -6,7 +6,7 @@ labels: ""
 assignees: ""
 ---
 
-Each of the following should be done within the dates above. See the [playbook](https://github.com/18F/tts-tech-portfolio/blob/master/Operations%20Rotation%20-%20Playbook.md) for additional info.
+Each of the following should be done within the dates above. See the [playbook](https://github.com/18F/tts-tech-portfolio/blob/master/how_we_work/ops_rotation.md) for additional info.
 
 ## Meetings
 
