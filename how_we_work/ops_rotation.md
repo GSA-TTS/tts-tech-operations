@@ -8,20 +8,21 @@
 
 | Channel name                 |                                                                  Responsibility                                                                   |
 | ---------------------------- | :-----------------------------------------------------------------------------------------------------------------------------------------------: |
-| #admins-github               |                                       Typically used for folks to request new accounts or transfer accounts                                       |
 | #admins-dmarc                |                                                             Used to coordinate Agari                                                              |
 | #admins-dns                  |                                                           Look for failure for DNS jobs                                                           |
+| #admins-github               |                                       Typically used for folks to request new accounts or transfer accounts                                       |
 | #admins-govdelivery          |                                                                      unsure                                                                       |
+| #admins-hubspot              |                                                                      unsure                                                                       |
 | #admins-iaas                 |                                                                      unsure                                                                       |
 | #admins-mural                |                                                 Typically used for folks to request new accounts                                                  |
-| #admins-mural                |                                     Mostly managed by GSA IT, but recommend monitoring if a question pops up                                      |
+| #admins-slack                |                                     Mostly managed by GSA IT, but recommend monitoring if a question pops up                                      |
 | #admins-trello               |                                                 Typically used for folks to request new accounts                                                  |
-| #cto-tts-liason-private      |                                                Communication avenue between the CTO's office & TTS                                                |
 | #cto-ciso-tts-liason-private |                                       Communication avenue between the CTO's plust the CISO's office & TTS                                        |
+| #cto-tts-liason-private      |                                                Communication avenue between the CTO's office & TTS                                                |
 | #incident-response           |                                                 Channel to post incidents that need responding to                                                 |
 | #infrastructure              |                                       Main channel where folks come to talk to the TTS Tech Portfolio team                                        |
 | #it-issues                   | Channel folks come to when having IT Issues, other non Tech Portfolio typically also chime in and a common response is to ask the IT Service Desk |
-| ##questions                  |                         Main channel where folks ask any random question other non Tech Portfolio typically also chime in                         |
+| #questions                   |                         Main channel where folks ask any random question other non Tech Portfolio typically also chime in                         |
 
 ### Google Groups
 

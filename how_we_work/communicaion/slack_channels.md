@@ -14,20 +14,7 @@ Your onboarding buddy should add you to the following private channels:
 - [ ] `#cto-ciso-tts-private` -
 - [ ] `#cto-tts-liaison--private` -
 
-OpsRotation related:
-
-- [ ] `#questions` -
-- [ ] `#it-issues` -
-- [ ] `#incident-response` -
-- [ ] `#admins-github` -
-- [ ] `#admins-dns` -
-- [ ] `#admins-mural` -
-- [ ] `#admins-hubspot` -
-- [ ] `#admins-trello` -
-- [ ] `#admins-dmarc` -
-- [ ] `#admins-iaas` -
-- [ ] `#admins-govdelivery` -
-- [ ] `#admins-slack` -
+OpsRotation related: See [playbook](../ops_rotation.md#slack-channels).
 
 Covered by others on the team:
 
