@@ -10,14 +10,8 @@ Each of the following should be done within the dates above. See the [playbook](
 
 ## Meetings
 
-- [ ] Lead [Sprint Planning](https://github.com/18F/tts-tech-portfolio/blob/master/workflow.md#sprint-planning)
-  - [ ] Review board prior to meeting
-- [ ] Lead the daily standup
 - [ ] Attend the CTO Liaison Meeting
   - [ ] Review and update [Trello board](https://trello.com/b/BFp37KQ6/gsa-cto-tts-liaison)
-- [ ] Lead [Sprint Review](https://github.com/18F/tts-tech-portfolio/blob/master/workflow.md#sprint-reviews)
-- [ ] Lead [Retro](https://github.com/18F/tts-tech-portfolio/blob/master/workflow.md#retros)
-  - [ ] Move Action Items into issues
 - [ ] Let the next person on Operations Rotation know what is outstanding
 
 ## GitHub
