@@ -22,7 +22,7 @@ _Add/remove items, as applicable._
   - [ ] [Delete the domain registration from DotGov](https://home.dotgov.gov/management/#how-do-i-delete-my-domain)
 - [ ] Notify other parts of GSA
   - [ ] Notify your ISSM
-  - [ ] Email GSA Privacy Office at [gsa.privacyact@gsa.gov](mailto:gsa.privacyact@gsa.gov) so they can take down the [SORN](https://before-you-ship.18f.gov/privacy/)
+  - [ ] Notify the Privacy Office ([gsa.privacyact@gsa.gov](mailto:gsa.privacyact@gsa.gov)) to take down the [privacy impact assessment (PIA)](https://www.gsa.gov/reference/gsa-privacy-program/privacy-impact-assessments-pia) and/or privacy threshold assessment (PTA)
 - [ ] Clean up external services
   - [ ] Remove (sub)accounts
     - [ ] New Relic - [#admins-newrelic](https://gsa-tts.slack.com/messages/admins-newrelic)
