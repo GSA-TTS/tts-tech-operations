@@ -21,9 +21,8 @@ _Add/remove items, as applicable._
   - [ ] Point to Google Form asking about usage—see [the Fugacious page](https://fugacious.18f.gov/) ([code](https://github.com/18F/fugacious-landing)) as an example.
   - [ ] [Delete the domain registration from DotGov](https://home.dotgov.gov/management/#how-do-i-delete-my-domain)
 - [ ] Notify other parts of GSA
-  - [ ] Assuming it has an ATO, notify GSA IT that the system no longer exists. Ask in [#infrastructure](https://gsa-tts.slack.com/messages/infrastructure) for help.
+  - [ ] Notify your ISSM
   - [ ] Email GSA Privacy Office at [gsa.privacyact@gsa.gov](mailto:gsa.privacyact@gsa.gov) so they can take down the [SORN](https://before-you-ship.18f.gov/privacy/)
-  - [ ] Fill out and send the `Disposal Notification Template`, which can be found in the list of [IT Security Forms](https://insite.gsa.gov/portal/content/627238)
 - [ ] Clean up external services
   - [ ] Remove (sub)accounts
     - [ ] New Relic - [#admins-newrelic](https://gsa-tts.slack.com/messages/admins-newrelic)
