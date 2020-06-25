@@ -1,14 +1,13 @@
 terraform {
   required_version = "~> 0.12.6"
+  required_providers {
+    github = "~> 2.4"
+  }
 }
 
 provider "github" {
   token        = var.github_token
   organization = "18f"
-}
-
-data "github_repository" "tts-tech-portfolio" {
-  full_name = "18f/tts-tech-portfolio"
 }
 
 resource "github_issue_label" "tts-tech-portfolio" {
@@ -44,6 +43,12 @@ resource "github_issue_label" "aws-admin" {
   for_each   = var.issue_labels
   name       = each.key
   color      = each.value
+}
+
+module "aws-admin" {
+  source = "./repo"
+
+  repo = "aws-admin"
 }
 
 resource "github_issue_label" "bug-bounty" {
