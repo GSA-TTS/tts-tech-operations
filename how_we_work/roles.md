@@ -28,7 +28,7 @@ The Director does the following:
 
 - Official GSA Supervisor responsibilities, such as:
   - [Leave approvals](https://handbook.tts.gsa.gov/leave/)
-  - [Performance management]({{site.baseurl}}/performance-management/)
+  - [Performance management](https://handbook.tts.gsa.gov/performance-management/)
 - Focus on the team focusing outward facing tasks
 - Overall success of the TTS Tech Portfolio
 
@@ -36,7 +36,7 @@ The Director does the following:
 
 - Ensuring the team members feel supported as individuals
 - Ensuring the team is supported by other leadership
-- Ensuring the team fulfills its various [responsibilities]({{site.baseurl}}/tech-portfolio/), including meeting deadlines
+- Ensuring the team fulfills its various [responsibilities](https://handbook.tts.gsa.gov/tech-portfolio/), including meeting deadlines
 - Resolving conflicts within the team, including being a tie-breaker when needed
 
 ### Supporting Documentation
