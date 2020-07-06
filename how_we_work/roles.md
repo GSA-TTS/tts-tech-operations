@@ -2,8 +2,6 @@
 
 | Role | Director | Deputy Director | Information Specialist |
 | ---- | -------- | --------------- | ---------------------- |
-
-
 |
 | [Contracting Officer Representative (COR)](https://docs.google.com/document/d/14xOFvIGwlG0Gbd52o1D4AyJ52RqzHpX91nfEYJKu5qQ/edit) for TTS-wide software/infrastructure purchases | --- | --- | X |
 | Cybersecurity Authorizing Official | X | --- | --- |
