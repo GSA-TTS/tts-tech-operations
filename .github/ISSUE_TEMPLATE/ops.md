@@ -29,7 +29,7 @@ Ensure you are present in the following and are responding as needed:
 
 ## Other
 
-- [ ] Perform any outstanding `ACCOUNT DEACTIVATION` [offboarding tasks](https://docs.google.com/spreadsheets/d/1IlFY5AAvTyuS7yDHk5_odJGHYZDU_MN9HNGKJ2zXwi0/edit)
+- [ ] Perform any outstanding `ACCOUNT DEACTIVATION` [offboarding tasks](https://docs.google.com/spreadsheets/d/1rp8n78tFHqyvvHzsYuBo_XE3Jg1LwOuOX-R9TMRnZI8/edit#gid=1012037864)
 - [ ] Go through [SaaS user cleanup](https://docs.google.com/spreadsheets/d/16K3QEUdaXhSjeP-2vVGOX9PulRhlKqXXLnrx_RAZFJc/edit#gid=1913829200)
 - [ ] Go through [General Requests Form responses](https://docs.google.com/spreadsheets/d/15UT10wouN2wuYABN02npzg8ETH3PFlFdXBWPJTsP3Hw/edit#gid=2127744834)
 - [ ] Check the [anonymous feedback responses](https://docs.google.com/spreadsheets/d/1ahj7CuoTAYr5c7miDCeGhplYx_wW1yj6ApMFLRdY-7Q/edit?usp=forms_web_b#gid=1730986218), and do the following as applicable:
