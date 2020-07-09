@@ -1,15 +1,13 @@
 # Tech Portfolio Workflow
+
 ## Structure
 
-| Thing        | Definition           | Board Structure  | Duration  |
-| :------------- |:-------------|:-------------|:-------------|
-| Theme      | Categories of work | None | Indefinite |
-| Initiative      | Long-running but finite projects with an owner      |   Label & Column |  Months |
-| Epic | Chunks of related Stories within an Initiative      |    Label & Column |   1-2 months |
-| Story | Generally correspond to a GitHub issue      |   Card body |   Days, at most |
-
-
-
+| Thing      | Definition                                     | Board Structure | Duration      |
+| :--------- | :--------------------------------------------- | :-------------- | :------------ |
+| Theme      | Categories of work                             | None            | Indefinite    |
+| Initiative | Long-running but finite projects with an owner | Label & Column  | Months        |
+| Epic       | Chunks of related Stories within an Initiative | Label & Column  | 1-2 months    |
+| Story      | Generally correspond to a GitHub issue         | Card body       | Days, at most |
 
 ## Ceremonies and Activities
 
@@ -17,9 +15,9 @@ We use the term "sprint" to refer to the ceremony cycles, even though they aren'
 
 ### Standups
 
-**Cadance:** Daily at 11:30 ET
+**Cadence:** Daily at 11:30 ET
 
-**Format:** Virutal Meeting
+**Format:** Virtual Meeting
 
 **Purpose:** Ensure folks are making progress within their assigned Initiative areas and that people aren't blocked.
 
@@ -35,7 +33,6 @@ At the individual level, it's important to walk into the day's stand-up prepared
     1.  Current blockers, things that need feedback, cards that you're waiting on others in order to progress
     1.  Any help needed
     1.  Review of calendar items that others might benefit from attending to knowing about
-
 
 #### What to work on
 
@@ -62,9 +59,9 @@ NOTE: This activity relates to the following measures within the Performance Pla
 
 ### Lunches
 
-**Cadance:** Tuesdays & Thursday at noon ET
+**Cadence:** Tuesdays & Thursday at noon ET
 
-**Format:** Virutal Meeting
+**Format:** Virtual Meeting
 
 **Purpose:** Team bonding/culture-building.
 
@@ -76,7 +73,7 @@ NOTE: This activity is purely optional and will have no impact on an individual'
 
 ### Pre (Sprint & Grooming) Ceremony Activity
 
-**Cadance:** Before Sprint or Grooming Ceremony
+**Cadence:** Before Sprint or Grooming Ceremony
 
 **Format:** Async
 
@@ -92,7 +89,7 @@ NOTE: This activity is purely optional and will have no impact on an individual'
   - Cards in the Backlog (Sprint Staging) column must be Groom Final and ready to be Groomed Accepted
   - Cards in the Icebox column must be Groom Draft
 - Cards in Backlog (Sprint Staging) column + the columns to the right must be assigned
-  - Check to make sure cards in your Initative are assigned
+  - Check to make sure cards in your Initiative are assigned
 
 TIP: Have the relevant [template](https://github.com/18F/tts-tech-portfolio/issues/new/choose) filled out when creating a new card.
 
@@ -116,9 +113,9 @@ NOTE: This activity relates to the following measures within the Performance Pla
 
 ### Planning Ceremony
 
-**Cadance:** Every other Monday 13:00-14:00 ET
+**Cadence:** Every other Monday 13:00-14:00 ET
 
-**Format:** Virutal Meeting
+**Format:** Virtual Meeting
 
 **Purpose:** Move cards from the Backlog (Sprint Staging) to Ready (Sprint Planned). Expect that the cards that are planned for will be the activity that gets worked on within the next couple of weeks unless there is a task that needs to be expedited.
 
@@ -161,7 +158,7 @@ Review cards of other teammates
 
 - Are any cards missing in the that should be listed?
 - Are there any lower effort cards that can be added?
-- How much is this Sprint going to move the needle for your iniative?
+- How much is this Sprint going to move the needle for your initiative?
 
 2 minutes: Decide which cards should get moved over to Ready (Sprint Planned)
 
@@ -180,9 +177,9 @@ TIP: As you are reviewing teammate's cards; make comments directly in the card; 
 
 ### Grooming
 
-**Cadance:** Every other Monday 13:00-14:00 ET
+**Cadence:** Every other Monday 13:00-14:00 ET
 
-**Format:** Virutal Meeting
+**Format:** Virtual Meeting
 
 **Purpose:** Maintain non-planned or in-progress cards.
 
@@ -200,7 +197,7 @@ Teammates will brief others on the new cards they created and the group will dec
 
 4 minutes: Staging
 
-Teammates will order the cards within their iniatatives in the Icebox (Sprint Staging) based on their own criteria
+Teammates will order the cards within their initiative in the Icebox (Sprint Staging) based on their own criteria
 
 16 minutes: Card Review (Icebox)
 
