@@ -10,18 +10,11 @@ provider "github" {
   organization = "18f"
 }
 
-resource "github_issue_label" "tts-tech-portfolio" {
-  repository = "tts-tech-portfolio"
-  for_each   = var.issue_labels
-  name       = each.key
-  color      = each.value
-}
+module "tts-tech-portfolio" {
+  source = "./repo"
 
-resource "github_issue_label" "tts-tech-portfolio-private" {
-  repository = "tts-tech-portfolio-private"
-  for_each   = var.issue_labels
-  name       = each.key
-  color      = each.value
+  repo            = "tts-tech-portfolio"
+  issue_templates = []
 }
 
 module "tts-tech-portfolio-private" {
@@ -30,31 +23,17 @@ module "tts-tech-portfolio-private" {
   repo = "tts-tech-portfolio-private"
 }
 
-resource "github_issue_label" "ghad" {
-  repository = "ghad"
-  for_each   = var.issue_labels
-  name       = each.key
-  color      = each.value
-}
-
 module "ghad" {
   source = "./repo"
 
   repo = "ghad"
 }
 
-resource "github_issue_label" "laptop" {
-  repository = "laptop"
-  for_each   = var.issue_labels
-  name       = each.key
-  color      = each.value
-}
+module "laptop" {
+  source = "./repo"
 
-resource "github_issue_label" "aws-admin" {
-  repository = "aws-admin"
-  for_each   = var.issue_labels
-  name       = each.key
-  color      = each.value
+  repo            = "laptop"
+  issue_templates = []
 }
 
 module "aws-admin" {
@@ -63,24 +42,10 @@ module "aws-admin" {
   repo = "aws-admin"
 }
 
-resource "github_issue_label" "bug-bounty" {
-  repository = "bug-bounty"
-  for_each   = var.issue_labels
-  name       = each.key
-  color      = each.value
-}
-
 module "bug-bounty" {
   source = "./repo"
 
   repo = "bug-bounty"
-}
-
-resource "github_issue_label" "before-you-ship" {
-  repository = "before-you-ship"
-  for_each   = var.issue_labels
-  name       = each.key
-  color      = each.value
 }
 
 module "before-you-ship" {
@@ -89,16 +54,16 @@ module "before-you-ship" {
   repo = "before-you-ship"
 }
 
-resource "github_issue_label" "dns" {
-  repository = "dns"
-  for_each   = var.issue_labels
-  name       = each.key
-  color      = each.value
+module "dns" {
+  source = "./repo"
+
+  repo            = "dns"
+  issue_templates = []
 }
 
-resource "github_issue_label" "handbook" {
-  repository = "handbook"
-  for_each   = var.issue_labels
-  name       = each.key
-  color      = each.value
+module "handbook" {
+  source = "./repo"
+
+  repo            = "handbook"
+  issue_templates = []
 }

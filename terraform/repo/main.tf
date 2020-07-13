@@ -1,3 +1,11 @@
+resource "github_issue_label" "labels" {
+  for_each = var.issue_labels
+
+  repository = var.repo
+  name       = each.key
+  color      = each.value
+}
+
 resource "github_repository_file" "issue_templates" {
   for_each = toset(var.issue_templates)
 
