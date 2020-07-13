@@ -13,8 +13,7 @@ provider "github" {
 module "tts-tech-portfolio" {
   source = "./repo"
 
-  repo            = "tts-tech-portfolio"
-  issue_templates = []
+  repo = "tts-tech-portfolio"
 }
 
 module "tts-tech-portfolio-private" {
