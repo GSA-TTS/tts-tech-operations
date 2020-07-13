@@ -1,14 +1,13 @@
 terraform {
   required_version = "~> 0.12.6"
+  required_providers {
+    github = "~> 2.4"
+  }
 }
 
 provider "github" {
   token        = var.github_token
   organization = "18f"
-}
-
-data "github_repository" "tts-tech-portfolio" {
-  full_name = "18f/tts-tech-portfolio"
 }
 
 resource "github_issue_label" "tts-tech-portfolio" {
@@ -25,11 +24,23 @@ resource "github_issue_label" "tts-tech-portfolio-private" {
   color      = each.value
 }
 
+module "tts-tech-portfolio-private" {
+  source = "./repo"
+
+  repo = "tts-tech-portfolio-private"
+}
+
 resource "github_issue_label" "ghad" {
   repository = "ghad"
   for_each   = var.issue_labels
   name       = each.key
   color      = each.value
+}
+
+module "ghad" {
+  source = "./repo"
+
+  repo = "ghad"
 }
 
 resource "github_issue_label" "laptop" {
@@ -46,6 +57,12 @@ resource "github_issue_label" "aws-admin" {
   color      = each.value
 }
 
+module "aws-admin" {
+  source = "./repo"
+
+  repo = "aws-admin"
+}
+
 resource "github_issue_label" "bug-bounty" {
   repository = "bug-bounty"
   for_each   = var.issue_labels
@@ -53,11 +70,23 @@ resource "github_issue_label" "bug-bounty" {
   color      = each.value
 }
 
+module "bug-bounty" {
+  source = "./repo"
+
+  repo = "bug-bounty"
+}
+
 resource "github_issue_label" "before-you-ship" {
   repository = "before-you-ship"
   for_each   = var.issue_labels
   name       = each.key
   color      = each.value
+}
+
+module "before-you-ship" {
+  source = "./repo"
+
+  repo = "before-you-ship"
 }
 
 resource "github_issue_label" "dns" {
@@ -72,6 +101,12 @@ resource "github_issue_label" "vulnerability-disclosure-policy" {
   for_each   = var.issue_labels
   name       = each.key
   color      = each.value
+}
+
+module "vulnerability-disclosure-policy" {
+  source = "./repo"
+
+  repo = "vulnerability-disclosure-policy"
 }
 
 resource "github_issue_label" "handbook" {
