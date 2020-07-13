@@ -96,19 +96,6 @@ resource "github_issue_label" "dns" {
   color      = each.value
 }
 
-resource "github_issue_label" "vulnerability-disclosure-policy" {
-  repository = "vulnerability-disclosure-policy"
-  for_each   = var.issue_labels
-  name       = each.key
-  color      = each.value
-}
-
-module "vulnerability-disclosure-policy" {
-  source = "./repo"
-
-  repo = "vulnerability-disclosure-policy"
-}
-
 resource "github_issue_label" "handbook" {
   repository = "handbook"
   for_each   = var.issue_labels
