@@ -88,15 +88,6 @@ If employees are asking to be removed from Omigraffle, this software does not ha
 
 [Sublime License Key](https://docs.google.com/document/d/1Oy-dh_s2T9KgOYLWs2tu4ZBe9nfIGj7PZWDOX3dQaLg/edit?ts=5ea1ecfe)
 
-### Play: AWS Software Request
-
-- [AWS Account Setup](https://docs.google.com/document/d/1gHTa3w-N8jyPXK_qx2bEDniFcUOTlAvITYiQI_G8lrY/edit)
-- [AWS Accounts](https://docs.google.com/spreadsheets/d/1DedSCiU9AsCAAVvAFZT0_Ii7AFIKlI-JNifzlpHNbDg/edit#gid=807365900)
-
-#### Play: Sandbox accounts Software Request
-
-[sandbox accounts](https://docs.google.com/spreadsheets/d/1DedSCiU9AsCAAVvAFZT0_Ii7AFIKlI-JNifzlpHNbDg/edit#gid=807365900)
-
 ### Play: Adobe Software Request
 
 Canned Response:
