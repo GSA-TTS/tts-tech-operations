@@ -18,13 +18,21 @@ locals {
   repos = {
     "aws-admin" : true,
     "before-you-ship" : true,
+    # "billing-tools" : true,
     "bug-bounty" : true,
+    # "certificate-service" : true,
+    # "chandika" : true,
+    "chat" : true,
+    # "deploy-ttslicenses" : true,
     "dns" : false,
     "ghad" : true,
     "handbook" : false,
     "laptop" : false,
+    # "raktabija" : true,
+    # "slack-export-handling" : true,
     "tts-tech-portfolio-private" : true,
     "tts-tech-portfolio" : true,
+    "vulnerability-disclosure-policy" : true,
   }
 }
 
