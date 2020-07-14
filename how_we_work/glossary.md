@@ -8,6 +8,7 @@
 - IaaS – infrastructure as a service.
 - InfoSec – information security.
 - PaaS – platform as a service.
+- testing
 
 ## Other Glossaries
 
