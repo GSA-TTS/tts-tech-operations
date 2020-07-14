@@ -25,6 +25,7 @@ locals {
     "laptop" : false,
     "tts-tech-portfolio-private" : true,
     "tts-tech-portfolio" : true,
+    "vulnerability-disclosure-policy" : true,
   }
 }
 
