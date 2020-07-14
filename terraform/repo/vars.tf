@@ -34,6 +34,6 @@ variable "issue_labels" {
 }
 
 variable "issue_templates" {
-  type    = list(string)
-  default = ["general.md"]
+  type        = list(string)
+  description = "List of filenames from this repository, without the path"
 }

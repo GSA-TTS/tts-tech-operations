@@ -13,59 +13,25 @@ provider "github" {
   organization = "18f"
 }
 
-module "tts-tech-portfolio" {
-  source = "./repo"
-
-  repo = "tts-tech-portfolio"
+locals {
+  # value is whether issue templates should be included or not
+  repos = {
+    "aws-admin" : true,
+    "before-you-ship" : true,
+    "bug-bounty" : true,
+    "dns" : false,
+    "ghad" : true,
+    "handbook" : false,
+    "laptop" : false,
+    "tts-tech-portfolio-private" : true,
+    "tts-tech-portfolio" : true,
+  }
 }
 
-module "tts-tech-portfolio-private" {
+module "repo" {
   source = "./repo"
 
-  repo = "tts-tech-portfolio-private"
-}
-
-module "ghad" {
-  source = "./repo"
-
-  repo = "ghad"
-}
-
-module "laptop" {
-  source = "./repo"
-
-  repo            = "laptop"
-  issue_templates = []
-}
-
-module "aws-admin" {
-  source = "./repo"
-
-  repo = "aws-admin"
-}
-
-module "bug-bounty" {
-  source = "./repo"
-
-  repo = "bug-bounty"
-}
-
-module "before-you-ship" {
-  source = "./repo"
-
-  repo = "before-you-ship"
-}
-
-module "dns" {
-  source = "./repo"
-
-  repo            = "dns"
-  issue_templates = []
-}
-
-module "handbook" {
-  source = "./repo"
-
-  repo            = "handbook"
-  issue_templates = []
+  for_each        = local.repos
+  repo            = each.key
+  issue_templates = each.value ? ["general.md"] : []
 }
