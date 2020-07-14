@@ -23,3 +23,13 @@ resource "github_repository_file" "issue_templates" {
     ignore_changes = [commit_message]
   }
 }
+
+data "github_team" "tech_portfolio" {
+  slug = "tts-tech-portfolio"
+}
+
+resource "github_team_repository" "admin" {
+  team_id    = data.github_team.tech_portfolio.id
+  repository = var.repo
+  permission = "admin"
+}

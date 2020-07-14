@@ -28,4 +28,3 @@ When a repository is considered "managed" by the Tech Portfolio, it should be in
   - [Team board](https://github.com/orgs/18F/projects/11/settings/linked_repositories)
   - [Pull requests](https://github.com/orgs/18F/projects/19/settings/linked_repositories)
 - The saved search in [the Ops Rotation issue template](../.github/ISSUE_TEMPLATE/ops.md#github)
-- [The **@18F/tts-tech-portfolio** GitHub team](https://github.com/orgs/18F/teams/tts-tech-portfolio/repositories)
