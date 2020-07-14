@@ -1,6 +1,4 @@
-## TTS Tech Portfolio
-
-### GitHub Repos
+# GitHub Repos
 
 [18F tts-tech-portfolio](https://github.com/orgs/18F/teams/tts-tech-portfolio/repositories)
 
@@ -19,3 +17,15 @@
 | 18F/slack-export-handling      | https://github.com/18F/slack-export-handling      | archived |
 | 18F/tts-tech-portfolio         | https://github.com/18F/tts-tech-portfolio         | active   |
 | 18F/tts-tech-portfolio-private | https://github.com/18F/tts-tech-portfolio-private | active   |
+
+## Adding a repository
+
+When a repository is considered "managed" by the Tech Portfolio, it should be included in the following places:
+
+- The table above
+- [The list in Terraform](../terraform/main.tf)
+- Linked repositories for project boards
+  - [Team board](https://github.com/orgs/18F/projects/11/settings/linked_repositories)
+  - [Pull requests](https://github.com/orgs/18F/projects/19/settings/linked_repositories)
+- The saved search in [the Ops Rotation issue template](../.github/ISSUE_TEMPLATE/ops.md#github)
+- [The **@18F/tts-tech-portfolio** GitHub team](https://github.com/orgs/18F/teams/tts-tech-portfolio/repositories)
