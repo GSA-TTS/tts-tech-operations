@@ -13,7 +13,7 @@
 
 We use the term "sprint" to refer to the ceremony cycles, even though they aren't strictly Sprints in the Scrum sense.
 
-### Standups
+### Stand-ups
 
 **Cadence:** Daily at 11:30 ET
 
@@ -32,17 +32,17 @@ At the individual level, it's important to walk into the day's stand-up prepared
         1. Future
     1.  Current blockers, things that need feedback, cards that you're waiting on others in order to progress
     1.  Any help needed
-    1.  Review of calendar items that others might benefit from attending to knowing about
+    1.  Review of calendar items that others might benefit from attending or knowing about
 
 #### What to work on
 
 Recommended order to prioritize cards:
 
 1. `In Progress`
-1. `Blocked/Waiting` that can be moved forward / broken up
-1. `Ready` with upcoming due dates
-1. Other `Ready`
-1. `Backlog`, particularly cards that:
+1. `Waiting/Feedback` that can be moved forward / broken up
+1. `Ready (Sprint Planned)` with upcoming due dates
+1. Other `Ready (Sprint Planned)`
+1. `Backlog (Sprint Staging)`, particularly cards that:
    1. Force-multipliers, i.e. where we can spend a little time now to save a lot of time in the long run
    1. Solve active pain points over nice-to-haves
    1. Are quick wins
@@ -65,7 +65,7 @@ NOTE: This activity relates to the following measures within the Performance Pla
 
 **Purpose:** Team bonding/culture-building.
 
-We talk about whatever we want, work-related or not. We avoid talking about day-to-day tasks—that's what Standups are for.
+We talk about whatever we want, work-related or not. We avoid talking about day-to-day tasks—that's what Stand-ups are for.
 
 Opportunity to do some lean coffee style discussions to talk about areas of interest that folks want to hear from others.
 
@@ -73,7 +73,7 @@ NOTE: This activity is purely optional and will have no impact on an individual'
 
 ### Pre (Sprint & Grooming) Ceremony Activity
 
-**Cadence:** Before Sprint or Grooming Ceremony
+**Cadence:** Before Planning or Grooming Sprint Ceremony
 
 **Format:** Async
 
@@ -85,23 +85,20 @@ NOTE: This activity is purely optional and will have no impact on an individual'
   - etc
 - Make sure all the current In Progress/Waiting/Blocked cards are up to date and reflect the current status
 - Groom Cards
-  - Cards in the Ready (Sprint Planned) column + the columns to the right must be Groom Accepted
-  - Cards in the Backlog (Sprint Staging) column must be Groom Final and ready to be Groomed Accepted
-  - Cards in the Icebox column must be Groom Draft
+  - Cards in the Ready (Sprint Planned) column + the columns to the right must be `g: accepted` ([check](https://github.com/orgs/18F/projects/11?fullscreen=true&card_filter_query=-label%3A%22g%3A+accepted%22))
+  - Cards in the Backlog (Sprint Staging) column must be `g: final` and ready to be Groomed Accepted ([check](https://github.com/orgs/18F/projects/11?fullscreen=true&card_filter_query=-label%3A%22g%3A+final%22))
+  - Cards in the Icebox column must be `g: draft` ([check](https://github.com/orgs/18F/projects/11?fullscreen=true&card_filter_query=-label%3A%22g%3A+initial%22-label%3A%22g%3A+final%22+-label%3A%22g%3A+accepted%22))
 - Cards in Backlog (Sprint Staging) column + the columns to the right must be assigned
-  - Check to make sure cards in your Initiative are assigned
+  - Check to make sure cards in your Initiative are assigned ([check](https://github.com/orgs/18F/projects/11?fullscreen=true&card_filter_query=-assignee%3Aits-a-lisa-at-work+-assignee%3Aafeld+-assignee%3Ajjediny))
 
 TIP: Have the relevant [template](https://github.com/18F/tts-tech-portfolio/issues/new/choose) filled out when creating a new card.
 
-TIP: The person who created the issue doesn't have to be the one to groom it or eventually be assigned to it
+TIP: The person who created the issue doesn't have to be the one to groom it or eventually be assigned to it; assignment should be coordinated with initiative owner
 
-TIP: Should have enough work to keep yourself busy for the next two weeks. Keeping in mind the current In Progress/Waiting/Blocked cards, any upcoming leave and pre-allocated work.
+TIP: During Grooming, you can move a card to Backlog (Sprint Staging) while it is still labeled `g: initial`; but it should be groomed ASAP.
 
-TIP: Try to keep cards 'right-sized' and scoped to be started and finished within the Sprint.
-
-TIP: You can groom move a card to Backlog (Sprint Staging) while it is still in Draft; but it should be groomed ASAP.
-
-NOTE: Ideally this activity is done by noon on Friday before the Planning Ceremony to give teammates enough time to review. Also helps the Project Manager feel prepared going into the Sprint Planning ceremony.
+NOTE: Ideally this pre-sprint activity is done by noon on Friday before the
+Sprint Ceremony to give teammates enough time to review. Also helps the Project Manager feel prepared going into the Sprint ceremony.
 
 NOTE: Be especially diligent about adding cards that you would like to include into the new Sprint.
 
@@ -173,6 +170,8 @@ TIP: Start from the top when reviewing cards.
 
 TIP: Filter for cards that are Groomed Final before starting a review and exclude cards assigned to yourself.
 
+TIP: Should have enough work to keep yourself busy for the next two weeks. Keeping in mind the current In Progress/Waiting/Blocked cards, any upcoming leave and pre-allocated work.
+
 TIP: As you are reviewing teammate's cards; make comments directly in the card; but you may also ask simple questions for the sake of clarity. (That's why we're doing this together as a group!)
 
 ### Grooming
@@ -185,7 +184,7 @@ TIP: As you are reviewing teammate's cards; make comments directly in the card; 
 
 **Meeting Flow:**
 
-12 minutes: Speed Stand-Up
+12 minutes: Speed Stand-Up (if needed)
 
 10 minutes: New Card Review
 Teammates will brief others on the new cards they created and the group will decide where the card should go Icebox or Backlog (Sprint Staging).
@@ -197,9 +196,9 @@ Teammates will brief others on the new cards they created and the group will dec
 
 4 minutes: Staging
 
-Teammates will order the cards within their initiative in the Icebox (Sprint Staging) based on their own criteria
+Teammates will order the cards within their initiative in the `Icebox` based on their own criteria
 
-16 minutes: Card Review (Icebox)
+16 minutes: Card Review `Icebox`
 
 Review cards of other teammates
 
@@ -233,6 +232,8 @@ Review cards of other teammates
 TIP: Start from the bottom when reviewing cards.
 
 TIP: Focus on cards that are Groom Draft when reviewing cards.
+
+TIP: Try to keep cards 'right-sized' and scoped to be started and finished within the Sprint.
 
 TIP: Filter for cards that are Groomed Final before starting a review and exclude cards assigned to yourself.
 
