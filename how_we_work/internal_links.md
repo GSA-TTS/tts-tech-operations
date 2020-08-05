@@ -1,3 +1,5 @@
+Access to many of these are restricted.
+
 ## General
 
 [Onboarding/Offboarding](https://docs.google.com/document/d/1kF41y1AbVCkdXE5XStuthOM-1VIA48UimN9W3E9Jk68/edit)
@@ -95,6 +97,13 @@ It’s unclear how many licenses we should be allowed/if we need to do a new con
 [Sketch User List](https://docs.google.com/spreadsheets/d/1SCkLr0GXgoeqmIMPLic8QnX1INkyoP1YCNp17Sarx9s/edit#gid=243236610)
 SaaS Manager needs to be added to 18F Software and TTS Software Google groups
 
+## Staff lists
+
+[HRLinks Roster](https://docs.google.com/spreadsheets/d/1tRzGxnI1E4soOkHsod5xd-XmO33cy0cKRx7LpSNAaF0/edit?usp=sharing)
+
+[Talent Database](https://docs.google.com/spreadsheets/d/16x18nV5jHwsBzw12b32PDxV6zQtFkzbaGV6W2uNhaUY/edit#gid=361159397)
+
+
 ## IaaS Management
 
 [Before You Ship - AWS](https://before-you-ship.18f.gov/infrastructure/aws/)
@@ -114,8 +123,6 @@ These handbook pages will need to be updated once C2 is deprecated and the new p
 [TTS-Wide Contracts](https://docs.google.com/spreadsheets/d/1ugJMb5lzwriP0e0Jkf2GMrxbBtjrsvQkSGUJZUA5e44/edit)
 
 [FOIA requests](https://docs.google.com/spreadsheets/d/16Nw0OQ4SXH95Vo47WEzf4M2JR3IpxU9DnrF4QIbJsg8/edit#gid=1047462376)
-
-[TTS staff](https://docs.google.com/spreadsheets/d/1tRzGxnI1E4soOkHsod5xd-XmO33cy0cKRx7LpSNAaF0/edit?usp=sharing)
 
 [COR Playbook](https://docs.google.com/document/d/14xOFvIGwlG0Gbd52o1D4AyJ52RqzHpX91nfEYJKu5qQ/edit#)
 
