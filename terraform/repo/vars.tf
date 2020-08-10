@@ -26,6 +26,7 @@ variable "issue_labels" {
     "i: mac"                        = "6ecbdb"
     "i: enterprise architecture"    = "6ecbdb"
     "i: bug bounty"                 = "6ecbdb"
+    "i: DEI"                        = "6ecbdb"
     "i: misc"                       = "6ecbdb"
     "e: aws cleanup"                = "6ecbdb"
     "e: bb expansion"               = "6ecbdb"
