@@ -87,7 +87,7 @@ NOTE: This activity is purely optional and will have no impact on an individual'
 - Groom Cards
   - Cards in the Ready (Sprint Planned) column + the columns to the right must be `g: accepted` ([check](https://github.com/orgs/18F/projects/11?fullscreen=true&card_filter_query=-label%3A%22g%3A+accepted%22))
   - Cards in the Backlog (Sprint Staging) column must be `g: final` and ready to be Groomed Accepted ([check](https://github.com/orgs/18F/projects/11?fullscreen=true&card_filter_query=-label%3A%22g%3A+final%22))
-  - Cards in the Icebox column must be `g: draft` ([check](https://github.com/orgs/18F/projects/11?fullscreen=true&card_filter_query=-label%3A%22g%3A+initial%22-label%3A%22g%3A+final%22+-label%3A%22g%3A+accepted%22))
+  - Cards in the Icebox column must be `g: initial` ([check](https://github.com/orgs/18F/projects/11?fullscreen=true&card_filter_query=-label%3A%22g%3A+initial%22-label%3A%22g%3A+final%22+-label%3A%22g%3A+accepted%22))
 - Cards in Backlog (Sprint Staging) column + the columns to the right must be assigned
   - Check to make sure cards in your Initiative are assigned ([check](https://github.com/orgs/18F/projects/11?fullscreen=true&card_filter_query=-assignee%3Aits-a-lisa-at-work+-assignee%3Aafeld+-assignee%3Ajjediny))
 
@@ -231,7 +231,7 @@ Review cards of other teammates
 
 TIP: Start from the bottom when reviewing cards.
 
-TIP: Focus on cards that are Groom Draft when reviewing cards.
+TIP: Focus on cards that are Groom Initial when reviewing cards.
 
 TIP: Try to keep cards 'right-sized' and scoped to be started and finished within the Sprint.
 
