@@ -17,6 +17,8 @@
 | [Vulnerability Disclosure Lead](#vulnerability-disclosure-lead) | --- | X | --- |
 | Vulnerability Disclosure [COR](https://docs.google.com/document/d/14xOFvIGwlG0Gbd52o1D4AyJ52RqzHpX91nfEYJKu5qQ/edit) | --- | X | --- |
 
+We also have [Initiative](workflow.md#structure) owners—see the `Initiatives` column of [the board](https://github.com/orgs/18F/projects/11?fullscreen=true).
+
 ## Director
 
 ### Director Duties
