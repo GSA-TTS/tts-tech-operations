@@ -1,6 +1,6 @@
 ---
 name: Task
-about: not directly related to a user story (Weekly SMT Update, FSGC activity, etc)
+about: Used for tracking work that's tracked elsewhere (Mac and SaaS Working Groups, Digital Council, etc.), or a well-defined recurring task (Weekly SMT Update, etc.)
 title: ""
 labels: ""
 assignees: ""
