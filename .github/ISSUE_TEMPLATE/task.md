@@ -1,6 +1,6 @@
 ---
 name: Task
-about: Used for tracking work that's tracked elsewhere (Mac and SaaS Working Groups, Digital Council, etc.), or a well-defined recurring task (Weekly SMT Update, etc.)
+about: Used for tracking work that has Acceptance Criteria (or equivalent) tracked elsewhere (like the Mac and SaaS Working Groups), or is a well-defined recurring task (Weekly SMT Update, etc.)
 title: ""
 labels: ""
 assignees: ""
