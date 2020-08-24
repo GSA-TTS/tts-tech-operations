@@ -32,6 +32,7 @@ locals {
     "slack-export-handling" : { archived = true },
     "tts-tech-portfolio-private" : {},
     "tts-tech-portfolio" : {},
+    "uswds-jekyll" : {},
     "vulnerability-disclosure-policy" : {},
   }
 }
