@@ -24,8 +24,8 @@ Each of the following should be done within the dates above. See the [playbook](
 
 Ensure you are present in the following and are responding as needed:
 
-- [ ] [Slack Channels](https://github.com/18F/tts-tech-portfolio/blob/master/Operations%20Rotation%20-%20Playbook.md#slack-channels)
-- [ ] [Google Groups](https://github.com/18F/tts-tech-portfolio/blob/master/Operations%20Rotation%20-%20Playbook.md#google-groups)
+- [ ] [Slack Channels](https://github.com/18F/tts-tech-portfolio/blob/master/how_we_work/ops_rotation.md#slack-channels)
+- [ ] [Google Groups](https://github.com/18F/tts-tech-portfolio/blob/master/how_we_work/ops_rotation.md#google-groups)
 
 ## Other
 
