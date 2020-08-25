@@ -29,7 +29,7 @@
 | Group                     | Permission |
 | ------------------------- | ---------- |
 | 18F DevOps                | Owner      |
-| 18F PyPl                  | Owner      |
+| 18F PyPI                  | Owner      |
 | 18F Software              | Owner      |
 | 18f-team                  | Member     |
 | IS-TTS                    | Manager    |
