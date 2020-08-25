@@ -28,6 +28,7 @@ locals {
     "ghad" : {},
     "handbook" : { skip_issue_templates = true },
     "laptop" : { skip_issue_templates = true },
+    "newrelic-terraform" : {},
     "raktabija" : { archived = true },
     "slack-export-handling" : { archived = true },
     "tts-tech-portfolio-private" : {},
