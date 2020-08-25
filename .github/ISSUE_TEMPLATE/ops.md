@@ -8,12 +8,6 @@ assignees: ""
 
 Each of the following should be done within the dates above. See the [playbook](https://github.com/18F/tts-tech-portfolio/blob/master/how_we_work/ops_rotation.md) for additional info.
 
-## Meetings
-
-- [ ] Attend the CTO Liaison Meeting
-  - [ ] Review and update [Trello board](https://trello.com/b/BFp37KQ6/gsa-cto-tts-liaison)
-- [ ] Let the next person on Operations Rotation know what is outstanding
-
 ## GitHub
 
 - [ ] Review and ideally merge (or close) open [pull requests to Tech Portfolio repositories](https://github.com/orgs/18F/projects/19?fullscreen=true)
@@ -34,3 +28,4 @@ Ensure you are present in the following and are responding as needed:
 - [ ] Check the [anonymous feedback responses](https://docs.google.com/spreadsheets/d/1ahj7CuoTAYr5c7miDCeGhplYx_wW1yj6ApMFLRdY-7Q/edit?usp=forms_web_b#gid=1730986218), and do the following as applicable:
   - Create or comment on issues
   - Drop anonymized feedback in #tts-tech-portfolio and the [kudos collector](https://docs.google.com/document/d/1JucZ_-P84VJLQ-ZI-VcYV2PVWOEuSW5DKCebCZECmTk/edit)
+- [ ] Let the next person on Operations Rotation know what is outstanding
