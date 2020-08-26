@@ -2,7 +2,7 @@
 name: General
 about: For general Tech Portfolio work
 title: ""
-labels: ""
+labels: "g: initial"
 assignees: ""
 ---
 

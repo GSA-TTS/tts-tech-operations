@@ -2,7 +2,7 @@
 name: New GitHub org
 about: Checklist for creating a new GitHub organization
 title: ""
-labels: ""
+labels: "g: accepted, i: misc"
 assignees: ""
 ---
 

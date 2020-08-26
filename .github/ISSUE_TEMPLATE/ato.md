@@ -1,8 +1,8 @@
 ---
 name: ATO
 about: Checklist for an Authority to Operate
-title: "ATO for [system] - due [date]"
-labels: "ATO"
+title: ATO for [system] - due [date]
+labels: "g: accepted, i: misc"
 assignees: ""
 ---
 
