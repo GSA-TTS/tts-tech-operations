@@ -2,7 +2,7 @@
 name: New team member
 about: Checklist for onboarding someone to the Tech Portfolio team
 title: ""
-labels: ""
+labels: "g: accepted, i: misc"
 assignees: ""
 ---
 

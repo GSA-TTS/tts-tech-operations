@@ -1,8 +1,8 @@
 ---
 name: Decommissioning
 about: Checklist for shutting down a system
-title: "decommission [system]"
-labels: ""
+title: decommission [system]
+labels: "g: accepted, i: enterprise architecture"
 assignees: ""
 ---
 

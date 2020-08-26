@@ -2,7 +2,7 @@
 name: Retro
 about: Way to capture retro
 title: ""
-labels: ""
+labels: "g: initial, i: misc"
 assignees: ""
 ---
 
@@ -24,4 +24,4 @@ What your still fuzzy on for the <!-- Insert activity-->?
 ---
 
 The assignee should add assignees to the task & move to Feedback/Waiting.
-Those assigned should provide retro in comments. 
+Those assigned should provide retro in comments.

@@ -1,8 +1,8 @@
 ---
 name: Operations Rotation
 about: Tasks to be completed during each Operations Rotation
-title: "Ops Rotation <start>-<end>"
-labels: ""
+title: Ops Rotation <start>-<end>
+labels: "g: accepted, i: misc"
 assignees: ""
 ---
 
