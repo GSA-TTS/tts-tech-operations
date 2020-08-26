@@ -5,7 +5,7 @@
 | [Contracting Officer Representative (COR)](https://docs.google.com/document/d/14xOFvIGwlG0Gbd52o1D4AyJ52RqzHpX91nfEYJKu5qQ/edit) for TTS-wide software/infrastructure purchases | --- | --- | X |
 | Cybersecurity Authorizing Official | X | --- | --- |
 | Cybersecurity Authorizing Official backup | --- | X | --- |
-| [Digital Council](https://docs.google.com/document/d/1v_kidGvpfVsMze-hJdaApI61Q3Vr6E-zZ5t79drnqIM/edit) member | --- | X | --- |
+| [Digital Council](https://docs.google.com/document/d/1v_kidGvpfVsMze-hJdaApI61Q3Vr6E-zZ5t79drnqIM/edit) member | X | --- | --- |
 | [DotGov points of contact](https://home.dotgov.gov/management/#points-of-contact) | X | --- | --- |
 | [FAS Systems Governance Committee (FSGC)](https://sites.google.com/a/gsa.gov/fas-systems-governance/home) representative | X | --- | --- |
 | [Infrastructure-as-a-Service (IaaS)](https://before-you-ship.18f.gov/infrastructure/) | --- | --- | X |
