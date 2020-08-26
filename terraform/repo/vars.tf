@@ -21,7 +21,6 @@ variable "issue_labels" {
     "i: SaaS authorizations"        = "6ecbdb"
     "i: infrastructure improvement" = "6ecbdb"
     "i: acquisition"                = "6ecbdb"
-    "i: communication"              = "6ecbdb"
     "i: internal workflow"          = "6ecbdb"
     "i: mac"                        = "6ecbdb"
     "i: enterprise architecture"    = "6ecbdb"
