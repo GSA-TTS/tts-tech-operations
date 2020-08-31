@@ -121,6 +121,14 @@ These handbook pages will need to be updated once C2 is deprecated and the new p
 
 [CTO Liaison Trello board](https://trello.com/b/BFp37KQ6/gsa-cto-tts-liaison)
 
+## Domains
+
+[TTS DNS](https://github.com/18F/dns)
+
+List of TTS [domains](https://docs.google.com/spreadsheets/d/12pfcEIEXaJTjIKex-3wnI89erIvgKf9B_XpGkDl6qsM/edit#gid=824448842) and [subdomains](https://docs.google.com/spreadsheets/d/12pfcEIEXaJTjIKex-3wnI89erIvgKf9B_XpGkDl6qsM/edit#gid=1884617968)
+
+[GSA's list of websites](https://docs.google.com/spreadsheets/d/1OBO6g7_OsVBv0vG8WSCI6L2FD_iRh3A7a_6eQWj2zLE/edit#gid=2013137748)
+
 ## Interviewing
 
 - [Director interview guide](https://docs.google.com/document/d/1K9OYhN_nQ5823pkOoJN9gZ1SpzhGeZ0RxnM-1HShQ_g/edit)
