@@ -15,7 +15,7 @@ We use the term "sprint" to refer to the ceremony cycles, even though they aren'
 
 ### Stand-ups
 
-**Cadence:** Daily at 11:30 ET
+**Cadence:** Daily at 11:30 ET, except for Wednesdays
 
 **Format:** Virtual Meeting
 
@@ -40,13 +40,9 @@ Recommended order to prioritize cards:
 
 1. `In Progress`
 1. `Waiting/Feedback` that can be moved forward / broken up
-1. `Ready (Sprint Planned)` with upcoming due dates
+1. `Ready (Sprint Planned)` with upcoming due dates & left over from past sprints
 1. Other `Ready (Sprint Planned)`
-1. `Backlog (Sprint Staging)`, particularly cards that:
-   1. Force-multipliers, i.e. where we can spend a little time now to save a lot of time in the long run
-   1. Solve active pain points over nice-to-haves
-   1. Are quick wins
-   1. Are part of an [Epic](#epics)
+
 
 TIP: Look for [anything with a due date](https://github.com/orgs/18F/projects/11?fullscreen=true&card_filter_query=due+label%3A%22due+date%22).
 
@@ -90,6 +86,9 @@ NOTE: This activity is purely optional and will have no impact on an individual'
   - Cards in the Icebox column must be `g: initial` ([check](https://github.com/orgs/18F/projects/11?fullscreen=true&card_filter_query=-label%3A%22g%3A+initial%22-label%3A%22g%3A+final%22+-label%3A%22g%3A+accepted%22))
 - Cards in Backlog (Sprint Staging) column + the columns to the right must be assigned
   - Check to make sure cards in your Initiative are assigned ([check](https://github.com/orgs/18F/projects/11?fullscreen=true&card_filter_query=-assignee%3Aits-a-lisa-at-work+-assignee%3Aafeld+-assignee%3Ajjediny))
+  - Order cards
+    - Sprint Planning -- cards that you want moved into the Sprint should be at the top of New when filtered by your name
+     - Sprint Grooming -- cards that you want discussed, deleted or delegated should be at the bottom of Icebox when filtered by your name
 
 TIP: Have the relevant [template](https://github.com/18F/tts-tech-portfolio/issues/new/choose) filled out when creating a new card.
 
@@ -114,55 +113,22 @@ NOTE: This activity relates to the following measures within the Performance Pla
 
 **Format:** Virtual Meeting
 
-**Purpose:** Move cards from the Backlog (Sprint Staging) to Ready (Sprint Planned). Expect that the cards that are planned for will be the activity that gets worked on within the next couple of weeks unless there is a task that needs to be expedited.
+**Purpose:** Get all the cards that will be worked on in the next two weeks into the Backlog (Sprint Staging) from Ready (Sprint Planned), Icebox or New. Expect that the cards that are planned for will be the activity that gets worked on within the next couple of weeks unless there is a task that needs to be expedited.
 
 **Meeting Flow:**
 
-12 minutes: Speed Stand-Up
+| Thing      | Definition                                     | 
+| :--------- | :--------------------------------------------- | 
+| Review personal a-sync work    |                              | 
+| Due Date Review | Look for any cards that have Due Dates within the next 3 weeks. Put any cards with Due Dates within the next 2 weeks into Ready (Sprint Planned).  
+| Triage planned but not In-Progress cards      | Determine if a previously planned card will go back into the Backlog (Sprint Staging) or stay in Ready(Sprint Planned). Any card that is more than 2 Sprints past due will need justification for staying open and not done.                            | 
+| Review New cards | Move cards into the Backlog (Sprint Staging) that you would like to discuss adding into the Sprint, giving a quick explanation of the card and justification for why it should be in Sprint Staging. Teammates will provide input and ask questions about new cards.  Only cards to be added to this Sprint will be discussed; all other cards will be discussed at Grooming. | 
+| Sprint Staged cards      | Move cards into the Backlog (Sprint Staging) that you would like to discuss adding into the Sprint. Order cards in Sprint Staging based on priority of getting added to ready. If card is not expected to be completed within this Sprint, move card from  Backlog (Sprint Staging) to Icebox. If card is not expected to be completed within this Sprint, move card from  Backlog (Sprint Staging) to Icebox.                           | 
+| Review cards of other teammates | Skim through any background information. Check for missing User Stories. Clearly lays out what problem is being solved. Captures all the perspective users. Validate the Size as being realistic. Achievable Acceptance Criteria. Clear what it would take to close the card. Easy to imagine what the end product of the card would be. If approved, eact with a 'thumbs up' emoji on the card body. If not approve, react with a 'thumbs down' emoji and indicate what else needs to be done in a comment.  | 
+| Sprint Discussion      | Are any cards missing in the that should be listed? Are there any lower effort cards that can be added? How much is this Sprint going to move the needle for your initiative?                            | 
+| Ready (Sprint Planned) | Project Manager will add designated Sprint Milestone to cards. Project Manager will move over cards for teammates. | 
+|  | Project Manager will add designated Sprint Milestone to cards. Project Manager will move over cards for teammates. | 
 
-4 minutes: Staging
-
-Move cards into the Backlog (Sprint Staging) that you would like to discuss adding into the Sprint
-
-Teammates will order the cards assigned to them in the Backlog (Sprint Staging) based on their own criteria
-
-- [Aidan](https://github.com/orgs/18F/projects/11?fullscreen=true&card_filter_query=assignee%3Aafeld)
-- [Alyssa](https://github.com/orgs/18F/projects/11?fullscreen=true&card_filter_query=assignee%3Aits-a-lisa-at-work)
-- [Hoaian](https://github.com/orgs/18F/projects/11?fullscreen=true&card_filter_query=assignee%3Ahoaiandang)
-- [John](https://github.com/orgs/18F/projects/11?fullscreen=true&card_filter_query=assignee%3Ajjediny)
-
-16 minutes: Card Review Ready (Sprint Staging)
-
-Review cards of other teammates
-
-- Skim through any background information
-- Check for missing User Stories
-  - Clearly lays out what problem is being solved
-  - Captures all the perspective users
-- Validate the Size as being realistic
-- Achievable Acceptance Criteria
-  - Clear what it would take to close the card
-  - Easy to imagine what the end product of the card would be
-
-4 minutes: Approve other's cards
-
-- If approved
-  - React with a 'thumbs up' emoji on the card body
-- If not approve
-  - Indicate what else needs to be done in a comment
-
-10 minutes: Sprint Discussion
-
-- Are any cards missing in the that should be listed?
-- Are there any lower effort cards that can be added?
-- How much is this Sprint going to move the needle for your initiative?
-
-2 minutes: Decide which cards should get moved over to Ready (Sprint Planned)
-
-- Project Manager will add designated Sprint Milestone to cards
-- Project Manager will move over cards for teammates
-
-2 minutes: Wrap-Up
 
 TIP: Cards that are not likely to get done this Sprint should go at the bottom of the stack.
 
@@ -174,6 +140,19 @@ TIP: Should have enough work to keep yourself busy for the next two weeks. Keepi
 
 TIP: As you are reviewing teammate's cards; make comments directly in the card; but you may also ask simple questions for the sake of clarity. (That's why we're doing this together as a group!)
 
+TIP: When considering cards to work on, think about..
+   - Force-multipliers, i.e. where we can spend a little time now to save a lot of time in the long run
+   - Solve active pain points over nice-to-haves
+   - Are quick wins
+   - Are part of an [Epic](#epics)
+
+TIP: 
+  - [Aidan](https://github.com/orgs/18F/projects/11?fullscreen=true&card_filter_query=assignee%3Aafeld)
+  - [Alyssa](https://github.com/orgs/18F/projects/11?fullscreen=true&card_filter_query=assignee%3Aits-a-lisa-at-work)
+  - [John](https://github.com/orgs/18F/projects/11?fullscreen=true&card_filter_query=assignee%3Ajjediny)
+  - [Melanie](https://github.com/orgs/18F/projects/11?fullscreen=true&card_filter_query=assignee%3Amelanienleopold)
+
+
 ### Grooming
 
 **Cadence:** Every other Monday 13:00-14:00 ET
@@ -184,21 +163,21 @@ TIP: As you are reviewing teammate's cards; make comments directly in the card; 
 
 **Meeting Flow:**
 
-12 minutes: Speed Stand-Up (if needed)
+ Speed Stand-Up (if needed)
 
 10 minutes: New Card Review
 Teammates will brief others on the new cards they created and the group will decide where the card should go Icebox or Backlog (Sprint Staging).
 
 - [Aidan](https://github.com/orgs/18F/projects/11?fullscreen=true&card_filter_query=author%3Aafeld)
 - [Alyssa](https://github.com/orgs/18F/projects/11?fullscreen=true&card_filter_query=author%3Aits-a-lisa-at-work)
-- [Hoaian](https://github.com/orgs/18F/projects/11?fullscreen=true&card_filter_query=author%3Ahoaiandang)
 - [John](https://github.com/orgs/18F/projects/11?fullscreen=true&card_filter_query=author%3Ajjediny)
+- [Melanie](https://github.com/orgs/18F/projects/11?fullscreen=true&card_filter_query=author%3Amelanienleopold)
 
-4 minutes: Staging
+Staging
 
 Teammates will order the cards within their initiative in the `Icebox` based on their own criteria
 
-16 minutes: Card Review `Icebox`
+ Card Review `Icebox`
 
 Review cards of other teammates
 
@@ -211,14 +190,14 @@ Review cards of other teammates
   - Clear what it would take to close the card
   - Easy to imagine what the end product of the card would be
 
-4 minutes: Approve other's cards
+ Approve other's cards
 
 - If approved
   - React with a 'thumbs up' emoji on the card body
 - If not approve
   - Indicate what else needs to be done in a comment
 
-12 minutes: Sprint Discussion
+ Sprint Discussion
 
 - Should cards in the Backlog be moved back into the Icebox?
 - Believe cards should be in a different order?
@@ -227,7 +206,7 @@ Review cards of other teammates
 - Any cards that can be deleted?
   - User stories no longer relevant
 
-2 minutes: Wrap-Up
+ Wrap-Up
 
 TIP: Start from the bottom when reviewing cards.
 
@@ -237,9 +216,30 @@ TIP: Try to keep cards 'right-sized' and scoped to be started and finished withi
 
 TIP: Filter for cards that are Groomed Final before starting a review and exclude cards assigned to yourself.
 
-### Reviews
+### Reviews and other updates
 
-ON HOLD
+Please use this [form](https://app.smartsheet.com/b/form/6301909aaa764ce69fc9b7c5ff5fcbfd) to submit status updates for activity that you are working on.
+
+Include the [`initiative`](https://github.com/18F/tts-tech-portfolio/blob/master/how_we_work/initiatives.md) that you are working on so the information can be grouped in a consolidated way.
+
+Select the `intended audience` for your update (check either Sprint Review, Solutions or all of TTS). The update can apply to one or many of those audiences.
+
+The `Sprint Dashboard` audience is made up of folks that would be interested in the major milestone updates of the activities that we're working on related to sprints. The audiences could be guilds, product managers or technical practitioners. Updates would typically include things that someone following along closely with our work might care about, but wouldn't bubble up to leadership attention. 
+ 
+
+The `Solution Dashboard` will be viewed weekly by the Solution SMT and is used to inform the Solutions Director at his weekly leadership meeting.This information would potentially go into the Sol Sentinel or the Solutions Newsletter. Sometimes, this information might be expanded by presenting at the monthly Sol All Hands.
+
+The `TTS Dashboard` is information intended for all of TTS for information that is relevant to all folks. The target audience is the 350+ folks that sit within TTS and might be interested in updates that might affect them. 
+
+Please write the `description` so it is readable to the intended audience. This should be in plain language be clear and concise. The expectation is that the [Deputy Director](https://github.com/18F/tts-tech-portfolio/blob/master/how_we_work/roles.md#deputy-director) will have to do little to no refinement of what is written for the consolidated update. 
+
+The `status type` helps organize the types of statuses that we're providing. 
+
+Please indicate if this `status` was `requested` so that it will be highlighted amongst the others.
+
+If this status is one that would make sense to include in a `newsletter`, please indicate it. 
+
+Internally, we'll use the `Status emotion` so we can have a visual of the range of statuses that we're providing.
 
 ### Retros
 
