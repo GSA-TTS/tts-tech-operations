@@ -1,11 +1,3 @@
----
-name: New team member
-about: Checklist for onboarding someone to the Tech Portfolio team
-title: ""
-labels: "g: accepted, i: misc"
-assignees: ""
----
-
 **NewPerson and Buddy:** Try to go through your checklists in order.
 
 **Buddy:** If you can’t complete any of the items on your checklist personally, _you are responsible for ensuring that someone with the correct access completes that item_.
@@ -42,17 +34,43 @@ Learn our policies and procedures:
 
 - [ ] Introduce yourself to the new team member and give them some of your background so they know who you are.
 - [ ] Identify a straightforward, well-groomed story in progress that involves their skills domain, schedule a meeting with the owner for an introduction (if it's not you), and setup pairing sessions several times in the first week on the project.
-- [ ] Identify a straightforward, well-groomed first story, ideally something they could conceivably complete in their first two/three weeks using their existing skills. Discuss the context with them, then make them the assignee for the card.
 - [ ] Ask the Director or Deputy Director to have the person shadow whomever is on [OpsRotation](https://github.com/18F/tts-tech-portfolio/blob/master/how_we_work/ops_rotation.md), so they can see how we handle support and read with those within TTS.
 
 ### Required items for all team members
 
 - [ ] [Add them to the @tech-portfolio user group in Slack.](https://get.slack.help/hc/en-us/articles/212906697-User-Groups#edit-a-user-group)
 - [ ] Add them to the recurring TTS Tech Portfolio meetings that are relevant for them in [the team calendar](https://calendar.google.com/calendar?cid=Z3NhLmdvdl82aDI5YnF1ZGx0NGVoZTVzOWswOGlmdGZxMEBncm91cC5jYWxlbmRhci5nb29nbGUuY29t).
-- [ ] Add them to the [@18F/tts-tech-portfolio](https://github.com/orgs/18F/teams/tts-tech-portfolio) team on GitHub.
+- [ ] Add them to the @18F/tts-tech-portfolio [GitHub team](https://github.com/orgs/18F/teams/tts-tech-portfolio) team on GitHub.
+- [ ] Add them to the [Google Groups](https://github.com/18F/tts-tech-portfolio/blob/master/how_we_work/communication/googlegroups.md)
+
+### Required items for all team members
+- [ ] Federalist account
 
 ### Google Groups
 
 - [ ] [TTS Software](https://groups.google.com/a/gsa.gov/forum/#!managemembers/tts-software/add)
 - [ ] [TTS Technology Portfolio](https://groups.google.com/a/gsa.gov/forum/#!managemembers/devops/add)
 - [ ] [TTS Vulnerability Reports](https://groups.google.com/a/gsa.gov/forum/#!managemembers/tts-vulnerability-reports/add)
+
+### Account Access- User
+- [ ] Issue AWS sandbox accounts
+
+### Account Access - Admin
+- [ ] Provide Root Credentials
+  - [ ] NPM
+  - [ ] Trello
+  - [ ] GitHub
+  - [ ] NewRelic
+  - [ ] InVision
+  - [ ] Mural
+  - [ ] DockerHub
+  - [ ] Microsoft Office
+  - [ ] HackerOne
+
+### Give Access to Google Forms
+- [ ] Anonymous Feedback
+- [ ] Vulnerability Response
+
+### Learn about what we do
+- [ ] [DNS](https://github.com/18F/dns
+- [ ] Creating Issues [instructions](https://docs.google.com/presentation/d/1q8aCGgzBfP9B8yJrMHfavTwAYPupgdT94ktGPsHzjVU/edit)
