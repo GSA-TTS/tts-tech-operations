@@ -17,6 +17,7 @@ variable "issue_labels" {
     "i: acquisition"                = "6ecbdb"
     "i: bug bounty"                 = "6ecbdb"
     "i: DEI"                        = "6ecbdb"
+    "i: Digital Council"            = "6ecbdb"
     "i: enterprise architecture"    = "6ecbdb"
     "i: infrastructure improvement" = "6ecbdb"
     "i: internal workflow"          = "6ecbdb"
