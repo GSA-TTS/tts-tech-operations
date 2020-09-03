@@ -1,3 +1,11 @@
+---	
+name: New team member	
+about: Checklist for onboarding someone to the Tech Portfolio team	
+title: ""	
+labels: "g: accepted, i: misc"	
+assignees: ""	
+---
+
 **NewPerson and Buddy:** Try to go through your checklists in order.
 
 **Buddy:** If you can’t complete any of the items on your checklist personally, _you are responsible for ensuring that someone with the correct access completes that item_.
