@@ -56,7 +56,7 @@ Learn our policies and procedures:
 - [ ] Issue AWS sandbox accounts
 
 ### Account Access - Admin
-- [ ] Provide Root Credentials
+- [ ] Add as an admin
   - [ ] NPM
   - [ ] Trello
   - [ ] GitHub
