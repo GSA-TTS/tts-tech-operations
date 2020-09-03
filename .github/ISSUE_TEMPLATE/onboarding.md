@@ -53,7 +53,7 @@ Learn our policies and procedures:
 - [ ] [TTS Vulnerability Reports](https://groups.google.com/a/gsa.gov/forum/#!managemembers/tts-vulnerability-reports/add)
 
 ### Account Access- User
-- [ ] Issue AWS sandbox accounts
+- [ ] Create AWS IAM user for [cross-account access](https://github.com/18F/aws-admin#cross-account-access)
 
 ### Account Access - Admin
 - [ ] Add as an admin
