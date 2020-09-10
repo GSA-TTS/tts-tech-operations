@@ -12,12 +12,17 @@ let conversationsStore = {};
 // Fetch conversations using the conversations.list method
 async function fetchConversations() {
   try {
-    // Call the conversations.list method using the built-in WebClient
-    const result = await web.conversations.list();
+    const channels = [];
 
-    console.log(result);
+    // https://slack.dev/node-slack-sdk/web-api#pagination
+    for await (const page of web.paginate("conversations.list")) {
+      // merge results
+      Array.prototype.push.apply(channels, page.channels);
+    }
 
-    saveConversations(result.channels);
+    console.log(channels);
+
+    saveConversations(channels);
   } catch (error) {
     console.error(error);
   }
