@@ -5,7 +5,7 @@ const { WebClient } = require("@slack/web-api");
 const web = new WebClient(process.env.SLACK_BOT_TOKEN);
 
 const isPartnerChannel = (channel) =>
-  /-(partners|prtnrs)$/i.test(channel.name_normalized) || channel.is_ext_shared;
+  /(partners|prtnrs)\b/i.test(channel.name_normalized) || channel.is_ext_shared;
 
 const fetchConversations = async () => {
   const channels = [];
