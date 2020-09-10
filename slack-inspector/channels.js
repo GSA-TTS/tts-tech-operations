@@ -1,4 +1,5 @@
-// Require the Bolt package (github.com/slackapi/bolt)
+require("dotenv").config();
+
 const { App } = require("@slack/bolt");
 
 const app = new App({
@@ -20,6 +21,8 @@ async function fetchConversations() {
       token: process.env.SLACK_BOT_TOKEN,
     });
 
+    console.log(result);
+
     saveConversations(result.channels);
   } catch (error) {
     console.error(error);
@@ -37,3 +40,5 @@ function saveConversations(conversationsArray) {
     conversationsStore[conversationId] = conversation;
   });
 }
+
+fetchConversations();
