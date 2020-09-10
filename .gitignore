@@ -3,3 +3,4 @@
 *.tfvars
 *override.tf*
 crash.log
+node_modules/
