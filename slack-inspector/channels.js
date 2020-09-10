@@ -16,11 +16,13 @@ const fetchConversations = async () => {
     Array.prototype.push.apply(channels, page.channels);
   }
 
-  channels.forEach((channel) => {
-    if (isPartnerChannel(channel)) {
-      console.log(channel.name_normalized);
-    }
-  });
+  const partnerChannels = channels
+    .filter(isPartnerChannel)
+    .map((channel) => channel.name_normalized);
+
+  partnerChannels.sort();
+
+  partnerChannels.forEach((channel) => console.log(channel));
 };
 
 fetchConversations();
