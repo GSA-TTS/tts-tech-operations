@@ -1,11 +1,8 @@
 require("dotenv").config();
 
-const { App } = require("@slack/bolt");
+const { WebClient } = require("@slack/web-api");
 
-const app = new App({
-  token: process.env.SLACK_BOT_TOKEN,
-  signingSecret: process.env.SLACK_SIGNING_SECRET,
-});
+const web = new WebClient(process.env.SLACK_BOT_TOKEN);
 
 // https://api.slack.com/methods/conversations.list/code
 
@@ -16,10 +13,7 @@ let conversationsStore = {};
 async function fetchConversations() {
   try {
     // Call the conversations.list method using the built-in WebClient
-    const result = await app.client.conversations.list({
-      // The token you used to initialize your app
-      token: process.env.SLACK_BOT_TOKEN,
-    });
+    const result = await web.conversations.list();
 
     console.log(result);
 
