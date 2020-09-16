@@ -9,12 +9,12 @@ const web = new WebClient(process.env.SLACK_BOT_TOKEN);
 const fetchRepos = (org) =>
   graphql(
     `
-      query lastIssues($org: String!) {
+      query repos($org: String!) {
         organization(login: $org) {
-          repositories(first: 10) {
+          repositories(first: 100) {
             edges {
               node {
-                name
+                url
                 isArchived
                 vulnerabilityAlerts {
                   totalCount
@@ -43,7 +43,7 @@ const fetchVulnerableRepos = async (org) => {
     (repo) => !repo.isArchived && repo.vulnerabilityAlerts.totalCount > 0
   );
 
-  return vulnerableRepos.map((repo) => repo.name);
+  return vulnerableRepos.map((repo) => repo.url);
 };
 
 const getMostFrequentValue = (objects, prop) => {
@@ -53,7 +53,7 @@ const getMostFrequentValue = (objects, prop) => {
 };
 
 const getPrimaryChannel = async (query) => {
-  const result = await web.search.messages({ query });
+  const result = await web.search.messages({ query, sort: "timestamp" });
   return getMostFrequentValue(result.messages.matches, "channel.name");
 };
 
@@ -62,9 +62,8 @@ const run = async () => {
   const repos = await fetchVulnerableRepos(org);
 
   repos.forEach(async (repo) => {
-    const url = `https://github.com/${org}/${repo}`;
-    const channel = await getPrimaryChannel(url);
-    console.log(url, "-", `#${channel}`);
+    const channel = await getPrimaryChannel(repo);
+    console.log(`${repo}/network/alerts`, "-", `#${channel}`);
   });
 };
 
