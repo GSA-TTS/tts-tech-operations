@@ -9,9 +9,10 @@ const web = new WebClient(process.env.SLACK_BOT_TOKEN);
 
 const repoQuery = fs.readFileSync("./repos.graphql", "utf8");
 
-const fetchRepos = (org) =>
+const fetchRepos = (org, cursor) =>
   graphql(repoQuery, {
     org,
+    cursor,
     headers: {
       authorization: `token ${process.env.GITHUB_TOKEN}`,
     },
@@ -21,11 +22,23 @@ const isVulnerable = (repo) =>
   !repo.isArchived && repo.vulnerabilityAlerts.totalCount > 0;
 
 async function* fetchVulnerableRepos(org) {
-  const results = await fetchRepos(org);
-  for (const edge of results.organization.repositories.edges) {
-    const repo = edge.node;
-    if (isVulnerable(repo)) {
-      yield repo.url;
+  // paginate
+  let cursor = null;
+
+  while (true) {
+    const results = await fetchRepos(org, cursor);
+    const { edges, pageInfo } = results.organization.repositories;
+
+    for (const edge of edges) {
+      const repo = edge.node;
+      if (isVulnerable(repo)) {
+        yield repo.url;
+      }
+    }
+
+    cursor = pageInfo.endCursor;
+    if (!pageInfo.hasNextPage) {
+      break;
     }
   }
 }

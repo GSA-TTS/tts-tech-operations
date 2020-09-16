@@ -1,6 +1,6 @@
-query repos($org: String!) {
+query repos($org: String!, $cursor: String) {
   organization(login: $org) {
-    repositories(first: 100) {
+    repositories(first: 100, after: $cursor) {
       edges {
         node {
           url
@@ -9,6 +9,10 @@ query repos($org: String!) {
             totalCount
           }
         }
+      }
+      pageInfo {
+        endCursor
+        hasNextPage
       }
     }
   }
