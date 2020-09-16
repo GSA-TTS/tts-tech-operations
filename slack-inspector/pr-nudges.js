@@ -1,37 +1,21 @@
 require("dotenv").config();
 
 const countBy = require("lodash.countby");
+const fs = require("fs");
 const { graphql } = require("@octokit/graphql");
 const { WebClient } = require("@slack/web-api");
 
 const web = new WebClient(process.env.SLACK_BOT_TOKEN);
 
+const repoQuery = fs.readFileSync("./repos.graphql", "utf8");
+
 const fetchRepos = (org) =>
-  graphql(
-    `
-      query repos($org: String!) {
-        organization(login: $org) {
-          repositories(first: 100) {
-            edges {
-              node {
-                url
-                isArchived
-                vulnerabilityAlerts {
-                  totalCount
-                }
-              }
-            }
-          }
-        }
-      }
-    `,
-    {
-      org,
-      headers: {
-        authorization: `token ${process.env.GITHUB_TOKEN}`,
-      },
-    }
-  );
+  graphql(repoQuery, {
+    org,
+    headers: {
+      authorization: `token ${process.env.GITHUB_TOKEN}`,
+    },
+  });
 
 const isVulnerable = (repo) =>
   !repo.isArchived && repo.vulnerabilityAlerts.totalCount > 0;

@@ -1,0 +1,15 @@
+query repos($org: String!) {
+  organization(login: $org) {
+    repositories(first: 100) {
+      edges {
+        node {
+          url
+          isArchived
+          vulnerabilityAlerts {
+            totalCount
+          }
+        }
+      }
+    }
+  }
+}
