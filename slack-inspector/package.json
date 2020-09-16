@@ -2,6 +2,7 @@
   "private": true,
   "dependencies": {
     "@slack/web-api": "^5.11.0",
-    "dotenv": "^8.2.0"
+    "dotenv": "^8.2.0",
+    "lodash.countby": "^4.6.0"
   }
 }
