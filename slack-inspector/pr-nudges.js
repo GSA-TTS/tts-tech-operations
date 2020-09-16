@@ -33,18 +33,18 @@ const fetchRepos = (org) =>
     }
   );
 
-const fetchVulnerableRepos = async (org) => {
+const isVulnerable = (repo) =>
+  !repo.isArchived && repo.vulnerabilityAlerts.totalCount > 0;
+
+async function* fetchVulnerableRepos(org) {
   const results = await fetchRepos(org);
-  const repos = results.organization.repositories.edges.map(
-    (edge) => edge.node
-  );
-
-  const vulnerableRepos = repos.filter(
-    (repo) => !repo.isArchived && repo.vulnerabilityAlerts.totalCount > 0
-  );
-
-  return vulnerableRepos.map((repo) => repo.url);
-};
+  for (const edge of results.organization.repositories.edges) {
+    const repo = edge.node;
+    if (isVulnerable(repo)) {
+      yield repo.url;
+    }
+  }
+}
 
 const getMostFrequentValue = (objects, prop) => {
   const counts = countBy(objects, prop);
@@ -59,12 +59,11 @@ const getPrimaryChannel = async (query) => {
 
 const run = async () => {
   const org = "18F";
-  const repos = await fetchVulnerableRepos(org);
-
-  repos.forEach(async (repo) => {
+  const repos = fetchVulnerableRepos(org);
+  for await (const repo of repos) {
     const channel = await getPrimaryChannel(repo);
     console.log(`${repo}/network/alerts`, "-", `#${channel}`);
-  });
+  }
 };
 
 run();
