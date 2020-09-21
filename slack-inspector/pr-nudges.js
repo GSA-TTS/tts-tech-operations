@@ -90,7 +90,12 @@ const generateMessage = (repo) => {
   }
   const joinedSteps = steps.join(", then ");
 
-  return `The <${url}|${repo.nameWithOwner}> repository has dependency vulnerabilities. To resolve, ${joinedSteps}. Reach out to <#${adminsGitHubID}> with any questions.`;
+  return `The <${url}|${repo.nameWithOwner}> repository has dependency vulnerabilities. To resolve,
+
+- ${joinedSteps}, or
+- <https://handbook.tts.gsa.gov/github/#archiving|archive the repository>
+
+Reach out to <#${adminsGitHubID}> with any questions.`;
 };
 
 const notifyChannel = (channel, repo) => {
