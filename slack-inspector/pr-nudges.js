@@ -54,6 +54,7 @@ const getMostFrequentValue = (objects, prop) => {
 const excludeChannel = (channel) =>
   // only channels the bot can join
   !channel.is_channel ||
+  channel.is_archived ||
   // exclude *-public channels
   channel.name.endsWith("-public") ||
   // aggregator channels
