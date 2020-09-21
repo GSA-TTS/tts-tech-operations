@@ -5,6 +5,7 @@ const fs = require("fs");
 const { graphql } = require("@octokit/graphql");
 const { WebClient } = require("@slack/web-api");
 
+// both are needed, since search is only possible with a user token (https://api.slack.com/methods/search.messages#facts) but we want messages to come from the bot
 const slackUserClient = new WebClient(process.env.SLACK_USER_TOKEN);
 const slackBotClient = new WebClient(process.env.SLACK_BOT_TOKEN);
 
