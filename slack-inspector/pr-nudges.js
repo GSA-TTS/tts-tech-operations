@@ -32,7 +32,7 @@ async function* fetchVulnerableRepos(org) {
     for (const edge of edges) {
       const repo = edge.node;
       if (isVulnerable(repo)) {
-        yield repo.url;
+        yield repo;
       }
     }
 
@@ -58,8 +58,13 @@ const run = async () => {
   const org = "18F";
   const repos = fetchVulnerableRepos(org);
   for await (const repo of repos) {
-    const channel = await getPrimaryChannel(repo);
-    console.log(`${repo}/network/alerts`, "-", `#${channel}`);
+    const channel = await getPrimaryChannel(repo.url);
+    const numAlerts = repo.vulnerabilityAlerts.totalCount;
+    console.log(
+      `${repo.nameWithOwner} has ${numAlerts} dependency vulnerabilities. See ${repo.url}/network/alerts.`,
+      "-",
+      `#${channel}`
+    );
   }
 };
 

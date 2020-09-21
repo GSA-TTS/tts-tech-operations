@@ -3,6 +3,7 @@ query repos($org: String!, $cursor: String) {
     repositories(first: 100, after: $cursor) {
       edges {
         node {
+          nameWithOwner
           url
           isArchived
           vulnerabilityAlerts {
