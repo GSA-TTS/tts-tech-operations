@@ -90,12 +90,12 @@ const generateMessage = (repo) => {
   }
   const joinedSteps = steps.join(", then ");
 
-  return `The <${url}|${repo.nameWithOwner}> repository has dependency vulnerabilities. To resolve,
+  return `:wave: The <${url}|${repo.nameWithOwner}> repository has possible security vulnerabilities in its dependencies. To resolve,
 
-- ${joinedSteps}, or
-- <https://handbook.tts.gsa.gov/github/#archiving|archive the repository>
+:lock: ${joinedSteps}, or
+:han-solo-frozen: <https://handbook.tts.gsa.gov/github/#archiving|archive the repository>
 
-Reach out to <#${adminsGitHubID}> with any questions.`;
+Reach out to <#${adminsGitHubID}> with any questions :octocat: Thanks!`;
 };
 
 const notifyChannel = (channel, repo) => {
