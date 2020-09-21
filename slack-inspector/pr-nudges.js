@@ -58,10 +58,11 @@ const run = async () => {
   const org = "18F";
   const repos = fetchVulnerableRepos(org);
   for await (const repo of repos) {
-    const channel = await getPrimaryChannel(repo.url);
+    const url = `https://github.com/${org}/${repo.name}`;
+    const channel = await getPrimaryChannel(url);
     const numAlerts = repo.vulnerabilityAlerts.totalCount;
     console.log(
-      `${repo.nameWithOwner} has ${numAlerts} dependency vulnerabilities. See ${repo.url}/network/alerts.`,
+      `${org}/${repo.name} has ${numAlerts} dependency vulnerabilities. See ${url}/network/alerts.`,
       "-",
       `#${channel}`
     );
