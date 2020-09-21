@@ -72,8 +72,10 @@ const getPrimaryChannel = async (query) => {
   return getMostFrequentValue(matches, "channel.id");
 };
 
+const repoToUrl = (repo) => `https://github.com/${repo.nameWithOwner}`;
+
 const generateMessage = (repo) => {
-  const url = `https://github.com/${repo.nameWithOwner}`;
+  const url = repoToUrl(repo);
   // the channel ID
   const adminsGitHubID = "C02KXM98G";
 
@@ -91,34 +93,42 @@ const generateMessage = (repo) => {
   return `The <${url}|${repo.nameWithOwner}> repository has dependency vulnerabilities. To resolve, ${joinedSteps}. Reach out to <#${adminsGitHubID}> with any questions.`;
 };
 
+const notifyChannel = (channel, repo) => {
+  // TODO change
+
+  const text = `<#${channel}> - ` + generateMessage(repo);
+
+  // slackBotClient.conversations.join({ channel });
+  slackBotClient.chat.postMessage({
+    channel: "#transient",
+    text,
+    link_names: true,
+    unfurl_links: false,
+    unfurl_media: false,
+  });
+};
+
+const notifyAboutUnknownChannel = (repo) => {
+  const url = repoToUrl(repo);
+  const text = `<${url}|${repo.nameWithOwner}> has vulnerabilities, but I wasn't able to find a corresponding channel.`;
+
+  slackBotClient.chat.postMessage({
+    channel: "#transient", // TODO change
+    text,
+    link_names: true,
+    unfurl_links: false,
+    unfurl_media: false,
+  });
+};
+
 const handleVulnerabilities = async (repo) => {
-  const url = `https://github.com/${repo.nameWithOwner}`;
+  const url = repoToUrl(repo);
   const channel = await getPrimaryChannel(url);
 
   if (channel) {
-    // corresponding channel found
-    // TODO change
-
-    const text = `<#${channel}> - ` + generateMessage(repo);
-
-    // slackBotClient.conversations.join({ channel });
-    slackBotClient.chat.postMessage({
-      channel: "#transient",
-      text,
-      link_names: true,
-      unfurl_links: false,
-      unfurl_media: false,
-    });
+    notifyChannel(channel, repo);
   } else {
-    const text = `<${url}|${repo.nameWithOwner}> has vulnerabilities, but I wasn't able to find a corresponding channel.`;
-
-    slackBotClient.chat.postMessage({
-      channel: "#transient", // TODO change
-      text,
-      link_names: true,
-      unfurl_links: false,
-      unfurl_media: false,
-    });
+    notifyAboutUnknownChannel(repo);
   }
 };
 
