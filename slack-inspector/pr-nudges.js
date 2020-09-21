@@ -4,7 +4,6 @@ const countBy = require("lodash.countby");
 const fs = require("fs");
 const { graphql } = require("@octokit/graphql");
 const { WebClient } = require("@slack/web-api");
-const { join } = require("path");
 
 const web = new WebClient(process.env.SLACK_BOT_TOKEN);
 
@@ -71,17 +70,21 @@ const generateMessage = (repo) => {
   }
   const joinedSteps = steps.join(", then ");
 
-  return `<${repo.nameWithOwner}|${url}> has dependency vulnerabilities. To resolve, ${joinedSteps}. Reach out to <#${adminsGitHubID}> with any questions.`;
+  return `The <${repo.nameWithOwner}|${url}> repository has dependency vulnerabilities. To resolve, ${joinedSteps}. Reach out to <#${adminsGitHubID}> with any questions.`;
+};
+
+const handleVulnerabilities = async (repo) => {
+  const url = `https://github.com/${repo.nameWithOwner}`;
+  const channel = await getPrimaryChannel(url);
+  const msg = generateMessage(repo, url);
+  console.log(`#${channel}`, "-", msg, "\n");
 };
 
 const run = async () => {
   const org = "18F";
   const repos = fetchVulnerableRepos(org);
   for await (const repo of repos) {
-    const url = `https://github.com/${repo.nameWithOwner}`;
-    const channel = await getPrimaryChannel(url);
-    const msg = generateMessage(repo, url);
-    console.log(`#${channel}`, "-", msg, "\n");
+    handleVulnerabilities(repo);
   }
 };
 
