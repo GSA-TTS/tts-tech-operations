@@ -55,29 +55,32 @@ const getPrimaryChannel = async (query) => {
   return getMostFrequentValue(result.messages.matches, "channel.name");
 };
 
+const generateMessage = (repo) => {
+  const url = `https://github.com/${repo.nameWithOwner}`;
+  // the channel ID
+  const adminsGitHubID = "C02KW46DP";
+
+  const steps = [];
+  if (repo.pullRequests.totalCount > 0) {
+    steps.push(
+      `merge <the open pull requests|${url}/pulls?q=is%3Apr+is%3Aopen+label%3Adependencies>`
+    );
+  }
+  if (repo.vulnerabilityAlerts.totalCount > 0) {
+    steps.push(`fix the outstanding <alerts|${url}/network/alerts>`);
+  }
+  const joinedSteps = steps.join(", then ");
+
+  return `<${repo.nameWithOwner}|${url}> has dependency vulnerabilities. To resolve, ${joinedSteps}. Reach out to <#${adminsGitHubID}> with any questions.`;
+};
+
 const run = async () => {
   const org = "18F";
   const repos = fetchVulnerableRepos(org);
   for await (const repo of repos) {
-    const url = `https://github.com/${org}/${repo.name}`;
+    const url = `https://github.com/${repo.nameWithOwner}`;
     const channel = await getPrimaryChannel(url);
-
-    const steps = [];
-    if (repo.pullRequests.totalCount > 0) {
-      steps.push(
-        `merge <the open pull requests|${url}/pulls?q=is%3Apr+is%3Aopen+label%3Adependencies>`
-      );
-    }
-    if (repo.vulnerabilityAlerts.totalCount > 0) {
-      steps.push(
-        `fix the outstanding <alerts|${url}/network/alerts>`
-      );
-    }
-
-    const joinedSteps = steps.join(", then ");
-
-    const adminsGitHubID = "C02KW46DP";
-    const msg = `${org}/${repo.name} has dependency vulnerabilities. To resolve, ${joinedSteps}. Reach out to <#${adminsGitHubID}> with any questions.`;
+    const msg = generateMessage(repo, url);
     console.log(`#${channel}`, "-", msg, "\n");
   }
 };
