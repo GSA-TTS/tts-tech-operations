@@ -104,7 +104,7 @@ const notifyChannel = async (channel, repo) => {
   const text = `<#${channel}> - ` + generateMessage(repo);
 
   // await slackBotClient.conversations.join({ channel });
-  slackBotClient.chat.postMessage({
+  await slackBotClient.chat.postMessage({
     channel: "#transient",
     text,
     link_names: true,
@@ -117,7 +117,7 @@ const notifyAboutUnknownChannel = (repo) => {
   const url = repoToUrl(repo);
   const text = `<${url}|${repo.nameWithOwner}> has vulnerabilities, but I wasn't able to find a corresponding channel.`;
 
-  slackBotClient.chat.postMessage({
+  return slackBotClient.chat.postMessage({
     channel: "#transient", // TODO change
     text,
     link_names: true,
@@ -131,18 +131,29 @@ const handleVulnerabilities = async (repo) => {
   const channel = await getPrimaryChannel(url);
 
   if (channel) {
-    notifyChannel(channel, repo);
+    await notifyChannel(channel, repo);
   } else {
-    notifyAboutUnknownChannel(repo);
+    await notifyAboutUnknownChannel(repo);
   }
 };
 
 const run = async () => {
   const org = "18F";
   const repos = fetchVulnerableRepos(org);
+  let anyFailures = false;
+
   for await (const repo of repos) {
     console.log(`${repo.nameWithOwner}…`);
-    handleVulnerabilities(repo);
+
+    handleVulnerabilities(repo).catch((err) => {
+      process.stderr.write(`ERROR for ${repo.nameWithOwner}: `);
+      console.error(err);
+      anyFailures = true;
+    });
+  }
+
+  if (anyFailures) {
+    process.exit(1);
   }
 };
 
