@@ -51,10 +51,12 @@ const getMostFrequentValue = (objects, prop) => {
 };
 
 const excludeChannel = (channel) =>
-  // the bot will only be able to join public channels, which is what the following means
+  // only channels the bot can join
   !channel.is_channel ||
-  channel.name === "transient" ||
-  channel.name.endsWith("-public");
+  // exclude *-public channels
+  channel.name.endsWith("-public") ||
+  // aggregator channels
+  channel.name.endsWith("-pull-requests");
 
 const getPrimaryChannel = async (query) => {
   const result = await slackUserClient.search.messages({
@@ -128,7 +130,11 @@ const notifyAboutUnknownChannel = (repo) => {
 
 const handleVulnerabilities = async (repo) => {
   const url = repoToUrl(repo);
-  const channel = await getPrimaryChannel(url);
+  // exclude some channels
+  // https://webapps.stackexchange.com/a/123207/18771
+  const channel = await getPrimaryChannel(
+    `${url} -in:transient -in:admins-github`
+  );
 
   if (channel) {
     await notifyChannel(channel, repo);
