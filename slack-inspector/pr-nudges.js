@@ -50,12 +50,21 @@ const getMostFrequentValue = (objects, prop) => {
   return Object.keys(counts).reduce((a, b) => (counts[a] > counts[b] ? a : b));
 };
 
+// The bot won't be able to join private channels, so ignore them. Also exclude public channels.
+const excludeChannel = (channel) =>
+  channel.is_private || channel.name.endsWith("-public");
+
 const getPrimaryChannel = async (query) => {
   const result = await slackUserClient.search.messages({
     query,
     sort: "timestamp",
   });
-  return getMostFrequentValue(result.messages.matches, "channel.id");
+
+  const matches = result.messages.matches.filter(
+    (match) => !excludeChannel(match.channel)
+  );
+
+  return getMostFrequentValue(matches, "channel.id");
 };
 
 const generateMessage = (repo) => {
