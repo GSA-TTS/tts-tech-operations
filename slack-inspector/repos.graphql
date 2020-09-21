@@ -8,6 +8,9 @@ query repos($org: String!, $cursor: String) {
           vulnerabilityAlerts {
             totalCount
           }
+          pullRequests(labels: ["dependencies"], states: [OPEN]) {
+            totalCount
+          }
         }
       }
       pageInfo {
