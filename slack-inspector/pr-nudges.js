@@ -51,8 +51,8 @@ const getMostFrequentValue = (objects, prop) => {
 };
 
 const excludeChannel = (channel) =>
-  // the bot won't be able to join private channels, so ignore them
-  channel.is_private ||
+  // the bot will only be able to join public channels, which is what the following means
+  !channel.is_channel ||
   channel.name === "transient" ||
   channel.name.endsWith("-public");
 
