@@ -62,15 +62,15 @@ const generateMessage = (repo) => {
   const steps = [];
   if (repo.pullRequests.totalCount > 0) {
     steps.push(
-      `merge <the open pull requests|${url}/pulls?q=is%3Apr+is%3Aopen+label%3Adependencies>`
+      `merge <${url}/pulls?q=is%3Apr+is%3Aopen+label%3Adependencies|the open pull requests>`
     );
   }
   if (repo.vulnerabilityAlerts.totalCount > 0) {
-    steps.push(`fix the outstanding <alerts|${url}/network/alerts>`);
+    steps.push(`fix the outstanding <${url}/network/alerts|alerts>`);
   }
   const joinedSteps = steps.join(", then ");
 
-  return `The <${repo.nameWithOwner}|${url}> repository has dependency vulnerabilities. To resolve, ${joinedSteps}. Reach out to <#${adminsGitHubID}> with any questions.`;
+  return `The <${url}|${repo.nameWithOwner}> repository has dependency vulnerabilities. To resolve, ${joinedSteps}. Reach out to <#${adminsGitHubID}> with any questions.`;
 };
 
 const handleVulnerabilities = async (repo) => {
