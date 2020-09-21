@@ -90,20 +90,20 @@ const generateMessage = (repo) => {
   }
   const joinedSteps = steps.join(", then ");
 
-  return `:wave: The <${url}|${repo.nameWithOwner}> repository has possible security vulnerabilities in its dependencies. To resolve,
+  return `:wave: The <${url}|${repo.nameWithOwner}> repository has possible security vulnerabilities in its dependencies :kevin-home-alone-scream: To resolve,
 
-:lock: ${joinedSteps}, or
+:captain-planet: ${joinedSteps}, or
 :han-solo-frozen: <https://handbook.tts.gsa.gov/github/#archiving|archive the repository>
 
 Reach out to <#${adminsGitHubID}> with any questions :octocat: Thanks!`;
 };
 
-const notifyChannel = (channel, repo) => {
+const notifyChannel = async (channel, repo) => {
   // TODO change
 
   const text = `<#${channel}> - ` + generateMessage(repo);
 
-  // slackBotClient.conversations.join({ channel });
+  // await slackBotClient.conversations.join({ channel });
   slackBotClient.chat.postMessage({
     channel: "#transient",
     text,
