@@ -50,9 +50,11 @@ const getMostFrequentValue = (objects, prop) => {
   return Object.keys(counts).reduce((a, b) => (counts[a] > counts[b] ? a : b));
 };
 
-// The bot won't be able to join private channels, so ignore them. Also exclude public channels.
 const excludeChannel = (channel) =>
-  channel.is_private || channel.name.endsWith("-public");
+  // the bot won't be able to join private channels, so ignore them
+  channel.is_private ||
+  channel.name === "transient" ||
+  channel.name.endsWith("-public");
 
 const getPrimaryChannel = async (query) => {
   const result = await slackUserClient.search.messages({
@@ -63,6 +65,9 @@ const getPrimaryChannel = async (query) => {
   const matches = result.messages.matches.filter(
     (match) => !excludeChannel(match.channel)
   );
+  if (matches.length === 0) {
+    return null;
+  }
 
   return getMostFrequentValue(matches, "channel.id");
 };
@@ -89,24 +94,39 @@ const generateMessage = (repo) => {
 const handleVulnerabilities = async (repo) => {
   const url = `https://github.com/${repo.nameWithOwner}`;
   const channel = await getPrimaryChannel(url);
-  const text = `<#${channel}> - ` + generateMessage(repo);
 
-  console.log(`${repo.nameWithOwner}…`);
+  if (channel) {
+    // corresponding channel found
+    // TODO change
 
-  // slackBotClient.conversations.join({ channel });
-  slackBotClient.chat.postMessage({
-    channel: "#transient",
-    text,
-    link_names: true,
-    unfurl_links: false,
-    unfurl_media: false,
-  });
+    const text = `<#${channel}> - ` + generateMessage(repo);
+
+    // slackBotClient.conversations.join({ channel });
+    slackBotClient.chat.postMessage({
+      channel: "#transient",
+      text,
+      link_names: true,
+      unfurl_links: false,
+      unfurl_media: false,
+    });
+  } else {
+    const text = `<${url}|${repo.nameWithOwner}> has vulnerabilities, but I wasn't able to find a corresponding channel.`;
+
+    slackBotClient.chat.postMessage({
+      channel: "#transient", // TODO change
+      text,
+      link_names: true,
+      unfurl_links: false,
+      unfurl_media: false,
+    });
+  }
 };
 
 const run = async () => {
   const org = "18F";
   const repos = fetchVulnerableRepos(org);
   for await (const repo of repos) {
+    console.log(`${repo.nameWithOwner}…`);
     handleVulnerabilities(repo);
   }
 };
