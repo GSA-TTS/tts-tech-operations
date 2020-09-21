@@ -5,7 +5,8 @@ const fs = require("fs");
 const { graphql } = require("@octokit/graphql");
 const { WebClient } = require("@slack/web-api");
 
-const web = new WebClient(process.env.SLACK_BOT_TOKEN);
+const slackUserClient = new WebClient(process.env.SLACK_USER_TOKEN);
+const slackBotClient = new WebClient(process.env.SLACK_BOT_TOKEN);
 
 const repoQuery = fs.readFileSync("./repos.graphql", "utf8");
 
@@ -50,8 +51,11 @@ const getMostFrequentValue = (objects, prop) => {
 };
 
 const getPrimaryChannel = async (query) => {
-  const result = await web.search.messages({ query, sort: "timestamp" });
-  return getMostFrequentValue(result.messages.matches, "channel.name");
+  const result = await slackUserClient.search.messages({
+    query,
+    sort: "timestamp",
+  });
+  return getMostFrequentValue(result.messages.matches, "channel.id");
 };
 
 const generateMessage = (repo) => {
@@ -76,8 +80,18 @@ const generateMessage = (repo) => {
 const handleVulnerabilities = async (repo) => {
   const url = `https://github.com/${repo.nameWithOwner}`;
   const channel = await getPrimaryChannel(url);
-  const msg = generateMessage(repo, url);
-  console.log(`#${channel}`, "-", msg, "\n");
+  const text = `<#${channel}> - ` + generateMessage(repo);
+
+  console.log(`${repo.nameWithOwner}…`);
+
+  // slackBotClient.conversations.join({ channel });
+  slackBotClient.chat.postMessage({
+    channel: "#transient",
+    text,
+    link_names: true,
+    unfurl_links: false,
+    unfurl_media: false,
+  });
 };
 
 const run = async () => {
