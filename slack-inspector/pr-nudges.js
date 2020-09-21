@@ -70,7 +70,7 @@ const getPrimaryChannel = async (query) => {
 const generateMessage = (repo) => {
   const url = `https://github.com/${repo.nameWithOwner}`;
   // the channel ID
-  const adminsGitHubID = "C02KW46DP";
+  const adminsGitHubID = "C02KXM98G";
 
   const steps = [];
   if (repo.pullRequests.totalCount > 0) {
