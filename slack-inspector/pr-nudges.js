@@ -102,11 +102,8 @@ const generateMessage = (repo) => {
 Reach out to <#${adminsGitHubID}> with any questions :octocat: Thanks!`;
 };
 
-const notifyChannel = async (channel, repo) => {
-  const text = generateMessage(repo);
-
-  await slackBotClient.conversations.join({ channel });
-  await slackBotClient.chat.postMessage({
+const postMessage = (channel, text) => {
+  return slackBotClient.chat.postMessage({
     channel,
     text,
     link_names: true,
@@ -115,17 +112,18 @@ const notifyChannel = async (channel, repo) => {
   });
 };
 
+const notifyChannel = async (channel, repo) => {
+  const text = generateMessage(repo);
+
+  await slackBotClient.conversations.join({ channel });
+  await postMessage(channel, text);
+};
+
 const notifyAboutUnknownChannel = (repo) => {
   const url = repoToUrl(repo);
   const text = `<${url}|${repo.nameWithOwner}> has vulnerabilities, but I wasn't able to find a corresponding channel.`;
 
-  return slackBotClient.chat.postMessage({
-    channel: "#admins-github",
-    text,
-    link_names: true,
-    unfurl_links: false,
-    unfurl_media: false,
-  });
+  return postMessage("#admins-github", text);
 };
 
 const handleVulnerabilities = async (repo) => {
