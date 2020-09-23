@@ -47,6 +47,7 @@ Tips:
 
 - Look for [anything with a due date](https://github.com/orgs/18F/projects/11?fullscreen=true&card_filter_query=due+label%3A%22due+date%22).
 - Look for work that is missing from the board. If you mention you're working on something and it isn't represented, someone will probably ask a follow up question.
+- See also: [guidelines for external contribution](https://docs.google.com/drawings/d/1YzYVriKsExFEdS8Qf20LAa-quxdOuYuPX2ZeQ8K_D9w/edit)
 
 NOTE: This activity relates to the following measures within the Performance Plan
 
