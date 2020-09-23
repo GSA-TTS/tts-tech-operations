@@ -1,4 +1,7 @@
+const nock = require("nock");
 const nudge = require("./pr-nudges");
+
+nock.disableNetConnect();
 
 describe("isVulnerable()", () => {
   test("handles zero vulnerabilities", () => {

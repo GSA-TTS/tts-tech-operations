@@ -171,6 +171,7 @@ const run = async () => {
   }
 };
 
+// https://nodejs.org/docs/latest/api/modules.html#modules_accessing_the_main_module
 if (require.main === module) {
   run();
 } else {
