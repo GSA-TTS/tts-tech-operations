@@ -24,9 +24,10 @@ const fetchRepos = (org, cursor) =>
     },
   });
 
-const isVulnerable = (repo) =>
-  !repo.isArchived &&
+const hasOpenAlerts = (repo) =>
   repo.vulnerabilityAlerts.nodes.some((alert) => !alert.dismissedAt);
+
+const isVulnerable = (repo) => !repo.isArchived && hasOpenAlerts(repo);
 
 async function* fetchVulnerableRepos(org) {
   // paginate
@@ -93,7 +94,7 @@ const generateMessage = (repo) => {
       `merge <${url}/pulls?q=is%3Apr+is%3Aopen+label%3Adependencies|the open pull requests>`
     );
   }
-  if (repo.vulnerabilityAlerts.totalCount > 0) {
+  if (hasOpenAlerts(repo)) {
     steps.push(`fix the outstanding <${url}/network/alerts|alerts>`);
   }
   const joinedSteps = steps.join(", then ");
@@ -178,5 +179,6 @@ if (require.main === module) {
   module.exports = {
     isVulnerable,
     getMostFrequentValue,
+    generateMessage,
   };
 }

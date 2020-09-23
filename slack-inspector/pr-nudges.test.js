@@ -84,3 +84,64 @@ describe("getMostFrequentValue()", () => {
     expect(nudge.getMostFrequentValue(list, "foo")).toBe("baz");
   });
 });
+
+describe("generateMessage()", () => {
+  test("handles repos with alerts only", () => {
+    const repo = {
+      nameWithOwner: "someorg/somerepo",
+      isArchived: true,
+      vulnerabilityAlerts: {
+        nodes: [
+          {
+            dismissedAt: null,
+          },
+        ],
+      },
+      pullRequests: {
+        totalCount: 0,
+      },
+    };
+
+    const msg = nudge.generateMessage(repo);
+    expect(msg).toContain("alert");
+    expect(msg).not.toContain("pull request");
+  });
+
+  test("handles repos with pull requests only", () => {
+    const repo = {
+      nameWithOwner: "someorg/somerepo",
+      isArchived: true,
+      vulnerabilityAlerts: {
+        nodes: [],
+      },
+      pullRequests: {
+        totalCount: 1,
+      },
+    };
+
+    const msg = nudge.generateMessage(repo);
+    expect(msg).toContain("pull request");
+    expect(msg).not.toContain("alert");
+  });
+
+  test("handles repos with both", () => {
+    const repo = {
+      nameWithOwner: "someorg/somerepo",
+      isArchived: true,
+      vulnerabilityAlerts: {
+        nodes: [
+          {
+            dismissedAt: null,
+          },
+        ],
+      },
+      pullRequests: {
+        totalCount: 1,
+      },
+    };
+
+    const msg = nudge.generateMessage(repo);
+    expect(msg).toContain("pull request");
+    expect(msg).toContain("alert");
+  });
+});
