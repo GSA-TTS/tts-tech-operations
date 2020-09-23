@@ -1,9 +1,15 @@
 {
   "private": true,
+  "scripts": {
+    "test": "jest"
+  },
   "dependencies": {
     "@octokit/graphql": "^4.5.6",
     "@slack/web-api": "^5.11.0",
     "dotenv": "^8.2.0",
     "lodash.countby": "^4.6.0"
+  },
+  "devDependencies": {
+    "jest": "^26.4.2"
   }
 }

@@ -163,4 +163,11 @@ const run = async () => {
   }
 };
 
-run();
+if (require.main === module) {
+  run();
+} else {
+  // for tests
+  module.exports = {
+    isVulnerable,
+  };
+}
