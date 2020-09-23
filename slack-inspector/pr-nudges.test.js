@@ -145,3 +145,81 @@ describe("generateMessage()", () => {
     expect(msg).toContain("alert");
   });
 });
+
+describe("isViableChannel()", () => {
+  test("handles internally-public channels", () => {
+    const channel = {
+      id: "C025S2DC9",
+      is_channel: true,
+      is_group: false,
+      is_im: false,
+      name: "some-internal-public-channel",
+      is_shared: false,
+      is_org_shared: false,
+      is_ext_shared: false,
+      is_private: false,
+      is_mpim: false,
+      pending_shared: [],
+      is_pending_ext_shared: false,
+    };
+
+    expect(nudge.isViableChannel(channel)).toBe(true);
+  });
+
+  test("handles externally-public channels", () => {
+    const channel = {
+      id: "C025S2DC9",
+      is_channel: true,
+      is_group: false,
+      is_im: false,
+      name: "something-public",
+      is_shared: false,
+      is_org_shared: false,
+      is_ext_shared: false,
+      is_private: false,
+      is_mpim: false,
+      pending_shared: [],
+      is_pending_ext_shared: false,
+    };
+
+    expect(nudge.isViableChannel(channel)).toBe(false);
+  });
+
+  test("handles private channels", () => {
+    const channel = {
+      id: "C025S2DC9",
+      is_channel: false,
+      is_group: false,
+      is_im: false,
+      name: "something-private",
+      is_shared: false,
+      is_org_shared: false,
+      is_ext_shared: false,
+      is_private: true,
+      is_mpim: false,
+      pending_shared: [],
+      is_pending_ext_shared: false,
+    };
+
+    expect(nudge.isViableChannel(channel)).toBe(false);
+  });
+
+  test("handles direct messages", () => {
+    const channel = {
+      id: "C025S2DC9",
+      is_channel: false,
+      is_group: false,
+      is_im: true,
+      name: "direct-msg",
+      is_shared: false,
+      is_org_shared: false,
+      is_ext_shared: false,
+      is_private: true,
+      is_mpim: false,
+      pending_shared: [],
+      is_pending_ext_shared: false,
+    };
+
+    expect(nudge.isViableChannel(channel)).toBe(false);
+  });
+});

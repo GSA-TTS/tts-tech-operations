@@ -56,14 +56,14 @@ const getMostFrequentValue = (objects, prop) => {
   return Object.keys(counts).reduce((a, b) => (counts[a] > counts[b] ? a : b));
 };
 
-const excludeChannel = (channel) =>
+const isViableChannel = (channel) =>
   // only channels the bot can join
-  !channel.is_channel ||
-  channel.is_archived ||
+  channel.is_channel &&
+  !channel.is_archived &&
   // exclude *-public channels
-  channel.name.endsWith("-public") ||
+  !channel.name.endsWith("-public") &&
   // aggregator channels
-  channel.name.endsWith("-pull-requests");
+  !channel.name.endsWith("-pull-requests");
 
 const getPrimaryChannel = async (query) => {
   const result = await slackUserClient.search.messages({
@@ -72,7 +72,7 @@ const getPrimaryChannel = async (query) => {
   });
 
   const matches = result.messages.matches.filter(
-    (match) => !excludeChannel(match.channel)
+    (match) => !isViableChannel(match.channel)
   );
   if (matches.length === 0) {
     return null;
@@ -180,5 +180,6 @@ if (require.main === module) {
     isVulnerable,
     getMostFrequentValue,
     generateMessage,
+    isViableChannel,
   };
 }
