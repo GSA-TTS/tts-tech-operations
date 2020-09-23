@@ -34,10 +34,9 @@ async function* fetchVulnerableRepos(org) {
 
   while (true) {
     const results = await fetchRepos(org, cursor);
-    const { edges, pageInfo } = results.organization.repositories;
+    const { nodes, pageInfo } = results.organization.repositories;
 
-    for (const edge of edges) {
-      const repo = edge.node;
+    for (const repo of nodes) {
       if (isVulnerable(repo)) {
         yield repo;
       }
