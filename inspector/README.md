@@ -1,5 +1,7 @@
 # TTS Inspector
 
+![logo](logo.png)
+
 The Inspector is a bot that helps automate work for the Tech Portfolio. Currently, it finds open security vulnerabilities across TTS repositories and sends nudges in Slack. It looks for the Slack channel where the repository has been shared the most, as a best guess at finding the people most likely to fix it. This avoids needing a manually-maintained mapping between repositories and Slack channels.
 
 ## Usage
