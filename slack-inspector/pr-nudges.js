@@ -2,6 +2,7 @@ require("dotenv").config();
 
 const countBy = require("lodash.countby");
 const fs = require("fs");
+const path = require("path");
 const { graphql } = require("@octokit/graphql");
 const { WebClient } = require("@slack/web-api");
 
@@ -9,7 +10,10 @@ const { WebClient } = require("@slack/web-api");
 const slackUserClient = new WebClient(process.env.SLACK_USER_TOKEN);
 const slackBotClient = new WebClient(process.env.SLACK_BOT_TOKEN);
 
-const repoQuery = fs.readFileSync("./repos.graphql", "utf8");
+const queryPath = path.join(__dirname, "repos.graphql");
+const repoQuery = fs.readFileSync(queryPath, "utf8");
+
+const isDryRun = process.argv.some((arg) => arg === "--dry-run");
 
 const fetchRepos = (org, cursor) =>
   graphql(repoQuery, {
@@ -103,6 +107,11 @@ Reach out to <#${adminsGitHubID}> with any questions :octocat: Thanks!`;
 };
 
 const postMessage = (channel, text) => {
+  if (isDryRun) {
+    console.log(`#${channel} - ${text}`);
+    return; // TODO promise
+  }
+
   return slackBotClient.chat.postMessage({
     channel,
     text,
