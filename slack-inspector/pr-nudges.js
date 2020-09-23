@@ -177,5 +177,6 @@ if (require.main === module) {
   // for tests
   module.exports = {
     isVulnerable,
+    getMostFrequentValue,
   };
 }

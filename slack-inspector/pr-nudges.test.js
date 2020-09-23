@@ -72,3 +72,15 @@ describe("isVulnerable()", () => {
     expect(nudge.isVulnerable(repo)).toBe(false);
   });
 });
+
+describe("getMostFrequentValue()", () => {
+  test("returns the most frequently-occuring property", () => {
+    const list = [
+      { foo: "bar" },
+      { foo: "baz" },
+      { foo: "blip" },
+      { foo: "baz" },
+    ];
+    expect(nudge.getMostFrequentValue(list, "foo")).toBe("baz");
+  });
+});
