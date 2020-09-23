@@ -25,7 +25,8 @@ const fetchRepos = (org, cursor) =>
   });
 
 const isVulnerable = (repo) =>
-  !repo.isArchived && repo.vulnerabilityAlerts.totalCount > 0;
+  !repo.isArchived &&
+  repo.vulnerabilityAlerts.nodes.some((alert) => !alert.dismissedAt);
 
 async function* fetchVulnerableRepos(org) {
   // paginate

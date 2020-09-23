@@ -5,8 +5,11 @@ query repos($org: String!, $cursor: String) {
         node {
           nameWithOwner
           isArchived
-          vulnerabilityAlerts {
-            totalCount
+          # newer ones are more likely to be open
+          vulnerabilityAlerts(last: 100) {
+            nodes {
+              dismissedAt
+            }
           }
           pullRequests(labels: ["dependencies"], states: [OPEN]) {
             totalCount
