@@ -22,6 +22,7 @@ variable "issue_labels" {
     "i: infrastructure improvement" = "6ecbdb"
     "i: internal workflow"          = "6ecbdb"
     "i: mac"                        = "6ecbdb"
+    "i: max.gov"                    = "6ecbdb"
     "i: misc"                       = "6ecbdb"
     "i: SaaS authorizations"        = "6ecbdb"
     "m: due date"                   = "EA3546"
