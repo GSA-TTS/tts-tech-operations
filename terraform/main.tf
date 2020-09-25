@@ -30,7 +30,7 @@ locals {
     "laptop" : { skip_issue_templates = true },
     "newrelic-terraform" : {},
     "raktabija" : { archived = true },
-    "slack-export-handling" : { archived = true },
+    "slack-export-handling" : {},
     "tts-tech-portfolio-private" : {},
     "tts-tech-portfolio" : {},
     "uswds-jekyll" : {},
