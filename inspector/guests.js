@@ -1,5 +1,6 @@
 require("dotenv").config();
 
+const sortBy = require("lodash.sortby");
 const { WebClient } = require("@slack/web-api");
 
 const web = new WebClient(process.env.SLACK_BOT_TOKEN);
@@ -15,6 +16,8 @@ const web = new WebClient(process.env.SLACK_BOT_TOKEN);
     }
   }
 
+  const channels = [];
+
   const conversationPages = web.paginate("conversations.list", {
     exclude_archived: true,
     types: "public_channel",
@@ -24,11 +27,11 @@ const web = new WebClient(process.env.SLACK_BOT_TOKEN);
     for (const channel of conversationPage.channels) {
       let numGuests = 0;
 
-      const memberPages = web.paginate("conversations.members", {
-        channel: channel.id,
-      });
-
       try {
+        const memberPages = web.paginate("conversations.members", {
+          channel: channel.id,
+        });
+
         for await (const memberPage of memberPages) {
           for (const memberID of memberPage.members) {
             if (guestIDs.has(memberID)) {
@@ -38,12 +41,19 @@ const web = new WebClient(process.env.SLACK_BOT_TOKEN);
         }
       } catch (err) {
         console.error(`Failed to fetch members for ${channel.name}`);
-        console.error(err);
+        // console.error(err);
       }
 
       if (numGuests > 0) {
-        console.log(channel.name, numGuests);
+        channels.push({
+          name: channel.name,
+          num_guests: numGuests,
+        });
       }
     }
   }
+
+  sortBy(channels, ["num_guests"]).forEach((channel) =>
+    console.log(channel.name, channel.num_guests)
+  );
 })();
