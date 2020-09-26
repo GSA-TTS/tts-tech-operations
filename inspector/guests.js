@@ -5,6 +5,24 @@ const { WebClient } = require("@slack/web-api");
 
 const web = new WebClient(process.env.SLACK_BOT_TOKEN);
 
+const getNumGuests = async (channelID, allGuestIDs) => {
+  let numGuests = 0;
+
+  const memberPages = web.paginate("conversations.members", {
+    channel: channelID,
+  });
+
+  for await (const memberPage of memberPages) {
+    for (const memberID of memberPage.members) {
+      if (allGuestIDs.has(memberID)) {
+        numGuests += 1;
+      }
+    }
+  }
+
+  return numGuests;
+};
+
 (async () => {
   const guestIDs = new Set();
   for await (const usersPage of web.paginate("users.list")) {
@@ -25,20 +43,10 @@ const web = new WebClient(process.env.SLACK_BOT_TOKEN);
 
   for await (const conversationPage of conversationPages) {
     for (const channel of conversationPage.channels) {
-      let numGuests = 0;
+      let numGuests;
 
       try {
-        const memberPages = web.paginate("conversations.members", {
-          channel: channel.id,
-        });
-
-        for await (const memberPage of memberPages) {
-          for (const memberID of memberPage.members) {
-            if (guestIDs.has(memberID)) {
-              numGuests += 1;
-            }
-          }
-        }
+        numGuests = await getNumGuests(channel.id, guestIDs);
       } catch (err) {
         console.error(`Failed to fetch members for ${channel.name}`);
         // console.error(err);
