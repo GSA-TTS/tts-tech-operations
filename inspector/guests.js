@@ -5,6 +5,19 @@ const { WebClient } = require("@slack/web-api");
 
 const web = new WebClient(process.env.SLACK_BOT_TOKEN);
 
+const getGuestIDs = async () => {
+  const guestIDs = new Set();
+  for await (const usersPage of web.paginate("users.list")) {
+    for (const user of usersPage.members) {
+      // a.k.a. single-channel guest
+      if (user.is_ultra_restricted) {
+        guestIDs.add(user.id);
+      }
+    }
+  }
+  return guestIDs;
+};
+
 const getNumGuests = async (channelID, allGuestIDs) => {
   let numGuests = 0;
 
@@ -24,16 +37,7 @@ const getNumGuests = async (channelID, allGuestIDs) => {
 };
 
 (async () => {
-  const guestIDs = new Set();
-  for await (const usersPage of web.paginate("users.list")) {
-    for (const user of usersPage.members) {
-      // a.k.a. single-channel guest
-      if (user.is_ultra_restricted) {
-        guestIDs.add(user.id);
-      }
-    }
-  }
-
+  const guestIDs = await getGuestIDs();
   const channels = [];
 
   const conversationPages = web.paginate("conversations.list", {
