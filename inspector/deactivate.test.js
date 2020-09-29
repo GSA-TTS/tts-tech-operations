@@ -3,21 +3,7 @@ const slack = require("./slack");
 const { shouldDeactivate } = require("./deactivate");
 const fake = require("./fakes");
 
-beforeAll(() => {
-  nock.disableNetConnect();
-});
-
-beforeEach(() => {
-  if (!nock.isActive()) {
-    nock.activate();
-  }
-});
-
-afterEach(() => {
-  nock.cleanAll();
-  nock.restore();
-});
-
+nock.disableNetConnect();
 jest.mock("./slack");
 
 describe("shouldDeactivate()", () => {
