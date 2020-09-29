@@ -4,11 +4,10 @@ const countBy = require("lodash.countby");
 const fs = require("fs");
 const path = require("path");
 const { graphql } = require("@octokit/graphql");
-const { WebClient } = require("@slack/web-api");
+const slack = require("./slack");
 
-// both are needed, since search is only possible with a user token (https://api.slack.com/methods/search.messages#facts) but we want messages to come from the bot
-const slackUserClient = new WebClient(process.env.SLACK_USER_TOKEN);
-const slackBotClient = new WebClient(process.env.SLACK_BOT_TOKEN);
+const slackUserClient = slack.userClient;
+const slackBotClient = slack.botClient;
 
 const queryPath = path.join(__dirname, "repos.graphql");
 const repoQuery = fs.readFileSync(queryPath, "utf8");

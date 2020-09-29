@@ -1,13 +1,8 @@
-require("dotenv").config();
-
-const sortBy = require("lodash.sortby");
-const { WebClient } = require("@slack/web-api");
-
-const web = new WebClient(process.env.SLACK_BOT_TOKEN);
+const { botClient } = require("./slack");
 
 const getGuestIDs = async () => {
   const guestIDs = new Set();
-  for await (const usersPage of web.paginate("users.list")) {
+  for await (const usersPage of botClient.paginate("users.list")) {
     for (const user of usersPage.members) {
       // a.k.a. single-channel guest
       if (user.is_ultra_restricted) {
@@ -21,7 +16,7 @@ const getGuestIDs = async () => {
 const getNumGuests = async (channelID, allGuestIDs) => {
   let numGuests = 0;
 
-  const memberPages = web.paginate("conversations.members", {
+  const memberPages = botClient.paginate("conversations.members", {
     channel: channelID,
   });
 
@@ -40,7 +35,7 @@ const getChannelInfo = async () => {
   const guestIDs = await getGuestIDs();
   const channels = [];
 
-  const conversationPages = web.paginate("conversations.list", {
+  const conversationPages = botClient.paginate("conversations.list", {
     exclude_archived: true,
     types: "public_channel",
   });
