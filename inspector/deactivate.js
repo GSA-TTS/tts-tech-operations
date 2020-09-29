@@ -1,9 +1,22 @@
 const axios = require("axios").default;
 const delay = require("delay");
-const { botClient } = require("./slack");
-const guests = require("./guests");
+const { botClient, paginate } = require("./slack");
 
-const THIRTY_DAYS_AGO = Date.now() / 1000 - 60 * 60 * 24 * 30;
+// thirty days ago
+const STALE_USER_CUTOFF = Date.now() / 1000 - 60 * 60 * 24 * 30;
+
+const isSingleChannelGuest = (user) =>
+  user.is_ultra_restricted && !user.deleted;
+
+const getGuestsByID = async () => {
+  const guestsByID = {};
+  for await (const user of paginate("users.list", "members")) {
+    if (isSingleChannelGuest(user)) {
+      guestsByID[user.id] = user;
+    }
+  }
+  return guestsByID;
+};
 
 const hasChannels = async (userID) => {
   const result = await botClient.users.conversations({
@@ -16,7 +29,7 @@ const hasChannels = async (userID) => {
 
 const shouldDeactivate = async (user) => {
   // there isn't a good way to see if they were recently invited (outside of Enterprise Grid), so just go based on their update time
-  if (user.updated > THIRTY_DAYS_AGO) {
+  if (user.updated > STALE_USER_CUTOFF) {
     return false;
   }
 
@@ -30,7 +43,7 @@ const deactivate = (userID) =>
   });
 
 const run = async () => {
-  const guestsByID = await guests.getGuestsByID();
+  const guestsByID = await getGuestsByID();
 
   // do in serial with delays to avoid rate limits
   for (const id in guestsByID) {
