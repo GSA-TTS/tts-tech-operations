@@ -36,7 +36,7 @@ const getNumGuests = async (channelID, allGuestIDs) => {
   return numGuests;
 };
 
-(async () => {
+const getChannelInfo = async () => {
   const guestIDs = await getGuestIDs();
   const channels = [];
 
@@ -65,6 +65,11 @@ const getNumGuests = async (channelID, allGuestIDs) => {
     }
   }
 
+  return channels;
+};
+
+(async () => {
+  const channels = await getChannelInfo();
   sortBy(channels, ["num_guests"]).forEach((channel) =>
     console.log(channel.name, channel.num_guests)
   );
