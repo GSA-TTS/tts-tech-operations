@@ -1,11 +1,13 @@
 const sortBy = require("lodash.sortby");
 const { paginate } = require("./slack");
 
+const isSingleChannelGuest = (user) =>
+  user.is_ultra_restricted && !user.deleted;
+
 const getGuestsByID = async () => {
   const guestsByID = {};
   for await (const user of paginate("users.list", "members")) {
-    // a.k.a. single-channel guest
-    if (user.is_ultra_restricted) {
+    if (isSingleChannelGuest(user)) {
       guestsByID[user.id] = user;
     }
   }
