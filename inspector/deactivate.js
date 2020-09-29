@@ -5,23 +5,23 @@ const guests = require("./guests");
 
 const THIRTY_DAYS_AGO = Date.now() / 1000 - 60 * 60 * 24 * 30;
 
+const hasChannels = async (userID) => {
+  const result = await botClient.users.conversations({
+    user: userID,
+    limit: 1,
+  });
+
+  return result.channels.length > 0;
+};
+
 const shouldDeactivate = async (user) => {
   // there isn't a good way to see if they were recently invited (outside of Enterprise Grid), so just go based on their update time
   if (user.updated > THIRTY_DAYS_AGO) {
     return false;
   }
 
-  const result = await botClient.users.conversations({
-    user: user.id,
-    limit: 1,
-  });
-
-  if (result.channels.length === 0) {
-    // single-channel guest that was presumably in a channel that has been archived
-    return true;
-  }
-
-  return false;
+  // single-channel guest that was presumably in a channel that has been archived
+  return !(await hasChannels(user.id));
 };
 
 const deactivate = (userID) =>
