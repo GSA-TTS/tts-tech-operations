@@ -1,15 +1,15 @@
 const sortBy = require("lodash.sortby");
 const { paginate } = require("./slack");
 
-const getGuestIDs = async () => {
-  const guestIDs = new Set();
+const getGuestsByID = async () => {
+  const guestsByID = {};
   for await (const user of paginate("users.list", "members")) {
     // a.k.a. single-channel guest
     if (user.is_ultra_restricted) {
-      guestIDs.add(user.id);
+      guestsByID[user.id] = user;
     }
   }
-  return guestIDs;
+  return guestsByID;
 };
 
 async function* getPublicChannels() {
@@ -40,7 +40,9 @@ const getNumGuests = async (channelID, allGuestIDs) => {
 };
 
 const getChannelInfo = async () => {
-  const guestIDs = await getGuestIDs();
+  const guestsByID = await getGuestsByID();
+  const guestIDs = new Set(Object.keys(guestsByID));
+
   const channels = [];
 
   for await (const channel of getPublicChannels()) {
@@ -76,7 +78,7 @@ if (require.main === module) {
   run();
 } else {
   module.exports = {
-    getGuestIDs,
+    getGuestsByID,
     getPublicChannels,
   };
 }
