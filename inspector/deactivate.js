@@ -1,3 +1,4 @@
+const delay = require("delay");
 const { botClient } = require("./slack");
 const guests = require("./guests");
 
@@ -20,6 +21,8 @@ const run = async () => {
         console.log(id, user.profile.real_name);
       }
     }
+
+    await delay(100);
   }
 };
 
