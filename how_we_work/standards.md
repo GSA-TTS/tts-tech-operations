@@ -10,8 +10,8 @@ Beyond the TTS-wide [language selection](https://engineering.18f.gov/language-se
     - [Black](https://black.readthedocs.io/en/stable/) for Python
     - [`terraform fmt`](https://www.terraform.io/docs/commands/fmt.html) for Terraform
 - **Configuration as code:** [Terraform](https://www.terraform.io/)
-- **Continuous integration/deployment:** [CircleCI](https://circleci.com/)
-- **Shared credentials:** [KeePassXC](https://keepassxc.org/) synced through Google Drive
+- **Continuous integration/deployment:** [CircleCI](https://circleci.com/) or [GitHub Actions](https://docs.github.com/en/free-pro-team@latest/actions)
+- **Shared credentials:** [KeePassXC](https://keepassxc.org/) synced through [Google Drive File Stream](https://support.google.com/drive/answer/7329379#macos)
 
 All the above are "where possible" — there will be exceptions.
 
