@@ -1,7 +1,5 @@
 To `plan`/`apply` changes:
 
-1. Ensure you have latest [state](https://www.terraform.io/docs/state/index.html) file.
-   - This will be made unnecessary with [18F/tts-tech-portfolio#443](https://github.com/18F/tts-tech-portfolio/issues/443)
 1. [Install Terraform.](https://learn.hashicorp.com/tutorials/terraform/install-cli)
 1. [Create a GitHub personal access token.](https://github.com/settings/tokens)
 1. In this directory:
