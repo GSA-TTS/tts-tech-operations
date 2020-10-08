@@ -6,6 +6,12 @@ terraform {
       version = "~> 2.4"
     }
   }
+  backend "s3" {
+    bucket                          = "tts-terraform-s3"
+    key                             = "tts-tech-portfolio/terraform.tfstate"
+    dynamodb_table                  = "tts-terraform-dynamodb-tts-tech-portfolio"
+    region                          = "us-west-2"
+  } 
 }
 
 provider "github" {
