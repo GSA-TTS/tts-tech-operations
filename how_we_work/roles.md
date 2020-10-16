@@ -3,7 +3,7 @@
 | Role                                                                                                                                                                            | Director | Deputy Director | Information Specialist |
 | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | -------- | --------------- | ---------------------- |
 | [Contracting Officer Representative (COR)](https://docs.google.com/document/d/14xOFvIGwlG0Gbd52o1D4AyJ52RqzHpX91nfEYJKu5qQ/edit) for TTS-wide software/infrastructure purchases | ---      | ---             | X                      |
-| Cybersecurity [Authorizing Official](https://www.gsa.gov/cdnstatic/ITSecurity21001L.pdf#page=18)                                                                                | X        | ---             | ---                    |
+| Cybersecurity [Authorizing Official](#authorizing-official)                                                                                                                     | X        | ---             | ---                    |
 | Cybersecurity Authorizing Official backup                                                                                                                                       | ---      | X               | ---                    |
 | [Digital Council](https://docs.google.com/document/d/1v_kidGvpfVsMze-hJdaApI61Q3Vr6E-zZ5t79drnqIM/edit) member                                                                  | X        | ---             | ---                    |
 | [DotGov points of contact](https://home.dotgov.gov/management/#points-of-contact)                                                                                               | X        | ---             | ---                    |
@@ -71,3 +71,8 @@ This person will regularly:
 - Coordinate on policy changes, etc. with:
   - TTS
   - The platform vendor
+
+## Authorizing Official
+
+- [Official responsibilities](https://www.gsa.gov/cdnstatic/ITSecurity21001L.pdf#page=18)
+- [Archer](https://before-you-ship.18f.gov/ato/archer/)
