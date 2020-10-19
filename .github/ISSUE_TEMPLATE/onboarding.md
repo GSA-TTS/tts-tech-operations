@@ -80,5 +80,5 @@ Learn our policies and procedures:
 - [ ] Vulnerability Response
 
 ### Learn about what we do
-- [ ] [DNS](https://github.com/18F/dns
+- [ ] [DNS](https://github.com/18F/dns)
 - [ ] Creating Issues [instructions](https://docs.google.com/presentation/d/1q8aCGgzBfP9B8yJrMHfavTwAYPupgdT94ktGPsHzjVU/edit)
