@@ -14,7 +14,7 @@ occur in a 24-hour window. As you do this work, comment on this GitHub issue as 
 task. (PS-4: Personnel termination)
 
 Departing Person
-- [ ] Initiate the process via the Leaving TTS Handbook page
+- [ ] [Initiate the process](https://handbook.tts.gsa.gov/leaving-tts/)
 
 Assignee
 - [ ] Remove from IaaS
