@@ -1,5 +1,8 @@
+.env
 .terraform/
 *.tfstate*
 *.tfvars
 *override.tf*
+coverage/
 crash.log
+node_modules/

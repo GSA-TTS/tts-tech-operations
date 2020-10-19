@@ -10,9 +10,12 @@ Each of the following should be done within the dates above. See the [playbook](
 
 ## GitHub
 
+- [ ] [Add issues from linked repositories to our project boards](https://docs.github.com/en/free-pro-team@latest/github/managing-your-work-on-github/adding-issues-and-pull-requests-to-a-project-board)
+   - [ ] [Issues](https://github.com/orgs/18F/projects/11?fullscreen=true)
+   - [ ] [Pull requests](https://github.com/orgs/18F/projects/19?fullscreen=true)
 - [ ] Review and ideally merge (or close) open [pull requests to Tech Portfolio repositories](https://github.com/orgs/18F/projects/19?fullscreen=true)
 - [ ] [Update the public IT Standards dataset](https://github.com/GSA/data/tree/master/enterprise-architecture#updating-the-list)
-- [ ] Send nudges on [open security upgrade pull requests](https://github.com/search?o=asc&q=user%3A18F+user%3AGSA+author%3Aapp%2Fdependabot+is%3Aopen+archived%3Afalse&s=created&type=Issues) that are older than a few days
+- [ ] [Run the Inspector](https://github.com/18F/tts-tech-portfolio/tree/master/inspector#usage)
 
 ## Communications Monitoring
 

@@ -6,6 +6,12 @@ terraform {
       version = "~> 2.4"
     }
   }
+  backend "s3" {
+    bucket                          = "tts-terraform-s3"
+    key                             = "tts-tech-portfolio/terraform.tfstate"
+    dynamodb_table                  = "tts-terraform-dynamodb-tts-tech-portfolio"
+    region                          = "us-west-2"
+  } 
 }
 
 provider "github" {
@@ -30,7 +36,7 @@ locals {
     "laptop" : { skip_issue_templates = true },
     "newrelic-terraform" : {},
     "raktabija" : { archived = true },
-    "slack-export-handling" : { archived = true },
+    "slack-export-handling" : {},
     "tts-tech-portfolio-private" : {},
     "tts-tech-portfolio" : {},
     "uswds-jekyll" : {},

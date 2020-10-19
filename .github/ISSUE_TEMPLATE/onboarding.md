@@ -28,7 +28,7 @@ assignees: ""
 Ensure you know what's happening on the team:
 
 - [ ] Subscribe to the [Tech Portfolio team calendar](https://calendar.google.com/calendar?cid=Z3NhLmdvdl82aDI5YnF1ZGx0NGVoZTVzOWswOGlmdGZxMEBncm91cC5jYWxlbmRhci5nb29nbGUuY29t) (click the + in the bottom right) so you know when assorted team meetings are happening. Tip: When you plan Out of Office time, make a calendar event for that on the TTS Tech Portfolio calendar so that your teammates know you'll be away.
-- [ ] Subscribe (through the GitHub watch function) to the [tts-tech-portfolio](https://github.com/18F/tts-tech-portfolio) GitHub repository notifications
+- [ ] [Watch](https://docs.github.com/en/github/managing-subscriptions-and-notifications-on-github/viewing-your-subscriptions#configuring-your-watch-settings-for-an-individual-repository) [our repositories](https://github.com/18F/tts-tech-portfolio/blob/master/how_we_work/github.md)
 
 Learn our policies and procedures:
 
@@ -47,12 +47,7 @@ Learn our policies and procedures:
 ### Required items for all team members
 
 - [ ] [Add them to the @tech-portfolio user group in Slack.](https://get.slack.help/hc/en-us/articles/212906697-User-Groups#edit-a-user-group)
-- [ ] Add them to the recurring TTS Tech Portfolio meetings that are relevant for them in [the team calendar](https://calendar.google.com/calendar?cid=Z3NhLmdvdl82aDI5YnF1ZGx0NGVoZTVzOWswOGlmdGZxMEBncm91cC5jYWxlbmRhci5nb29nbGUuY29t).
-- [ ] Add them to the @18F/tts-tech-portfolio [GitHub team](https://github.com/orgs/18F/teams/tts-tech-portfolio) team on GitHub.
-- [ ] Add them to the [Google Groups](https://github.com/18F/tts-tech-portfolio/blob/master/how_we_work/communication/googlegroups.md)
 
-### Required items for all team members
-- [ ] Federalist account
 
 ### Google Groups
 

@@ -1,21 +1,21 @@
 # Roles
 
-| Role | Director | Deputy Director | Information Specialist |
-| ---- | -------- | --------------- | ---------------------- |
-| [Contracting Officer Representative (COR)](https://docs.google.com/document/d/14xOFvIGwlG0Gbd52o1D4AyJ52RqzHpX91nfEYJKu5qQ/edit) for TTS-wide software/infrastructure purchases | --- | --- | X |
-| Cybersecurity Authorizing Official | X | --- | --- |
-| Cybersecurity Authorizing Official backup | --- | X | --- |
-| [Digital Council](https://docs.google.com/document/d/1v_kidGvpfVsMze-hJdaApI61Q3Vr6E-zZ5t79drnqIM/edit) member | X | --- | --- |
-| [DotGov points of contact](https://home.dotgov.gov/management/#points-of-contact) | X | --- | --- |
-| [FAS Systems Governance Committee (FSGC)](https://sites.google.com/a/gsa.gov/fas-systems-governance/home) representative | X | --- | --- |
-| [Infrastructure-as-a-Service (IaaS)](https://before-you-ship.18f.gov/infrastructure/) | --- | --- | X |
-| Mac Working Group representative | X | --- | --- |
-| [Operations Rotation](ops_rotation.md) person | X | X | X |
-| [P-Card](https://drive.google.com/drive/folders/1CkxpHq0mDFeAnXlaMQJ9RQOCioVHckgs) Approving Official | X | --- | --- |
-| [P-Card](https://drive.google.com/drive/folders/1CkxpHq0mDFeAnXlaMQJ9RQOCioVHckgs) Holder | --- | --- | X |
-| SaaS PM | --- | X | --- |
-| [Vulnerability Disclosure Lead](#vulnerability-disclosure-lead) | --- | X | --- |
-| Vulnerability Disclosure [COR](https://docs.google.com/document/d/14xOFvIGwlG0Gbd52o1D4AyJ52RqzHpX91nfEYJKu5qQ/edit) | --- | X | --- |
+| Role                                                                                                                                                                            | Director | Deputy Director | Information Specialist |
+| ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | -------- | --------------- | ---------------------- |
+| [Contracting Officer Representative (COR)](https://docs.google.com/document/d/14xOFvIGwlG0Gbd52o1D4AyJ52RqzHpX91nfEYJKu5qQ/edit) for TTS-wide software/infrastructure purchases | ---      | ---             | X                      |
+| Cybersecurity [Authorizing Official](#authorizing-official)                                                                                                                     | X        | ---             | ---                    |
+| Cybersecurity Authorizing Official backup                                                                                                                                       | ---      | X               | ---                    |
+| [Digital Council](https://docs.google.com/document/d/1v_kidGvpfVsMze-hJdaApI61Q3Vr6E-zZ5t79drnqIM/edit) member                                                                  | X        | ---             | ---                    |
+| [DotGov points of contact](https://home.dotgov.gov/management/#points-of-contact)                                                                                               | X        | ---             | ---                    |
+| [FAS Systems Governance Committee (FSGC)](https://sites.google.com/a/gsa.gov/fas-systems-governance/home) representative                                                        | X        | ---             | ---                    |
+| [Infrastructure-as-a-Service (IaaS)](https://before-you-ship.18f.gov/infrastructure/)                                                                                           | ---      | ---             | X                      |
+| Mac Working Group representative                                                                                                                                                | X        | ---             | ---                    |
+| [Operations Rotation](ops_rotation.md) person                                                                                                                                   | X        | X               | X                      |
+| [P-Card](https://drive.google.com/drive/folders/1CkxpHq0mDFeAnXlaMQJ9RQOCioVHckgs) Approving Official                                                                           | X        | ---             | ---                    |
+| [P-Card](https://drive.google.com/drive/folders/1CkxpHq0mDFeAnXlaMQJ9RQOCioVHckgs) Holder                                                                                       | ---      | ---             | X                      |
+| SaaS PM                                                                                                                                                                         | ---      | X               | ---                    |
+| [Vulnerability Disclosure Lead](#vulnerability-disclosure-lead)                                                                                                                 | ---      | X               | ---                    |
+| Vulnerability Disclosure [COR](https://docs.google.com/document/d/14xOFvIGwlG0Gbd52o1D4AyJ52RqzHpX91nfEYJKu5qQ/edit)                                                            | ---      | X               | ---                    |
 
 We also have [Initiative](workflow.md#structure) owners—see the `Initiatives` column of [the board](https://github.com/orgs/18F/projects/11?fullscreen=true).
 
@@ -71,3 +71,8 @@ This person will regularly:
 - Coordinate on policy changes, etc. with:
   - TTS
   - The platform vendor
+
+## Authorizing Official
+
+- [Official responsibilities](https://www.gsa.gov/cdnstatic/ITSecurity21001L.pdf#page=18)
+- [Archer](https://before-you-ship.18f.gov/ato/archer/)

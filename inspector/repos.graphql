@@ -1,0 +1,23 @@
+query repos($org: String!, $cursor: String) {
+  organization(login: $org) {
+    repositories(first: 100, after: $cursor) {
+      nodes {
+        nameWithOwner
+        isArchived
+        # newer ones are more likely to be open
+        vulnerabilityAlerts(last: 100) {
+          nodes {
+            dismissedAt
+          }
+        }
+        pullRequests(labels: ["dependencies"], states: [OPEN]) {
+          totalCount
+        }
+      }
+      pageInfo {
+        endCursor
+        hasNextPage
+      }
+    }
+  }
+}
