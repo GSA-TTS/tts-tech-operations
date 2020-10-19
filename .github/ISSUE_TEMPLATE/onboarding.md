@@ -49,6 +49,7 @@ Learn our policies and procedures:
 
 - [ ] [Add them to the @tech-portfolio user group in Slack.](https://get.slack.help/hc/en-us/articles/212906697-User-Groups#edit-a-user-group)
 - [ ] Add them to the [@18F/tts-tech-portfolio](https://github.com/orgs/18F/teams/tts-tech-portfolio) team on GitHub.
+- [ ] Add them to the [@presedential-innovation-fellows](https://github.com/orgs/presidential-innovation-fellows/teams/github-admins) team on GitHub.
 
 ### Google Groups
 
