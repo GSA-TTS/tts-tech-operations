@@ -17,13 +17,6 @@ Departing Person
 - [ ] [Initiate the process](https://handbook.tts.gsa.gov/leaving-tts/)
 
 Assignee
-- [ ] Remove from IaaS
-  - [ ] AWS
-  - [ ] GCP
-  - [ ] Azure 
-- [ ] [Remove them to the @tech-portfolio user group in Slack.](https://get.slack.help/hc/en-us/articles/212906697-User-Groups#edit-a-user-group)
-- [ ] Remove them to the recurring TTS Tech Portfolio meetings that are relevant for them in [the team calendar](https://calendar.google.com/calendar?cid=Z3NhLmdvdl82aDI5YnF1ZGx0NGVoZTVzOWswOGlmdGZxMEBncm91cC5jYWxlbmRhci5nb29nbGUuY29t).
-- [ ] Remove them to the [@18F/tts-tech-portfolio](https://github.com/orgs/18F/teams/tts-tech-portfolio) team on GitHub.
 - Remove from Google Groups
   - [ ] [TTS Software](https://groups.google.com/a/gsa.gov/forum/#!managemembers/tts-software/add)
   - [ ] [TTS Technology Portfolio](https://groups.google.com/a/gsa.gov/forum/#!managemembers/devops/add)
