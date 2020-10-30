@@ -11,7 +11,7 @@ terraform {
     key                             = "tts-tech-portfolio/terraform.tfstate"
     dynamodb_table                  = "tts-terraform-dynamodb-tts-tech-portfolio"
     region                          = "us-west-2"
-  } 
+  }
 }
 
 provider "github" {
@@ -33,6 +33,7 @@ locals {
     "dns" : { skip_issue_templates = true },
     "ghad" : {},
     "handbook" : { skip_issue_templates = true },
+    "join.tts.gsa.gov" : { skip_issue_templates = true },
     "laptop" : { skip_issue_templates = true },
     "newrelic-terraform" : {},
     "raktabija" : { archived = true },

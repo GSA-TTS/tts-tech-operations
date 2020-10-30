@@ -103,7 +103,6 @@ SaaS Manager needs to be added to 18F Software and TTS Software Google groups
 
 [Talent Database](https://docs.google.com/spreadsheets/d/16x18nV5jHwsBzw12b32PDxV6zQtFkzbaGV6W2uNhaUY/edit#gid=361159397)
 
-
 ## IaaS Management
 
 [Before You Ship - AWS](https://before-you-ship.18f.gov/infrastructure/aws/)
@@ -133,6 +132,8 @@ These handbook pages will need to be updated once C2 is deprecated and the new p
 [TTS DNS](https://github.com/18F/dns)
 
 List of TTS [domains](https://docs.google.com/spreadsheets/d/12pfcEIEXaJTjIKex-3wnI89erIvgKf9B_XpGkDl6qsM/edit#gid=824448842) and [subdomains](https://docs.google.com/spreadsheets/d/12pfcEIEXaJTjIKex-3wnI89erIvgKf9B_XpGkDl6qsM/edit#gid=1884617968)
+
+[Modernization plans](https://docs.google.com/spreadsheets/d/1kxtHnxs2Us3OyPNOIyVQvWs5vUPcEhSaQHBIvSZmtzw/edit#gid=1884617968)
 
 [GSA's list of websites](https://docs.google.com/spreadsheets/d/1OBO6g7_OsVBv0vG8WSCI6L2FD_iRh3A7a_6eQWj2zLE/edit#gid=2013137748)
 
