@@ -1,7 +1,7 @@
 # TTS Tech Portfolio - Status Intake form
 ## Purpose 
 
-Please use this form to submit status updates for activity that you are working on.
+Please use [this form](https://app.smartsheet.com/b/form/6301909aaa764ce69fc9b7c5ff5fcbfd) to submit status updates for activity that you are working on.
 
 ## Intended Audience
 
