@@ -5,6 +5,7 @@
 | [Contracting Officer Representative (COR)](https://docs.google.com/document/d/14xOFvIGwlG0Gbd52o1D4AyJ52RqzHpX91nfEYJKu5qQ/edit) for TTS-wide software/infrastructure purchases | ---   | ---    | X    | ---     |
 | Cybersecurity [Authorizing Official](#authorizing-official)                                                                                                                     | X     | ---    | ---  | ---     |
 | Cybersecurity Authorizing Official backup                                                                                                                                       | ---   | X      | ---  | ---     |
+| Cybersecurity Advisor                                                                                                                                                           | ---   | X      | ---  | ---     |
 | [Digital Council](https://docs.google.com/document/d/1v_kidGvpfVsMze-hJdaApI61Q3Vr6E-zZ5t79drnqIM/edit) member                                                                  | X     | ---    | ---  | ---     |
 | [Director](#director)                                                                                                                                                           | X     | ---    | ---  | ---     |
 | [DotGov points of contact](https://home.dotgov.gov/management/#points-of-contact)                                                                                               | X     | ---    | ---  | ---     |
