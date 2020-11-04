@@ -231,7 +231,7 @@ The `Solution Dashboard` will be viewed weekly by the Solution SMT and is used t
 
 The `TTS Dashboard` is information intended for all of TTS for information that is relevant to all folks. The target audience is the 350+ folks that sit within TTS and might be interested in updates that might affect them.
 
-Please write the `description` so it is readable to the intended audience. This should be in plain language be clear and concise. The expectation is that the [Deputy Director](https://github.com/18F/tts-tech-portfolio/blob/master/how_we_work/roles.md#deputy-director) will have to do little to no refinement of what is written for the consolidated update.
+Please write the `description` so it is readable to the intended audience. This should be in plain language be clear and concise.
 
 The `status type` helps organize the types of statuses that we're providing.
 

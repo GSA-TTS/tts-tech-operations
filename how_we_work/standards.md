@@ -4,7 +4,11 @@ Beyond the TTS-wide [language selection](https://engineering.18f.gov/language-se
 
 - **Code**
   - **Language:** Python or JavaScript
-  - **Version control:** Under [github.com/18F](https://github.com/18F)
+    - Ruby can/should be used in the context of [Jekyll sites](https://engineering.18f.gov/language-selection/#frequently-used-frameworks)
+  - **Version control:** All code meant to be reused should be in a repository
+    - Default to using a repository under [github.com/18F](https://github.com/18F), unless there is a better place, such as contributing it to an external open source project
+    - Code written for one-off use can go into an issue comment or Gist
+    - Important thing is that it's not just on an individual's computer
   - **Style:** Use an opinionated formatter, specifically:
     - [Prettier](https://prettier.io/) for HTML, CSS, JavaScript, etc.
     - [Black](https://black.readthedocs.io/en/stable/) for Python
