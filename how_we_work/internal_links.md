@@ -47,6 +47,7 @@ Access to many of these are restricted.
   - Emails no longer need to be sent for FITARA approval, but this may be helpful to see what has been approved in the past.
 - [TTS Recurring SaaS Products](https://docs.google.com/spreadsheets/d/11ZvHF9AEkioThtC-btop4BaSz9NQ9bw28bUoAJWSQQ0/edit?usp=drive_web&ouid=114063255069137490946)
   - These are recurring SaaS Products. This was put together to push back on GSA IT and their requirement that all SaaS products be FedRAMPed to continue use. These are not big purchases and FedRAMP is expensive. It’s hard to ask these businesses to be FedRAMPed when we are barely spending money on them. A lot of these products are essential to TTS.
+- [TTS System Assessment Schedule](https://docs.google.com/spreadsheets/d/19wyA91KhGoZvnAA0fihC0WF_mU79YLRTHzDd-Frs8Qs/edit#gid=0)
 
 ## SaaS Management Documents
 
