@@ -33,6 +33,7 @@ At the individual level, it's important to walk into the day's stand-up prepared
     1.  Current blockers, things that need feedback, cards that you're waiting on others in order to progress
     1.  Any help needed
     1.  Review of calendar items that others might benefit from attending or knowing about
+1.  OpsRotation person leads looking at any any pull requests that would be useful to review as a group
 
 #### What to work on
 
