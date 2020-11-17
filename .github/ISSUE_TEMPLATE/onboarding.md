@@ -42,6 +42,8 @@ Learn our policies and procedures:
 
 - [ ] Introduce yourself to the new team member and give them some of your background so they know who you are.
 - [ ] Identify a straightforward, well-groomed story in progress that involves their skills domain, schedule a meeting with the owner for an introduction (if it's not you), and setup pairing sessions several times in the first week on the project.
+- [ ] Ask the Director or Deputy Director to have the person shadow whomever is on [OpsRotation](https://github.com/18F/tts-tech-portfolio/blob/master/how_we_work/ops_rotation.md), so they can see how we handle support and read with those within TTS.
+- [ ] Add them to [The Form](https://app.smartsheet.com/b/form/6301909aaa764ce69fc9b7c5ff5fcbfd) by updating the [TTS Tech Status Status Tracker] Tracker(https://app.smartsheet.com/sheets/ggc2rhGCqpMX3QFrFFr5fMf3J39xc7VRV8x8pH31?view=grid); add the person to the `Submitted By`  contact list
 - [ ] Ask the Director to have the person shadow whomever is on [OpsRotation](https://github.com/18F/tts-tech-portfolio/blob/master/how_we_work/ops_rotation.md), so they can see how we handle support and read with those within TTS.
 
 ### Required items for all team members
