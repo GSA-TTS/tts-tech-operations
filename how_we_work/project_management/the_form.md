@@ -1,16 +1,12 @@
 # Status Intake form
 
-## Purpose
-
 Please use [this form](https://app.smartsheet.com/b/form/6301909aaa764ce69fc9b7c5ff5fcbfd) to submit status updates for activity that you are working on.
 
-## Intended Audience
+## Dashboards
 
-The [**Leadership Dashboard**](https://app.smartsheet.com/dashboards/wxxWjR4RjQ3xJW8crQCw3cr23H4XRchr933r7X71) will be viewed weekly by the Solutions SMT and is used to inform the Solutions Director at the weekly leadership meeting. This information would potentially go into the Sol Sentinel or the Solutions Newsletter. Sometimes, this information might be expanded by presenting at the monthly Sol All Hands.
-
-The [**Communications Dashboard**](https://app.smartsheet.com/dashboards/Qp7P6cq755PMp7gMHcQQvQ7pXw7mFwx33m8V4mv1) audience is made up of folks that would be interested in the major milestone updates of the activities that we're working on related to sprints. The audiences could be guilds, product managers or technical practitioners. Updates would typically include things that someone following along closely with our work might care about and might be included in newsletters.
-
-The [**All TTS Dashboard**](https://app.smartsheet.com/dashboards/C6xcrcRGq25h7WM2VCHpMq2H7jjXQ9pc65rvrcq1) is information intended for all of TTS for information that is relevant to all folks. The target audience is the 350+ folks that sit within TTS and might be interested in updates that might affect them.
+- [**Leadership**](https://app.smartsheet.com/dashboards/wxxWjR4RjQ3xJW8crQCw3cr23H4XRchr933r7X71) - Used to inform the Solutions Senior Management Team (SMT). This information would potentially go into the Sol Sentinel newsletter. Sometimes, this information might be expanded by presenting at the Sol All Hands.
+- [**Communications**](https://app.smartsheet.com/dashboards/Qp7P6cq755PMp7gMHcQQvQ7pXw7mFwx33m8V4mv1) - For folks that would be interested in the major milestone updates of the activities that we're working on related to sprints. The audiences could be [Guilds](https://handbook.tts.gsa.gov/working-groups-and-guilds-101/#guilds), product managers or technical practitioners. Updates would typically include things that someone following along closely with our work might care about and might be included in newsletters.
+- [**All TTS**](https://app.smartsheet.com/dashboards/C6xcrcRGq25h7WM2VCHpMq2H7jjXQ9pc65rvrcq1) - Information intended for all of TTS with updates that might affect them.
 
 ## Instructions
 
