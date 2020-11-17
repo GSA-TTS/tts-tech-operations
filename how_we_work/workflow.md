@@ -44,7 +44,7 @@ Recommended order to prioritize cards:
 1. `Ready (Sprint Planned)` with upcoming due dates & left over from past sprints
 1. Other `Ready (Sprint Planned)`
 
-Tips:
+##### Tips
 
 - Look for [anything with a due date](https://github.com/orgs/18F/projects/11?fullscreen=true&card_filter_query=due+label%3A%22due+date%22).
 - Look for work that is missing from the board. If you mention you're working on something and it isn't represented, someone will probably ask a follow up question.
@@ -69,47 +69,42 @@ Opportunity to do some lean coffee style discussions to talk about areas of inte
 
 NOTE: This activity is purely optional and will have no impact on an individual's performance plan.
 
-### Pre (Sprint & Grooming) Ceremony Activity
+### Sprint Planning and Grooming prep
 
-**Cadence:** Before Planning or Grooming Sprint Ceremony
+**Cadence:** Before [Sprint Planning](#sprint-planning) and [Grooming](#grooming) ceremonies
 
 **Format:** Async
 
-**Purpose:** Come prepared to the Sprint Ceremony
+**Purpose:** Come prepared to those ceremonies
 
-- Add cards to the board
-  - related to your Initiative
-  - related to Working Groups
-  - etc
-- Make sure all the current In Progress/Waiting/Blocked cards are up to date and reflect the current status
-- Groom Cards
-  - Cards in the Ready (Sprint Planned) column + the columns to the right must be `g: accepted` ([check](https://github.com/orgs/18F/projects/11?fullscreen=true&card_filter_query=-label%3A%22g%3A+accepted%22))
-  - Cards in the Backlog (Sprint Staging) column must be `g: final` and ready to be Groomed Accepted ([check](https://github.com/orgs/18F/projects/11?fullscreen=true&card_filter_query=-label%3A%22g%3A+final%22))
-  - Cards in the Icebox column must be `g: initial` ([check](https://github.com/orgs/18F/projects/11?fullscreen=true&card_filter_query=-label%3A%22g%3A+initial%22-label%3A%22g%3A+final%22+-label%3A%22g%3A+accepted%22))
-- Cards in Backlog (Sprint Staging) column + the columns to the right must be assigned
-  - Check to make sure cards in your Initiative are assigned ([check](https://github.com/orgs/18F/projects/11?fullscreen=true&card_filter_query=-assignee%3Aits-a-lisa-at-work+-assignee%3Aafeld+-assignee%3Ajjediny))
-  - Order cards
-    - Sprint Planning -- cards that you want moved into the Sprint should be at the top of New when filtered by your name
-    - Sprint Grooming -- cards that you want discussed, deleted or delegated should be at the bottom of Icebox when filtered by your name
+1. Add cards to the board
+   - related to your Initiative
+   - related to Working Groups
+   - etc
+1. Make sure all the current In Progress/Waiting/Blocked cards are up to date and reflect the current status
+1. Groom Cards
+   - Cards in the Ready (Sprint Planned) column + the columns to the right must be `g: accepted` ([check](https://github.com/orgs/18F/projects/11?fullscreen=true&card_filter_query=-label%3A%22g%3A+accepted%22))
+   - Cards in the Backlog (Sprint Staging) column must be `g: final` and ready to be Groomed Accepted ([check](https://github.com/orgs/18F/projects/11?fullscreen=true&card_filter_query=-label%3A%22g%3A+final%22))
+   - Cards in the Icebox column must be `g: initial` ([check](https://github.com/orgs/18F/projects/11?fullscreen=true&card_filter_query=-label%3A%22g%3A+initial%22-label%3A%22g%3A+final%22+-label%3A%22g%3A+accepted%22))
+1. Cards in Backlog (Sprint Staging) column + the columns to the right must be assigned
+   - Check to make sure cards in your Initiative are assigned ([check](https://github.com/orgs/18F/projects/11?fullscreen=true&card_filter_query=-assignee%3Aits-a-lisa-at-work+-assignee%3Aafeld+-assignee%3Ajjediny))
+   - Order cards
+     - Sprint Planning -- cards that you want moved into the Sprint should be at the top of New when filtered by your name
+     - Sprint Grooming -- cards that you want discussed, deleted or delegated should be at the bottom of Icebox when filtered by your name
 
-TIP: Have the relevant [template](https://github.com/18F/tts-tech-portfolio/issues/new/choose) filled out when creating a new card.
+#### Tips
 
-TIP: The person who created the issue doesn't have to be the one to groom it or eventually be assigned to it; assignment should be coordinated with initiative owner
+- Have the relevant [template](https://github.com/18F/tts-tech-portfolio/issues/new/choose) filled out when creating a new card.
+- The person who created the issue doesn't have to be the one to groom it or eventually be assigned to it; assignment should be coordinated with initiative owner
+- During Grooming, you can move a card to Backlog (Sprint Staging) while it is still labeled `g: initial`; but it should be groomed ASAP.
+- Ideally this is done by noon on Friday before the Sprint Ceremony to give teammates enough time to review. Also helps the Project Manager feel prepared going into the Sprint ceremony.
+- Be especially diligent about adding cards that you would like to include into the new Sprint.
+- This relates to the following measures within the Performance Plan
+  - Business Unit: Improves Resource Management (Quality Management)
+  - Duty Specific: Demonstrates agility, adaptability, and resilience (Planning & Agility)
+  - Duty Specific: Works Well (Meets Deadlines), (Dependability)
 
-TIP: During Grooming, you can move a card to Backlog (Sprint Staging) while it is still labeled `g: initial`; but it should be groomed ASAP.
-
-NOTE: Ideally this pre-sprint activity is done by noon on Friday before the
-Sprint Ceremony to give teammates enough time to review. Also helps the Project Manager feel prepared going into the Sprint ceremony.
-
-NOTE: Be especially diligent about adding cards that you would like to include into the new Sprint.
-
-NOTE: This activity relates to the following measures within the Performance Plan
-
-- Business Unit: Improves Resource Management (Quality Management)
-- Duty Specific: Demonstrates agility, adaptability, and resilience (Planning & Agility)
-- Duty Specific: Works Well (Meets Deadlines), (Dependability)
-
-### Planning Ceremony
+### Sprint Planning
 
 **Cadence:** Every other Monday 13:00-14:00 ET
 
@@ -129,31 +124,19 @@ NOTE: This activity relates to the following measures within the Performance Pla
 | Review cards of other teammates          | Skim through any background information. Check for missing User Stories. Clearly lays out what problem is being solved. Captures all the perspective users. Validate the Size as being realistic. Achievable Acceptance Criteria. Clear what it would take to close the card. Easy to imagine what the end product of the card would be. If approved, eact with a 'thumbs up' emoji on the card body. If not approve, react with a 'thumbs down' emoji and indicate what else needs to be done in a comment. |
 | Sprint Discussion                        | Are any cards missing in the that should be listed? Are there any lower effort cards that can be added? How much is this Sprint going to move the needle for your initiative?                                                                                                                                                                                                                                                                                                                                |
 | Ready (Sprint Planned)                   | Project Manager will add designated Sprint Milestone to cards. Project Manager will move over cards for teammates.                                                                                                                                                                                                                                                                                                                                                                                           |
-|                                          | Project Manager will add designated Sprint Milestone to cards. Project Manager will move over cards for teammates.                                                                                                                                                                                                                                                                                                                                                                                           |
 
-TIP: Cards that are not likely to get done this Sprint should go at the bottom of the stack.
+##### Tips
 
-TIP: Start from the top when reviewing cards.
-
-TIP: Filter for cards that are Groomed Final before starting a review and exclude cards assigned to yourself.
-
-TIP: Should have enough work to keep yourself busy for the next two weeks. Keeping in mind the current In Progress/Waiting/Blocked cards, any upcoming leave and pre-allocated work.
-
-TIP: As you are reviewing teammate's cards; make comments directly in the card; but you may also ask simple questions for the sake of clarity. (That's why we're doing this together as a group!)
-
-TIP: When considering cards to work on, think about..
-
-- Force-multipliers, i.e. where we can spend a little time now to save a lot of time in the long run
-- Solve active pain points over nice-to-haves
-- Are quick wins
-- Are part of an [Epic](#epics)
-
-TIP:
-
-- [Aidan](https://github.com/orgs/18F/projects/11?fullscreen=true&card_filter_query=assignee%3Aafeld)
-- [Alyssa](https://github.com/orgs/18F/projects/11?fullscreen=true&card_filter_query=assignee%3Aits-a-lisa-at-work)
-- [John](https://github.com/orgs/18F/projects/11?fullscreen=true&card_filter_query=assignee%3Ajjediny)
-- [Melanie](https://github.com/orgs/18F/projects/11?fullscreen=true&card_filter_query=assignee%3Amelanienleopold)
+- Cards that are not likely to get done this Sprint should go at the bottom of the stack.
+- Start from the top when reviewing cards.
+- Filter for cards that are Groomed Final before starting a review and exclude cards assigned to yourself.
+- Should have enough work to keep yourself busy for the next two weeks. Keeping in mind the current In Progress/Waiting/Blocked cards, any upcoming leave and pre-allocated work.
+- As you are reviewing teammate's cards; make comments directly in the card; but you may also ask simple questions for the sake of clarity. (That's why we're doing this together as a group!)
+- When considering cards to work on, think about..
+  - Force-multipliers, i.e. where we can spend a little time now to save a lot of time in the long run
+  - Solve active pain points over nice-to-haves
+  - Are quick wins
+  - Are part of an [Epic](#epics)
 
 ### Grooming
 
@@ -165,82 +148,54 @@ TIP:
 
 **Meeting Flow:**
 
-Speed Stand-Up (if needed)
+1. Speed Stand-Up (if needed)
+1. New Card Review - Teammates will brief others on the new cards they created and the group will decide where the card should go Icebox or Backlog (Sprint Staging).
+1. Teammates will order the cards within their initiative in the `Icebox` based on their own criteria
+1. Card Review `Icebox`
+1. Review cards of other teammates
+   - Skim through any background information
+   - Check for missing User Stories
+     - Clearly lays out what problem is being solved
+     - Captures all the perspective users
+   - Validate the Size as being realistic
+   - Achievable Acceptance Criteria
+     - Clear what it would take to close the card
+     - Easy to imagine what the end product of the card would be
+1. Approve other's cards
+   - If approved
+     - React with a 'thumbs up' emoji on the card body
+   - If not approve
+     - Indicate what else needs to be done in a comment
+1. Sprint Discussion
+   - Should cards in the Backlog be moved back into the Icebox?
+   - Believe cards should be in a different order?
+   - Any cards that should get split up?
+   - Any cards that can be delegated?
+   - Any cards that can be deleted?
+     - User stories no longer relevant
+1. Wrap-Up
 
-10 minutes: New Card Review
-Teammates will brief others on the new cards they created and the group will decide where the card should go Icebox or Backlog (Sprint Staging).
+#### Tips
 
-- [Aidan](https://github.com/orgs/18F/projects/11?fullscreen=true&card_filter_query=author%3Aafeld)
-- [Alyssa](https://github.com/orgs/18F/projects/11?fullscreen=true&card_filter_query=author%3Aits-a-lisa-at-work)
-- [John](https://github.com/orgs/18F/projects/11?fullscreen=true&card_filter_query=author%3Ajjediny)
-- [Melanie](https://github.com/orgs/18F/projects/11?fullscreen=true&card_filter_query=author%3Amelanienleopold)
-
-Staging
-
-Teammates will order the cards within their initiative in the `Icebox` based on their own criteria
-
-Card Review `Icebox`
-
-Review cards of other teammates
-
-- Skim through any background information
-- Check for missing User Stories
-  - Clearly lays out what problem is being solved
-  - Captures all the perspective users
-- Validate the Size as being realistic
-- Achievable Acceptance Criteria
-  - Clear what it would take to close the card
-  - Easy to imagine what the end product of the card would be
-
-Approve other's cards
-
-- If approved
-  - React with a 'thumbs up' emoji on the card body
-- If not approve
-  - Indicate what else needs to be done in a comment
-
-Sprint Discussion
-
-- Should cards in the Backlog be moved back into the Icebox?
-- Believe cards should be in a different order?
-- Any cards that should get split up?
-- Any cards that can be delegated?
-- Any cards that can be deleted?
-  - User stories no longer relevant
-
-Wrap-Up
-
-TIP: Start from the bottom when reviewing cards.
-
-TIP: Focus on cards that are Groom Initial when reviewing cards.
-
-TIP: Try to keep cards 'right-sized' and scoped to be started and finished within the Sprint.
-
-TIP: Filter for cards that are Groomed Final before starting a review and exclude cards assigned to yourself.
+- Start from the bottom when reviewing cards.
+- Focus on cards that are Groom Initial when reviewing cards.
+- Try to keep cards 'right-sized' and scoped to be started and finished within the Sprint.
+- Filter for cards that are Groomed Final before starting a review and exclude cards assigned to yourself.
 
 ### Reviews and other updates
 
 Please use this [form](https://app.smartsheet.com/b/form/6301909aaa764ce69fc9b7c5ff5fcbfd) to submit status updates for activity that you are working on.
 
-Include the [`initiative`](https://github.com/18F/tts-tech-portfolio/blob/master/how_we_work/initiatives.md) that you are working on so the information can be grouped in a consolidated way.
-
-Select the `intended audience` for your update (check either Sprint Review, Solutions or all of TTS). The update can apply to one or many of those audiences.
-
-The `Sprint Dashboard` audience is made up of folks that would be interested in the major milestone updates of the activities that we're working on related to sprints. The audiences could be guilds, product managers or technical practitioners. Updates would typically include things that someone following along closely with our work might care about, but wouldn't bubble up to leadership attention.
-
-The `Solution Dashboard` will be viewed weekly by the Solution SMT and is used to inform the Solutions Director at his weekly leadership meeting.This information would potentially go into the Sol Sentinel or the Solutions Newsletter. Sometimes, this information might be expanded by presenting at the monthly Sol All Hands.
-
-The `TTS Dashboard` is information intended for all of TTS for information that is relevant to all folks. The target audience is the 350+ folks that sit within TTS and might be interested in updates that might affect them.
-
-Please write the `description` so it is readable to the intended audience. This should be in plain language be clear and concise.
-
-The `status type` helps organize the types of statuses that we're providing.
-
-Please indicate if this `status` was `requested` so that it will be highlighted amongst the others.
-
-If this status is one that would make sense to include in a `newsletter`, please indicate it.
-
-Internally, we'll use the `Status emotion` so we can have a visual of the range of statuses that we're providing.
+- Include the [`initiative`](https://github.com/18F/tts-tech-portfolio/blob/master/how_we_work/initiatives.md) that you are working on so the information can be grouped in a consolidated way.
+- Select the `intended audience` for your update (check either Sprint Review, Solutions or all of TTS). The update can apply to one or many of those audiences.
+- The `Sprint Dashboard` audience is made up of folks that would be interested in the major milestone updates of the activities that we're working on related to sprints. The audiences could be guilds, product managers or technical practitioners. Updates would typically include things that someone following along closely with our work might care about, but wouldn't bubble up to leadership attention.
+- The `Solution Dashboard` will be viewed weekly by the Solution SMT and is used to inform the Solutions Director at his weekly leadership meeting.This information would potentially go into the Sol Sentinel or the Solutions Newsletter. Sometimes, this information might be expanded by presenting at the monthly Sol All Hands.
+- The `TTS Dashboard` is information intended for all of TTS for information that is relevant to all folks. The target audience is the 350+ folks that sit within TTS and might be interested in updates that might affect them.
+- Please write the `description` so it is readable to the intended audience. This should be in plain language be clear and concise.
+- The `status type` helps organize the types of statuses that we're providing.
+- Please indicate if this `status` was `requested` so that it will be highlighted amongst the others.
+- If this status is one that would make sense to include in a `newsletter`, please indicate it.
+- Internally, we'll use the `Status emotion` so we can have a visual of the range of statuses that we're providing.
 
 ### Retros
 
@@ -259,7 +214,6 @@ The board structure is inspired by Kanban.
 **Purpose:**
 
 - Remind ourselves what problem we are trying to solve
-
 - Establish a scope that is completable sooner than later
 
 Also known as an "issue". A card should be created when a task:
