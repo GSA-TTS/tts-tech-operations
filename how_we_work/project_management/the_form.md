@@ -1,4 +1,4 @@
-# TTS Tech Portfolio - Status Intake form
+# Status Intake form
 
 ## Purpose
 
@@ -14,10 +14,9 @@ The **All TTS Dashboard** is information intended for all of TTS for information
 
 ## Instructions
 
-- Include the initiative that you are working on so the information can be grouped in a consolidated way.
-- Select the intended audience for your update (check either Leadership, Commiunications or All TTS). The update can apply to one or many of those audiences.
-- Please write the description so it is readable to the intended audience. This should be in plain language be clear and concise. The expectation is that the Deputy Director will have to do little to no refinement of what is written for the consolidated update.
-- The status type helps organize the types of statuses that we're providing.
-- Please indicate if this status was requested so that it will be highlighted amongst the others.
-- If this status is one that would make sense to include in a newsletter, please indicate it.
-- Internally, we'll use the Status emotion so we can have a visual of the range of statuses that we're providing.
+- Include the [`initiative`](https://github.com/18F/tts-tech-portfolio/blob/master/how_we_work/initiatives.md) that you are working on so the information can be grouped in a consolidated way.
+- Select the intended audience for your update (check either `Leadership`, `Commiunications` or `All TTS`). The update can apply to one or many of those audiences.
+- Please write the `Description` so it is readable to the intended audience. This should be in plain language be clear and concise.
+- The `Status Type` helps organize the types of statuses that we're providing.
+- Please indicate if `Status Requested?` so that it will be highlighted amongst the others.
+- Internally, we'll use the `Status emotion` so we can have a visual of the range of statuses that we're providing.
