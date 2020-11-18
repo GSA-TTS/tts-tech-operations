@@ -1,6 +1,6 @@
 # Status Intake form
 
-Please use [this form](https://app.smartsheet.com/b/form/6301909aaa764ce69fc9b7c5ff5fcbfd) to submit status updates for things you're working on.
+Please use [this form](https://app.smartsheet.com/b/form/6301909aaa764ce69fc9b7c5ff5fcbfd) to submit status updates for things you're working on. That form populates [this SmartSheet](https://app.smartsheet.com/sheets/ggc2rhGCqpMX3QFrFFr5fMf3J39xc7VRV8x8pH31?view=grid).
 
 ## Dashboards
 
