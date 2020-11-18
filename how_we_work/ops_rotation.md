@@ -4,6 +4,8 @@
 
 ## Communications Monitoring
 
+You don't have to have the answers to all the questions, but you should ensure all the questions get answers.
+
 ### Slack Channels
 
 | Channel name                 |                                                                  Responsibility                                                                   |
