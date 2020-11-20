@@ -218,8 +218,6 @@ If there is a repository that the issue is specifically applicable to, create it
 
 We have a couple set types of labels. Beyond those, you are also welcome to add whatever labels are useful to you. The labels are [configured as code](terraform/).
 
-In order to allow for continued asynchronous work as much as possible, if a person needs feedback on an issue, use the label `feedback needed` and tag in the person and provide a synopsis of what feedback you're looking for.
-
 #### [Grooming status](https://github.com/18F/tts-tech-portfolio/labels?q=groom)
 
 **Purpose:** Indicate the state of the issue itself.

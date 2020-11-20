@@ -4,12 +4,7 @@ variable "repo" {
 
 variable "issue_labels" {
   default = {
-    "a: blog-able"                  = "F72585"
-    "a: demo-able"                  = "F72585"
-    "dg: decide"                    = "662E9B"
-    "dg: delegate"                  = "662E9B"
     "e: aws cleanup"                = "6ecbdb"
-    "e: bb expansion"               = "6ecbdb"
     "e: SaaS documentation"         = "6ecbdb"
     "g: accepted"                   = "662E9B"
     "g: final"                      = "662E9B"
@@ -27,7 +22,6 @@ variable "issue_labels" {
     "i: misc"                       = "6ecbdb"
     "i: SaaS authorizations"        = "6ecbdb"
     "m: due date"                   = "EA3546"
-    "m: feedback needed"            = "F72585"
     "t: days"                       = "F86624"
     "t: expedite"                   = "F86624"
     "t: hours"                      = "F86624"
