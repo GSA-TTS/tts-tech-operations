@@ -11,3 +11,7 @@ _DESCRIPTION GOES HERE_
 1. Once anyone has started it, move the issue into `In Progress`.
 1. Once an individual has completed it, they should be removed from the assignment.
 1. When the last person has completed it, close the issue.
+
+## Acceptance criteria
+
+- [ ] Everyone (previously) assigned has [FILL IN]
