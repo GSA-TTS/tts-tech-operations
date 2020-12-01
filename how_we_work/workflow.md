@@ -86,8 +86,8 @@ NOTE: This activity is purely optional and will have no impact on an individual'
    - Cards in the Ready (Sprint Planned) column + the columns to the right must be `g: accepted` ([check](https://github.com/orgs/18F/projects/11?fullscreen=true&card_filter_query=-label%3A%22g%3A+accepted%22))
    - Cards in the Backlog (Sprint Staging) column must be `g: final` and ready to be Groomed Accepted ([check](https://github.com/orgs/18F/projects/11?fullscreen=true&card_filter_query=-label%3A%22g%3A+final%22))
    - Cards in the Icebox column must be `g: initial` ([check](https://github.com/orgs/18F/projects/11?fullscreen=true&card_filter_query=-label%3A%22g%3A+initial%22-label%3A%22g%3A+final%22+-label%3A%22g%3A+accepted%22))
-1. Cards in Backlog (Sprint Staging) column + the columns to the right must be assigned
-   - Check to make sure cards in your Initiative are assigned ([check](https://github.com/orgs/18F/projects/11?fullscreen=true&card_filter_query=-assignee%3Aits-a-lisa-at-work+-assignee%3Aafeld+-assignee%3Ajjediny))
+1. Cards in Backlog (Sprint Staging) column + the columns to the right must be [assigned](#assignment)
+   - Check to make sure cards in your Initiative are [assigned](#assignment) ([check](https://github.com/orgs/18F/projects/11?fullscreen=true&card_filter_query=-assignee%3Aits-a-lisa-at-work+-assignee%3Aafeld+-assignee%3Ajjediny))
    - Order cards
      - Sprint Planning -- cards that you want moved into the Sprint should be at the top of New when filtered by your name
      - Sprint Grooming -- cards that you want discussed, deleted or delegated should be at the bottom of Icebox when filtered by your name
@@ -95,7 +95,6 @@ NOTE: This activity is purely optional and will have no impact on an individual'
 #### Tips
 
 - Have the relevant [template](https://github.com/18F/tts-tech-portfolio/issues/new/choose) filled out when creating a new card.
-- The person who created the issue doesn't have to be the one to groom it or eventually be assigned to it; assignment should be coordinated with initiative owner
 - During Grooming, you can move a card to Backlog (Sprint Staging) while it is still labeled `g: initial`; but it should be groomed ASAP.
 - Ideally this is done by noon on Friday before the Sprint Ceremony to give teammates enough time to review. Also helps the Project Manager feel prepared going into the Sprint ceremony.
 - Be especially diligent about adding cards that you would like to include into the new Sprint.
@@ -214,6 +213,16 @@ If there is a repository that the issue is specifically applicable to, create it
 
 - Cards with a due date should have a suffix of `- due [date]` in the title and the `due date` label.
 
+#### Assignment
+
+Issues default to being assigned to the corresponding Initiative owner. That person is welcome to ask for someone else to take it, such as if:
+
+- A particular skillset is needed
+- They don't have capacity to finish it by the due date
+- Etc.
+
+The Project Manager will be responsible for resolving any uncertainty around assignment.
+
 ### Labels
 
 We have a couple set types of labels. Beyond those, you are also welcome to add whatever labels are useful to you. The labels are [configured as code](terraform/).
@@ -234,7 +243,7 @@ Ideally, issues move left to right, with the exception of Blocked/Waiting. There
 | ----------------------- | -------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | ------------------------------- | ----------------------------------------------------------------------------- |
 | New                     | Newly created Issues land here automatically.                                                                                                                                                                                          |                                 |                                                                               |
 | Icebox                  | Issues here should be prioritized top-to-bottom amongst the initiative.                                                                                                                                                                |                                 |                                                                               |
-| Backlog (Sprint Staged) | Issues that are immediate priorities. Expect to accomplish within the next 2 Sprints. Once they move into this column, they either get moved into a Sprint and advance to the Sprint Planned column within 30 days or they get closed. | 4                               | Must be assigned                                                              |
+| Backlog (Sprint Staged) | Issues that are immediate priorities. Expect to accomplish within the next 2 Sprints. Once they move into this column, they either get moved into a Sprint and advance to the Sprint Planned column within 30 days or they get closed. | 4                               | Must be [assigned](#assignment)                                               |
 | Ready (Sprint Planned)  | Issues to be worked from this column. Team conscience, no blockers, and no prerequisites. What the team is going to work on next. Planned at the Sprint Planning ceremony.                                                             |                                 | Must be groomed                                                               |
 | In Progress             | Issues that are being actively worked on                                                                                                                                                                                               | 12, though fewer is recommended | Must be [groomed](#grooming)                                                  |
 | Feedback/Waiting        | Issues temporarily moved into this column. Expect to move in and out quickly. Something that is actively being worked on and it is with someone else for the moment.                                                                   |                                 | Must have explanation of what it's waiting on                                 |
