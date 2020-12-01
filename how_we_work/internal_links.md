@@ -2,9 +2,7 @@ Access to many of these are restricted.
 
 ## General
 
-- [Onboarding/Offboarding](https://docs.google.com/document/d/1kF41y1AbVCkdXE5XStuthOM-1VIA48UimN9W3E9Jk68/edit)
 - [Software Purchases and Management Folder](https://drive.google.com/drive/folders/1R2TAsyc3fXnKdJZeB-1uKDxRIq1ta_4p)
-- All of these documents (and more!) are accessible here.
 - [Anonymous TTS Tech Portfolio form](https://docs.google.com/forms/d/1xVyoXvWjcoY9UsHgogMSVxSuOm1SEFEzYfGIuZMsJGA/edit) - Provide TTS Tech Portfolio with feedback on how we're doing!
 - [Performance Measures](https://drive.google.com/drive/folders/1JRexKanRWjMRp9OoLkXOdgmqDMGXDPOJ)
 
