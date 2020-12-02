@@ -74,6 +74,8 @@ These tasks apply to every repository/application/hostname/language that is dire
 - [ ] Read the [Overview](https://before-you-ship.18f.gov/) and [the ATO section (including sub-pages)](https://before-you-ship.18f.gov/ato/) of Before You Ship.
 - [ ] Read the LATO guide<!-- unless not doing a LATO -->.
   - Search [this page](https://insite.gsa.gov/topics/information-technology/security-and-privacy/it-security/it-security-procedural-guides) for "Lightweight Security Authorization Guide".
+- [ ] Read the [Checklist of Requirements for Federal Websites and Digital Services](https://digital.gov/resources/checklist-of-requirements-for-federal-digital-services/)
+- [ ] Read the [Guidelines for GSA's Digital Presence](https://insite.gsa.gov/employee-resources/communications/digital-website-communication/policies-and-guidelines/guidelines-for-gsas-digital-presence)
 - [ ] Request a [privacy threshold analysis (PTA)](https://before-you-ship.18f.gov/privacy/)
 - [ ] Fill out the Rules of Engagement (RoE)
   - [Network diagram tips](https://before-you-ship.18f.gov/ato/ssp/#diagrams)
