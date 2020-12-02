@@ -15,10 +15,11 @@
 | [18F/dns](https://github.com/18F/dns) | active |
 | [18F/ghad](https://github.com/18F/ghad) | active |
 | [18F/handbook](https://github.com/18F/handbook) | active |
-| [18F/laptop](https://github.com/18F/laptop) | active |
+| [18F/join.tts.gsa.gov](https://github.com/18F/join.tts.gsa.gov) | active |
+| [18F/laptop](https://github.com/18F/laptop) | archived |
 | [18F/newrelic-terraform](https://github.com/18F/newrelic-terraform) | active |
 | [18F/raktabija](https://github.com/18F/raktabija) | archived |
-| [18F/slack-export-handling](https://github.com/18F/slack-export-handling) | archived |
+| [18F/slack-export-handling](https://github.com/18F/slack-export-handling) | active |
 | [18F/tts-tech-portfolio](https://github.com/18F/tts-tech-portfolio) | active |
 | [18F/tts-tech-portfolio-private](https://github.com/18F/tts-tech-portfolio-private) | active |
 | [18F/uswds-jekyll](https://github.com/18F/uswds-jekyll) | active |

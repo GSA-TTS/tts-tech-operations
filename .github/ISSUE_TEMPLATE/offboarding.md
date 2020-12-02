@@ -13,14 +13,17 @@ For compliance tracking purposes we need to show when offboarding actions happen
 occur in a 24-hour window. As you do this work, comment on this GitHub issue as you complete each
 task. (PS-4: Personnel termination)
 
-Departing Person
+## Departing Person
 
 - [ ] [Initiate the process](https://handbook.tts.gsa.gov/leaving-tts/)
 
-Assignee
+## Assignee
 
-- Remove from Google Groups
+Remove them from:
+
+- [ ] Google Groups
   - [ ] [TTS Software](https://groups.google.com/a/gsa.gov/forum/#!managemembers/tts-software/add)
   - [ ] [TTS Technology Portfolio](https://groups.google.com/a/gsa.gov/forum/#!managemembers/devops/add)
   - [ ] [TTS Vulnerability Reports](https://groups.google.com/a/gsa.gov/forum/#!managemembers/tts-vulnerability-reports/add)
-- Remove from [the employee list in SmartSheet](https://app.smartsheet.com/sheets/Q2CgG9V897x8rRmv8XhGGjrhFRxVVqgVx5hCmW41?view=grid)
+- [ ] [The employee list in SmartSheet](https://app.smartsheet.com/sheets/Q2CgG9V897x8rRmv8XhGGjrhFRxVVqgVx5hCmW41?view=grid)
+- [ ] [The Everyone issue template](https://github.com/18F/tts-tech-portfolio/blob/master/.github/ISSUE_TEMPLATE/everyone.md)

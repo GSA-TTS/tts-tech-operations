@@ -34,7 +34,7 @@ locals {
     "ghad" : {},
     "handbook" : { skip_issue_templates = true },
     "join.tts.gsa.gov" : { skip_issue_templates = true },
-    "laptop" : { skip_issue_templates = true },
+    "laptop" : { archived = true },
     "newrelic-terraform" : {},
     "raktabija" : { archived = true },
     "slack-export-handling" : {},
