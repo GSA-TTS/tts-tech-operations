@@ -39,6 +39,8 @@ You don't have to have the answers to all the questions, but you should ensure a
 | TTS Technology Portfolio  | Owner      |
 | TTS Vulnerability Reports | Owner      |
 
+For the `TTS Software` group, we use [Google's Collaborative Inbox](https://support.google.com/a/answer/167430?hl=en) features to manage the status of requests. When on ops-rotation use the `Mark as Completed` to ensure others know a request has been satisfied. For requests that need assistance from others on the team, use the `Assign` feature to task them, include a description of what you need from them. Feel free to use any additional features you may find useful.
+
 ## Knowledge Management
 
 - Handbook triage and maintenance

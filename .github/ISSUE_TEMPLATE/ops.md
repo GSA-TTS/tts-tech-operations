@@ -23,7 +23,7 @@ Each of the following should be done within the dates above. See the [playbook](
 Ensure you are present in the following and are responding as needed:
 
 - [ ] [Slack Channels](https://github.com/18F/tts-tech-portfolio/blob/master/how_we_work/ops_rotation.md#slack-channels)
-- [ ] [Google Groups](https://github.com/18F/tts-tech-portfolio/blob/master/how_we_work/ops_rotation.md#google-groups)
+- [ ] [Google Groups](https://github.com/18F/tts-tech-portfolio/blob/master/how_we_work/ops_rotation.md#google-groups) - Ensure all inbox items are marked completed. If not able to complete, use the `assign` task function to task the next person on ops rotation, providing them with a description of what's left to do to complete.
 
 Check off the boxes above at the end of the Rotation if you believe you are caught up.
 
