@@ -11,9 +11,10 @@ Each of the following should be done within the dates above. See the [playbook](
 ## GitHub
 
 - [ ] [Add issues from linked repositories to our project boards](https://docs.github.com/en/free-pro-team@latest/github/managing-your-work-on-github/adding-issues-and-pull-requests-to-a-project-board)
-   - [ ] [Issues](https://github.com/orgs/18F/projects/11?fullscreen=true)
-   - [ ] [Pull requests](https://github.com/orgs/18F/projects/19?fullscreen=true)
+  - [ ] [Issues](https://github.com/orgs/18F/projects/11?fullscreen=true)
+  - [ ] [Pull requests](https://github.com/orgs/18F/projects/19?fullscreen=true)
 - [ ] Review and ideally merge (or close) open [pull requests to Tech Portfolio repositories](https://github.com/orgs/18F/projects/19?fullscreen=true)
+  - If you need help reviewing/merging any, ask in [#tts-tech-portfolio](https://gsa-tts.slack.com/messages/tts-tech-portfolio/) or another relevant channel.
 - [ ] [Update the public IT Standards dataset](https://github.com/GSA/data/tree/master/enterprise-architecture#updating-the-list)
 - [ ] [Run the Inspector](https://github.com/18F/tts-tech-portfolio/tree/master/inspector#usage)
 
@@ -23,6 +24,8 @@ Ensure you are present in the following and are responding as needed:
 
 - [ ] [Slack Channels](https://github.com/18F/tts-tech-portfolio/blob/master/how_we_work/ops_rotation.md#slack-channels)
 - [ ] [Google Groups](https://github.com/18F/tts-tech-portfolio/blob/master/how_we_work/ops_rotation.md#google-groups)
+
+Check off the boxes above at the end of the Rotation if you believe you are caught up.
 
 ## Other
 
