@@ -47,7 +47,7 @@ Access to many of these are restricted.
   - These are recurring SaaS Products. This was put together to push back on GSA IT and their requirement that all SaaS products be FedRAMPed to continue use. These are not big purchases and FedRAMP is expensive. It’s hard to ask these businesses to be FedRAMPed when we are barely spending money on them. A lot of these products are essential to TTS.
 - [TTS System Assessment Schedule](https://docs.google.com/spreadsheets/d/19wyA91KhGoZvnAA0fihC0WF_mU79YLRTHzDd-Frs8Qs/edit#gid=0)
 
-## SaaS Management Documents
+## Software Management Documents
 
 - [Admin Console](https://docs.google.com/document/d/18Htav6TIgasBvvSroI8H_sQXxnvMlra2k9iabBwQYUs/edit?ts=5bedd273#heading=h.283ptjn7sg9m)
   - This is the admin console for all of the SaaS products we manage.
@@ -62,6 +62,7 @@ Access to many of these are restricted.
   - How to administer the TTS Mural account
 - [How to Get Microsoft Office for your Mac](https://docs.google.com/document/d/1ca1Ka0R9XBaxRhpagGUKPgVzO589_bx89GWMogQintM/edit#heading=h.w041you98w54)
   - Instructions on how to download Microsoft for Mac. This is a challenging process for many people, so I put together this how-to guide to make it easier.
+- [Software available for Mac](https://docs.google.com/document/d/1RFxxEC52UD-pnWVYGertD6zx6YJDFrOog5AMjjGA1hU/edit)
 
 ### User Lists
 
