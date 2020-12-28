@@ -82,3 +82,4 @@ This person will regularly:
 - Coordinate on policy changes, etc. with:
   - TTS
   - The platform vendor
+- Manage the [response process](https://handbook.tts.gsa.gov/responding-to-public-disclosure-vulnerabilities/) within TTS
