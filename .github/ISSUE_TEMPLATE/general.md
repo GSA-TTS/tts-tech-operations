@@ -15,5 +15,12 @@ assignees: ""
 
 ## Acceptance Criteria
 <!--[Definition of Done](https://www.agilealliance.org/glossary/definition-of-done)-->
-- [ ] 
+<!-- See https://en.wikipedia.org/wiki/Behavior-driven_development
+A description of each specific scenario of the narrative with the following structure:
+Given: the initial context at the beginning of the scenario, in one or more clauses;
+When: the event that triggers the scenario;
+Then: the expected outcome, in one or more clauses.-->
+- [ ] GIVEN
+- [ ] WHEN
+- [ ] THEN
 
