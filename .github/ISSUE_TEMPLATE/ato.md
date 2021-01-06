@@ -18,6 +18,22 @@ assignees: ""
 
 If your system isn't live yet, "production" refers to the environment that _will_ be production.
 
+### Phase 0: As early in the project as possible
+
+- [ ] Add this issue to the `Backlog` of [the ATO Kanban board](https://github.com/18F/Infrastructure/projects/1).
+- [ ] Assign the appropriate labels to this issue.
+- [ ] Read the following:
+  - [ ] [Guidelines for GSA's Digital Presence](https://insite.gsa.gov/employee-resources/communications/digital-website-communication/policies-and-guidelines/guidelines-for-gsas-digital-presence)
+  - [ ] [Hello, production](https://blog.thepete.net/blog/2019/10/04/hello-production/)
+  - [ ] [The Engineering Practices Guide](https://engineering.18f.gov/), particularly:
+    - [ ] [Languages & Runtimes](https://engineering.18f.gov/language-selection/)
+  - [ ] [Before You Ship](https://before-you-ship.18f.gov), particularly:
+    - [ ] [Infrastructure](https://before-you-ship.18f.gov/infrastructure/)
+    - [ ] [Lifecycle of a Launch](https://before-you-ship.18f.gov/ato/)
+  - [ ] [The API Standards](https://github.com/GSA/api-standards), if you plan to have an API
+- [ ] Determine the [impact level](https://before-you-ship.18f.gov/ato/levels/).
+  - [ ] Confirm with @[Authorizing Official]
+
 ### Phase 1: ATO Sprint prerequisites
 
 Everything in this section needs to be completed before the project will be scheduled for an ATO Sprint.
@@ -25,10 +41,6 @@ Everything in this section needs to be completed before the project will be sche
 #### Infrastructure Lead
 
 - [ ] Set up an ATO intro meeting with the project team.
-- [ ] Determine the [impact level](https://before-you-ship.18f.gov/ato/levels/).
-  - [ ] Confirm with @[Authorizing Official]
-- [ ] Add this issue to the `Backlog` of [the ATO Kanban board](https://github.com/18F/Infrastructure/projects/1).
-- [ ] Assign the appropriate labels to this issue.
 - [ ] Set up the project ATO folder.
   - [ ] [In the `ATOs` folder in Google Drive](https://drive.google.com/a/gsa.gov/folderview?id=0BynIxtx-CfkdckljM3BPSkdQT1U&usp=sharing), go to `18F`/`OPP`/`PIF`, then `Work in progress`, and create a subfolder called in the format `<project> ATO - <duration> <level>`. Link to it as the `ATO folder` at the top of this issue.
   - [ ] Add Rules of Engagement (RoE) template
