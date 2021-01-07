@@ -28,16 +28,16 @@ You don't have to have the answers to all the questions, but you should ensure a
 
 ### Google Groups
 
-| Group                     | Permission |
-| ------------------------- | ---------- |
-| 18F DevOps                | Owner      |
-| 18F PyPI                  | Owner      |
-| 18F Software              | Owner      |
-| 18f-team                  | Member     |
-| IS-TTS                    | Manager    |
-| TTS Software              | Owner      |
-| TTS Technology Portfolio  | Owner      |
-| TTS Vulnerability Reports | Owner      |
+| Group                     | Permission | OpsRotation |
+| ------------------------- | ---------- |---------- |
+| 18F DevOps                | Owner      | Y |
+| 18F PyPI                  | Owner      | Y |
+| 18F Software              | Owner      | Y |
+| 18f-team                  | Member     | N |
+| IS-TTS                    | Manager    | Y |
+| TTS Software              | Owner      | Y |
+| TTS Technology Portfolio  | Owner      | Y |
+| TTS Vulnerability Reports | Owner      | N |
 
 For the `TTS Software` group, we use [Google's Collaborative Inbox](https://support.google.com/a/answer/167430?hl=en) features to manage the status of requests. When on ops-rotation use the `Mark as Completed` to ensure others know a request has been satisfied. For requests that need assistance from others on the team, use the `Assign` feature to task them, include a description of what you need from them. Feel free to use any additional features you may find useful.
 
