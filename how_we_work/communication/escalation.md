@@ -12,6 +12,9 @@ Who to escalate to:
 - Mac software/OS issues - cemacteam@gsa.gov
 - GSA software requests/licensing - swlm@gsa.gov
 - Service Desk tickets being stuck generally - dawn.shelton@gsa.gov
+- ACIO - Planning & Governance - Lesley.Briante@gsa.gov
+- Enterprise Infrastructure Exec - Erika.Dinnie@gsa.gov
+- OCIO Chief of Staff - Vanessa.Ros@gsa.gov 
 - ATO issues - the ISSO/ISSM
   - See also: [Security Directors](https://insite.gsa.gov/organizations/staff-offices/office-of-gsa-it/gsa-it-organizations/chief-information-security-officer-ciso?term=seceng)
 - Security scans - itsecurity.scanning@gsa.gov
