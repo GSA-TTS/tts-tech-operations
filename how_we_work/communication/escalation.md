@@ -11,7 +11,9 @@ Who to escalate to:
 - Mac admin rights requests - nathaniel.ciano@gsa.gov
 - Mac software/OS issues - cemacteam@gsa.gov
 - GSA software requests/licensing - swlm@gsa.gov
-- Service Desk tickets being stuck generally - dawn.shelton@gsa.gov
+- Service Desk tickets being stuck:
+   1. Have the user ask the Service Desk to escalate the ticket.
+   1. If that doesn't work, Tech Portfolio should reach out to andrew.harris@gsa.gov.
 - ACIO - Planning & Governance - Lesley.Briante@gsa.gov
 - Enterprise Infrastructure Exec - Erika.Dinnie@gsa.gov
 - OCIO Chief of Staff - Vanessa.Ros@gsa.gov 
