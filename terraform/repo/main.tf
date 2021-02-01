@@ -10,11 +10,16 @@ locals {
   canonical_repo = "tts-tech-portfolio"
 }
 
+data "github_repository" "repo" {
+  name = var.repo
+}
+
 resource "github_repository_file" "issue_templates" {
   # don't overwrite canonical source
   for_each = var.repo == local.canonical_repo ? toset([]) : toset(var.issue_templates)
 
   repository     = var.repo
+  branch         = data.github_repository.repo.default_branch
   file           = ".github/ISSUE_TEMPLATE/${each.key}"
   content        = file("${path.module}/../../.github/ISSUE_TEMPLATE/${each.key}")
   commit_message = "updated from canonical source\n\nhttps://github.com/18F/${local.canonical_repo}/blob/master/.github/ISSUE_TEMPLATE/${each.key}"
