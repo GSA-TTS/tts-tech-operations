@@ -109,8 +109,10 @@ These tasks apply to every repository/application/hostname/language that is dire
 
 1. [ ] Sprint started.
 1. [ ] Polish up the System Security Plan (SSP).
-1. [ ] Penetration test complete. - @[tester]
-   - [ ] Enhanced Scanning and Assessment Process (ESAP) document added to ATO folder - @[tester]
+1. [ ] [Security procedures](https://insite.gsa.gov/employee-resources/information-technology/security-and-privacy/it-security/it-security-procedural-guides) complete
+   1. [ ] Security Engineering Architecture Review
+   1. [ ] Penetration test - @[tester]
+      - [ ] Enhanced Scanning and Assessment Process (ESAP) document added to ATO folder - @[tester]
 1. [ ] Put all vulnerabilities from the ESAP in the project's issue tracker.
 1. [ ] Fix any `Critical` or `High` vulnerabilities from the ESAP.
    - This needs to be done before the ATO can be issued, though not necessarily before the end of the sprint.
