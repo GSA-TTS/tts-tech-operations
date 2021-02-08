@@ -5,6 +5,7 @@ title: ATO for [system] - due [date]
 labels: "g: accepted, i: software assurance"
 assignees: ""
 ---
+# IMPORTANT UPDATE: This checklist is going to be phased out starting 2/15/2021. Please review the [new checklist](https://app.smartsheet.com/folders/9mfvjQr7Rh95RxvhvQqQW3VwchXhmp2x5mJJgVX1) and feel free to start using beginning 2/1/21. 
 
 - **Main repository:** [url]
 - **Site:** [url]
@@ -20,7 +21,7 @@ If your system isn't live yet, "production" refers to the environment that _will
 
 ### Phase 0: As early in the project as possible
 
-- [ ] Add this issue to the `Backlog` of [the ATO Kanban board](https://github.com/18F/Infrastructure/projects/1).
+
 - [ ] Assign the appropriate labels to this issue.
 - [ ] Read the following:
   - [ ] [Guidelines for GSA's Digital Presence](https://insite.gsa.gov/employee-resources/communications/digital-website-communication/policies-and-guidelines/guidelines-for-gsas-digital-presence)
@@ -38,16 +39,10 @@ If your system isn't live yet, "production" refers to the environment that _will
 
 Everything in this section needs to be completed before the project will be scheduled for an ATO Sprint.
 
-#### Infrastructure Lead
+#### Tech Portfolio Lead
 
 - [ ] Set up an ATO intro meeting with the project team.
 - [ ] Set up the project ATO folder.
-  - [ ] [In the `ATOs` folder in Google Drive](https://drive.google.com/a/gsa.gov/folderview?id=0BynIxtx-CfkdckljM3BPSkdQT1U&usp=sharing), go to `18F`/`OPP`/`PIF`, then `Work in progress`, and create a subfolder called in the format `<project> ATO - <duration> <level>`. Link to it as the `ATO folder` at the top of this issue.
-  - [ ] Add Rules of Engagement (RoE) template
-    - Search [this page](https://insite.gsa.gov/portal/content/627238) for "Rules of Engagement (RoE) 90-Day LATO Penetration Test TEMPLATE", even if this isn't for a 90-day LATO.
-    - [System/network diagram tips](https://before-you-ship.18f.gov/ato/ssp/#diagrams)
-  - [ ] Add [System Security Plan (SSP)](https://before-you-ship.18f.gov/ato/ssp/) template
-    - For a 90-day ATO, delete Section 13.
 - [ ] Make a copy of the [ATO Sprinting notes template](https://docs.google.com/document/d/1EdcNyE1kkQve3tHyiV1QIRWNOBlTeh33lAbX0h4h18M/edit) and save it in the [Sprinting Team folder](https://drive.google.com/drive/folders/0B2tmNhXsZ-EyVkVra21NTmc0U00?usp=sharing) with a title of `ATO Sprinting Team notes - <project>`.
   - [ ] Fill out the placeholders.
   - [ ] Link to it as the `Sprint notes` at the top of this issue.
@@ -96,8 +91,8 @@ These tasks apply to every repository/application/hostname/language that is dire
 
 ### Phase 2: Documentation review
 
-1. [ ] Move this issue to the `Documentation review` column of [the ATO Kanban board](https://github.com/18F/Infrastructure/projects/1). - @[infrastructure lead]
-1. [ ] Schedule a documentation review session. - @[infrastructure lead]
+
+1. [ ] Schedule a documentation review session. 
    - One or more follow-up sessions may be necessary.
 1. [ ] Fix any documentation issues identified in the session.
 1. [ ] RoE signed
