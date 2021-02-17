@@ -1,3 +1,12 @@
+terraform {
+  # https://github.com/integrations/terraform-provider-github/issues/652#issuecomment-786255125
+  required_providers {
+    github = {
+      source = "integrations/github"
+    }
+  }
+}
+
 resource "github_issue_label" "labels" {
   for_each = var.issue_labels
 
@@ -7,6 +16,7 @@ resource "github_issue_label" "labels" {
 }
 
 locals {
+  org            = "18F"
   canonical_repo = "tts-tech-portfolio"
 }
 
@@ -22,7 +32,7 @@ resource "github_repository_file" "issue_templates" {
   branch         = data.github_repository.repo.default_branch
   file           = ".github/ISSUE_TEMPLATE/${each.key}"
   content        = file("${path.module}/../../.github/ISSUE_TEMPLATE/${each.key}")
-  commit_message = "updated from canonical source\n\nhttps://github.com/18F/${local.canonical_repo}/blob/master/.github/ISSUE_TEMPLATE/${each.key}"
+  commit_message = "updated from canonical source\n\nhttps://github.com/${local.org}/${local.canonical_repo}/blob/master/.github/ISSUE_TEMPLATE/${each.key}"
 
   lifecycle {
     ignore_changes = [commit_message]
