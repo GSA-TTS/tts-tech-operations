@@ -46,6 +46,7 @@ Access to many of these are restricted.
 - [TTS Recurring SaaS Products](https://docs.google.com/spreadsheets/d/11ZvHF9AEkioThtC-btop4BaSz9NQ9bw28bUoAJWSQQ0/edit?usp=drive_web&ouid=114063255069137490946)
   - These are recurring SaaS Products. This was put together to push back on GSA IT and their requirement that all SaaS products be FedRAMPed to continue use. These are not big purchases and FedRAMP is expensive. It’s hard to ask these businesses to be FedRAMPed when we are barely spending money on them. A lot of these products are essential to TTS.
 - [TTS System Assessment Schedule](https://docs.google.com/spreadsheets/d/19wyA91KhGoZvnAA0fihC0WF_mU79YLRTHzDd-Frs8Qs/edit#gid=0)
+  - [GSA-wide assessment schedule](https://docs.google.com/spreadsheets/d/1e0qq84omixyVTXenOXAOqwSUgGkI80KdSwgoClMwk9s/edit?ts=5fa2bbda#gid=998527993)
 
 ## Software Management Documents
 
