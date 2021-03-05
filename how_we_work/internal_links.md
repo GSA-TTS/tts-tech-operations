@@ -6,6 +6,9 @@ Access to many of these are restricted.
 - [Anonymous TTS Tech Portfolio form](https://docs.google.com/forms/d/1xVyoXvWjcoY9UsHgogMSVxSuOm1SEFEzYfGIuZMsJGA/edit) - Provide TTS Tech Portfolio with feedback on how we're doing!
 - [Performance Measures](https://drive.google.com/drive/folders/1JRexKanRWjMRp9OoLkXOdgmqDMGXDPOJ)
 
+## Credentials
+The Tech Portfolio tightly manages shared credentials using [Google Team Drive](https://drive.google.com/drive/u/0/folders/1B0INOeCQQAv5eDBaoM4rgtaNkU9S6zDs), keepassxc databases are stored and synced using Google Drive Filestream (both can be installed from the GSA Self Service App). 
+
 ## Money
 
 - [FY20 Contractual Services Lines of Accounting](https://docs.google.com/spreadsheets/d/1P_OfocNGGDq9Mivl3yc8DmjMN_AXqSmFRs74m3Ue8Ww/edit?ts=5db9bddd#gid=1655384448)
