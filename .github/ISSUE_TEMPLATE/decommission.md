@@ -25,8 +25,9 @@ _Add/remove items, as applicable._
     - [ ] [TTS subdomains](https://docs.google.com/spreadsheets/d/12pfcEIEXaJTjIKex-3wnI89erIvgKf9B_XpGkDl6qsM/edit#gid=1884617968)
     - [ ] [GSA websites](https://docs.google.com/spreadsheets/d/1OBO6g7_OsVBv0vG8WSCI6L2FD_iRh3A7a_6eQWj2zLE/edit#gid=2013137748)
 - [ ] Notify other parts of GSA
-  - [ ] Notify your ISSM
+  - [ ] Notify your ISSO
   - [ ] Notify the Privacy Office ([gsa.privacyact@gsa.gov](mailto:gsa.privacyact@gsa.gov)) to take down the [privacy impact assessment (PIA)](https://www.gsa.gov/reference/gsa-privacy-program/privacy-impact-assessments-pia) and/or privacy threshold assessment (PTA)
+  - [ ] Disposal Notification letter signed
 - [ ] Clean up integrations/usage of any [third-party software](https://docs.google.com/spreadsheets/d/12pfcEIEXaJTjIKex-3wnI89erIvgKf9B_XpGkDl6qsM/edit#gid=0) (add checkboxes below)
   - [ ] Remove (sub)accounts
     - [ ] New Relic - [#admins-newrelic](https://gsa-tts.slack.com/messages/admins-newrelic)
