@@ -5,6 +5,7 @@ Access to many of these are restricted.
 - [Software Purchases and Management Folder](https://drive.google.com/drive/folders/1R2TAsyc3fXnKdJZeB-1uKDxRIq1ta_4p)
 - [Anonymous TTS Tech Portfolio form](https://docs.google.com/forms/d/1xVyoXvWjcoY9UsHgogMSVxSuOm1SEFEzYfGIuZMsJGA/edit) - Provide TTS Tech Portfolio with feedback on how we're doing!
 - [Performance Measures](https://drive.google.com/drive/folders/1JRexKanRWjMRp9OoLkXOdgmqDMGXDPOJ)
+- [Presentations/decks/slides about the team](https://drive.google.com/drive/folders/10LCPsg-ENLbqO_xEXPsbx81vTZc36iIX?usp=sharing)
 
 ## Money
 
@@ -93,7 +94,7 @@ SaaS Manager needs to be added to 18F Software and TTS Software Google groups
   - [Purchase requests](https://handbook.tts.gsa.gov/purchase-requests/)
   - [Software under \$10,000](https://handbook.tts.gsa.gov/software/)
 - These handbook pages will need to be updated once C2 is deprecated and the new process is in place.
-- [TTS-Wide Contracts](https://docs.google.com/spreadsheets/d/1ugJMb5lzwriP0e0Jkf2GMrxbBtjrsvQkSGUJZUA5e44/edit)
+- [Solutions Contract Inventory](https://docs.google.com/spreadsheets/d/1S9cUnhRwfdsxcgT_h8ynHBbOQBxHgWlN-pzQ3yHw5_E/edit#gid=0)
 - [FOIA requests](https://docs.google.com/spreadsheets/d/16Nw0OQ4SXH95Vo47WEzf4M2JR3IpxU9DnrF4QIbJsg8/edit#gid=1047462376)
 - [COR Playbook](https://docs.google.com/document/d/14xOFvIGwlG0Gbd52o1D4AyJ52RqzHpX91nfEYJKu5qQ/edit#)
 - [CTO Liaison Trello board](https://trello.com/b/BFp37KQ6/gsa-cto-tts-liaison)
