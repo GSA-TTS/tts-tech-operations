@@ -19,11 +19,6 @@ task. (PS-4: Personnel termination)
 
 ## Assignee
 
-Remove them from:
-
-- [ ] Google Groups
-  - [ ] [TTS Software](https://groups.google.com/a/gsa.gov/forum/#!managemembers/tts-software/add)
-  - [ ] [TTS Technology Portfolio](https://groups.google.com/a/gsa.gov/forum/#!managemembers/devops/add)
-  - [ ] [TTS Vulnerability Reports](https://groups.google.com/a/gsa.gov/forum/#!managemembers/tts-vulnerability-reports/add)
-- [ ] [The employee list in SmartSheet](https://app.smartsheet.com/sheets/Q2CgG9V897x8rRmv8XhGGjrhFRxVVqgVx5hCmW41?view=grid)
-- [ ] [The Everyone issue template](https://github.com/18F/tts-tech-portfolio/blob/master/.github/ISSUE_TEMPLATE/everyone.md)
+- [ ] Remove them from #tts-tech-portfolio-private
+- [ ] Copy in the [onboarding checklist](hhttps://raw.githubusercontent.com/18F/tts-tech-portfolio/master/.github/ISSUE_TEMPLATE/onboarding.md)
+  - [ ] Adjust/reverse as appropriate
