@@ -87,7 +87,7 @@ NOTE: This activity is purely optional and will have no impact on an individual'
    - Cards in the Backlog (Sprint Staging) column must be `g: final` and ready to be Groomed Accepted ([check](https://github.com/orgs/18F/projects/11?fullscreen=true&card_filter_query=-label%3A%22g%3A+final%22))
    - Cards in the Icebox column must be `g: initial` ([check](https://github.com/orgs/18F/projects/11?fullscreen=true&card_filter_query=-label%3A%22g%3A+initial%22-label%3A%22g%3A+final%22+-label%3A%22g%3A+accepted%22))
 1. Cards in Backlog (Sprint Staging) column + the columns to the right must be [assigned](#assignment)
-   - Check to make sure cards in your Initiative are [assigned](#assignment) ([check](https://github.com/orgs/18F/projects/11?fullscreen=true&card_filter_query=-assignee%3Aits-a-lisa-at-work+-assignee%3Aafeld+-assignee%3Ajjediny))
+   - Check to make sure cards in your Initiative are [assigned](#assignment) ([check](https://github.com/orgs/18F/projects/11?fullscreen=true&card_filter_query=-assignee%3Aafeld+-assignee%3Ajjediny))
    - Order cards
      - Sprint Planning -- cards that you want moved into the Sprint should be at the top of New when filtered by your name
      - Sprint Grooming -- cards that you want discussed, deleted or delegated should be at the bottom of Icebox when filtered by your name
