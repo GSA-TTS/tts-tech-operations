@@ -56,7 +56,8 @@ Add them to:
 
 Update:
 
-- [ ] [The TTS Tech Portfolio Roles](https://github.com/18F/tts-tech-portfolio/blob/master/how_we_work/roles.md with their name and any known roles they'll be doing
+- [ ] [The TTS Tech Portfolio Roles](https://github.com/18F/tts-tech-portfolio/blob/master/how_we_work/roles.md) with their name and any known roles they'll be doing
+- [ ] Them to be an Owner in [the 18F GitHub organization](https://github.com/orgs/18F/people)
 
 ### Google Groups
 
