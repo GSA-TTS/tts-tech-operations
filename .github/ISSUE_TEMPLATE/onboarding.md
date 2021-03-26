@@ -62,7 +62,6 @@ Add them to:
 Update:
 
 - [ ] [The TTS Tech Portfolio Roles](https://github.com/18F/tts-tech-portfolio/blob/master/how_we_work/roles.md) with their name and any known roles they'll be doing
-- [ ] Them to be an Owner in [the 18F GitHub organization](https://github.com/orgs/18F/people)
 
 ### Google Groups
 
@@ -70,24 +69,18 @@ Update:
 - [ ] [TTS Technology Portfolio](https://groups.google.com/a/gsa.gov/forum/#!managemembers/devops/add)
 - [ ] [TTS Vulnerability Reports](https://groups.google.com/a/gsa.gov/forum/#!managemembers/tts-vulnerability-reports/add)
 
-### Account Access - User
+### Account Access
 
-- [ ] Create AWS IAM user for [cross-account access](https://github.com/18F/aws-admin#cross-account-access)
+Add as an admin to:
 
-### Account Access - Admin
-
-- [ ] Add as an admin
-  - [ ] NPM
-  - [ ] Trello
-  - [ ] GitHub
-  - [ ] NewRelic
-  - [ ] InVision
-  - [ ] Mural
-  - [ ] DockerHub
-  - [ ] HackerOne
-  - [ ] Slack
-
-### Give Access to Google Forms and their accompying spreadsheets
-
-- [ ] Anonymous Feedback
-- [ ] Vulnerability Response
+- [ ] AWS, via [cross-account access](https://github.com/18F/aws-admin#cross-account-access)
+- [ ] [DockerHub](https://hub.docker.com/orgs/18fgsa)
+- [ ] [18F GitHub org](https://github.com/orgs/18F/people)
+- [ ] HackerOne
+  - [ ] [Public team](https://hackerone.com/tts/team_members)
+  - [ ] [Private team](https://hackerone.com/tts-private/team_members)
+- [ ] [InVision](https://gsa.invisionapp.com/d/main?origin=v7#/company/members)
+- [ ] [Mural](https://app.mural.co/t/gsa6/settings/members)
+- [ ] [New Relic](https://account.newrelic.com/accounts/562946/users)
+- [ ] [NPM](https://www.npmjs.com/settings/18f/members)
+- [ ] [Slack](https://handbook.tts.gsa.gov/tools/slack/user-management/#offboarding)
