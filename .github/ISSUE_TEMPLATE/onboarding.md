@@ -38,6 +38,11 @@ Learn our policies and procedures:
 - [ ] Review the [18F open source policy guidance about protecting sensitive information](https://github.com/18F/open-source-policy/blob/master/practice.md#protecting-sensitive-information)
   - [ ] Review the [TTS requirements for password management](https://handbook.tts.gsa.gov/password-requirements/)
 
+Learn about what we do:
+
+- [ ] [DNS](https://github.com/18F/dns)
+- [ ] [How to create GitHub issues in our board](https://docs.google.com/presentation/d/1q8aCGgzBfP9B8yJrMHfavTwAYPupgdT94ktGPsHzjVU/edit)
+
 ## Buddy checklist
 
 - [ ] Introduce yourself to the new team member and give them some of your background so they know who you are; if you are comfortable, share your Readme and encourage them to create their own
@@ -86,8 +91,3 @@ Update:
 
 - [ ] Anonymous Feedback
 - [ ] Vulnerability Response
-
-### Learn about what we do
-
-- [ ] [DNS](https://github.com/18F/dns)
-- [ ] Creating Issues [instructions](https://docs.google.com/presentation/d/1q8aCGgzBfP9B8yJrMHfavTwAYPupgdT94ktGPsHzjVU/edit)
