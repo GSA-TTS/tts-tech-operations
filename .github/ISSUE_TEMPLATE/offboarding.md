@@ -20,5 +20,5 @@ task. (PS-4: Personnel termination)
 ## Assignee
 
 - [ ] Remove them from #tts-tech-portfolio-private
-- [ ] Copy in the [onboarding checklist](hhttps://raw.githubusercontent.com/18F/tts-tech-portfolio/master/.github/ISSUE_TEMPLATE/onboarding.md)
+- [ ] Copy in the [onboarding buddy checklist](hhttps://raw.githubusercontent.com/18F/tts-tech-portfolio/master/.github/ISSUE_TEMPLATE/onboarding.md)
   - [ ] Adjust/reverse as appropriate

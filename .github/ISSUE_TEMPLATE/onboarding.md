@@ -38,13 +38,16 @@ Learn our policies and procedures:
 - [ ] Review the [18F open source policy guidance about protecting sensitive information](https://github.com/18F/open-source-policy/blob/master/practice.md#protecting-sensitive-information)
   - [ ] Review the [TTS requirements for password management](https://handbook.tts.gsa.gov/password-requirements/)
 
+Learn about what we do:
+
+- [ ] [DNS](https://github.com/18F/dns)
+- [ ] [How to create GitHub issues in our board](https://docs.google.com/presentation/d/1q8aCGgzBfP9B8yJrMHfavTwAYPupgdT94ktGPsHzjVU/edit)
+
 ## Buddy checklist
 
 - [ ] Introduce yourself to the new team member and give them some of your background so they know who you are; if you are comfortable, share your Readme and encourage them to create their own
 - [ ] Identify a straightforward, well-groomed story in progress that involves their skills domain, schedule a meeting with the owner for an introduction (if it's not you), and setup pairing sessions several times in the first week on the project.
-- [ ] Add to [the employee list in SmartSheet](https://app.smartsheet.com/sheets/Q2CgG9V897x8rRmv8XhGGjrhFRxVVqgVx5hCmW41?view=grid)
 - [ ] Have the person shadow whomever is on [OpsRotation](https://github.com/18F/tts-tech-portfolio/blob/master/how_we_work/ops_rotation.md), so they can see how we handle support and read with those within TTS.
-- [ ] Add them to OpsRotation schedule
 
 ### Required items for all team members
 
@@ -53,10 +56,9 @@ Add them to:
 - [ ] [The @tech-portfolio user group in Slack](https://get.slack.help/hc/en-us/articles/212906697-User-Groups#edit-a-user-group)
 - [ ] [The @18F/tts-tech-portfolio team in GitHub](https://github.com/orgs/18F/teams/tts-tech-portfolio/members)
 - [ ] [The Everyone issue template](https://github.com/18F/tts-tech-portfolio/blob/master/.github/ISSUE_TEMPLATE/everyone.md)
-
-Update:
-
-- [ ] [The TTS Tech Portfolio Roles](https://github.com/18F/tts-tech-portfolio/blob/master/how_we_work/roles.md with their name and any known roles they'll be doing
+- [ ] The OpsRotation schedule
+- [ ] [The TTS Tech Portfolio Roles](https://github.com/18F/tts-tech-portfolio/blob/master/how_we_work/roles.md)
+- [ ] [The employee list in SmartSheet](https://app.smartsheet.com/sheets/Q2CgG9V897x8rRmv8XhGGjrhFRxVVqgVx5hCmW41?view=grid)
 
 ### Google Groups
 
@@ -64,29 +66,18 @@ Update:
 - [ ] [TTS Technology Portfolio](https://groups.google.com/a/gsa.gov/forum/#!managemembers/devops/add)
 - [ ] [TTS Vulnerability Reports](https://groups.google.com/a/gsa.gov/forum/#!managemembers/tts-vulnerability-reports/add)
 
-### Account Access - User
+### Account Access
 
-- [ ] Create AWS IAM user for [cross-account access](https://github.com/18F/aws-admin#cross-account-access)
+Add as an admin to:
 
-### Account Access - Admin
-
-- [ ] Add as an admin
-  - [ ] NPM
-  - [ ] Trello
-  - [ ] GitHub
-  - [ ] NewRelic
-  - [ ] InVision
-  - [ ] Mural
-  - [ ] DockerHub
-  - [ ] HackerOne
-  - [ ] Slack
-
-### Give Access to Google Forms and their accompying spreadsheets
-
-- [ ] Anonymous Feedback
-- [ ] Vulnerability Response
-
-### Learn about what we do
-
-- [ ] [DNS](https://github.com/18F/dns)
-- [ ] Creating Issues [instructions](https://docs.google.com/presentation/d/1q8aCGgzBfP9B8yJrMHfavTwAYPupgdT94ktGPsHzjVU/edit)
+- [ ] AWS, via [cross-account access](https://github.com/18F/aws-admin#cross-account-access)
+- [ ] [DockerHub](https://hub.docker.com/orgs/18fgsa)
+- [ ] [`TTS-managed` GitHub orgs](https://handbook.tts.gsa.gov/github/#organizations)
+- [ ] HackerOne
+  - [ ] [Public team](https://hackerone.com/tts/team_members)
+  - [ ] [Private team](https://hackerone.com/tts-private/team_members)
+- [ ] [InVision](https://gsa.invisionapp.com/d/main?origin=v7#/company/members)
+- [ ] [Mural](https://app.mural.co/t/gsa6/settings/members)
+- [ ] [New Relic](https://account.newrelic.com/accounts/562946/users)
+- [ ] [NPM](https://www.npmjs.com/settings/18f/members)
+- [ ] [Slack](https://handbook.tts.gsa.gov/tools/slack/user-management/#offboarding)
