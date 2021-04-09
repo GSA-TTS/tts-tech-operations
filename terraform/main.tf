@@ -1,22 +1,21 @@
 terraform {
-  required_version = "~> 0.13.0"
+  required_version = "~> 0.14.0"
   required_providers {
     github = {
-      source  = "hashicorp/github"
-      version = "~> 2.4"
+      source = "integrations/github"
     }
   }
   backend "s3" {
-    bucket                          = "tts-terraform-s3"
-    key                             = "tts-tech-portfolio/terraform.tfstate"
-    dynamodb_table                  = "tts-terraform-dynamodb-tts-tech-portfolio"
-    region                          = "us-west-2"
+    bucket         = "tts-terraform-s3"
+    key            = "tts-tech-portfolio/terraform.tfstate"
+    dynamodb_table = "tts-terraform-dynamodb-tts-tech-portfolio"
+    region         = "us-west-2"
   }
 }
 
 provider "github" {
-  token        = var.github_token
-  organization = "18f"
+  token = var.github_token
+  owner = "18f"
 }
 
 locals {
@@ -37,7 +36,7 @@ locals {
     "join.tts.gsa.gov" : { skip_issue_templates = true },
     "laptop" : { archived = true },
     "newrelic-terraform" : {},
-    "private-eye": {},
+    "private-eye" : {},
     "raktabija" : { archived = true },
     "slack-export-handling" : { archived = true },
     "tts-tech-portfolio-private" : {},
@@ -51,7 +50,7 @@ module "repo" {
   source = "./repo"
 
   # skip archived repositories
-  for_each        = { for repo, config in local.repos : repo => config if ! lookup(config, "archived", false) }
+  for_each        = { for repo, config in local.repos : repo => config if !lookup(config, "archived", false) }
   repo            = each.key
   issue_templates = lookup(each.value, "skip_issue_templates", false) ? [] : ["general.md"]
 }
