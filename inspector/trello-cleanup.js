@@ -1,6 +1,7 @@
 require("dotenv").config();
 const fetch = require("node-fetch");
 const { URLSearchParams } = require("url");
+const { DateTime } = require("luxon");
 
 const USER = "afeld_gsa";
 
@@ -39,9 +40,24 @@ const getOrgs = async () => {
   return enterpriseOrgs;
 };
 
+const shouldClose = (board) => {
+  if (board.closed) {
+    return false;
+  }
+
+  const lastActivity = DateTime.fromISO(board.dateLastActivity);
+  const cutoff = DateTime.now().minus({ months: 6 });
+  return lastActivity < cutoff;
+};
+
 const cleanBoards = async (org) => {
   const boards = await trelloRequest(`/organizations/${org.id}/boards`);
-  console.log(boards);
+  for (const board of boards) {
+    if (shouldClose(board)) {
+      console.log(board);
+      // console.log(board.name, board.url);
+    }
+  }
 };
 
 const run = async () => {
@@ -51,4 +67,12 @@ const run = async () => {
   }
 };
 
-run();
+// https://nodejs.org/docs/latest/api/modules.html#modules_accessing_the_main_module
+if (require.main === module) {
+  run();
+} else {
+  // for tests
+  module.exports = {
+    shouldClose,
+  };
+}
