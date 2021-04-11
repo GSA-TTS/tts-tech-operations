@@ -1,7 +1,6 @@
-import dotenv from "dotenv";
-dotenv.config();
-import fetch from "node-fetch";
-import { URLSearchParams } from "url";
+require("dotenv").config();
+const fetch = require("node-fetch");
+const { URLSearchParams } = require("url");
 
 const USER = "afeld_gsa";
 
@@ -45,7 +44,11 @@ const cleanBoards = async (org) => {
   console.log(boards);
 };
 
-const orgs = await getOrgs();
-for (const org of orgs) {
-  cleanBoards(org);
-}
+const run = async () => {
+  const orgs = await getOrgs();
+  for (const org of orgs) {
+    cleanBoards(org);
+  }
+};
+
+run();
