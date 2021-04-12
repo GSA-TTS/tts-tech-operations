@@ -6,3 +6,6 @@ workflows:
     jobs:
       - node/test:
           app-dir: inspector
+        environment:
+          TRELLO_KEY: test_key
+          TRELLO_TOKEN: test_token
