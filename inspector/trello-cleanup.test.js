@@ -41,7 +41,7 @@ describe("shouldClose()", () => {
 
   test("returns true for inactive boards", () => {
     const board = boilerplateBoard();
-    board.dateLastActivity = toISO(DateTime.now().minus({ years: 1 }));
+    board.dateLastActivity = "2019-01-01T00:00:00.000Z";
 
     expect(trello.shouldClose(board)).toBe(true);
   });

@@ -3,8 +3,6 @@ const fetch = require("node-fetch");
 const { URLSearchParams } = require("url");
 const { DateTime } = require("luxon");
 
-const USER = "afeld_gsa";
-
 const KEY = process.env.TRELLO_KEY;
 if (!KEY) {
   throw "TRELLO_KEY not set";
@@ -19,7 +17,8 @@ const trelloRequest = async (endpoint, extraParams = {}) => {
   params.set("key", KEY);
   params.set("token", TOKEN);
 
-  const response = await fetch(`https://api.trello.com/1${endpoint}?${params}`);
+  const url = `https://api.trello.com/1${endpoint}?${params}`;
+  const response = await fetch(url);
 
   if (!response.ok) {
     const body = await response.text();
@@ -31,7 +30,8 @@ const trelloRequest = async (endpoint, extraParams = {}) => {
 };
 
 const getOrgs = async () => {
-  const orgs = await trelloRequest(`/members/${USER}/organizations`);
+  // https://stackoverflow.com/a/54444336/358804
+  const orgs = await trelloRequest(`/members/me/organizations`);
   const enterpriseOrgs = orgs.filter((org) => org.idEnterprise);
 
   const orgNames = enterpriseOrgs.map((org) => org.displayName);
@@ -54,8 +54,8 @@ const cleanBoards = async (org) => {
   const boards = await trelloRequest(`/organizations/${org.id}/boards`);
   for (const board of boards) {
     if (shouldClose(board)) {
-      console.log(board);
-      // console.log(board.name, board.url);
+      // console.log(board);
+      console.log(`"${board.name}","${board.url}"`);
     }
   }
 };
