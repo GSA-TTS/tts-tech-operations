@@ -14,35 +14,101 @@ locals {
     # for any changes to existing label names, make sure to migrate — see ../README.md
 
     # epics
-    "e: aws cleanup"        = local.label_colors["epics"]
-    "e: SaaS documentation" = local.label_colors["epics"]
+    "e: aws cleanup" = {
+      color       = local.label_colors["epics"]
+      description = ""
+    }
+    "e: SaaS documentation" = {
+      color       = local.label_colors["epics"]
+      description = ""
+    }
 
     # grooming states
-    "g: accepted" = local.label_colors["grooming"]
-    "g: final"    = local.label_colors["grooming"]
-    "g: initial"  = local.label_colors["grooming"]
+    "g: accepted" = {
+      color       = local.label_colors.grooming
+      description = "Issue has been fully groomed."
+    }
+    "g: final" = {
+      color       = local.label_colors.grooming
+      description = "Issue ready for review."
+    }
+    "g: initial" = {
+      color       = local.label_colors.grooming
+      description = "Issue template needs to be filled out, and/or initiative/timing labels need to be added."
+    }
 
     # initiatives
-    "i: custom software"  = local.label_colors["initiatives"]
-    "i: infrastructure"   = local.label_colors["initiatives"]
-    "i: internal team"    = local.label_colors["initiatives"]
-    "i: misc"             = local.label_colors["initiatives"]
-    "i: SaaS"             = local.label_colors["initiatives"]
-    "i: customer support" = local.label_colors["initiatives"]
+    "i: custom software" = {
+      color       = local.label_colors.initiatives
+      description = "Relating to systems we've built in TTS"
+    }
+    "i: infrastructure" = {
+      color       = local.label_colors.initiatives
+      description = "Relating to technology underneath/supporting custom software across TTS"
+    }
+    "i: internal team" = {
+      color       = local.label_colors.initiatives
+      description = "Relating to process or training within the Tech Portfolio, or communication about the team outwards"
+    }
+    "i: misc" = {
+      color       = local.label_colors.initiatives
+      description = "Issues that don't fit in another Initiative"
+    }
+    "i: SaaS" = {
+      color       = local.label_colors.initiatives
+      description = "Relating to third-party software: acquisition, security compliance, etc."
+    }
+    "i: customer support" = {
+      color       = local.label_colors.initiatives
+      description = "Relating to supporting TTS staff and partners: troubleshooting, documentation, etc."
+    }
     # deprecated
-    "i: DEI"                     = local.label_colors["initiatives"]
-    "i: Digital Council"         = local.label_colors["initiatives"]
-    "i: enterprise architecture" = local.label_colors["initiatives"]
-    "i: max.gov"                 = local.label_colors["initiatives"]
-    "i: software assurance"      = local.label_colors["initiatives"]
+    "i: DEI" = {
+      color       = local.label_colors.initiatives
+      description = ""
+    }
+    "i: Digital Council" = {
+      color       = local.label_colors.initiatives
+      description = ""
+    }
+    "i: enterprise architecture" = {
+      color       = local.label_colors.initiatives
+      description = ""
+    }
+    "i: max.gov" = {
+      color       = local.label_colors.initiatives
+      description = ""
+    }
+    "i: software assurance" = {
+      color       = local.label_colors.initiatives
+      description = ""
+    }
 
     # timing
-    "m: due date" = "ea3546"
-    "t: days"     = local.label_colors["timing"]
-    "t: expedite" = local.label_colors["timing"]
-    "t: hours"    = local.label_colors["timing"]
-    "t: months"   = local.label_colors["timing"]
-    "t: weeks"    = local.label_colors["timing"]
+    "m: due date" = {
+      color       = "ea3546"
+      description = "Has a hard or soft deadline"
+    }
+    "t: days" = {
+      color       = local.label_colors.timing
+      description = "Should be complete-able in a matter of days (wall clock time)"
+    }
+    "t: expedite" = {
+      color       = local.label_colors.timing
+      description = "Needed to be pulled into a sprint after Planning was complete"
+    }
+    "t: hours" = {
+      color       = local.label_colors.timing
+      description = "Should be complete-able in a matter of hours (wall clock time)"
+    }
+    "t: months" = {
+      color       = local.label_colors.timing
+      description = "Should be complete-able in a matter of months (wall clock time) — should be split up"
+    }
+    "t: weeks" = {
+      color       = local.label_colors.timing
+      description = "Should be complete-able in a matter of weeks (wall clock time) — see what can be split out"
+    }
   }
 }
 
