@@ -4,6 +4,8 @@ variable "repo" {
 
 variable "issue_labels" {
   default = {
+    # for any changes to existing label names, make sure to migrate — see ../README.md
+
     # epics
     "e: aws cleanup"        = "6ecbdb"
     "e: SaaS documentation" = "6ecbdb"

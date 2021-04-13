@@ -44,13 +44,15 @@ locals {
     "uswds-jekyll" : {},
     "vulnerability-disclosure-policy" : {},
   }
+
+  # skip archived repositories
+  active_repos = { for repo, config in local.repos : repo => config if !lookup(config, "archived", false) }
 }
 
 module "repo" {
   source = "./repo"
 
-  # skip archived repositories
-  for_each        = { for repo, config in local.repos : repo => config if !lookup(config, "archived", false) }
+  for_each        = local.active_repos
   repo            = each.key
   issue_templates = lookup(each.value, "skip_issue_templates", false) ? [] : ["general.md"]
 }
