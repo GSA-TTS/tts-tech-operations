@@ -14,17 +14,18 @@ variable "issue_labels" {
     "g: initial"  = "662E9B"
 
     # initiatives
-    "i: acquisition"                = "6ecbdb"
-    "i: DEI"                        = "6ecbdb"
-    "i: Digital Council"            = "6ecbdb"
-    "i: enterprise architecture"    = "6ecbdb"
-    "i: infrastructure improvement" = "6ecbdb"
-    "i: internal workflow"          = "6ecbdb"
-    "i: mac"                        = "6ecbdb"
-    "i: max.gov"                    = "6ecbdb"
-    "i: misc"                       = "6ecbdb"
-    "i: software authorizations"    = "6ecbdb"
-    "i: software assurance"         = "6ecbdb"
+    "i: custom software"  = "6ecbdb"
+    "i: infrastructure"   = "6ecbdb"
+    "i: internal team"    = "6ecbdb"
+    "i: misc"             = "6ecbdb"
+    "i: SaaS"             = "6ecbdb"
+    "i: customer support" = "6ecbdb"
+    # deprecated
+    "i: DEI"                     = "6ecbdb"
+    "i: Digital Council"         = "6ecbdb"
+    "i: enterprise architecture" = "6ecbdb"
+    "i: max.gov"                 = "6ecbdb"
+    "i: software assurance"      = "6ecbdb"
 
     # timing
     "m: due date" = "EA3546"
