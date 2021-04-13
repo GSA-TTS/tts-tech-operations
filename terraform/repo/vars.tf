@@ -11,9 +11,9 @@ variable "issue_labels" {
     "e: SaaS documentation" = "6ecbdb"
 
     # grooming states
-    "g: accepted" = "662E9B"
-    "g: final"    = "662E9B"
-    "g: initial"  = "662E9B"
+    "g: accepted" = "662e9b"
+    "g: final"    = "662e9b"
+    "g: initial"  = "662e9b"
 
     # initiatives
     "i: custom software"  = "6ecbdb"
@@ -30,12 +30,12 @@ variable "issue_labels" {
     "i: software assurance"      = "6ecbdb"
 
     # timing
-    "m: due date" = "EA3546"
-    "t: days"     = "F86624"
-    "t: expedite" = "F86624"
-    "t: hours"    = "F86624"
-    "t: months"   = "F86624"
-    "t: weeks"    = "F86624"
+    "m: due date" = "ea3546"
+    "t: days"     = "f86624"
+    "t: expedite" = "f86624"
+    "t: hours"    = "f86624"
+    "t: months"   = "f86624"
+    "t: weeks"    = "f86624"
   }
 }
 
