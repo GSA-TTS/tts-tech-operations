@@ -48,8 +48,8 @@ It should show "no changes". You can then make changes to files, `apply`, etc.
 1. Get the migration commands.
 
    ```sh
-   python migrate_label.py "<label before>" "<label after>"
+   python rename_label.py "<label before>" "<label after>"
    ```
 
-1. Copy and paste the output into the terminal to execute.
+1. Note this doesn't actually perform the migration. Copy and paste the output into the terminal to execute.
 1. When running `terraform plan`/`apply`, it should show those labels being changed, not removed+added.
