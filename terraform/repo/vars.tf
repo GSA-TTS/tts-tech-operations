@@ -62,27 +62,6 @@ locals {
       color       = local.label_colors.initiatives
       description = "Relating to third-party software: acquisition, security compliance, etc."
     }
-    # deprecated
-    "i: DEI" = {
-      color       = local.label_colors.initiatives
-      description = ""
-    }
-    "i: Digital Council" = {
-      color       = local.label_colors.initiatives
-      description = ""
-    }
-    "i: enterprise architecture" = {
-      color       = local.label_colors.initiatives
-      description = ""
-    }
-    "i: max.gov" = {
-      color       = local.label_colors.initiatives
-      description = ""
-    }
-    "i: software assurance" = {
-      color       = local.label_colors.initiatives
-      description = ""
-    }
 
     # timing
     "m: due date" = {
