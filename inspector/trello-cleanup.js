@@ -12,13 +12,13 @@ if (!TOKEN) {
   throw "TRELLO_TOKEN not set";
 }
 
-const trelloRequest = async (endpoint, extraParams = {}) => {
+const trelloRequest = async (endpoint, extraParams = {}, fetchOpts = {}) => {
   const params = new URLSearchParams(extraParams);
   params.set("key", KEY);
   params.set("token", TOKEN);
 
   const url = `https://api.trello.com/1${endpoint}?${params}`;
-  const response = await fetch(url);
+  const response = await fetch(url, fetchOpts);
 
   if (!response.ok) {
     const body = await response.text();
@@ -35,7 +35,7 @@ const getOrgs = async () => {
   const enterpriseOrgs = orgs.filter((org) => org.idEnterprise);
 
   const orgNames = enterpriseOrgs.map((org) => org.displayName);
-  console.log(orgNames);
+  console.log(`Checking Trello Workspaces:\n\t${orgNames.join("\n\t")}`);
 
   return enterpriseOrgs;
 };
@@ -50,20 +50,36 @@ const shouldClose = (board) => {
   return lastActivity < cutoff;
 };
 
-const cleanBoards = async (org) => {
+const cleanBoards = async (org, apply = false) => {
   const boards = await trelloRequest(`/organizations/${org.id}/boards`);
   for (const board of boards) {
     if (shouldClose(board)) {
       // console.log(board);
       console.log(`"${board.name}","${board.url}"`);
+
+      if (apply) {
+        // close the boards syncronously so it's easier to troubleshoot if something goes wrong
+        await trelloRequest(
+          `/boards/${board.id}`,
+          { closed: true },
+          { method: "PUT" }
+        );
+      }
     }
   }
 };
 
 const run = async () => {
   const orgs = await getOrgs();
+  const apply = process.argv.some((arg) => arg === "--apply");
+  if (apply) {
+    console.log("Archiving inactive boards:\n");
+  } else {
+    console.log("Would archive the following inactive boards:\n");
+  }
+
   for (const org of orgs) {
-    cleanBoards(org);
+    cleanBoards(org, apply);
   }
 };
 
