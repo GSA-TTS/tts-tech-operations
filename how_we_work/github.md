@@ -5,6 +5,7 @@
 | repo | status |
 | --- | --- |
 | [18F/aws-admin](https://github.com/18F/aws-admin) | active |
+| [18F/aws-admin-cleanup](https://github.com/18F/aws-admin-cleanup) | active |
 | [18F/before-you-ship](https://github.com/18F/before-you-ship) | active |
 | [18F/billing-tools](https://github.com/18F/billing-tools) | archived |
 | [18F/bug-bounty](https://github.com/18F/bug-bounty) | active |
@@ -19,9 +20,11 @@
 | [18F/join.tts.gsa.gov](https://github.com/18F/join.tts.gsa.gov) | active |
 | [18F/laptop](https://github.com/18F/laptop) | archived |
 | [18F/newrelic-terraform](https://github.com/18F/newrelic-terraform) | active |
+| [18F/pages-redirects](https://github.com/18F/pages-redirects) | active |
 | [18F/private-eye](https://github.com/18F/private-eye) | active |
 | [18F/raktabija](https://github.com/18F/raktabija) | archived |
 | [18F/slack-export-handling](https://github.com/18F/slack-export-handling) | archived |
+| [18F/tts-common-controls](https://github.com/18F/tts-common-controls) | active |
 | [18F/tts-tech-portfolio](https://github.com/18F/tts-tech-portfolio) | active |
 | [18F/tts-tech-portfolio-private](https://github.com/18F/tts-tech-portfolio-private) | active |
 | [18F/uswds-jekyll](https://github.com/18F/uswds-jekyll) | active |
