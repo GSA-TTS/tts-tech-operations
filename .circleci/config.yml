@@ -2,9 +2,8 @@ version: 2.1
 orbs:
   node: circleci/node@4.0.0
 
-jobs:
+executors:
   node/test:
-    app-dir: inspector
     environment:
       TRELLO_KEY: test_key
       TRELLO_TOKEN: test_token
@@ -12,4 +11,5 @@ jobs:
 workflows:
   node-tests:
     jobs:
-      - node/test
+      - node/test:
+          app-dir: inspector
