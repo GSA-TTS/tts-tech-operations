@@ -1,13 +1,6 @@
 version: 2.1
 orbs:
   node: circleci/node@4.0.0
-
-executors:
-  node/test:
-    environment:
-      TRELLO_KEY: test_key
-      TRELLO_TOKEN: test_token
-
 workflows:
   node-tests:
     jobs:
