@@ -22,6 +22,7 @@ locals {
   # options default to false
   repos = {
     "aws-admin" : {},
+    "aws-admin-cleanup" : {},
     "before-you-ship" : {},
     "billing-tools" : { archived = true },
     "bug-bounty" : {},
@@ -36,9 +37,11 @@ locals {
     "join.tts.gsa.gov" : { skip_issue_templates = true },
     "laptop" : { archived = true },
     "newrelic-terraform" : {},
+    "pages-redirects" : {},
     "private-eye" : {},
     "raktabija" : { archived = true },
     "slack-export-handling" : { archived = true },
+    "tts-common-controls" : {},
     "tts-tech-portfolio-private" : {},
     "tts-tech-portfolio" : {},
     "uswds-jekyll" : {},
