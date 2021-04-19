@@ -8,11 +8,12 @@ terraform {
 }
 
 resource "github_issue_label" "labels" {
-  for_each = var.issue_labels
+  for_each = local.issue_labels
 
-  repository = var.repo
-  name       = each.key
-  color      = each.value
+  repository  = var.repo
+  name        = each.key
+  description = each.value.description
+  color       = each.value.color
 }
 
 locals {

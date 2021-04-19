@@ -2,30 +2,93 @@ variable "repo" {
   type = string
 }
 
-variable "issue_labels" {
-  default = {
-    "e: aws cleanup"                = "6ecbdb"
-    "e: SaaS documentation"         = "6ecbdb"
-    "g: accepted"                   = "662E9B"
-    "g: final"                      = "662E9B"
-    "g: initial"                    = "662E9B"
-    "i: acquisition"                = "6ecbdb"
-    "i: DEI"                        = "6ecbdb"
-    "i: Digital Council"            = "6ecbdb"
-    "i: enterprise architecture"    = "6ecbdb"
-    "i: infrastructure improvement" = "6ecbdb"
-    "i: internal workflow"          = "6ecbdb"
-    "i: mac"                        = "6ecbdb"
-    "i: max.gov"                    = "6ecbdb"
-    "i: misc"                       = "6ecbdb"
-    "i: software authorizations"    = "6ecbdb"
-    "i: software assurance"         = "6ecbdb"
-    "m: due date"                   = "EA3546"
-    "t: days"                       = "F86624"
-    "t: expedite"                   = "F86624"
-    "t: hours"                      = "F86624"
-    "t: months"                     = "F86624"
-    "t: weeks"                      = "F86624"
+locals {
+  label_colors = {
+    epics       = "6ecbdb"
+    grooming    = "662e9b"
+    initiatives = "6ecbdb"
+    timing      = "f86624"
+  }
+
+  issue_labels = {
+    # for any changes to existing label names, make sure to migrate — see ../README.md
+
+    # epics
+    "e: aws cleanup" = {
+      color       = local.label_colors["epics"]
+      description = ""
+    }
+    "e: SaaS documentation" = {
+      color       = local.label_colors["epics"]
+      description = ""
+    }
+
+    # grooming states
+    "g: initial" = {
+      color       = local.label_colors.grooming
+      description = "Issue template needs to be filled out, and/or initiative/timing labels need to be added."
+    }
+    "g: final" = {
+      color       = local.label_colors.grooming
+      description = "Issue ready for review."
+    }
+    "g: accepted" = {
+      color       = local.label_colors.grooming
+      description = "Issue has been fully groomed."
+    }
+
+    # initiatives
+    "i: custom software" = {
+      color       = local.label_colors.initiatives
+      description = "Relating to systems we've built in TTS"
+    }
+    "i: customer support" = {
+      color       = local.label_colors.initiatives
+      description = "Relating to supporting TTS staff and partners: troubleshooting, documentation, etc."
+    }
+    "i: infrastructure" = {
+      color       = local.label_colors.initiatives
+      description = "Relating to technology underneath/supporting custom software across TTS"
+    }
+    "i: internal team" = {
+      color       = local.label_colors.initiatives
+      description = "Relating to process or training within the Tech Portfolio, or communication about the team outwards"
+    }
+    "i: misc" = {
+      color       = local.label_colors.initiatives
+      description = "Issues that don't fit in another Initiative"
+    }
+    "i: SaaS" = {
+      color       = local.label_colors.initiatives
+      description = "Relating to third-party software: acquisition, security compliance, etc."
+    }
+
+    # timing
+    "m: due date" = {
+      color       = "ea3546"
+      description = "Has a hard or soft deadline"
+    }
+    "t: expedite" = {
+      color       = local.label_colors.timing
+      description = "Needed to be pulled into a sprint after Planning was complete"
+    }
+    # estimates
+    "t: hours" = {
+      color       = local.label_colors.timing
+      description = "Should be complete-able in a matter of hours (wall clock time)"
+    }
+    "t: days" = {
+      color       = local.label_colors.timing
+      description = "Should be complete-able in a matter of days (wall clock time)"
+    }
+    "t: weeks" = {
+      color       = local.label_colors.timing
+      description = "Should be complete-able in a matter of weeks (wall clock time) — see what can be split out"
+    }
+    "t: months" = {
+      color       = local.label_colors.timing
+      description = "Should be complete-able in a matter of months (wall clock time) — should be split up"
+    }
   }
 }
 
