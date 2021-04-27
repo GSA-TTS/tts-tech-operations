@@ -85,6 +85,7 @@ SaaS Manager needs to be added to 18F Software and TTS Software Google groups
 
 - [HRLinks Roster](https://docs.google.com/spreadsheets/d/1tRzGxnI1E4soOkHsod5xd-XmO33cy0cKRx7LpSNAaF0/edit?usp=sharing)
 - [Talent Database](https://docs.google.com/spreadsheets/d/16x18nV5jHwsBzw12b32PDxV6zQtFkzbaGV6W2uNhaUY/edit#gid=361159397)
+- [GSA Separations (people who've left GSA)](https://d2d.gsa.gov/dataset/gsa-separations)
 
 ## IaaS Management
 
