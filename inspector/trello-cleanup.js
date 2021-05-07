@@ -3,21 +3,19 @@ const fetch = require("node-fetch");
 const { URLSearchParams } = require("url");
 const { DateTime } = require("luxon");
 
-const KEY = process.env.TRELLO_KEY;
-const TOKEN = process.env.TRELLO_TOKEN;
+const { TRELLO_KEY, TRELLO_TOKEN } = process.env;
 
 const trelloRequest = async (endpoint, extraParams = {}, fetchOpts = {}) => {
+  if (!TRELLO_KEY) {
+    throw new Error("TRELLO_KEY not set");
+  }
+  if (!TRELLO_TOKEN) {
+    throw new Error("TRELLO_TOKEN not set");
+  }
+
   const params = new URLSearchParams(extraParams);
-
-  if (!KEY) {
-    throw "TRELLO_KEY not set";
-  }
-  params.set("key", KEY);
-
-  if (!TOKEN) {
-    throw "TRELLO_TOKEN not set";
-  }
-  params.set("token", TOKEN);
+  params.set("key", TRELLO_KEY);
+  params.set("token", TRELLO_TOKEN);
 
   const url = `https://api.trello.com/1${endpoint}?${params}`;
   const response = await fetch(url, fetchOpts);
@@ -25,7 +23,7 @@ const trelloRequest = async (endpoint, extraParams = {}, fetchOpts = {}) => {
   if (!response.ok) {
     const body = await response.text();
     console.error(body);
-    throw body;
+    throw new Error(body);
   }
 
   return response.json();
