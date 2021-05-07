@@ -7,6 +7,9 @@ workflows:
     jobs:
       - node/test:
           app-dir: inspector
+      - run:
+          name: Lint JavaScript
+          command: npm run lint
   terraform:
     jobs:
       - terraform/validate:

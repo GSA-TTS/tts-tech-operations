@@ -1,6 +1,7 @@
 {
   "private": true,
   "scripts": {
+    "lint": "eslint .",
     "test": "jest --coverage"
   },
   "dependencies": {
@@ -10,6 +11,10 @@
     "lodash.countby": "^4.6.0"
   },
   "devDependencies": {
+    "eslint": "^7.25.0",
+    "eslint-config-airbnb-base": "^14.2.1",
+    "eslint-config-prettier": "^8.3.0",
+    "eslint-plugin-import": "^2.22.1",
     "jest": "^26.4.2",
     "nock": "^13.0.4"
   }
