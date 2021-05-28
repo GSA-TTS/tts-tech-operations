@@ -11,13 +11,9 @@
 
 ## Ceremonies and Activities
 
-We use the term "sprint" to refer to the ceremony cycles, even though they aren't strictly Sprints in the Scrum sense.
+We use the term "sprint" to refer to the ceremony cycles, even though they aren't strictly Sprints in the Scrum sense. These can all be found on the shared `TTS Tech Portfolio` calendar.
 
 ### Stand-ups
-
-**Cadence:** Daily at 11:30 ET, except for Wednesdays
-
-**Format:** Virtual Meeting
 
 **Purpose:** Ensure folks are making progress within their assigned Initiative areas and that people aren't blocked.
 
@@ -57,10 +53,6 @@ NOTE: This activity relates to the following measures within the Performance Pla
 
 ### Lunches
 
-**Cadence:** Tuesdays & Thursday at noon ET
-
-**Format:** Virtual Meeting
-
 **Purpose:** Team bonding/culture-building.
 
 We talk about whatever we want, work-related or not. We avoid talking about day-to-day tasks—that's what Stand-ups are for.
@@ -70,10 +62,6 @@ Opportunity to do some lean coffee style discussions to talk about areas of inte
 NOTE: This activity is purely optional and will have no impact on an individual's performance plan.
 
 ### Sprint Planning and Grooming prep
-
-**Cadence:** Before [Sprint Planning](#sprint-planning) and [Grooming](#grooming) ceremonies
-
-**Format:** Async
 
 **Purpose:** Come prepared to those ceremonies
 
@@ -104,10 +92,6 @@ NOTE: This activity is purely optional and will have no impact on an individual'
   - Duty Specific: Works Well (Meets Deadlines), (Dependability)
 
 ### Sprint Planning
-
-**Cadence:** Every other Monday 13:00-14:00 ET
-
-**Format:** Virtual Meeting
 
 **Purpose:** Get all the cards that will be worked on in the next two weeks into the Backlog (Sprint Staging) from Ready (Sprint Planned), Icebox or New. Expect that the cards that are planned for will be the activity that gets worked on within the next couple of weeks unless there is a task that needs to be expedited.
 
@@ -147,10 +131,6 @@ NOTE: This activity is purely optional and will have no impact on an individual'
   - Are part of an [Epic](#epics)
 
 ### Grooming
-
-**Cadence:** Every other Monday 13:00-14:00 ET
-
-**Format:** Virtual Meeting
 
 **Purpose:** Maintain non-planned or in-progress cards.
 
