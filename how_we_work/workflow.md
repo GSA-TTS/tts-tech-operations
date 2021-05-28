@@ -22,25 +22,14 @@ We use the term "sprint" to refer to the ceremony cycles, even though they aren'
    1. Review of calendar items that others might benefit from attending or knowing about
 1. OpsRotation person leads looking at any any pull requests that would be useful to review as a group
 
-#### What to work on
+### What to work on
 
-Recommended order to prioritize cards:
+Work on cards assigned to you:
 
-1. `In Progress`
-1. `Waiting/Feedback` that can be moved forward / broken up
-1. `Ready (Sprint Planned)` with upcoming due dates & left over from past sprints
-1. Other `Ready (Sprint Planned)`
+1. With upcoming [due dates](https://github.com/orgs/18F/projects/11?fullscreen=true&card_filter_query=label%3A%22m%3A+due+date%22)
+1. Right to left on the board
 
-##### Tips
-
-- Look for [anything with a due date](https://github.com/orgs/18F/projects/11?fullscreen=true&card_filter_query=due+label%3A%22due+date%22).
-- Look for work that is missing from the board. If you mention you're working on something and it isn't represented, someone will probably ask a follow up question.
-- See also: [guidelines for external contribution](https://docs.google.com/drawings/d/1YzYVriKsExFEdS8Qf20LAa-quxdOuYuPX2ZeQ8K_D9w/edit)
-
-NOTE: This activity relates to the following measures within the Performance Plan
-
-- Business Unit: Delivers great work (Customer Satisfaction & Relations), (Productivity & Volume)
-- Duty Specific: Works well with others (Communication Skills), (Helps Others)
+See also: [guidelines for external contribution](https://docs.google.com/drawings/d/1YzYVriKsExFEdS8Qf20LAa-quxdOuYuPX2ZeQ8K_D9w/edit)
 
 ### Lunches
 
