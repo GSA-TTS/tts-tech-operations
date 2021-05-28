@@ -64,15 +64,23 @@ See also: [guidelines for external contribution](https://docs.google.com/drawing
 
 Optional. We talk about whatever we want, work-related or not.
 
+### Co-working
+
+**Purpose:** Time set aside to work through tasks as a group (full or partial team)
+
 ### Grooming
 
-**Purpose:** Ensure that all currently/soon active cards are [groomed](#grooming-status).
+**Purpose:** Ensure that cards that are [groomed](#grooming-status) before they're closed, ideally before they're started.
 
 **Meeting Flow:**
 
 1. New Card Review - Teammates will brief others on the new cards they created and the group will decide where the card should go to `Icebox` or `Backlog (Sprint Staging)`.
 1. Teammates will order the cards within their initiative in the `Icebox` based on their own criteria
 1. Review [non-groomed issues](https://github.com/orgs/18F/projects/11?fullscreen=true&card_filter_query=-label%3A%22g%3A+accepted%22) right to left, [grooming](#grooming-status) each
+
+### Icebox Thaw
+
+**Purpose:** Remove stale issues from the `Icebox`.
 
 ### Retros
 
