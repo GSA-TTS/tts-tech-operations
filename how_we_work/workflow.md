@@ -4,7 +4,32 @@
 
 We use the term "sprint" to refer to the ceremony cycles, even though they aren't strictly Sprints in the Scrum sense. These can all be found on the shared `TTS Tech Portfolio` calendar.
 
-Any ceremony can start with a standup if needed.
+Any ceremony can start with a [standup](#stand-ups) if needed.
+
+### Sprint Planning
+
+**Purpose:** Have the `Ready (Sprint Planned)` column represent all cards that will be started this Sprint.
+
+**Meeting Flow:**
+
+1. **Due Date Review:** [Look for cards that have upcoming due dates.](https://github.com/orgs/18F/projects/11?fullscreen=true&card_filter_query=label%3A%22m%3A+due+date%22) Move into `Ready (Sprint Planned)` as necessary to complete them in time.
+1. **Review `New` cards:** Move cards into `Backlog (Sprint Staging)` that you would like to discuss adding into the Sprint. Move the rest into `Icebox`.
+1. **Review `Icebox` cards:** Move cards from `Icebox` into `Backlog (Sprint Staging)` that you would like to discuss adding into the Sprint.
+1. **Get `Ready`:** Move cards between `Backlog (Sprint Staging)` and `Ready (Sprint Planned)`.
+   - `Ready (Sprint Planned)` should represent the [highest-priority](#prioritization) issues that haven't been started.
+   - There should only be as many assigned to each person as they think they will be able to start this Sprint. Keep the following in mind:
+     - [What to work on](#what-to-work-on)
+     - Upcoming leave
+     - Other commitments (training, working groups, etc.)
+
+#### Prioritization
+
+Use the following considerations for how to prioritize cards moving towards/into `Ready`:
+
+- Due date
+- Force-multiplier / quick win / high value
+- Continuation of things you've already been working on
+- Solve active pain points over nice-to-haves
 
 ### Stand-ups
 
@@ -38,31 +63,6 @@ See also: [guidelines for external contribution](https://docs.google.com/drawing
 **Purpose:** Team bonding/culture-building.
 
 Optional. We talk about whatever we want, work-related or not.
-
-### Sprint Planning
-
-**Purpose:** Have the `Ready (Sprint Planned)` column represent all cards that will be started this Sprint.
-
-**Meeting Flow:**
-
-1. **Due Date Review:** [Look for cards that have upcoming due dates.](https://github.com/orgs/18F/projects/11?fullscreen=true&card_filter_query=label%3A%22m%3A+due+date%22) Move into `Ready (Sprint Planned)` as necessary to complete them in time.
-1. **Review `New` cards:** Move cards into `Backlog (Sprint Staging)` that you would like to discuss adding into the Sprint. Move the rest into `Icebox`.
-1. **Review `Icebox` cards:** Move cards from `Icebox` into `Backlog (Sprint Staging)` that you would like to discuss adding into the Sprint.
-1. **Get `Ready`:** Move cards between `Backlog (Sprint Staging)` and `Ready (Sprint Planned)`.
-   - `Ready (Sprint Planned)` should represent the [highest-priority](#prioritization) issues that haven't been started.
-   - There should only be as many assigned to each person as they think they will be able to start this Sprint. Keep the following in mind:
-     - [What to work on](#what-to-work-on)
-     - Upcoming leave
-     - Other commitments (training, working groups, etc.)
-
-#### Prioritization
-
-Use the following considerations for how to prioritize cards moving towards/into `Ready`:
-
-- Due date
-- Force-multiplier / quick win / high value
-- Continuation of things you've already been working on
-- Solve active pain points over nice-to-haves
 
 ### Grooming
 
