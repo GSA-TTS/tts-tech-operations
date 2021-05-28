@@ -47,18 +47,20 @@ Optional. We talk about whatever we want, work-related or not.
 1. **Review `New` cards:** Move cards into `Backlog (Sprint Staging)` that you would like to discuss adding into the Sprint. Move the rest into `Icebox`.
 1. **Review `Icebox` cards:** Move cards from `Icebox` into `Backlog (Sprint Staging)` that you would like to discuss adding into the Sprint.
 1. **Get `Ready`:** Move cards between `Backlog (Sprint Staging)` and `Ready (Sprint Planned)`.
-   - `Ready (Sprint Planned)` should represent the highest-priority issues that haven't been started.
+   - `Ready (Sprint Planned)` should represent the [highest-priority](#prioritization) issues that haven't been started.
    - There should only be as many assigned to each person as they think they will be able to start this Sprint. Keep the following in mind:
      - [What to work on](#what-to-work-on)
      - Upcoming leave
      - Other commitments (training, working groups, etc.)
 
-#### Tips
+#### Prioritization
 
-- When considering cards to work on, think about..
-  - Force-multipliers, i.e. where we can spend a little time now to save a lot of time in the long run
-  - Solve active pain points over nice-to-haves
-  - Are quick wins
+Use the following considerations for how to prioritize cards moving towards/into `Ready`:
+
+- Due date
+- Force-multiplier / quick win / high value
+- Continuation of things you've already been working on
+- Solve active pain points over nice-to-haves
 
 ### Grooming
 
@@ -104,9 +106,11 @@ Also known as an "issue". A card should be created when a task:
   - Beware of tasks that seem quick ("email someone about X") but commit you / the team to follow-on conversations/work.
 - Would otherwise be lost as an action item in an email, meeting notes, Slack, etc.
 
-If there is a repository that the issue is specifically applicable to, create it there. Otherwise, default to [creating in the tts-tech-portfolio repository](https://github.com/18F/tts-tech-portfolio/issues/new/choose). [Add it](https://help.github.com/en/github/managing-your-work-on-github/adding-issues-and-pull-requests-to-a-project-board) to the project board.
+Other notes:
 
-- Cards with a due date should have a suffix of `- due [date]` in the title and the `due date` label.
+- If there is a repository that the issue is specifically applicable to, create it there. Otherwise, default to [creating in the tts-tech-portfolio repository](https://github.com/18F/tts-tech-portfolio/issues/new/choose).
+- [Add all Tech Portfolio-related issues to the project board.](https://help.github.com/en/github/managing-your-work-on-github/adding-issues-and-pull-requests-to-a-project-board)
+- Cards with a due date should have a suffix of `- due [date]` in the title and the `m: due date` label.
 
 #### Assignment
 
@@ -114,13 +118,14 @@ Issues default to being assigned to the corresponding Initiative owner. That per
 
 - A particular skillset is needed
 - They don't have capacity to finish it by the due date
-- Etc.
+- It falls under someone else's [role](roles.md)
+- The other person is specifically interested (for personal growth, etc.)
 
 The Project Manager will be responsible for resolving any uncertainty around assignment.
 
 ### Labels
 
-We have a couple set types of labels. Beyond those, you are also welcome to add whatever labels are useful to you. The labels are [configured as code](terraform/).
+We have a couple set types of labels. Beyond those, you are also welcome to add whatever labels are useful to you. The labels are [configured as code](../terraform/repo/vars.tf).
 
 #### Grooming status
 
