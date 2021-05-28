@@ -15,19 +15,18 @@ We use the term "sprint" to refer to the ceremony cycles, even though they aren'
 
 **Purpose:** Ensure folks are making progress within their assigned Initiative areas and that people aren't blocked.
 
-At the individual level, it's important to walk into the day's stand-up prepared. It keeps the energy of the stand-up high and everyone engaged.
-
 **Meeting Flow:**
 
-1.  Each team member gives an update on:
-    1.  Activity updates
-        1. Past
-        1. Current
-        1. Future
-    1.  Current blockers, things that need feedback, cards that you're waiting on others in order to progress
-    1.  Any help needed
-    1.  Review of calendar items that others might benefit from attending or knowing about
-1.  OpsRotation person leads looking at any any pull requests that would be useful to review as a group
+1. For each participant:
+   1. Filter board by `assignee:<GITHUB_USERNAME>`
+   1. Give status updates on issues from right to left (`Blocked/Watching` through `In Progress`), top to bottom in each column
+   1. What they plan to start next
+   1. Raise any:
+      - Current blockers
+      - Things that need feedback
+      - Help needed
+   1. Review of calendar items that others might benefit from attending or knowing about
+1. OpsRotation person leads looking at any any pull requests that would be useful to review as a group
 
 #### What to work on
 
