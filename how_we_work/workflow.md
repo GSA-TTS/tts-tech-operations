@@ -35,11 +35,7 @@ See also: [guidelines for external contribution](https://docs.google.com/drawing
 
 **Purpose:** Team bonding/culture-building.
 
-We talk about whatever we want, work-related or not. We avoid talking about day-to-day tasks—that's what Stand-ups are for.
-
-Opportunity to do some lean coffee style discussions to talk about areas of interest that folks want to hear from others.
-
-NOTE: This activity is purely optional and will have no impact on an individual's performance plan.
+Optional. We talk about whatever we want, work-related or not.
 
 ### Sprint Planning
 
