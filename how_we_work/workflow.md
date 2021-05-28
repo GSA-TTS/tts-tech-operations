@@ -39,36 +39,22 @@ Optional. We talk about whatever we want, work-related or not.
 
 ### Sprint Planning
 
-**Purpose:** Get all the cards that will be worked on in the next two weeks into the Backlog (Sprint Staging) from Ready (Sprint Planned), Icebox or New. Expect that the cards that are planned for will be the activity that gets worked on within the next couple of weeks unless there is a task that needs to be expedited.
+**Purpose:** Have the `Ready (Sprint Planned)` column represent all cards that will be started this Sprint.
 
 **Meeting Flow:**
 
-1. **Review personal async work**
-1. **Due Date Review:** Look for any cards that have Due Dates within the next 3 weeks. Put any cards with Due Dates within the next 2 weeks into Ready (Sprint Planned).
-1. **Triage planned but not In-Progress cards:** Determine if a previously planned card will go back into the Backlog (Sprint Staging) or stay in Ready(Sprint Planned). Any card that is more than 2 Sprints past due will need justification for staying open and not done.
-1. **Review New cards:** Move cards into the Backlog (Sprint Staging) that you would like to discuss adding into the Sprint, giving a quick explanation of the card and justification for why it should be in Sprint Staging. Teammates will provide input and ask questions about new cards. Only cards to be added to this Sprint will be discussed; all other cards will be discussed at Grooming.
-1. **Sprint Staged cards:** Move cards into the Backlog (Sprint Staging) that you would like to discuss adding into the Sprint. Order cards in Sprint Staging based on priority of getting added to ready. If card is not expected to be completed within this Sprint, move card from Backlog (Sprint Staging) to Icebox. If card is not expected to be completed within this Sprint, move card from Backlog (Sprint Staging) to Icebox.
-1. **Review cards of other teammates:**
-   1. Skim through any background information.
-   1. Check:
-      - That it clearly lays out what problem is being solved
-      - That is captures all the perspective users
-      - For achievable Acceptance Criteria
-      - That the Size is realistic.
-      - That it's clear what it would take to close the card
-      - That it's easy to imagine what the end product of the card would be
-   1. If approved, react with a 'thumbs up' emoji on the card body.
-   1. If not approved, react with a 'thumbs down' emoji and indicate what else needs to be done in a comment.
-1. **Sprint Discussion:** Are any cards missing in the that should be listed? Are there any lower effort cards that can be added? How much is this Sprint going to move the needle for your initiative?
-1. **Ready (Sprint Planned):** Project Manager will add designated Sprint Milestone to cards. Project Manager will move over cards for teammates.
+1. **Due Date Review:** [Look for cards that have upcoming due dates.](https://github.com/orgs/18F/projects/11?fullscreen=true&card_filter_query=label%3A%22m%3A+due+date%22) Move into `Ready (Sprint Planned)` as necessary to complete them in time.
+1. **Review `New` cards:** Move cards into `Backlog (Sprint Staging)` that you would like to discuss adding into the Sprint. Move the rest into `Icebox`.
+1. **Review `Icebox` cards:** Move cards from `Icebox` into `Backlog (Sprint Staging)` that you would like to discuss adding into the Sprint.
+1. **Get `Ready`:** Move cards between `Backlog (Sprint Staging)` and `Ready (Sprint Planned)`.
+   - `Ready (Sprint Planned)` should represent the highest-priority issues that haven't been started.
+   - There should only be as many assigned to each person as they think they will be able to start this Sprint. Keep the following in mind:
+     - [What to work on](#what-to-work-on)
+     - Upcoming leave
+     - Other commitments (training, working groups, etc.)
 
-##### Tips
+#### Tips
 
-- Cards that are not likely to get done this Sprint should go at the bottom of the stack.
-- Start from the top when reviewing cards.
-- Filter for cards that are Groomed Final before starting a review and exclude cards assigned to yourself.
-- Should have enough work to keep yourself busy for the next two weeks. Keeping in mind the current In Progress/Waiting/Blocked cards, any upcoming leave and pre-allocated work.
-- As you are reviewing teammate's cards; make comments directly in the card; but you may also ask simple questions for the sake of clarity. (That's why we're doing this together as a group!)
 - When considering cards to work on, think about..
   - Force-multipliers, i.e. where we can spend a little time now to save a lot of time in the long run
   - Solve active pain points over nice-to-haves
@@ -148,7 +134,7 @@ The grooming status is represented with the `g:` labels: `g: initial` → `g: fi
   - Size (`s: <days|weeks>`)
 - Added to the board
 - Assigned
-- Reviewed by another member of the team for clarity
+- Reviewed by another member of the team for clarity, accuracy, and being realistic
 
 `Implementation Steps` aren't required at this point.
 
