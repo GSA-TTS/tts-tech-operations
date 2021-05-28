@@ -18,6 +18,7 @@ We use the term "sprint" to refer to the ceremony cycles, even though they aren'
       - Current blockers
       - Things that need feedback
       - Help needed
+   1. Confirm there are no issues missing to represent recent/current/upcoming work
    1. Review of calendar items that others might benefit from attending or knowing about
 1. OpsRotation person leads looking at any any pull requests that would be useful to review as a group
 
@@ -50,36 +51,6 @@ We talk about whatever we want, work-related or not. We avoid talking about day-
 Opportunity to do some lean coffee style discussions to talk about areas of interest that folks want to hear from others.
 
 NOTE: This activity is purely optional and will have no impact on an individual's performance plan.
-
-### Sprint Planning and Grooming prep
-
-**Purpose:** Come prepared to those ceremonies
-
-1. Add cards to the board
-   - related to your Initiative
-   - related to Working Groups
-   - etc
-1. Make sure all the current In Progress/Waiting/Blocked cards are up to date and reflect the current status
-1. Groom Cards
-   - Cards in the Ready (Sprint Planned) column + the columns to the right must be `g: accepted` ([check](https://github.com/orgs/18F/projects/11?fullscreen=true&card_filter_query=-label%3A%22g%3A+accepted%22))
-   - Cards in the Backlog (Sprint Staging) column must be `g: final` and ready to be Groomed Accepted ([check](https://github.com/orgs/18F/projects/11?fullscreen=true&card_filter_query=-label%3A%22g%3A+final%22))
-   - Cards in the Icebox column must be `g: initial` ([check](https://github.com/orgs/18F/projects/11?fullscreen=true&card_filter_query=-label%3A%22g%3A+initial%22-label%3A%22g%3A+final%22+-label%3A%22g%3A+accepted%22))
-1. Cards in Backlog (Sprint Staging) column + the columns to the right must be [assigned](#assignment)
-   - Check to make sure cards in your Initiative are [assigned](#assignment) ([check](https://github.com/orgs/18F/projects/11?fullscreen=true&card_filter_query=-assignee%3Aafeld+-assignee%3Ajjediny))
-   - Order cards
-     - Sprint Planning -- cards that you want moved into the Sprint should be at the top of New when filtered by your name
-     - Sprint Grooming -- cards that you want discussed, deleted or delegated should be at the bottom of Icebox when filtered by your name
-
-#### Tips
-
-- Have the relevant [template](https://github.com/18F/tts-tech-portfolio/issues/new/choose) filled out when creating a new card.
-- During Grooming, you can move a card to Backlog (Sprint Staging) while it is still labeled `g: initial`; but it should be groomed ASAP.
-- Ideally this is done by noon on Friday before the Sprint Ceremony to give teammates enough time to review. Also helps the Project Manager feel prepared going into the Sprint ceremony.
-- Be especially diligent about adding cards that you would like to include into the new Sprint.
-- This relates to the following measures within the Performance Plan
-  - Business Unit: Improves Resource Management (Quality Management)
-  - Duty Specific: Demonstrates agility, adaptability, and resilience (Planning & Agility)
-  - Duty Specific: Works Well (Meets Deadlines), (Dependability)
 
 ### Sprint Planning
 
@@ -125,37 +96,9 @@ NOTE: This activity is purely optional and will have no impact on an individual'
 **Meeting Flow:**
 
 1. Speed Stand-Up (if needed)
-1. New Card Review - Teammates will brief others on the new cards they created and the group will decide where the card should go Icebox or Backlog (Sprint Staging).
+1. New Card Review - Teammates will brief others on the new cards they created and the group will decide where the card should go to `Icebox` or `Backlog (Sprint Staging)`.
 1. Teammates will order the cards within their initiative in the `Icebox` based on their own criteria
-1. Card Review `Icebox`
-1. Review cards of other teammates
-   - Skim through any background information
-   - Clearly lays out what problem is being solved
-   - Captures all the perspective users
-   - Validate the Size as being realistic
-   - Achievable Acceptance Criteria
-     - Clear what it would take to close the card
-     - Easy to imagine what the end product of the card would be
-1. Approve other's cards
-   - If approved
-     - React with a 'thumbs up' emoji on the card body
-   - If not approve
-     - Indicate what else needs to be done in a comment
-1. Sprint Discussion
-   - Should cards in the Backlog be moved back into the Icebox?
-   - Believe cards should be in a different order?
-   - Any cards that should get split up?
-   - Any cards that can be delegated?
-   - Any cards that can be deleted?
-     - No longer relevant
-1. Wrap-Up
-
-#### Tips
-
-- Start from the bottom when reviewing cards.
-- Focus on cards that are Groom Initial when reviewing cards.
-- Try to keep cards 'right-sized' and scoped to be started and finished within the Sprint.
-- Filter for cards that are Groomed Final before starting a review and exclude cards assigned to yourself.
+1. Review [non-groomed issues](https://github.com/orgs/18F/projects/11?fullscreen=true&card_filter_query=-label%3A%22g%3A+accepted%22) right to left, [grooming](#grooming-status) each
 
 ### Retros
 
@@ -208,11 +151,21 @@ The Project Manager will be responsible for resolving any uncertainty around ass
 
 We have a couple set types of labels. Beyond those, you are also welcome to add whatever labels are useful to you. The labels are [configured as code](terraform/).
 
-#### [Grooming status](https://github.com/18F/tts-tech-portfolio/labels?q=groom)
+#### Grooming status
 
 **Purpose:** Indicate the state of the issue itself.
 
-See [Grooming](#grooming).
+The grooming status is represented with the `g:` labels: `g: initial` → `g: final` → `g: accepted`. An issue is considered "groomed" (`g: accepted`) once it has been:
+
+- Given the following labels:
+  - Initiative (`i: <whatever>`)
+    - `s: months` should be broken up
+  - Size (`s: <days|weeks>`)
+- Added to the board
+- Assigned
+- Reviewed by another member of the team for clarity
+
+`Implementation Steps` aren't required at this point.
 
 ### Columns
 
