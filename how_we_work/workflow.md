@@ -2,12 +2,10 @@
 
 ## Structure
 
-| Thing      | Definition                                     | Board Structure | Duration      |
-| :--------- | :--------------------------------------------- | :-------------- | :------------ |
-| Theme      | Categories of work                             | None            | Indefinite    |
-| Initiative | Long-running but finite projects with an owner | Label & Column  | Months        |
-| Epic       | Chunks of related Stories within an Initiative | Label & Column  | 1-2 months    |
-| Story      | Generally correspond to a GitHub issue         | Card body       | Days, at most |
+| Thing      | Definition         | Board Structure | Duration      |
+| :--------- | :----------------- | :-------------- | :------------ |
+| Initiative | Categories of work | Label & Column  | Indefinite    |
+| Issue      | Chunks of work     | Cards           | Week, at most |
 
 ## Ceremonies and Activities
 
@@ -105,7 +103,6 @@ NOTE: This activity is purely optional and will have no impact on an individual'
 1. **Review cards of other teammates:**
    1. Skim through any background information.
    1. Check:
-      - For missing User Stories
       - That it clearly lays out what problem is being solved
       - That is captures all the perspective users
       - For achievable Acceptance Criteria
@@ -128,7 +125,6 @@ NOTE: This activity is purely optional and will have no impact on an individual'
   - Force-multipliers, i.e. where we can spend a little time now to save a lot of time in the long run
   - Solve active pain points over nice-to-haves
   - Are quick wins
-  - Are part of an [Epic](#epics)
 
 ### Grooming
 
@@ -142,9 +138,8 @@ NOTE: This activity is purely optional and will have no impact on an individual'
 1. Card Review `Icebox`
 1. Review cards of other teammates
    - Skim through any background information
-   - Check for missing User Stories
-     - Clearly lays out what problem is being solved
-     - Captures all the perspective users
+   - Clearly lays out what problem is being solved
+   - Captures all the perspective users
    - Validate the Size as being realistic
    - Achievable Acceptance Criteria
      - Clear what it would take to close the card
@@ -160,7 +155,7 @@ NOTE: This activity is purely optional and will have no impact on an individual'
    - Any cards that should get split up?
    - Any cards that can be delegated?
    - Any cards that can be deleted?
-     - User stories no longer relevant
+     - No longer relevant
 1. Wrap-Up
 
 #### Tips
@@ -236,5 +231,4 @@ Ideally, issues move left to right, with the exception of Blocked/Waiting. There
 | Feedback/Waiting        | Issues temporarily moved into this column. Expect to move in and out quickly. Something that is actively being worked on and it is with someone else for the moment.                                                                   |                                 | Must have explanation of what it's waiting on                                 |
 | Blocked/Watching        | Issues that are waiting on someone outside the team; out of our control to get done. Want to keep an eye on it, but not likely to be responsible for it to be done.                                                                    |                                 | Must have explanation of what it's waiting on                                 |
 | Done                    | Issues that have been completed this sprint                                                                                                                                                                                            |                                 | Closed due to either being complete or deemed a duplicate, out of scope, etc. |
-| Epic                    |                                                                                                                                                                                                                                        |                                 |                                                                               |
 | Initiatve               |                                                                                                                                                                                                                                        |                                 |                                                                               |
