@@ -4,6 +4,8 @@
 
 We use the term "sprint" to refer to the ceremony cycles, even though they aren't strictly Sprints in the Scrum sense. These can all be found on the shared `TTS Tech Portfolio` calendar.
 
+Any ceremony can start with a standup if needed.
+
 ### Stand-ups
 
 **Purpose:** Ensure folks are making progress within their assigned Initiative areas and that people aren't blocked.
@@ -64,11 +66,10 @@ Use the following considerations for how to prioritize cards moving towards/into
 
 ### Grooming
 
-**Purpose:** Maintain non-planned or in-progress cards.
+**Purpose:** Ensure that all currently/soon active cards are [groomed](#grooming-status).
 
 **Meeting Flow:**
 
-1. Speed Stand-Up (if needed)
 1. New Card Review - Teammates will brief others on the new cards they created and the group will decide where the card should go to `Icebox` or `Backlog (Sprint Staging)`.
 1. Teammates will order the cards within their initiative in the `Icebox` based on their own criteria
 1. Review [non-groomed issues](https://github.com/orgs/18F/projects/11?fullscreen=true&card_filter_query=-label%3A%22g%3A+accepted%22) right to left, [grooming](#grooming-status) each
@@ -91,13 +92,15 @@ These are our categories of work. There is an `Initiatives` column that is there
 
 ### Cards
 
+Also known as an "issue".
+
 **Purpose:**
 
 - Representing chunks of work
 - Remind ourselves what problem we are trying to solve
 - Establish a scope that is completable sooner than later
 
-Also known as an "issue". A card should be created when a task:
+A card should be created when a task:
 
 - Is the responsibility of the Tech Portfolio (versus something like a personal HR-related task)
 - Will take more than 30 minutes
@@ -111,6 +114,7 @@ Other notes:
 - If there is a repository that the issue is specifically applicable to, create it there. Otherwise, default to [creating in the tts-tech-portfolio repository](https://github.com/18F/tts-tech-portfolio/issues/new/choose).
 - [Add all Tech Portfolio-related issues to the project board.](https://help.github.com/en/github/managing-your-work-on-github/adding-issues-and-pull-requests-to-a-project-board)
 - Cards with a due date should have a suffix of `- due [date]` in the title and the `m: due date` label.
+- Cards that need to make their way into `In Progress` mid-sprint should be tagged with `m: expedite`.
 
 #### Assignment
 
@@ -125,11 +129,11 @@ The Project Manager will be responsible for resolving any uncertainty around ass
 
 ### Labels
 
-We have a couple set types of labels. Beyond those, you are also welcome to add whatever labels are useful to you. The labels are [configured as code](../terraform/repo/vars.tf).
+We have a couple set types of labels, which are [configured as code](../terraform/repo/vars.tf). Beyond those, you are welcome to add whatever labels are useful to you.
 
 #### Grooming status
 
-**Purpose:** Indicate the state of the issue itself.
+**Purpose:** Consensus on the problem that will be solved and the work expectations (timeline, artefact, etc.)
 
 The grooming status is represented with the `g:` labels: `g: initial` → `g: final` → `g: accepted`. An issue is considered "groomed" (`g: accepted`) once it has been:
 
@@ -147,14 +151,14 @@ The grooming status is represented with the `g:` labels: `g: initial` → `g: fi
 
 Ideally, issues move left to right, with the exception of `Feedback/Waiting` and `Blocked/Watching`.
 
-| Column                  | Description                                                                                                                                                                                                                            | Ordered? | Max per person                 | Issue entrance criteria                                                       |
-| ----------------------- | -------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | -------- | ------------------------------ | ----------------------------------------------------------------------------- |
-| New                     | Newly created Issues land here automatically.                                                                                                                                                                                          | N        |                                |                                                                               |
-| Icebox                  | Issues here should be prioritized top-to-bottom amongst the initiative.                                                                                                                                                                | Y        |                                |                                                                               |
-| Backlog (Sprint Staged) | Issues that are immediate priorities. Expect to accomplish within the next 2 Sprints. Once they move into this column, they either get moved into a Sprint and advance to the Sprint Planned column within 30 days or they get closed. | N        | 4                              | Must be [assigned](#assignment)                                               |
-| Ready (Sprint Planned)  | Issues to be worked from this column. Team conscience, no blockers, and no prerequisites. What the team is going to work on next. Planned at the Sprint Planning ceremony.                                                             | Y        |                                | Must be groomed                                                               |
-| In Progress             | Issues that are being actively worked on                                                                                                                                                                                               | N        | 3, though fewer is recommended | Must be [groomed](#grooming)                                                  |
-| Feedback/Waiting        | Issues temporarily moved into this column. Expect to move in and out quickly. Something that is actively being worked on and it is with someone else for the moment.                                                                   | N        |                                | Must have explanation of what it's waiting on                                 |
-| Blocked/Watching        | Issues that are waiting on someone outside the team; out of our control to get done. Want to keep an eye on it, but not likely to be responsible for it to be done.                                                                    | N        |                                | Must have explanation of what it's waiting on                                 |
-| Done                    | Issues that have been completed this sprint                                                                                                                                                                                            | Y        |                                | Closed due to either being complete or deemed a duplicate, out of scope, etc. |
-| Initiative              |                                                                                                                                                                                                                                        | N        |                                |                                                                               |
+| Column                  | Description                                                                                                                                                          | Ordered?                            | Max per person                 | Issue entrance criteria                                                       |
+| ----------------------- | -------------------------------------------------------------------------------------------------------------------------------------------------------------------- | ----------------------------------- | ------------------------------ | ----------------------------------------------------------------------------- |
+| New                     | Newly created Issues land here automatically.                                                                                                                        | N                                   |                                |                                                                               |
+| Icebox                  |                                                                                                                                                                      | Y, within each Initiative (roughly) |                                |                                                                               |
+| Backlog (Sprint Staged) | Issues to be considered for the next Sprint.                                                                                                                         | N                                   | 4                              | [Assigned](#assignment)                                                       |
+| Ready (Sprint Planned)  | Issues to be worked on next. Populated during the Sprint Planning ceremony.                                                                                          | Y                                   |                                | [Groomed](#grooming-status)                                                   |
+| In Progress             | Issues that are being actively worked on.                                                                                                                            | N                                   | 3, though fewer is recommended | [Groomed](#grooming-status)                                                   |
+| Feedback/Waiting        | Issues temporarily moved into this column. Expect to move in and out quickly. Something that is actively being worked on and it is with someone else for the moment. | N                                   |                                | Explanation of what it's waiting on                                           |
+| Blocked/Watching        | Issues that are waiting on someone outside the team; out of our control to get done. Want to keep an eye on it, but not likely to be responsible for it to be done.  | N                                   |                                | Explanation of what it's waiting on                                           |
+| Done                    | Issues that have been completed this sprint.                                                                                                                         | Y                                   |                                | Closed due to either being complete or deemed a duplicate, out of scope, etc. |
+| Initiative              |                                                                                                                                                                      | N                                   |                                |                                                                               |
