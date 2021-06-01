@@ -4,7 +4,6 @@ variable "repo" {
 
 locals {
   label_colors = {
-    epics       = "6ecbdb"
     grooming    = "662e9b"
     initiatives = "6ecbdb"
     timing      = "f86624"
@@ -12,16 +11,6 @@ locals {
 
   issue_labels = {
     # for any changes to existing label names, make sure to migrate — see ../README.md
-
-    # epics
-    "e: aws cleanup" = {
-      color       = local.label_colors["epics"]
-      description = ""
-    }
-    "e: SaaS documentation" = {
-      color       = local.label_colors["epics"]
-      description = ""
-    }
 
     # grooming states
     "g: initial" = {
