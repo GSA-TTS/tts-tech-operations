@@ -12,16 +12,13 @@ assignees: ""
 
 ## New Person checklist
 
-- [ ] Take judicious notes on what about this onboarding process or Tech Portfolio is confusing or frustrating. If you notice a problem (especially with things like documentation), you are more than welcome to fix it! At the very least, please share this information with your buddy (or someone) at some point so we can make the team/platform better. (You can also file issues and pull requests on [the template Onboarding checklist](https://github.com/18F/tts-tech-portfolio/blob/master/.github/ISSUE_TEMPLATE/onboarding.md).
-- [ ] Once you've finished the checklists below, make suggestions for steps that would have improved your onboarding experience as pull requests on [the onboarding checklist template](https://github.com/18F/tts-tech-portfolio/blob/master/.github/ISSUE_TEMPLATE/onboarding.md) used to make this issue.
-
 ### Getting to know TTS Tech Portfolio
 
-- [ ] Figure out who your onboarding buddy is (they should reach out to you) and make sure this issue is assigned to them in our [Github Project board](https://github.com/orgs/18F/projects/11?fullscreen=true).
+- [ ] Read [the Tech Portfolio Handbook page](https://handbook.tts.gsa.gov/tech-portfolio/) and things linked from there
 - [ ] Read [the team onboarding document](https://github.com/18F/tts-tech-portfolio/blob/master/how_we_work/onboarding.md) for more context about TTS Tech Portfolio.
-- [ ] Bookmark the [pertinent links listed here](https://github.com/18F/tts-tech-portfolio/blob/master/how_we_work/internal_links.md).
 - [ ] Read the [TTS Tech Portfolio Handbook page](https://handbook.tts.gsa.gov/tech-portfolio/) for an overview of what we do
 - [ ] Read the [Workflow document](https://github.com/18F/tts-tech-portfolio/blob/master/how_we_work/workflow.md) to learn about how we work.
+- [ ] Submit a pull request to make the Tech Portfolio's onboarding documentation/checklist better.
 
 ### Required items for all team members
 

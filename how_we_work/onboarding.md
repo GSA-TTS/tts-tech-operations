@@ -1,14 +1,12 @@
 # Joining the TTS Tech Portfolio team
 
-The goal of the Tech Portfolio is to oversee/manage/coordinate everything technology-related that cuts across TTS, or anything technology-related that will affect TTS from the outside: particularly security, compliance, infrastructure, and tech policy.
-
 ## Onboarding
-
-Get through [the 18F onboarding guide for your discipline](https://handbook.tts.gsa.gov/#teams) first. (Contractors, we're presuming you have an equivalent process you've gone through for onboarding with your employer.)
 
 Everyone joining the TTS Tech Portfolio team will get assigned a team onboarding buddy. This person should be working on similar things to what you will be working on, so that they can answer questions in your domain.
 
-You and your team onboarding buddy must follow the instructions in [the Onboarding Checklist](https://github.com/18F/tts-tech-portfolio/blob/master/.github/ISSUE_TEMPLATE/onboarding.md) to guide you through tasks that will get you up to speed and contributing in no time. You (and your buddy) must track your progress by checking the boxes as you complete tasks.
+You and your team onboarding buddy must follow the instructions in [the Onboarding Checklist](https://github.com/18F/tts-tech-portfolio/blob/master/.github/ISSUE_TEMPLATE/onboarding.md) to guide you through tasks that will get you up to speed and contributing in no time. You (and your buddy) should track your progress by checking the boxes as you complete tasks.
+
+Take judicious notes on what about this onboarding process or Tech Portfolio is confusing or frustrating. If you notice a problem (especially with things like documentation), you are more than welcome to fix it! At the very least, please share this information with your buddy (or someone) at some point so we can make the team/documentation better.
 
 ### Checklist
 
@@ -24,7 +22,7 @@ In order to get NewPerson productively contributing to the TTS Tech Portfolio te
 
 ## Tools and project artifacts
 
-Whenever possible, we err on the side of putting data where the public can see it. Some data might be kept in Google Drive for convenience of presentation, commenting, etc. but we consider public GitHub repositories the intended destination whenever possible.
+Whenever possible, we err on the side of putting information where the public can see it and others can benefit from it. Some data might be kept in Google Drive for convenience of presentation, commenting, etc. but we consider public GitHub repositories the intended destination whenever possible.
 
 Several tools are used for project management, but the main one you will probably be using is GitHub to submit and merge pull requests.
 
