@@ -14,9 +14,8 @@ assignees: ""
 
 ### Getting to know TTS Tech Portfolio
 
-- [ ] Read [the Tech Portfolio Handbook page](https://handbook.tts.gsa.gov/tech-portfolio/) and things linked from there
+- [ ] Read [the Tech Portfolio Handbook page](https://handbook.tts.gsa.gov/tech-portfolio/) and things linked from there for an overview of what we do.
 - [ ] Read [the team onboarding document](https://github.com/18F/tts-tech-portfolio/blob/master/how_we_work/onboarding.md) for more context about TTS Tech Portfolio.
-- [ ] Read the [TTS Tech Portfolio Handbook page](https://handbook.tts.gsa.gov/tech-portfolio/) for an overview of what we do
 - [ ] Read the [Workflow document](https://github.com/18F/tts-tech-portfolio/blob/master/how_we_work/workflow.md) to learn about how we work.
 - [ ] Submit a pull request to make the Tech Portfolio's onboarding documentation/checklist better.
 
