@@ -153,7 +153,7 @@ The grooming status is represented with the `g:` labels: `g: initial` → `g: fi
 - Assigned
 - Reviewed by another member of the team for clarity, accuracy, and being realistic
 
-`Implementation Steps` aren't required at this point.
+`Implementation Steps` aren't required at this point. See also: the [grooming](#grooming) sprint ceremony.
 
 ### Columns
 
