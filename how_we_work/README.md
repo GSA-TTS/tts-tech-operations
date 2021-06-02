@@ -24,7 +24,7 @@ See [meetings](policy/meetings.md) for more details.
   - For information that isn't [sensitive](https://handbook.tts.gsa.gov/sensitive-information/), make it as public as possible/practical.
 - [There's no such thing as user error.](https://medium.com/swlh/theres-no-such-thing-as-user-error-76b564454234)
 - If you see something, fix something.
-- We have way more work to do than people to do it, so we are constantly on the lookout for ways to multiply our impact and things to take off our plates.
+- We have more asked of our team than we are able to fulfill, so we are constantly on the lookout for ways to multiply our impact and things to take off our plates.
 - We follow the [Hello, Production](https://blog.thepete.net/blog/2019/10/04/hello-production/) model.
 - Don't let the perfect be the enemy of the good.
 - We value both asynchronous and synchronous collaboration.
