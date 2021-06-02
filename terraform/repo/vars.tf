@@ -62,13 +62,9 @@ locals {
       description = "Needed to be pulled into a sprint after Planning was complete"
     }
     # estimates
-    "t: hours" = {
-      color       = local.label_colors.timing
-      description = "Should be complete-able in a matter of hours (wall clock time)"
-    }
     "t: days" = {
       color       = local.label_colors.timing
-      description = "Should be complete-able in a matter of days (wall clock time)"
+      description = "Should be complete-able in a matter of days or less (wall clock time)"
     }
     "t: weeks" = {
       color       = local.label_colors.timing
