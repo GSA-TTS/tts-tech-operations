@@ -3,7 +3,7 @@ name: Everyone
 about: A task that must be completed by everyone on the team
 title: ""
 labels: "g: initial, i: misc"
-assignees: afeld, JJediny, melanienleopold
+assignees: afeld, JJediny, melanienleopold, adborden
 ---
 
 _DESCRIPTION GOES HERE_
