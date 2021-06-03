@@ -29,7 +29,7 @@ locals {
     # initiatives
     "i: custom software" = {
       color       = local.label_colors.initiatives
-      description = "Relating to systems we've built in TTS and their need for tools, guidance, security authorization, etc."
+      description = "Relating to systems built in TTS and their need for tools, guidance, security authorization, etc."
     }
     "i: customer support" = {
       color       = local.label_colors.initiatives
