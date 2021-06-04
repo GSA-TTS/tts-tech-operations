@@ -28,3 +28,5 @@ See [meetings](policy/meetings.md) for more details.
 - We follow the [Hello, Production](https://blog.thepete.net/blog/2019/10/04/hello-production/) model.
 - Don't let the perfect be the enemy of the good.
 - We value both asynchronous and synchronous collaboration.
+- The team is distributed-first, though we take advantage of being in-person whenever possible.
+- If everything were easy / worked well, we wouldn't need to be here.
