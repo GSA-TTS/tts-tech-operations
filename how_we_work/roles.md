@@ -15,6 +15,7 @@
 | [P-Card](https://drive.google.com/drive/folders/1CkxpHq0mDFeAnXlaMQJ9RQOCioVHckgs) Holder                                                                                       | ---   | X    | ---     |
 | Software concierge [(Security Authorization)](#security-authorizations)                                                                                                         | X     | ---  | ---     |
 | Software concierge (acquisition)                                                                                                                                                | ---   | ---  | X       |
+| [TTS products and platforms Mission Essential Function (MEF)](https://drive.google.com/drive/folders/1I53LwxcMPHvoCWZziN4jvQ3wWFc2tvF8) point of contact                        | X     | ---  | ---     |
 | [Vulnerability Disclosure Lead](#vulnerability-disclosure-lead)                                                                                                                 | ---   | X    | ---     |
 
 We also have [Initiative](workflow.md#structure) owners—see the `Initiatives` column of [the board](https://github.com/orgs/18F/projects/11?fullscreen=true).
