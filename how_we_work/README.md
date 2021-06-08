@@ -29,4 +29,4 @@ See [meetings](policy/meetings.md) for more details.
 - Don't let the perfect be the enemy of the good.
 - We value both asynchronous and synchronous collaboration.
 - The team is distributed-first, though we take advantage of being in-person whenever possible.
-- If everything were easy / worked well, we wouldn't need to be here.
+- We were brought to the Tech Portfolio to work on thorny problems, so remember to be patient with the work and yourself.
