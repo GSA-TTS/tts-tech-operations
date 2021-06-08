@@ -19,7 +19,7 @@ provider "github" {
 }
 
 locals {
-  # options default to false
+  # Options default to `false`. `skip_issue_templates` means that the Tech Portfolio doesn't manage all content.
   repos = {
     "aws-admin" : {},
     "aws-admin-cleanup" : {},
