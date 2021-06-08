@@ -3,7 +3,7 @@
 | repo | status | Tech Portfolio manages all content? |
 | --- | --- | --- |
 %{~ for repo, config in repos }
-| [18F/${repo}](https://github.com/18F/${repo}) | ${lookup(config, "archived", false) ? "archived" : "active"} | ${lookup(config, "skip_issue_templates", false) ? "N" : "Y"} |
+| [18F/${repo}](https://github.com/18F/${repo}) | ${lookup(config, "archived", false) ? "archived" : "active"} | ${lookup(config, "shared_content_ownership", false) ? "N" : "Y"} |
 %{~ endfor }
 
 ## Adding a repository

@@ -19,7 +19,7 @@ provider "github" {
 }
 
 locals {
-  # Options default to `false`. `skip_issue_templates` means that the Tech Portfolio doesn't manage all content.
+  # options default to false
   repos = {
     "aws-admin" : {},
     "aws-admin-cleanup" : {},
@@ -31,10 +31,10 @@ locals {
     "charlie" : {},
     "chat" : {},
     "deploy-ttslicenses" : { archived = true },
-    "dns" : { skip_issue_templates = true },
+    "dns" : { shared_content_ownership = true },
     "ghad" : {},
-    "handbook" : { skip_issue_templates = true },
-    "join.tts.gsa.gov" : { skip_issue_templates = true },
+    "handbook" : { shared_content_ownership = true },
+    "join.tts.gsa.gov" : { shared_content_ownership = true },
     "laptop" : { archived = true },
     "newrelic-terraform" : {},
     "pages-redirects" : {},
@@ -55,9 +55,10 @@ locals {
 module "repo" {
   source = "./repo"
 
-  for_each        = local.active_repos
-  repo            = each.key
-  issue_templates = lookup(each.value, "skip_issue_templates", false) ? [] : ["general.md"]
+  for_each = local.active_repos
+  repo     = each.key
+  # don't include the issue template if there are others that work in the repository
+  issue_templates = lookup(each.value, "shared_content_ownership", false) ? [] : ["general.md"]
 }
 
 resource "local_file" "github_repos" {
