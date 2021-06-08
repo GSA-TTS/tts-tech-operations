@@ -6,6 +6,8 @@
 | [18F/${repo}](https://github.com/18F/${repo}) | ${lookup(config, "archived", false) ? "archived" : "active"} | ${lookup(config, "shared_content_ownership", false) ? "N" : "Y"} |
 %{~ endfor }
 
+For repositories where the Tech Portfolio _doesn't_ manage all content, we are the "technical owners", meaning we keep them running, fix any security vulnerabilities, etc. In the Handbook, we are responsible for pages related to things we own, like those under [software and tools](https://handbook.tts.gsa.gov/#software-and-tools).
+
 ## Adding a repository
 
 When a repository is considered "managed" by the Tech Portfolio, it should be included in the following places:
