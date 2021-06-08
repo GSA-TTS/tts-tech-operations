@@ -12,11 +12,17 @@ TTS Tech Portfolio oversee/manage/coordinate everything technology-related that 
 - We optimize for team member happiness and productivity
 - [Kanban](https://drive.google.com/file/d/0B0Qfvc1P_XBFVk5rM2tGcDBoUjQ/view)-ish and [Scrum](https://www.scrum.org/resources/what-is-scrum)-y
 - Sooner is better than later, later (or never) is better than sooner
+  - Try and deliver value quickly and learn from it, while seeing what we can defer to free up time for things that are more pressing.
 - Write things down
 - Discussions → action items
-- We use opinionated code/file formatters
-  - [`terraform fmt`](https://www.terraform.io/docs/commands/fmt.html)
-  - [Prettier](https://prettier.io/)
+- We practice [documentation-driven development](https://tom.preston-werner.com/2010/08/23/readme-driven-development.html)
+  - While documentation (e.g. [the Handbook](https://handbook.tts.gsa.gov/)) is generally the thing being updated (rather than a README), this should be done incrementally, and thus will be closer to README-Driven Development as it's defined in that post.
+  - This applies to building/modifying process just like it applies to building software.
+
+See also:
+
+- [Workflow](how_we_work/workflow.md)
+- [Technical standards](how_we_work/standards.md)
 
 ### Exceptions to working in the open
 
@@ -30,20 +36,6 @@ TTS Tech Portfolio oversee/manage/coordinate everything technology-related that 
 - When we are either accountable or repsonsible for the procedure or outcome
 - When we pair it with [radiating intent](https://medium.com/@ElizAyer/dont-ask-forgiveness-radiate-intent-d36fd22393a3)
 - When the decision can actually be reversed
-
-## Documentation
-
-See [the list of links](links.md) for more information about:
-
-- General Info
-- Money Info
-- Purchase card Documents
-- SaaS Management Documents
-- IaaS Management
-
-## Team Process
-
-We are tracking the work for the Tech Portfolio team on our the public [18F GitHub project](https://github.com/orgs/18F/projects/11?fullscreen=true) board.
 
 ## Feedback
 
