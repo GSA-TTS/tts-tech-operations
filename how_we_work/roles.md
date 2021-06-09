@@ -1,6 +1,6 @@
 # Roles
 
-| Role                                                                                                                                                                            | Aidan | John | Melanie |
+| Role                                                                                                                                                                            | @afeld | @jjediny | @adborden (detail) |
 | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | ----- | ---- | ------- |
 | [Contracting Officer Representative (COR)](https://docs.google.com/document/d/14xOFvIGwlG0Gbd52o1D4AyJ52RqzHpX91nfEYJKu5qQ/edit) for TTS-wide software/infrastructure purchases | ---   | X    | ---     |
 | Cybersecurity [Authorizing Official](#authorizing-official)                                                                                                                     | X     | ---  | ---     |
@@ -8,13 +8,13 @@
 | [Director](#director)                                                                                                                                                           | X     | ---  | ---     |
 | [DotGov points of contact](https://home.dotgov.gov/management/#points-of-contact)                                                                                               | X     | ---  | ---     |
 | [FAS Systems Governance Committee (FSGC)](https://sites.google.com/a/gsa.gov/fas-systems-governance/home) representative                                                        | X     | ---  | ---     |
-| [Infrastructure-as-a-Service (IaaS)](https://before-you-ship.18f.gov/infrastructure/)                                                                                           | ---   | X    | ---     |
+| [Infrastructure-as-a-Service (IaaS)](https://before-you-ship.18f.gov/infrastructure/)                                                                                           | ---   | X    | X     |
 | Mac Working Group representative                                                                                                                                                | X     | ---  | ---     |
-| [Operations Rotation](ops_rotation.md) person                                                                                                                                   | X     | X    | ---     |
+| [Operations Rotation](ops_rotation.md) person                                                                                                                                   | X     | X    | X     |
 | [P-Card](https://drive.google.com/drive/folders/1CkxpHq0mDFeAnXlaMQJ9RQOCioVHckgs) Approving Official                                                                           | X     | ---  | ---     |
 | [P-Card](https://drive.google.com/drive/folders/1CkxpHq0mDFeAnXlaMQJ9RQOCioVHckgs) Holder                                                                                       | ---   | X    | ---     |
 | Software concierge [(Security Authorization)](#security-authorizations)                                                                                                         | X     | ---  | ---     |
-| Software concierge (acquisition)                                                                                                                                                | ---   | ---  | X       |
+| Software concierge (acquisition)                                                                                                                                                | ---   | ---  | ---       |
 | [TTS products and platforms Mission Essential Function (MEF)](https://drive.google.com/drive/folders/1I53LwxcMPHvoCWZziN4jvQ3wWFc2tvF8) point of contact                        | X     | ---  | ---     |
 | [Vulnerability Disclosure Lead](#vulnerability-disclosure-lead)                                                                                                                 | ---   | X    | ---     |
 
