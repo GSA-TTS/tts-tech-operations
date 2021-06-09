@@ -29,6 +29,5 @@ Several tools are used for project management, but the main one you will probabl
 ## Things we maintain
 
 - [TTS Tech Portfolio repositories](https://github.com/orgs/18F/teams/tts-tech-portfolio/repositories)
-- a [Google Drive folder](https://drive.google.com/a/gsa.gov/folderview?id=0Bx6EvBXVDWwheUtVckVnOE1pRzA&usp=sharing) full of artifacts related to design, user research, etc (also expected to move to GitHub in time)
 
 We try to move others to the [opencontrol](https://github.com/opencontrol) or [fisma-ready](https://github.com/fisma-ready) GitHub organizations whenever appropriate.
