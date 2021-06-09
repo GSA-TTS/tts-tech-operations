@@ -6,6 +6,9 @@
 
 You don't have to have the answers to all the questions, but you should ensure all the questions get answers.
 
+## Pull Request Monitoring
+During ops-rotation you are responsible for moving Pull Requests forward for the TTS handbook and all tech portfolio repositories. By forward we mean nudging others to review, reviewing and commenting, and/or merging when ready. We've created a [Pull Request Board](https://github.com/orgs/18F/projects/19) to manage them, please review new Issues at the start of your rotation and organize the board based on their review status.
+
 ### Slack Channels
 
 | Channel name                 |                                                                  Responsibility                                                                   |
@@ -28,16 +31,15 @@ You don't have to have the answers to all the questions, but you should ensure a
 
 ### Google Groups
 
-| Group                     | Permission | OpsRotation |
-| ------------------------- | ---------- |---------- |
-| 18F DevOps                | Owner      | Y |
-| 18F PyPI                  | Owner      | Y |
-| 18F Software              | Owner      | Y |
-| 18f-team                  | Member     | N |
-| IS-TTS                    | Manager    | Y |
-| TTS Software              | Owner      | Y |
-| TTS Technology Portfolio  | Owner      | Y |
-| TTS Vulnerability Reports | Owner      | N |
+| Group                     | Permission | OpsRotation | Email Address (@gsa.gov) | Description |
+| ------------------------- | ---------- |---------- | ----------- | ---------- |
+| 18F DevOps                | Owner      | Y | 18f-devops | Deprecated |
+| 18F PyPI                  | Owner      | Y | 18f-pypi | 18f pypi adminstrator email account |
+| TTS Tech Portfolio IaaS Alerting | Owner | Y | 18fsoftware | Used for consolidated AWS alerting |
+| IS-TTS                    | Manager    | Y | is-tts | GSA Security Policies, Guidance, and Information mailing list |
+| TTS Software              | Owner      | Y | tts-software | Standard billing email for TTS SaaS |
+| TTS Technology Portfolio  | Owner      | Y | devops | Main team shared inbox |
+| TTS Vulnerability Reports | Owner      | N | tts-vulnerability-reports | Offical TTS Vulnerability Reports and Disclosure email |
 
 For the `TTS Software` group, we use [Google's Collaborative Inbox](https://support.google.com/a/answer/167430?hl=en) features to manage the status of requests. When on ops-rotation use the `Mark as Completed` to ensure others know a request has been satisfied. For requests that need assistance from others on the team, use the `Assign` feature to task them, include a description of what you need from them. Feel free to use any additional features you may find useful.
 
@@ -56,7 +58,7 @@ For the `TTS Software` group, we use [Google's Collaborative Inbox](https://supp
 
 Members of TTS will start the [request process](https://handbook.tts.gsa.gov/software/) when a user needs a piece of software that the TTS Tech Portfolio Manages. They will make a request by sending an email will be sent to tts-software@gsa.gov and show on the [Software Group](https://groups.google.com/a/gsa.gov/forum/?utm_medium=email&utm_source=footer#!forum/tts-software) and whomever is in rotation will answer it. Once the operations rotation receives the email they send a canned response to the requestor letting them know that they’ve gotten it. Once operations rotation person has completed all of their tasks, they will mark the item complete.
 
-Microsoft, Trello, Mural, and InVision require that you go into the back-end and manually add the person into the account.
+Trello, Mural, and InVision require that you go into the back-end and manually add the person into the account.
 
 See the following [administration guide](https://docs.google.com/document/d/18Htav6TIgasBvvSroI8H_sQXxnvMlra2k9iabBwQYUs/edit#) and [document guide](https://github.com/18F/tts-tech-portfolio/blob/master/links.md) for links to the user lists, back-end accounts, and template responses.
 
@@ -72,6 +74,8 @@ Point them to [Office documentation](https://handbook.tts.gsa.gov/office/).
 ### Play: Sketch Software Request
 
 [Sketch Handbook page](https://handbook.tts.gsa.gov/sketch/#for-admins)
+
+Requests will come in to tts-software@gsa.gov, grant the user access to the [sketch licence document](https://docs.google.com/document/d/1Qrn4J7mOcpGv51krZOyxpz93mBDp22hzl2wtVLulhUU/edit?q=sketch)
 
 Canned Response:
 Please proceed with downloading and installing from the vendor:
