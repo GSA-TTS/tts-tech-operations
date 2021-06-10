@@ -14,6 +14,7 @@ Each of the following should be done within the dates above. See the [playbook](
   - [ ] [Issues](https://github.com/orgs/18F/projects/11?fullscreen=true)
   - [ ] [Pull requests](https://github.com/orgs/18F/projects/19?fullscreen=true)
 - [ ] Review and ideally merge (or close) open [pull requests to Tech Portfolio repositories](https://github.com/orgs/18F/projects/19?fullscreen=true)
+  - You don't need to merge everything yourself, but try and make sure everything gets merged (by pinging the relevant people, etc).
   - If you need help reviewing/merging any, ask in [#tts-tech-portfolio](https://gsa-tts.slack.com/messages/tts-tech-portfolio/) or another relevant channel.
 - [ ] [Update the public IT Standards dataset](https://github.com/GSA/data/tree/master/enterprise-architecture#updating-the-list)
 - [ ] [Run the Inspector](https://github.com/18F/tts-tech-portfolio/tree/master/inspector#usage)
