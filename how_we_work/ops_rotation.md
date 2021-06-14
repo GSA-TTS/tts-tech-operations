@@ -10,7 +10,6 @@ You don't have to have the answers to all the questions, but you should ensure a
 
 | Channel name                 |                                                                  Responsibility                                                                   |
 | ---------------------------- | :-----------------------------------------------------------------------------------------------------------------------------------------------: |
-| #admins-dmarc                |                                                             Used to coordinate Agari                                                              |
 | #admins-dns                  |                                                           Look for failure for DNS jobs                                                           |
 | #admins-github               |                                       Typically used for folks to request new accounts or transfer accounts                                       |
 | #admins-govdelivery          |                                                                      unsure                                                                       |
