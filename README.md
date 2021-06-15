@@ -8,7 +8,7 @@ TTS Tech Portfolio oversee/manage/coordinate everything technology-related that 
 
 - We work in the open, with rare exceptions
 - We follow the Amazon model of [reversible decisions](https://fs.blog/2018/04/reversible-irreversible-decisions/)
-- We try to minimize [toil](https://landing.google.com/sre/sre-book/chapters/eliminating-toil/) and having to be reactionary for TTS and especially ourselves
+- We try to minimize [toil](https://sre.google/sre-book/eliminating-toil/) and having to be reactionary for TTS and especially ourselves
 - We optimize for team member happiness and productivity
 - [Kanban](https://drive.google.com/file/d/0B0Qfvc1P_XBFVk5rM2tGcDBoUjQ/view)-ish and [Scrum](https://www.scrum.org/resources/what-is-scrum)-y
 - Sooner is better than later, later (or never) is better than sooner

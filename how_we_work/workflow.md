@@ -28,6 +28,7 @@ Use the following considerations for how to prioritize cards moving towards/into
 
 - Due date
 - Force-multiplier / quick win / high value
+  - Prioritize reducing Tech Portfolio pain points / [toil](https://sre.google/sre-book/eliminating-toil/) before those of our customers, in the spirit of "put your own oxygen mask on first, before attempting to help those around you."
 - Continuation of things you've already been working on
 - Solve active pain points over nice-to-haves
 
