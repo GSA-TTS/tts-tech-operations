@@ -66,7 +66,7 @@ Point them to [Office documentation](https://handbook.tts.gsa.gov/office/).
 
 ### Play: Mural Software Request
 
-- [Mural How-To Guide](https://docs.google.com/document/d/1VCxeilrxP-8wiX75DHcuVPBE3RgsODKJ-u5urGs-eaI/edit) - How to administer the TTS Mural account
+- [Mural How-To Guide](https://handbook.tts.gsa.gov/tools/mural/) - How to administer the TTS Mural account
 - [Mural user list](https://docs.google.com/spreadsheets/d/1V_1BoiM7A8fuqkvTFfv4Ma5ckc4NuesphX4OE58zgow/edit)
 
 ### Play: Sketch Software Request
