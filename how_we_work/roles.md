@@ -65,12 +65,15 @@ This person will regularly:
   - [Form](https://docs.google.com/forms/d/e/1FAIpQLSdhr6REOq8QRZ3C2cRWVHWbjcGgdNL8_nVSGY1cBSl1-tfkWA/viewform)
   - [Email](https://groups.google.com/a/gsa.gov/forum/#!forum/tts-vulnerability-reports)
 - Act
-  - If needed, loop in internal stakeholders
+  - Make bounty awards
+  - Unblock reports that are stuck
+  - If needed, loop in / nudge internal stakeholders
   - If needed, vector to appropriate agency or vendor
 - Coordinate on policy changes, etc. with:
   - TTS
   - The platform vendor
 - Manage the [response process](https://handbook.tts.gsa.gov/responding-to-public-disclosure-vulnerabilities/) within TTS
 - Act as the [COR][cor] for the platform
+  - Check in with the HackerOne account representatives regularly
 
 [cor]: https://docs.google.com/document/d/14xOFvIGwlG0Gbd52o1D4AyJ52RqzHpX91nfEYJKu5qQ/edit
