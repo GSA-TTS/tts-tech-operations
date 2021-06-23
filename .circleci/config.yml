@@ -13,3 +13,11 @@ workflows:
           backend: false
           checkout: true
           path: terraform/
+      - terraform/plan:
+          backend: true
+          checkout: true
+          path: terraform/
+      - terraform/apply:
+          backend: false
+          checkout: true
+          path: terraform/
