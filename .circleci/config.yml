@@ -14,10 +14,16 @@ workflows:
           checkout: true
           path: terraform/
       - terraform/plan:
-          backend: true
           checkout: true
-          path: terraform/
+          context: terraform
+          persist-workspace: true
+          requires:
+            - terraform/validate
       - terraform/apply:
-          backend: false
-          checkout: true
-          path: terraform/
+          attach-workspace: true
+          context: terraform
+          filters:
+            branches:
+              only: master
+          requires:
+            - terraform/plan
