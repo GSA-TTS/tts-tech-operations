@@ -15,13 +15,9 @@ workflows:
           path: terraform/
       - terraform/plan:
           checkout: true
-          context: terraform
-          persist-workspace: true
           requires:
             - terraform/validate
       - terraform/apply:
-          attach-workspace: true
-          context: terraform
           filters:
             branches:
               only: master
