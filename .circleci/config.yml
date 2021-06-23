@@ -17,9 +17,11 @@ workflows:
           checkout: true
           requires:
             - terraform/validate
+          path: terraform/
       - terraform/apply:
           filters:
             branches:
               only: master
           requires:
             - terraform/plan
+          path: terraform/
