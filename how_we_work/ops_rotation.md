@@ -8,22 +8,22 @@ You don't have to have the answers to all the questions, but you should ensure a
 
 ### Slack Channels
 
-| Channel name                 |                                                                  Responsibility                                                                   |
-| ---------------------------- | :-----------------------------------------------------------------------------------------------------------------------------------------------: |
-| #admins-dns                  |                                                           Look for failure for DNS jobs                                                           |
-| #admins-github               |                                       Typically used for folks to request new accounts or transfer accounts                                       |
-| #admins-govdelivery          |                                                                      unsure                                                                       |
-| #admins-hubspot              |                                                                      unsure                                                                       |
-| #admins-iaas                 |                                                                      unsure                                                                       |
-| #admins-mural                |                                                 Typically used for folks to request new accounts                                                  |
-| #admins-slack                |                                     Mostly managed by GSA IT, but recommend monitoring if a question pops up                                      |
-| #admins-trello               |                                                 Typically used for folks to request new accounts                                                  |
-| #cto-ciso-tts-liason-private |                                       Communication avenue between the CTO's plust the CISO's office & TTS                                        |
-| #cto-tts-liason-private      |                                                Communication avenue between the CTO's office & TTS                                                |
-| #incident-response           |                                                 Channel to post incidents that need responding to                                                 |
-| #infrastructure              |                                       Main channel where folks come to talk to the TTS Tech Portfolio team                                        |
-| #it-issues                   | Channel folks come to when having IT Issues, other non Tech Portfolio typically also chime in and a common response is to ask the IT Service Desk |
-| #questions                   |                         Main channel where folks ask any random question other non Tech Portfolio typically also chime in                         |
+| Channel name                                                                   |                                                                  Responsibility                                                                   |
+| ----------------------------                                                   | :-----------------------------------------------------------------------------------------------------------------------------------------------: |
+| [#admins-dns](https://gsa-tts.slack.com/archives/C4L58EQ5T)                    |                                                           Look for failure for DNS jobs                                                           |
+| [#admins-github](https://gsa-tts.slack.com/archives/C02KXM98G)                 |                                       Typically used for folks to request new accounts or transfer accounts                                       |
+| [#admins-govdelivery](https://gsa-tts.slack.com/archives/CBQ490G3Y)            |                                                                      unsure                                                                       |
+| [#admins-hubspot](https://gsa-tts.slack.com/archives/C72F606QG)                |                                                                      unsure                                                                       |
+| [#admins-iaas](https://gsa-tts.slack.com/archives/CMB19370T)                   |                                                                      unsure                                                                       |
+| [#admins-mural](https://gsa-tts.slack.com/archives/C056CAN2F)                  |                                                 Typically used for folks to request new accounts                                                  |
+| [#admins-slack](https://gsa-tts.slack.com/archives/C02KW46DP)                  |                                     Mostly managed by GSA IT, but recommend monitoring if a question pops up                                      |
+| [#admins-trello](https://gsa-tts.slack.com/archives/C055J0BL0)                 |                                                 Typically used for folks to request new accounts                                                  |
+| [#cto-ciso-tts-liason-private](https://gsa-tts.slack.com/archives/G012Y9UCN9E) |                                       Communication avenue between the CTO's plust the CISO's office & TTS                                        |
+| [#cto-tts-liason-private](https://gsa-tts.slack.com/archives/GKDTT9D3N)        |                                                Communication avenue between the CTO's office & TTS                                                |
+| [#incident-response](https://gsa-tts.slack.com/archives/C0G6G1UNM)             |                                                 Channel to post incidents that need responding to                                                 |
+| [#infrastructure](https://gsa-tts.slack.com/archives/C039MHHF8)                |                                       Main channel where folks come to talk to the TTS Tech Portfolio team                                        |
+| [#it-issues](https://gsa-tts.slack.com/archives/C028WFKN1)                     | Channel folks come to when having IT Issues, other non Tech Portfolio typically also chime in and a common response is to ask the IT Service Desk |
+| [#questions](https://gsa-tts.slack.com/archives/C03EMDS6P)                     |                         Main channel where folks ask any random question other non Tech Portfolio typically also chime in                         |
 
 ### Google Groups
 
