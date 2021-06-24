@@ -5,8 +5,6 @@ title: ATO for [system] - due [date]
 labels: "g: accepted, i: software assurance"
 assignees: ""
 ---
-# IMPORTANT UPDATE: This checklist is going to be phased out starting 2/15/2021. Please review the [new checklist](https://app.smartsheet.com/folders/9mfvjQr7Rh95RxvhvQqQW3VwchXhmp2x5mJJgVX1) and feel free to start using beginning 2/1/21. 
-
 - **Main repository:** [url]
 - **Site:** [url]
 - **Product manager:** @[username]

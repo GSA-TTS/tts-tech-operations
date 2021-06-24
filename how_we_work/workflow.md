@@ -28,6 +28,7 @@ Use the following considerations for how to prioritize cards moving towards/into
 
 - Due date
 - Force-multiplier / quick win / high value
+  - Prioritize reducing Tech Portfolio pain points / [toil](https://sre.google/sre-book/eliminating-toil/) before those of our customers, in the spirit of "put your own oxygen mask on first, before attempting to help those around you."
 - Continuation of things you've already been working on
 - Solve active pain points over nice-to-haves
 
@@ -37,7 +38,7 @@ Use the following considerations for how to prioritize cards moving towards/into
 
 **Meeting Flow:**
 
-1. For each participant:
+1. First 15 minutes or less: For each participant, give status updates.
    1. Filter board by `assignee:<GITHUB_USERNAME>`
    1. Give status updates on issues from right to left (`Blocked/Watching` through `In Progress`), top to bottom in each column
    1. What they plan to start next
@@ -47,7 +48,9 @@ Use the following considerations for how to prioritize cards moving towards/into
       - Help needed
    1. Confirm there are no issues missing to represent recent/current/upcoming work
    1. Review of calendar items that others might benefit from attending or knowing about
-1. OpsRotation person leads looking at any any pull requests that would be useful to review as a group
+1. Folks who don't need to stay for subsequent items are welcome to drop.
+1. Revisit [parking lot](https://agileforall.com/7-tips-for-a-more-effective-daily-scrum/) items.
+1. OpsRotation person leads looking at any any pull requests that would be useful to review as a group.
 
 ### What to work on
 
