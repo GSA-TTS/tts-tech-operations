@@ -24,13 +24,13 @@ jobs:
     - name: validate
       uses: dflook/terraform-validate@v1
       with:
-        path: .
+        path: terraform
 
     # Check terraform files are formatted correctly (terraform fmt -check)
     - name: fmt
       uses: dflook/terraform-fmt-check@v1
       with:
-        path: .
+        path: terraform
 
     # Runs terraform lint
     - name: lint
@@ -45,4 +45,6 @@ jobs:
     # Runs Checkov
     - name: Run Checkov action
       id: checkov
-      uses: bridgecrewio/checkov-action@master    
+      uses: bridgecrewio/checkov-action@master
+      with:
+        directory: terraform/
