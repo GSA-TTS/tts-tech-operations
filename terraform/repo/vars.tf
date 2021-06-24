@@ -28,7 +28,7 @@ locals {
 
     # initiatives
     "i: custom software" = {
-      color       = local.label_colors.initiatives
+      color = local.label_colors.initiatives
       # GH Label description is limited to 100 characters
       description = "Relating to systems built in TTS and their need for tools, guidance, security authorization, etc."
     }
