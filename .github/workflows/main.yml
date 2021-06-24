@@ -1,0 +1,50 @@
+# This is a basic workflow to help you get started with Actions
+
+name: CI
+
+# Controls when the action will run. Triggers the workflow on every commit.
+on:
+  push:
+
+
+# A workflow run is made up of one or more jobs that can run sequentially or in parallel
+jobs:
+  # This workflow contains a single job called "build"
+  build:
+    # The type of runner that the job will run on
+    runs-on: ubuntu-latest
+
+    # Steps represent a sequence of tasks that will be executed as part of the job
+    steps:
+    # Checks-out your repository under $GITHUB_WORKSPACE, so your job can access it
+    - uses: actions/checkout@v2
+
+    # Validate terraform (with the side-effect of installing the right
+    # version of terraform based on required_version constraints)
+    - name: validate
+      uses: dflook/terraform-validate@v1
+      with:
+        path: terraform
+
+    # Check terraform files are formatted correctly (terraform fmt -check)
+    - name: fmt
+      uses: dflook/terraform-fmt-check@v1
+      with:
+        path: terraform
+
+    # Runs terraform lint
+    - name: lint
+      uses: actionshub/terraform-lint@main
+
+    # Runs tfsec
+    - name: security scan
+      uses: triat/terraform-security-scan@v2.2.3
+      env:
+        GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+
+    # Runs Checkov
+    - name: Run Checkov action
+      id: checkov
+      uses: bridgecrewio/checkov-action@master
+      with:
+        directory: terraform/
