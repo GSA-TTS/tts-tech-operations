@@ -26,6 +26,8 @@ You don't have to have the answers to all the questions, but you should ensure a
 | [#it-issues](https://gsa-tts.slack.com/archives/C028WFKN1)                     | Channel folks come to when having IT Issues, other non Tech Portfolio typically also chime in and a common response is to ask the IT Service Desk |
 | [#questions](https://gsa-tts.slack.com/archives/C03EMDS6P)                     |                         Main channel where folks ask any random question other non Tech Portfolio typically also chime in                         |
 
+It might be helpful [customize your sidebar](https://slack.com/help/articles/360043207674-Organize-your-sidebar-with-custom-sections) to group these channels together or take advantage of other [Slack tips for organization](https://handbook.tts.gsa.gov/tools/slack/guidelines/#usage-tips).
+
 ### Google Groups
 
 | Group                     | Permission | OpsRotation |
