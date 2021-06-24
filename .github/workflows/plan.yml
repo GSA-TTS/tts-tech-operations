@@ -1,0 +1,30 @@
+---
+name: plan
+
+on:
+  pull_request:
+    branches: [main]
+
+env:
+  AWS_ACCESS_KEY_ID: "${{ secrets.AWS_ACCESS_KEY_ID }}"
+  AWS_SECRET_ACCESS_KEY: "${{ secrets.AWS_SECRET_ACCESS_KEY }}"
+  AWS_DEFAULT_REGION: us-east-1
+
+
+jobs:
+  plan:
+    name: plan
+    runs-on: ubuntu-latest
+    env:
+      GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+    steps:
+      - name: checkout
+        uses: actions/checkout@v2
+
+      - name: terraform plan
+        uses: dflook/terraform-plan@v1
+        with:
+          path: .
+          parallelism: 4  # avoid rate limiting https://github.com/newrelic/terraform-provider-newrelic/issues/884#issuecomment-697571469
+        env:
+          GITHUB_TOKEN: "${{ secrets.GH_SECRET_TOKEN }}"

@@ -23,9 +23,10 @@ To `plan`/`apply` changes:
 
       Note that using a profile other than `Default` will mean you need to set the environment variable `AWS_PROFILE=profile_name` to the profile containing your tts-prod AWS credentials
 
-1. [Install Terraform.](https://learn.hashicorp.com/tutorials/terraform/install-cli)
-1. [Create a GitHub personal access token.](https://github.com/settings/tokens)
-1. In this directory:
+2. For CI/CD we setup a IAM profile and user with only those permissions to access from the created s3 bucket and dyanamodb table. See https://www.terraform.io/docs/language/settings/backends/s3.html#s3-bucket-permissions for the IAM JSON policy example.
+3. [Install Terraform.](https://learn.hashicorp.com/tutorials/terraform/install-cli)
+4. [Create a GitHub personal access token.](https://github.com/settings/tokens)
+5. In this directory:
 
    1. Create [a `terraform.tfvars` file](https://www.terraform.io/docs/configuration/variables.html#variable-definitions-tfvars-files) with the token
 
@@ -33,7 +34,7 @@ To `plan`/`apply` changes:
       github_token = "…"
       ```
 
-   1. Ensure Terraform runs successfuly
+   2. Ensure Terraform runs successfuly
 
       ```sh
       terraform init
