@@ -1,0 +1,27 @@
+---
+name: apply
+
+on:
+  push:
+    branches:
+      - master
+
+env:
+  AWS_ACCESS_KEY_ID: "${{ secrets.AWS_ACCESS_KEY_ID }}"
+  AWS_SECRET_ACCESS_KEY: "${{ secrets.AWS_SECRET_ACCESS_KEY }}"
+  AWS_DEFAULT_REGION: us-east-1
+
+jobs:
+  apply:
+    name: apply
+    runs-on: ubuntu-latest
+    steps:
+      - name: checkout
+        uses: actions/checkout@v2
+
+      - name: terraform apply
+        uses: dflook/terraform-apply@v1
+        with:
+          path: terraform
+        env:
+          GITHUB_TOKEN: "${{ secrets.GH_SECRET_TOKEN }}"

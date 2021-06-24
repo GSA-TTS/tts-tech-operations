@@ -1,3 +1,0 @@
-variable "github_token" {
-
-}
