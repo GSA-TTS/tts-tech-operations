@@ -157,7 +157,7 @@ The following penetration tests will be performed:
 
 #### Project team
 
-- [ ] Environment being tested is frozen
+- [ ] Environment being tested is frozen (disable automated deploys to production)
 - [ ] Put all found vulnerabilities in the project's issue tracker
 - [ ] Fix any `Critical` or `High` vulnerabilities.
   - This needs to be done before the ATO can be issued, though not necessarily before the end of the assessment.
