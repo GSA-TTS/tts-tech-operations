@@ -19,6 +19,16 @@ Beyond the TTS-wide [language selection](https://engineering.18f.gov/language-se
 
 All the above are "where possible" — there will be exceptions.
 
+## Protected branches
+
+Protected branches are [required](https://engineering.18f.gov/project-setup/#branch-protection-requirement) for the `main` branch in GitHub. Additionally, we prefer this configuration for all of our repositories.
+
+- "Require pull request reviews before merging"
+- "Dismiss stale pull request approvals when new commits are pushed"
+- "Require status checks to pass before merging"
+- "Include administrators"
+
+
 ## Additional guidance
 
 …beyond the TTS-wide [Engineering Practices Guide](https://engineering.18f.gov/):
