@@ -1,4 +1,11 @@
-[![18F](https://circleci.com/gh/18F/tts-tech-portfolio.svg?style=svg)](https://app.circleci.com/pipelines/github/18F/tts-tech-portfolio)
+![Terraform Lint and Security Checks](https://github.com/18f/tts-tech-portfolio/actions/workflows/main.yml/badge.svg)
+![Terraform Plan](https://github.com/18f/tts-tech-portfolio/actions/workflows/plan.yml/badge.svg)
+![Terraform Apply](https://github.com/18f/tts-tech-portfolio/actions/workflows/apply.yml/badge.svg)
+
+| Active Pull Request Status |
+![Terraform Lint and Security Checks](https://github.com/18f/tts-tech-portfolio/actions/workflows/main.yml/badge.svg?event=pull_request)
+![Terraform Plan](https://github.com/18f/tts-tech-portfolio/actions/workflows/plan.yml/badge.svg?event=pull_request)
+
 
 ## Overview
 
