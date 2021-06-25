@@ -11,6 +11,7 @@ terraform {
     key            = "tts-tech-portfolio/terraform.tfstate"
     dynamodb_table = "tts-terraform-dynamodb-tts-tech-portfolio"
     region         = "us-west-2"
+    encrypt        = true
   }
 }
 

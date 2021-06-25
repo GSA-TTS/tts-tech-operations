@@ -25,5 +25,6 @@ jobs:
         uses: dflook/terraform-plan@v1
         with:
           path: terraform
+          GITHUB_TOKEN: "${{ secrets.GITHUB_TOKEN }}"
         env:
           GITHUB_TOKEN: "${{ secrets.GH_SECRET_TOKEN }}"
