@@ -4,7 +4,8 @@
 ![Inspector](https://github.com/18f/tts-tech-portfolio/actions/workflows/inspector.yml/badge.svg)
 
 
-| Active Pull Request Status |
+Pull Request Status
+
 ![Terraform Lint and Security Checks](https://github.com/18f/tts-tech-portfolio/actions/workflows/main.yml/badge.svg?event=pull_request)
 ![Terraform Plan](https://github.com/18f/tts-tech-portfolio/actions/workflows/plan.yml/badge.svg?event=pull_request)
 
