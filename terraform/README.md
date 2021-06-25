@@ -1,47 +1,80 @@
-To `plan`/`apply` changes:
+## Requirements
 
-1. Ensure AWS CLI is properly configured. Terraform requires access to AWS resources in order to track state as well as to perform the relevant operations
+- Terraform v0.14 (we recommend [tfenv](https://github.com/tfutils/tfenv))
 
-   1. [Download and install AWSCLI](https://aws.amazon.com/cli/)
-   1. [Configure AWSCLI](https://docs.aws.amazon.com/cli/latest/userguide/cli-configure-files.html)
-      At a minimum, a profile should be created (or the Default profile used) containing your tts-prod AWS account credentials.
 
-      `~/.aws/credentials:`
+## Development
 
-      ```ini
-      [profile_name]
-      aws_access_key_id=YOUR_ACCESS_KEY_FROM_TTS_PROD
-      aws_secret_access_key=YOUR_SECRET_ACCESS_KEY_FROM_TTS_PROD
-      ```
+Changes are automatically deployed via CI/CD, but in case you need to test or
+debug, you can do so in your local development environment.
 
-      `~/.aws/config:`
+Copy `env.sample` to `.env` and edit the environment variables with your secret
+credentials.
 
-      ```ini
-      [profile_name]
-      region=us-west-2
-      ```
+Source your secret credentials.
 
-      Note that using a profile other than `Default` will mean you need to set the environment variable `AWS_PROFILE=profile_name` to the profile containing your tts-prod AWS credentials
+    $ . .env
 
-2. For CI/CD we setup a IAM profile and user with only those permissions to access from the created s3 bucket and dyanamodb table. See https://www.terraform.io/docs/language/settings/backends/s3.html#s3-bucket-permissions for the IAM JSON policy example.
-3. [Install Terraform.](https://learn.hashicorp.com/tutorials/terraform/install-cli)
-4. [Create a GitHub personal access token.](https://github.com/settings/tokens)
-5. In this directory:
+Initialize Terraform.
 
-   1. Create [a `terraform.tfvars` file](https://www.terraform.io/docs/configuration/variables.html#variable-definitions-tfvars-files) with the token
+    $ terraform init
 
-      ```hcl
-      github_token = "…"
-      ```
+Generate a plan.
 
-   2. Ensure Terraform runs successfuly
-
-      ```sh
-      terraform init
-      terraform plan
-      ```
+    $ terraform plan
 
 It should show "no changes". You can then make changes to files, `apply`, etc.
+
+    $ terraform apply
+
+
+## Continuous integration and deployment
+
+We use CI/CD to apply changes to production. Any changes to `master` are validated
+and reviewed before being applied. The process works like this:
+
+1. Author submits changes as a pull request
+1. Changes are validated with automated checks
+1. Team member reviews the changes and the generated Terraform plan
+1. Once approved and all checks are passing, changes are merged to `master`
+1. Changes are applied to production
+
+
+## Initial setup
+
+The first time you setup this project, you'll need to create the Terraform backend and setup CI.
+
+
+### Terraform backend
+
+For CI/CD we setup an IAM policy and user with only those permissions to access
+from the created S3 bucket and DyanamoDB table. See [Terraform S3 backend
+documentation](https://www.terraform.io/docs/language/settings/backends/s3.html)
+for the how to configure the IAM policy. Additionally, make sure:
+
+- "Block all public access" is checked for the S3 bucket
+- S3 bucket is configured with encryption
+
+
+### GitHub Actions
+
+Add these secrets for use in GitHub Actions.
+
+Secret | Description
+------ | -----------
+AWS_ACCESS_KEY_ID | AWS access key Id for accessing the S3+DynamoDB Terraform state.
+AWS_SECRET_ACCESS_KEY | AWS secret key for accessing the S3+DynamoDB Terraform state.
+GH_SECRET_TOKEN | GitHub [personal access token](https://docs.github.com/en/github/authenticating-to-github/keeping-your-account-and-data-secure/creating-a-personal-access-token) with `repo, read:org` scope and write permissions to repos.
+
+To enforce the workflow, you should enable protected branches for `master`
+configured with these options:
+
+- Require pull request reviews before merging
+- Dismiss stale pull request approvals when new commits are pushed
+- Require status checks to pass before merging (build, plan)
+- Require branches to be up to date before merging
+- Include administrators
+
 
 ## Changing labels
 
