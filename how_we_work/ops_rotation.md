@@ -28,6 +28,9 @@ You don't have to have the answers to all the questions, but you should ensure a
 
 It might be helpful [customize your sidebar](https://slack.com/help/articles/360043207674-Organize-your-sidebar-with-custom-sections) to group these channels together or take advantage of other [Slack tips for organization](https://handbook.tts.gsa.gov/tools/slack/guidelines/#usage-tips).
 
+### DNS changes
+Pull Requests for [18f/dns](https://github.com/18F/dns/pulls) should be added to the [TTS Tech Portfolio Pull Request Project Board](https://github.com/orgs/18F/projects/19) and reviewed/merged as appropriate.
+
 ### Google Groups
 
 | Group                     | Permission | OpsRotation |
