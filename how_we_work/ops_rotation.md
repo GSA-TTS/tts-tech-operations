@@ -60,7 +60,7 @@ Members of TTS will start the [request process](https://handbook.tts.gsa.gov/sof
 
 Microsoft, Trello, Mural, and InVision require that you go into the back-end and manually add the person into the account.
 
-See the following [administration guide](https://docs.google.com/document/d/18Htav6TIgasBvvSroI8H_sQXxnvMlra2k9iabBwQYUs/edit#) and [document guide](https://github.com/18F/tts-tech-portfolio/blob/master/links.md) for links to the user lists, back-end accounts, and template responses.
+See the following [administration guide](https://docs.google.com/document/d/18Htav6TIgasBvvSroI8H_sQXxnvMlra2k9iabBwQYUs/edit#) and [document guide](https://github.com/18F/tts-tech-portfolio/blob/main/links.md) for links to the user lists, back-end accounts, and template responses.
 
 ### Play: Microsoft Software Request
 

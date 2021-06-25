@@ -15,9 +15,9 @@ assignees: ""
 ### Getting to know TTS Tech Portfolio
 
 - [ ] Read [the Tech Portfolio Handbook page](https://handbook.tts.gsa.gov/tech-portfolio/) and things linked from there.
-- [ ] Read [the team onboarding document](https://github.com/18F/tts-tech-portfolio/blob/master/how_we_work/onboarding.md).
-- [ ] Read about [how we work](https://github.com/18F/tts-tech-portfolio/tree/master/how_we_work#readme) and things linked from there.
-  - [ ] [Team workflow](https://github.com/18F/tts-tech-portfolio/blob/master/how_we_work/workflow.md)
+- [ ] Read [the team onboarding document](https://github.com/18F/tts-tech-portfolio/blob/main/how_we_work/onboarding.md).
+- [ ] Read about [how we work](https://github.com/18F/tts-tech-portfolio/tree/main/how_we_work#readme) and things linked from there.
+  - [ ] [Team workflow](https://github.com/18F/tts-tech-portfolio/blob/main/how_we_work/workflow.md)
 - [ ] Submit a pull request to make the Tech Portfolio's onboarding documentation/checklist better.
 
 ### Required items for all team members
@@ -25,7 +25,7 @@ assignees: ""
 Ensure you know what's happening on the team:
 
 - [ ] Subscribe to the [Tech Portfolio team calendar](https://calendar.google.com/calendar?cid=Z3NhLmdvdl82aDI5YnF1ZGx0NGVoZTVzOWswOGlmdGZxMEBncm91cC5jYWxlbmRhci5nb29nbGUuY29t) (click the + in the bottom right) so you know when assorted team meetings are happening. Tip: When you plan Out of Office time, make a calendar event for that on the TTS Tech Portfolio calendar so that your teammates know you'll be away.
-- [ ] [Watch](https://docs.github.com/en/github/managing-subscriptions-and-notifications-on-github/viewing-your-subscriptions#configuring-your-watch-settings-for-an-individual-repository) [our repositories](https://github.com/18F/tts-tech-portfolio/blob/master/how_we_work/github.md)
+- [ ] [Watch](https://docs.github.com/en/github/managing-subscriptions-and-notifications-on-github/viewing-your-subscriptions#configuring-your-watch-settings-for-an-individual-repository) [our repositories](https://github.com/18F/tts-tech-portfolio/blob/main/how_we_work/github.md)
 
 Learn our policies and procedures:
 
@@ -44,7 +44,7 @@ Learn about what we do:
 
 - [ ] Introduce yourself to the new team member and give them some of your background so they know who you are; if you are comfortable, share your Readme and encourage them to create their own
 - [ ] Identify a straightforward, well-groomed story in progress that involves their skills domain, schedule a meeting with the owner for an introduction (if it's not you), and setup pairing sessions several times in the first week on the project.
-- [ ] Have the person shadow whomever is on [OpsRotation](https://github.com/18F/tts-tech-portfolio/blob/master/how_we_work/ops_rotation.md), so they can see how we handle support and read with those within TTS.
+- [ ] Have the person shadow whomever is on [OpsRotation](https://github.com/18F/tts-tech-portfolio/blob/main/how_we_work/ops_rotation.md), so they can see how we handle support and read with those within TTS.
 
 ### Required items for all team members
 
@@ -52,9 +52,9 @@ Add them to:
 
 - [ ] [The @tech-portfolio user group in Slack](https://get.slack.help/hc/en-us/articles/212906697-User-Groups#edit-a-user-group)
 - [ ] [The @18F/tts-tech-portfolio team in GitHub](https://github.com/orgs/18F/teams/tts-tech-portfolio/members)
-- [ ] [The Everyone issue template](https://github.com/18F/tts-tech-portfolio/blob/master/.github/ISSUE_TEMPLATE/everyone.md)
+- [ ] [The Everyone issue template](https://github.com/18F/tts-tech-portfolio/blob/main/.github/ISSUE_TEMPLATE/everyone.md)
 - [ ] The OpsRotation schedule
-- [ ] [The TTS Tech Portfolio Roles](https://github.com/18F/tts-tech-portfolio/blob/master/how_we_work/roles.md)
+- [ ] [The TTS Tech Portfolio Roles](https://github.com/18F/tts-tech-portfolio/blob/main/how_we_work/roles.md)
 - [ ] [The employee list in SmartSheet](https://app.smartsheet.com/sheets/Q2CgG9V897x8rRmv8XhGGjrhFRxVVqgVx5hCmW41?view=grid)
 
 ### Google Groups

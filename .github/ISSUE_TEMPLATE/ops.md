@@ -6,7 +6,7 @@ labels: "g: accepted, i: misc"
 assignees: ""
 ---
 
-Each of the following should be done within the dates above. See the [playbook](https://github.com/18F/tts-tech-portfolio/blob/master/how_we_work/ops_rotation.md) for additional info.
+Each of the following should be done within the dates above. See the [playbook](https://github.com/18F/tts-tech-portfolio/blob/main/how_we_work/ops_rotation.md) for additional info.
 
 ## GitHub
 
@@ -17,14 +17,14 @@ Each of the following should be done within the dates above. See the [playbook](
   - You don't need to merge everything yourself, but try and make sure everything gets merged (by pinging the relevant people, etc).
   - If you need help reviewing/merging any, ask in [#tts-tech-portfolio](https://gsa-tts.slack.com/messages/tts-tech-portfolio/) or another relevant channel.
 - [ ] [Update the public IT Standards dataset](https://github.com/GSA/data/tree/master/enterprise-architecture#updating-the-list)
-- [ ] [Run the Inspector](https://github.com/18F/tts-tech-portfolio/tree/master/inspector#usage)
+- [ ] [Run the Inspector](https://github.com/18F/tts-tech-portfolio/tree/main/inspector#usage)
 
 ## Communications Monitoring
 
 Ensure you are present in the following and are responding as needed:
 
-- [ ] [Slack Channels](https://github.com/18F/tts-tech-portfolio/blob/master/how_we_work/ops_rotation.md#slack-channels)
-- [ ] [Google Groups](https://github.com/18F/tts-tech-portfolio/blob/master/how_we_work/ops_rotation.md#google-groups) - Ensure all inbox items are marked completed. If not able to complete, use the `assign` task function to task the next person on ops rotation, providing them with a description of what's left to do to complete.
+- [ ] [Slack Channels](https://github.com/18F/tts-tech-portfolio/blob/main/how_we_work/ops_rotation.md#slack-channels)
+- [ ] [Google Groups](https://github.com/18F/tts-tech-portfolio/blob/main/how_we_work/ops_rotation.md#google-groups) - Ensure all inbox items are marked completed. If not able to complete, use the `assign` task function to task the next person on ops rotation, providing them with a description of what's left to do to complete.
 
 Check off the boxes above at the end of the Rotation if you believe you are caught up.
 

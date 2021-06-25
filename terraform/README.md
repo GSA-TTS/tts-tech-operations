@@ -30,13 +30,13 @@ It should show "no changes". You can then make changes to files, `apply`, etc.
 
 ## Continuous integration and deployment
 
-We use CI/CD to apply changes to production. Any changes to `master` are validated
+We use CI/CD to apply changes to production. Any changes to `main` are validated
 and reviewed before being applied. The process works like this:
 
 1. Author submits changes as a pull request
 1. Changes are validated with automated checks
 1. Team member reviews the changes and the generated Terraform plan
-1. Once approved and all checks are passing, changes are merged to `master`
+1. Once approved and all checks are passing, changes are merged to `main`
 1. Changes are applied to production
 
 
@@ -66,7 +66,7 @@ AWS_ACCESS_KEY_ID | AWS access key Id for accessing the S3+DynamoDB Terraform st
 AWS_SECRET_ACCESS_KEY | AWS secret key for accessing the S3+DynamoDB Terraform state.
 GH_SECRET_TOKEN | GitHub [personal access token](https://docs.github.com/en/github/authenticating-to-github/keeping-your-account-and-data-secure/creating-a-personal-access-token) with `repo, read:org` scope and write permissions to repos.
 
-To enforce the workflow, you should enable protected branches for `master`
+To enforce the workflow, you should enable protected branches for `main`
 configured with these options:
 
 - Require pull request reviews before merging

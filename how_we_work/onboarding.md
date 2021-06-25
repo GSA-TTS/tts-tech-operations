@@ -4,7 +4,7 @@
 
 Everyone joining the TTS Tech Portfolio team will get assigned a team onboarding buddy. This person should be working on similar things to what you will be working on, so that they can answer questions in your domain.
 
-You and your team onboarding buddy must follow the instructions in [the Onboarding Checklist](https://github.com/18F/tts-tech-portfolio/blob/master/.github/ISSUE_TEMPLATE/onboarding.md) to guide you through tasks that will get you up to speed and contributing in no time. You (and your buddy) should track your progress by checking the boxes as you complete tasks.
+You and your team onboarding buddy must follow the instructions in [the Onboarding Checklist](https://github.com/18F/tts-tech-portfolio/blob/main/.github/ISSUE_TEMPLATE/onboarding.md) to guide you through tasks that will get you up to speed and contributing in no time. You (and your buddy) should track your progress by checking the boxes as you complete tasks.
 
 Take judicious notes on what about this onboarding process or Tech Portfolio is confusing or frustrating. If you notice a problem (especially with things like documentation), you are more than welcome to fix it! At the very least, please share this information with your buddy (or someone) at some point so we can make the team/documentation better.
 
