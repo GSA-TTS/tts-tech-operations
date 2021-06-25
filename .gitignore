@@ -6,3 +6,4 @@
 coverage/
 crash.log
 node_modules/
+*.terraform.lock.hcl

@@ -1,8 +1,9 @@
 terraform {
-  required_version = "~> 0.14.0"
+  required_version = "~> 1.0"
   required_providers {
     github = {
-      source = "integrations/github"
+      source  = "integrations/github"
+      version = "~> 4.0"
     }
   }
   backend "s3" {
@@ -10,6 +11,7 @@ terraform {
     key            = "tts-tech-portfolio/terraform.tfstate"
     dynamodb_table = "tts-terraform-dynamodb-tts-tech-portfolio"
     region         = "us-west-2"
+    encrypt        = true
   }
 }
 
