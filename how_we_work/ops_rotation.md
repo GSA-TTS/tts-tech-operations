@@ -2,6 +2,18 @@
 
 [Create an issue using the Operations Rotation template](https://github.com/18F/tts-tech-portfolio/issues/new?template=ops.md) before each Rotation to track tasks. Close once the rotation has ended.
 
+We wear a lot of different hats and it's not always clear what process to follow
+in order to address a request. In general, look for documented instructions in
+the context of the request. If you're not sure:
+
+1. Check the Handbook
+1. Check this repo
+1. Ask for clarification in [#tts-tech-portfolio](https://gsa-tts.slack.com/archives/CNW3GL70S)
+
+We try to keep admin documentation and process close to the user documentation
+and process.
+
+
 ## Communications Monitoring
 
 You don't have to have the answers to all the questions, but you should ensure all the questions get answers.
