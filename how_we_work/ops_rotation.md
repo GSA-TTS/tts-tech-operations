@@ -42,18 +42,27 @@ It might be helpful [customize your sidebar](https://slack.com/help/articles/360
 
 ### Google Groups
 
-| Group                     | Permission | OpsRotation |
-| ------------------------- | ---------- |---------- |
-| 18F DevOps                | Owner      | Y |
-| 18F PyPI                  | Owner      | Y |
-| 18F Software              | Owner      | Y |
-| 18f-team                  | Member     | N |
-| IS-TTS                    | Manager    | Y |
-| TTS Software              | Owner      | Y |
-| TTS Technology Portfolio  | Owner      | Y |
-| TTS Vulnerability Reports | Owner      | N |
+| Group                                                                                        | Permission | OpsRotation |
+| -------------------------------------------------------------------------------------------- | ---------- |---------- |
+| 18F DevOps                                                                                   | Owner      | Y |
+| 18F PyPI                                                                                     | Owner      | Y |
+| 18F Software                                                                                 | Owner      | Y |
+| 18f-team                                                                                     | Member     | N |
+| IS-TTS                                                                                       | Manager    | Y |
+| [TTS Software](https://groups.google.com/a/gsa.gov/g/tts-software)                           | Owner      | Y |
+| [TTS Technology Portfolio](https://groups.google.com/a/gsa.gov/g/devops)                     | Owner      | Y |
+| [TTS Vulnerability Reports](https://groups.google.com/a/gsa.gov/g/tts-vulnerability-reports) | Owner      | N |
 
-For the `TTS Software` group, we use [Google's Collaborative Inbox](https://support.google.com/a/answer/167430?hl=en) features to manage the status of requests. When on ops-rotation use the `Mark as Completed` to ensure others know a request has been satisfied. For requests that need assistance from others on the team, use the `Assign` feature to task them, include a description of what you need from them. Feel free to use any additional features you may find useful.
+For the `TTS Software` group, we use [Google's Collaborative Inbox](https://support.google.com/a/answer/167430?hl=en)
+features to manage the status of requests. When on ops-rotation use the `Mark as
+Completed` to ensure others know a request has been satisfied. For requests that
+need assistance from others on the team, use the `Assign` feature to task them,
+include a description of what you need from them. Feel free to use any
+additional features you may find useful.
+
+It might be helpful to create a filter rule for each of the above
+`to:<list>@gsa.gov`s and add a label (e.g. `tech-portfolio`). Then
+[each day you can quickly process the queue](https://mail.google.com/mail/u/0/#search/label%3Atech-portfolio+is%3Aunread).
 
 ## Knowledge Management
 
