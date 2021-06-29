@@ -29,7 +29,7 @@ Ensure you know what's happening on the team:
 
 Learn our policies and procedures:
 
-- [ ] Coordinate with your onboarding buddy to go through [Incident Response Training](https://docs.google.com/presentation/d/1AZjQE8zBzMRWZIFUuJPkJLted1ykGtALrLPoPRx5Vls/edit#slide=id.p) within 60 days of joining the team (and annually after that). This will cover the following document, which you should also review before or after training:
+- [ ] Coordinate with your onboarding buddy to go through Incident Response Training within 60 days of joining the team (and annually after that).
 - [ ] Read [Before You Ship](https://before-you-ship.18f.gov/)
 - [ ] Coordinate with your onboarding buddy to go through [nonpublic information training](https://docs.google.com/presentation/d/1rXSZZ0t0kadsoP1EMJoM0T7ROkGD3Pr5wojWnf2GksI/edit) within 60 days of joining the team (and annually after that). This will cover the following documents, which you should also review before or after training:
 - [ ] Review the [18F open source policy guidance about protecting sensitive information](https://github.com/18F/open-source-policy/blob/master/practice.md#protecting-sensitive-information)
