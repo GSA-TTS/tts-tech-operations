@@ -6,7 +6,7 @@
 | --- | --- | --- |
 | [18F/aws-admin](https://github.com/18F/aws-admin) | active | Y |
 | [18F/aws-admin-cleanup](https://github.com/18F/aws-admin-cleanup) | active | Y |
-| [18F/before-you-ship](https://github.com/18F/before-you-ship) | active | Y |
+| [18F/before-you-ship](https://github.com/18F/before-you-ship) | archived | Y |
 | [18F/billing-tools](https://github.com/18F/billing-tools) | archived | Y |
 | [18F/bug-bounty](https://github.com/18F/bug-bounty) | active | Y |
 | [18F/certificate-service](https://github.com/18F/certificate-service) | archived | Y |
