@@ -24,7 +24,7 @@ locals {
   repos = {
     "aws-admin" : {},
     "aws-admin-cleanup" : {},
-    "before-you-ship" : {},
+    "before-you-ship" : { archived = true },
     "billing-tools" : { archived = true },
     "bug-bounty" : {},
     "certificate-service" : { archived = true },
