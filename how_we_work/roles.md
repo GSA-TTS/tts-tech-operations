@@ -12,7 +12,7 @@
 | Mac Working Group representative                                                                                                                         | X      | ---      | ---                |
 | [Operations Rotation](ops_rotation.md) person                                                                                                            | X      | X        | X                  |
 | [P-Card](https://drive.google.com/drive/folders/1CkxpHq0mDFeAnXlaMQJ9RQOCioVHckgs) Approving Official                                                    | X      | ---      | ---                |
-| [P-Card](https://drive.google.com/drive/folders/1CkxpHq0mDFeAnXlaMQJ9RQOCioVHckgs) Holder                                                                | ---    | X        | ---                |
+| [P-Card](https://drive.google.com/drive/folders/1CkxpHq0mDFeAnXlaMQJ9RQOCioVHckgs) Holder                                                                | ---    | ---      | ---                |
 | Software concierge [(Security Authorization)](#security-authorizations)                                                                                  | X      | ---      | ---                |
 | Software concierge (acquisition)                                                                                                                         | ---    | ---      | ---                |
 | [TTS products and platforms Mission Essential Function (MEF)](https://drive.google.com/drive/folders/1I53LwxcMPHvoCWZziN4jvQ3wWFc2tvF8) point of contact | X      | ---      | ---                |
