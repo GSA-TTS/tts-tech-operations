@@ -30,7 +30,7 @@ Check off the boxes above at the end of the Rotation if you believe you are caug
 
 ## Other
 
-- [ ] Perform any outstanding `ACCOUNT DEACTIVATION` [offboarding tasks](https://docs.google.com/spreadsheets/d/1rp8n78tFHqyvvHzsYuBo_XE3Jg1LwOuOX-R9TMRnZI8/edit#gid=1012037864)
+- [ ] Perform any outstanding `ACCOUNT DEACTIVATION (TP)` (Task(s) Due) [offboarding tasks](https://docs.google.com/spreadsheets/d/1rp8n78tFHqyvvHzsYuBo_XE3Jg1LwOuOX-R9TMRnZI8/edit#gid=1012037864). For any individual where Tasks are due, find their sheet (ordered by offboarding date) and look at the "ACCOUNT DEACTIVATION (TECH PORTFOLIO)" section for any tasks that should be completed.
 - [ ] Go through [SaaS user cleanup](https://docs.google.com/spreadsheets/d/16K3QEUdaXhSjeP-2vVGOX9PulRhlKqXXLnrx_RAZFJc/edit#gid=1913829200)
 - [ ] Check the [anonymous feedback responses](https://docs.google.com/spreadsheets/d/1ahj7CuoTAYr5c7miDCeGhplYx_wW1yj6ApMFLRdY-7Q/edit?usp=forms_web_b#gid=1730986218), and do the following as applicable:
   - Create or comment on issues
