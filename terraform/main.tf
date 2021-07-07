@@ -22,7 +22,7 @@ provider "github" {
 locals {
   # options default to false
   repos = {
-    ".github" : {},
+    ".github" : { shared_content_ownership = true },
     "aws-admin" : {},
     "aws-admin-cleanup" : {},
     "before-you-ship" : { archived = true },
