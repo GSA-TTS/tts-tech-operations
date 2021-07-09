@@ -1,6 +1,6 @@
 ## Requirements
 
-- Terraform v0.14 (we recommend [tfenv](https://github.com/tfutils/tfenv))
+- Terraform v1.0 (we recommend [tfenv](https://github.com/tfutils/tfenv))
 
 
 ## Development
