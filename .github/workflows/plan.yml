@@ -28,3 +28,6 @@ jobs:
           GITHUB_TOKEN: "${{ secrets.GITHUB_TOKEN }}"
         env:
           GITHUB_TOKEN: "${{ secrets.GH_SECRET_TOKEN }}"
+        # don't run on forks
+        # https://github.community/t/dont-run-actions-on-pull-request-from-fork/17560/4
+        if: github.event.pull_request.head.repo.full_name == github.repository
