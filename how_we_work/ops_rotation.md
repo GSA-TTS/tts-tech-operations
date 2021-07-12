@@ -42,16 +42,14 @@ It might be helpful [customize your sidebar](https://slack.com/help/articles/360
 
 ### Google Groups
 
-| Group                                                                                        | Permission | OpsRotation |
-| -------------------------------------------------------------------------------------------- | ---------- |---------- |
-| 18F DevOps                                                                                   | Owner      | Y |
-| 18F PyPI                                                                                     | Owner      | Y |
-| 18F Software                                                                                 | Owner      | Y |
-| 18f-team                                                                                     | Member     | N |
-| IS-TTS                                                                                       | Manager    | Y |
-| [TTS Software](https://groups.google.com/a/gsa.gov/g/tts-software)                           | Owner      | Y |
-| [TTS Technology Portfolio](https://groups.google.com/a/gsa.gov/g/devops)                     | Owner      | Y |
-| [TTS Vulnerability Reports](https://groups.google.com/a/gsa.gov/g/tts-vulnerability-reports) | Owner      | N |
+| Group                                                                                        | Permission |
+| -------------------------------------------------------------------------------------------- | ---------- |
+| [18F PyPI](https://groups.google.com/a/gsa.gov/g/18f-pypi)                                   | Owner      |
+| [TTS Tech Portfolio IaaS Alerting](https://groups.google.com/a/gsa.gov/g/18fsoftware)        | Owner      |
+| [IS-TTS](https://groups.google.com/a/gsa.gov/g/is-tts)                                       | Manager    |
+| [TTS Software](https://groups.google.com/a/gsa.gov/g/tts-software)                           | Owner      |
+| [TTS Technology Portfolio](https://groups.google.com/a/gsa.gov/g/devops)                     | Owner      |
+| [TTS Vulnerability Reports](https://groups.google.com/a/gsa.gov/g/tts-vulnerability-reports) | Owner      |
 
 For the `TTS Software` group, we use [Google's Collaborative Inbox](https://support.google.com/a/answer/167430?hl=en)
 features to manage the status of requests. When on ops-rotation use the `Mark as
