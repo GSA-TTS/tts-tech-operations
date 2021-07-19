@@ -109,6 +109,7 @@ SaaS Manager needs to be added to 18F Software and TTS Software Google groups
 - List of TTS [domains](https://docs.google.com/spreadsheets/d/12pfcEIEXaJTjIKex-3wnI89erIvgKf9B_XpGkDl6qsM/edit#gid=824448842)
 - [Modernization plans](https://docs.google.com/spreadsheets/d/1kxtHnxs2Us3OyPNOIyVQvWs5vUPcEhSaQHBIvSZmtzw/edit#gid=1884617968)
 - [GSA's list of websites](https://docs.google.com/spreadsheets/d/1OBO6g7_OsVBv0vG8WSCI6L2FD_iRh3A7a_6eQWj2zLE/edit#gid=2013137748)
+- [Candidates for decommissioning](https://docs.google.com/spreadsheets/d/1EGgQpwq8kc43TuTYxtQAhzEnhf_p7m_6T0Q8Dt9mqjo/edit#gid=0)
 
 ## Interviewing
 
