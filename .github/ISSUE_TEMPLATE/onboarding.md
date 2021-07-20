@@ -75,4 +75,4 @@ Add as an admin to:
 - [ ] Invite team member to [InVision](https://gsa.invisionapp.com/teams/people/members), then Change their Role to Admin
 - [ ] Invite team member to [Mural](https://app.mural.co/t/gsa6/settings/members), then give them Workspace Admin permissions
 - [ ] [New Relic](https://account.newrelic.com/accounts/562946/users)
-- [ ] [npm](https://www.npmjs.com/settings/18f/members)
+- [ ] Add team member as Owner to [npm](https://www.npmjs.com/settings/18f/members) organization
