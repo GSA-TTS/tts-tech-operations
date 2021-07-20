@@ -68,7 +68,7 @@ Add as an admin to:
   - [ ] Send their temporary credentials over a secure channel, like Google Chat
   - [ ] Assign the user to the tts-tech-portfolio-admins group
 - [x] ~[DockerHub](https://hub.docker.com/orgs/18fgsa)~ _See [#983](https://github.com/18F/tts-tech-portfolio/issues/983#issuecomment-809516800)_
-- [ ] [`TTS-managed` GitHub orgs](https://handbook.tts.gsa.gov/github/#organizations)
+- [ ] Assign team member [Owner role in 18F GitHub org](https://github.com/orgs/18F/people/pending_invitations)
 - [ ] HackerOne
   - [ ] Add team member to the `Admin` and `TTS Bug Bounty Team` groups on the [Public team](https://hackerone.com/tts/team_members) 
   - [ ] Add team member to the `Admin` and `TTS Private Bug Bounty Team` groups on the [Private team](https://hackerone.com/tts-private/team_members)
