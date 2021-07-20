@@ -71,8 +71,8 @@ Add as an admin to:
 - [x] ~[DockerHub](https://hub.docker.com/orgs/18fgsa)~ _See [#983](https://github.com/18F/tts-tech-portfolio/issues/983#issuecomment-809516800)_
 - [ ] [`TTS-managed` GitHub orgs](https://handbook.tts.gsa.gov/github/#organizations)
 - [ ] HackerOne
-  - [ ] [Public team](https://hackerone.com/tts/team_members)
-  - [ ] [Private team](https://hackerone.com/tts-private/team_members)
+  - [ ] Add team member to the `Admin` and `TTS Bug Bounty Team` groups on the [Public team](https://hackerone.com/tts/team_members) 
+  - [ ] Add team member to the `Admin` and `TTS Private Bug Bounty Team` groups on the [Private team](https://hackerone.com/tts-private/team_members)
 - [ ] [InVision](https://gsa.invisionapp.com/d/main?origin=v7#/company/members)
 - [ ] [Mural](https://app.mural.co/t/gsa6/settings/members)
 - [ ] [New Relic](https://account.newrelic.com/accounts/562946/users)
