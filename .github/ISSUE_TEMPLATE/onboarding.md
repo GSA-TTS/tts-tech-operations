@@ -67,7 +67,7 @@ Add them to:
 
 Add as an admin to:
 
-- [ ] AWS, via [cross-account access](https://github.com/18F/aws-admin#cross-account-access)
+- [ ] Create new user in tts-prod AWS account and assign them to the tts-tech-portfolio-admins group
 - [x] ~[DockerHub](https://hub.docker.com/orgs/18fgsa)~ _See [#983](https://github.com/18F/tts-tech-portfolio/issues/983#issuecomment-809516800)_
 - [ ] [`TTS-managed` GitHub orgs](https://handbook.tts.gsa.gov/github/#organizations)
 - [ ] HackerOne
