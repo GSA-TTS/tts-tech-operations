@@ -80,4 +80,3 @@ Add as an admin to:
 - [ ] Invite team member to [Mural](https://app.mural.co/t/gsa6/settings/members), then give them Workspace Admin permissions
 - [ ] [New Relic](https://account.newrelic.com/accounts/562946/users)
 - [ ] [npm](https://www.npmjs.com/settings/18f/members)
-- [ ] [Slack](https://handbook.tts.gsa.gov/tools/slack/user-management/#offboarding)
