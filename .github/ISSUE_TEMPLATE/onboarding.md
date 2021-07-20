@@ -68,7 +68,7 @@ Add them to:
 Add as an admin to:
 
 - [ ] AWS, via [cross-account access](https://github.com/18F/aws-admin#cross-account-access)
-- [ ] [DockerHub](https://hub.docker.com/orgs/18fgsa)
+- [x] ~[DockerHub](https://hub.docker.com/orgs/18fgsa)~ _See [#983](https://github.com/18F/tts-tech-portfolio/issues/983#issuecomment-809516800)_
 - [ ] [`TTS-managed` GitHub orgs](https://handbook.tts.gsa.gov/github/#organizations)
 - [ ] HackerOne
   - [ ] [Public team](https://hackerone.com/tts/team_members)
