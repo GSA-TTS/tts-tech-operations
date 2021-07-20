@@ -48,6 +48,8 @@ Learn about what we do:
 
 ### Required items for all team members
 
+If you don't have permission to add the new team member, assign the task to another team member who does.
+
 Add them to:
 
 - [ ] [The @tech-portfolio user group in Slack](https://get.slack.help/hc/en-us/articles/212906697-User-Groups#edit-a-user-group)
@@ -55,12 +57,7 @@ Add them to:
 - [ ] [The Everyone issue template](https://github.com/18F/tts-tech-portfolio/blob/main/.github/ISSUE_TEMPLATE/everyone.md)
 - [ ] The OpsRotation schedule by editing the existing calendar invites (it's a little tedious, but you'll be inserting a new invite, shifting others, and adjusting the recurrence)
 - [ ] [The TTS Tech Portfolio Roles](https://github.com/18F/tts-tech-portfolio/blob/main/how_we_work/roles.md)
-
-### Google Groups
-
-- [ ] [TTS Software](https://groups.google.com/a/gsa.gov/forum/#!managemembers/tts-software/add) as a Manager
 - [ ] [TTS Technology Portfolio](https://groups.google.com/a/gsa.gov/forum/#!managemembers/devops/add) (devops) as a Member
-- [ ] [TTS Vulnerability Reports](https://groups.google.com/a/gsa.gov/forum/#!managemembers/tts-vulnerability-reports/add) as a Member
 
 ### Account Access
 
