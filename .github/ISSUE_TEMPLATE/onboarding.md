@@ -74,7 +74,7 @@ Add as an admin to:
   - [ ] Add team member to the `Admin` and `TTS Bug Bounty Team` groups on the [Public team](https://hackerone.com/tts/team_members) 
   - [ ] Add team member to the `Admin` and `TTS Private Bug Bounty Team` groups on the [Private team](https://hackerone.com/tts-private/team_members)
 - [ ] Invite team member to [InVision](https://gsa.invisionapp.com/teams/people/members), then Change their Role to Admin
-- [ ] [Mural](https://app.mural.co/t/gsa6/settings/members)
+- [ ] Invite team member to [Mural](https://app.mural.co/t/gsa6/settings/members), then give them Workspace Admin permissions
 - [ ] [New Relic](https://account.newrelic.com/accounts/562946/users)
 - [ ] [NPM](https://www.npmjs.com/settings/18f/members)
 - [ ] [Slack](https://handbook.tts.gsa.gov/tools/slack/user-management/#offboarding)
