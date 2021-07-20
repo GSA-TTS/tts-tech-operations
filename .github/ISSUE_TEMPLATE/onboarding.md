@@ -55,7 +55,6 @@ Add them to:
 - [ ] [The Everyone issue template](https://github.com/18F/tts-tech-portfolio/blob/main/.github/ISSUE_TEMPLATE/everyone.md)
 - [ ] The OpsRotation schedule by editing the existing calendar invites (it's a little tedious, but you'll be inserting a new invite, shifting others, and adjusting the recurrence)
 - [ ] [The TTS Tech Portfolio Roles](https://github.com/18F/tts-tech-portfolio/blob/main/how_we_work/roles.md)
-- [ ] [The employee list in SmartSheet](https://app.smartsheet.com/sheets/Q2CgG9V897x8rRmv8XhGGjrhFRxVVqgVx5hCmW41?view=grid)
 
 ### Google Groups
 
