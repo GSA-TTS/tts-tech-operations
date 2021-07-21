@@ -13,16 +13,14 @@ data "github_team" "tech_portfolio" {
   slug     = "tts-tech-portfolio"
 }
 
+locals {
+  owners = concat(data.github_team.tech_portfolio.members, ["tts-bot"])
+}
+
 resource "github_membership" "owner" {
-  for_each = toset(data.github_team.tech_portfolio.members)
+  for_each = toset(local.owners)
 
   provider = github.dest
   username = each.key
-  role     = "admin"
-}
-
-resource "github_membership" "tts_bot" {
-  provider = github.dest
-  username = "tts-bot"
   role     = "admin"
 }
