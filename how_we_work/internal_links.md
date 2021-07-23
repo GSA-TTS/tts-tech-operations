@@ -65,6 +65,7 @@ See [shared credential info](standards.md).
 
 - [HRLinks Roster](https://docs.google.com/spreadsheets/d/1tRzGxnI1E4soOkHsod5xd-XmO33cy0cKRx7LpSNAaF0/edit?usp=sharing)
 - [Talent Database](https://docs.google.com/spreadsheets/d/16x18nV5jHwsBzw12b32PDxV6zQtFkzbaGV6W2uNhaUY/edit#gid=361159397)
+- [Org chart pivot table](https://docs.google.com/spreadsheets/d/1hp8Xw2qbW9SUdahRFKr6I2pAcsg1LrxwD9HxDxfppcg/edit#gid=1627662065)
 - [GSA Separations (people who've left GSA)](https://d2d.gsa.gov/dataset/gsa-separations)
 
 ## IaaS Management
