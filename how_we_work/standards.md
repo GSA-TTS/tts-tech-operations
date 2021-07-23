@@ -39,3 +39,4 @@ Protected branches are [required](https://engineering.18f.gov/project-setup/#bra
   - In other words, it's ok to _not_ have every change to a new project reviewed.
   - This applies to code repositories (though [pull requests](https://guides.github.com/introduction/flow/)) and Google Docs (through [suggest changes](https://support.google.com/docs/answer/6033474)).
 - We try and avoid shared accounts (using one of our [Google Groups](ops_rotation.md#google-groups) as an account email) whenever possible
+- Substantive changes to How We Work should be approved by at least two members of the team.
