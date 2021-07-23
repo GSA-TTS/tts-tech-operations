@@ -16,8 +16,8 @@ Beyond the TTS-wide [language selection](https://engineering.18f.gov/language-se
       - [`terraform fmt`](https://www.terraform.io/docs/commands/fmt.html) for Terraform
     - [Soft wrap](https://stackoverflow.com/questions/319925/difference-between-hard-wrap-and-soft-wrap) text
 - **Configuration as code:** [Terraform](https://www.terraform.io/)
-- **Continuous integration/deployment:** [CircleCI](https://circleci.com/) or [GitHub Actions](https://docs.github.com/en/free-pro-team@latest/actions)
-- **Shared credentials:** [KeePassXC](https://keepassxc.org/) synced through [Google Drive File Stream](https://support.google.com/drive/answer/7329379#macos)
+- **Continuous integration/deployment:** [GitHub Actions](https://docs.github.com/en/free-pro-team@latest/actions)
+- **Shared credentials:** [KeePassXC](https://handbook.tts.gsa.gov/password-requirements/#1-use-a-password-manager) through Google Team Drive
 
 All the above are "where possible" — there will be exceptions.
 
