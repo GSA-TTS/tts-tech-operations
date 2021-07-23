@@ -5,14 +5,16 @@ Beyond the TTS-wide [language selection](https://engineering.18f.gov/language-se
 - **Code**
   - **Language:** Python or JavaScript
     - Ruby can/should be used in the context of [Jekyll sites](https://engineering.18f.gov/language-selection/#frequently-used-frameworks)
-  - **Version control:** All code meant to be reused should be in a repository
-    - Default to using a repository under [github.com/18F](https://github.com/18F), unless there is a better place, such as contributing it to an external open source project
-    - Code written for one-off use can go into an issue comment or Gist
+  - **Version control:** All code meant to be reused should be in a repository.
+    - Default to using a repository under [github.com/18F](https://github.com/18F), unless there is a better place, such as contributing it to an external open source project.
+    - Code written for one-off use can go into an issue comment or Gist.
     - Important thing is that it's not just on an individual's computer
-  - **Style:** Use an opinionated formatter, specifically:
-    - [Prettier](https://prettier.io/) for HTML, CSS, JavaScript, etc.
-    - [Black](https://black.readthedocs.io/en/stable/) for Python
-    - [`terraform fmt`](https://www.terraform.io/docs/commands/fmt.html) for Terraform
+  - **Style:**
+    - Use an opinionated formatter, specifically:
+      - [Prettier](https://prettier.io/) for HTML, CSS, JavaScript, etc.
+      - [Black](https://black.readthedocs.io/en/stable/) for Python
+      - [`terraform fmt`](https://www.terraform.io/docs/commands/fmt.html) for Terraform
+    - [Soft wrap](https://stackoverflow.com/questions/319925/difference-between-hard-wrap-and-soft-wrap) text
 - **Configuration as code:** [Terraform](https://www.terraform.io/)
 - **Continuous integration/deployment:** [CircleCI](https://circleci.com/) or [GitHub Actions](https://docs.github.com/en/free-pro-team@latest/actions)
 - **Shared credentials:** [KeePassXC](https://keepassxc.org/) synced through [Google Drive File Stream](https://support.google.com/drive/answer/7329379#macos)
@@ -27,7 +29,6 @@ Protected branches are [required](https://engineering.18f.gov/project-setup/#bra
 - "Dismiss stale pull request approvals when new commits are pushed"
 - "Require status checks to pass before merging"
 - "Include administrators"
-
 
 ## Additional guidance
 
