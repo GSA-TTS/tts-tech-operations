@@ -16,7 +16,7 @@ jobs:
         id: date
         run: |
           echo "::set-output name=current::$(date +'%m/%y')"
-          echo "::set-output name=due::$(date -d '+15 days' +'%m/%d')"
+          echo "::set-output name=due::$(date -d '+15 days' +'%m/%d/%y')"
       - name: Create issue
         uses: imjohnbo/issue-bot@v3
         with:
