@@ -1,0 +1,42 @@
+# This workflow uses actions that are not certified by GitHub.
+# They are provided by a third-party and are governed by
+# separate terms of service, privacy policy, and support
+# documentation.
+
+name: Monthly invoice issue
+on:
+  schedule:
+    - cron: 0 6 15 * *
+
+jobs:
+  create_issue:
+    name: Create monthly invoice issue for COR
+    runs-on: ubuntu-latest
+    permissions:
+      issues: write
+    steps:
+      - name: Create issue
+        uses: imjohnbo/issue-bot@3daae12aa54d38685d7ff8459fc8a2aee8cea98b
+        with:
+          assignees: jjediny
+          labels: "g: accepted, m: due date, i: SaaS"
+          title: process invoices
+          body: |
+            ### Implementation steps
+
+            Confirm usage and route invoices to Contracting Officer (CO) for:
+
+            - [ ] AWS
+            - [ ] Azure
+            - [ ] GCP
+            - [ ] HackerOne
+            - [ ] Mural
+            - [ ] New Relic
+                    
+            ### Acceptance criteria
+            
+            - [ ] All invoices routed
+          pinned: false
+          close-previous: false
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
