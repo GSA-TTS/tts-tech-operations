@@ -1,6 +1,5 @@
 name: Monthly
 on:
-  push: # testing
   schedule:
     - cron: 0 6 15 * *
 
