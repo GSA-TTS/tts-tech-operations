@@ -1,6 +1,6 @@
 name: Monthly
 on:
-  push: # testing
+  workflow_dispatch:
   schedule:
     - cron: 0 6 15 * *
 
@@ -40,5 +40,9 @@ jobs:
             - [ ] All invoices routed
           pinned: false
           close-previous: false
+          project: 11
+          project-type: organization
+          # column is required https://github.com/imjohnbo/issue-bot/blob/0b95ed4b134c1289c2b90a972b23f60b3a11662e/lib/issue-bot.js#L329-L336
+          column: New
         env:
-          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          GITHUB_TOKEN: ${{ secrets.GH_SECRET_TOKEN }}
