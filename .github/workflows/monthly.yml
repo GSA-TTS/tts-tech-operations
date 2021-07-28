@@ -1,12 +1,11 @@
-name: Monthly invoice issue
+name: Monthly
 on:
-  push: # testing
   schedule:
     - cron: 0 6 15 * *
 
 jobs:
   create_issue:
-    name: Create monthly invoice issue for COR
+    name: Create invoice issue for COR
     runs-on: ubuntu-latest
     permissions:
       issues: write
@@ -34,7 +33,5 @@ jobs:
             - [ ] All invoices routed
           pinned: false
           close-previous: false
-          project-type: organization
-          project: 11
         env:
-          GITHUB_TOKEN: ${{ secrets.GH_SECRET_TOKEN }}
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
