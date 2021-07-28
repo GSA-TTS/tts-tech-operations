@@ -1,5 +1,6 @@
 name: Monthly
 on:
+  push: # testing
   schedule:
     - cron: 0 6 15 * *
 
@@ -10,12 +11,18 @@ jobs:
     permissions:
       issues: write
     steps:
+      # https://stackoverflow.com/a/60942437/358804
+      - name: Get dates
+        id: date
+        run: |
+          echo "::set-output name=current::$(date +'%m/%y')"
+          echo "::set-output name=due::$(date -d '+15 days' +'%m/%d/%y')"
       - name: Create issue
         uses: imjohnbo/issue-bot@v3
         with:
           assignees: jjediny
           labels: "g: accepted, m: due date, i: SaaS"
-          title: process invoices
+          title: process invoices for ${{ steps.date.outputs.current }} - due ${{ steps.date.outputs.due }}
           body: |
             ### Implementation steps
 
