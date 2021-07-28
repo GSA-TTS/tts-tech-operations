@@ -34,5 +34,7 @@ jobs:
             - [ ] All invoices routed
           pinned: false
           close-previous: false
+          project-type: organization
+          project: 11
         env:
-          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          GITHUB_TOKEN: ${{ secrets.GH_SECRET_TOKEN }}
