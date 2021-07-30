@@ -1,10 +1,14 @@
 ---
 name: Decommissioning
-about: Checklist for shutting down a system
+about: Checklist for shutting down a website or system
 title: decommission [system]
 labels: "g: accepted, i: enterprise architecture"
 assignees: ""
 ---
+
+## Website
+
+The following guidance applies to decomissioning any website.
 
 _Add/remove items, as applicable._
 
@@ -35,3 +39,10 @@ _Add/remove items, as applicable._
     - [ ] [Slack](https://handbook.tts.gsa.gov/slack/#integrations)
   - [ ] Archive the Slack channel
   - [ ] Archive the issue tracker (Trello, etc.)
+
+## System
+
+If your site has a backend on `cloud.gov` or AWS, for instance, then there are additional items you need to complete.
+
+TODO
+
