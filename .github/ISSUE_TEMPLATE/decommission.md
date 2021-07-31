@@ -7,6 +7,8 @@ labels: "g: accepted, i: enterprise architecture"
 assignees: ""
 ---
 
+> [Helpful resource about sites vs systems](https://docs.google.com/document/d/1chNbOfxs2vLGSUuIPtWZregaUeT-ruLc8EufEzt9GZk/edit)
+
 ## All systems
 
 The following checklist is used for decomissioning **any system**, regardless of
