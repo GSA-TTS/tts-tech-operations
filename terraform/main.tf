@@ -35,6 +35,7 @@ locals {
     "deploy-ttslicenses" : { archived = true },
     "dns" : { shared_content_ownership = true },
     "ghad" : {},
+    "glossary" : {},
     "handbook" : { shared_content_ownership = true },
     "join.tts.gsa.gov" : { shared_content_ownership = true },
     "laptop" : { archived = true },
