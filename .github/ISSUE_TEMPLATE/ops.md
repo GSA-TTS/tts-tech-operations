@@ -8,6 +8,8 @@ assignees: ""
 
 Each of the following should be done within the dates above. See the [playbook](https://github.com/18F/tts-tech-portfolio/blob/main/how_we_work/ops_rotation.md) for additional info.
 
+## During the week
+
 ## GitHub
 
 - [ ] [Add issues from linked repositories to our project boards](https://docs.github.com/en/free-pro-team@latest/github/managing-your-work-on-github/adding-issues-and-pull-requests-to-a-project-board)
@@ -25,6 +27,8 @@ Ensure you are present in the following and are responding as needed:
 
 - [ ] [Slack Channels](https://github.com/18F/tts-tech-portfolio/blob/main/how_we_work/ops_rotation.md#slack-channels)
 - [ ] [Google Groups](https://github.com/18F/tts-tech-portfolio/blob/main/how_we_work/ops_rotation.md#google-groups) - Ensure all inbox items are marked completed. If not able to complete, use the `assign` task function to task the next person on ops rotation, providing them with a description of what's left to do to complete.
+- [ ] Monitor [TTS Bug Bounty](https://hackerone.com/tts) email notifications
+  for any Critical reports. At the end of the week, make sure teams have been assigned to any triaged reports.
 
 Check off the boxes above at the end of the Rotation if you believe you are caught up.
 
