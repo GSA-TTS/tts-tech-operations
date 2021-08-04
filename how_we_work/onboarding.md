@@ -25,10 +25,3 @@ In order to get NewPerson productively contributing to the TTS Tech Portfolio te
 Whenever possible, we err on the side of putting information where the public can see it and others can benefit from it. Some data might be kept in Google Drive for convenience of presentation, commenting, etc. but we consider public GitHub repositories the intended destination whenever possible.
 
 Several tools are used for project management, but the main one you will probably be using is GitHub to submit and merge pull requests.
-
-## Things we maintain
-
-- [TTS Tech Portfolio repositories](https://github.com/orgs/18F/teams/tts-tech-portfolio/repositories)
-- a [Google Drive folder](https://drive.google.com/a/gsa.gov/folderview?id=0Bx6EvBXVDWwheUtVckVnOE1pRzA&usp=sharing) full of artifacts related to design, user research, etc (also expected to move to GitHub in time)
-
-We try to move others to the [opencontrol](https://github.com/opencontrol) or [fisma-ready](https://github.com/fisma-ready) GitHub organizations whenever appropriate.
