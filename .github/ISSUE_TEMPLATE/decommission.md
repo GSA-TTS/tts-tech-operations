@@ -1,7 +1,6 @@
 ---
 name: Decommissioning
 about: Checklist for shutting down a site/system/app
-cloud.gov app, etc.)
 title: decommission [system]
 labels: "g: accepted, i: enterprise architecture"
 assignees: ""
