@@ -1,6 +1,6 @@
 ---
 name: Decommissioning
-about: Checklist for shutting down a system (website, micro/informational site,
+about: Checklist for shutting down a site/system/app
 cloud.gov app, etc.)
 title: decommission [system]
 labels: "g: accepted, i: enterprise architecture"
@@ -79,4 +79,3 @@ _Add/remove items, as applicable._
   - [ ] Notify your ISSO
   - [ ] Notify the Privacy Office ([gsa.privacyact@gsa.gov](mailto:gsa.privacyact@gsa.gov)) to take down the [privacy impact assessment (PIA)](https://www.gsa.gov/reference/gsa-privacy-program/privacy-impact-assessments-pia) and/or privacy threshold assessment (PTA)
   - [ ] Disposal Notification letter signed
-
