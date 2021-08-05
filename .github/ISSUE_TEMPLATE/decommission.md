@@ -1,7 +1,7 @@
 ---
 name: Decommissioning
 about: Checklist for shutting down a site/system/app
-title: decommission [system]
+title: Decommission [site/system/app]
 labels: "g: accepted, i: enterprise architecture"
 assignees: ""
 ---
