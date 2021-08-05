@@ -7,13 +7,13 @@ labels: "g: accepted, i: enterprise architecture"
 assignees: ""
 ---
 
-> [Helpful resource about sites vs systems.](https://docs.google.com/document/d/1chNbOfxs2vLGSUuIPtWZregaUeT-ruLc8EufEzt9GZk/edit) Feel free to delete checklist items that aren't applicable.
+> [Helpful resource about sites vs systems.](https://docs.google.com/document/d/1chNbOfxs2vLGSUuIPtWZregaUeT-ruLc8EufEzt9GZk/edit) 
+
+_Feel free to delete any checklist items that aren't applicable._
 
 ## All systems
 
 The following checklist is used for decomissioning **any system**, regardless of whether it has a backend or not. Examples of systems that don't have a backend include micro/informational sites on Federalist. This checklist also applies when decommissioning a site and merging its content into a different site.
-
-_Add/remove items, as applicable._
 
 - [ ] Notify any users of the system, via banner across the site, email, Slack, etc. Ideally, help them find alternatives, make sure they're off in time, etc.
   - [ ] Update the `README.md` file to indicate where and when the site was decommissioned, archived, or redirected ([example](https://github.com/18F/before-you-ship#readme))
@@ -58,8 +58,6 @@ If the site you're decommissioning is being taken down without merging its conte
 ## Only systems with a backend
 
 This additional checklist is used for decomissioning **systems with a backend** or other supporting infrastructure. Examples of systems that have a backend are cloud.gov/AWS applications like `https://secure.login.gov` and `https://search.usa.gov`.
-
-_Add/remove items, as applicable._
 
 - [ ] Clean up infrastructure
   - [ ] cloud.gov organization deleted ([contact](https://cloud.gov/contact/))
