@@ -30,7 +30,7 @@ _Add/remove items, as applicable._
     - [ ] [Slack](https://handbook.tts.gsa.gov/slack/#integrations)
   - [ ] Archive the Slack channel
   - [ ] Archive the issue tracker (Trello, etc.)
-- [ ] (If applicable) Ask the Tech Portfolio to update [TTS subdomains](https://docs.google.com/spreadsheets/d/12pfcEIEXaJTjIKex-3wnI89erIvgKf9B_XpGkDl6qsM/edit#gid=1884617968)
+- [ ] (If a second-level domain) Ask the Tech Portfolio to update the [list of TTS domains](https://docs.google.com/spreadsheets/d/12pfcEIEXaJTjIKex-3wnI89erIvgKf9B_XpGkDl6qsM/edit#gid=824448842)
 
 ### If you're merging content or redirecting to a different site
 
