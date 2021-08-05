@@ -14,6 +14,15 @@ We try to keep admin documentation and process close to the user documentation
 and process.
 
 
+## Urgent alerts
+
+There are a few things that you'll want to keep an eye on and address
+immediately if they come up.
+
+- tts-vulnerability-reports
+- #vulnerability-reports
+
+
 ## Communications Monitoring
 
 You don't have to have the answers to all the questions, but you should ensure all the questions get answers.
@@ -42,6 +51,11 @@ It might be helpful [customize your sidebar](https://slack.com/help/articles/360
 
 ### Google Groups
 
+You are responsible for monitoring email on these lists and triaging any
+requests. A simple "Thanks for the message, we'll get back to you on this" is
+perfectly okay. Often other team members will jump in on things where they have
+context.
+
 | Group                                                                                        | Permission |
 | -------------------------------------------------------------------------------------------- | ---------- |
 | [18F PyPI](https://groups.google.com/a/gsa.gov/g/18f-pypi)                                   | Owner      |
@@ -62,10 +76,6 @@ It might be helpful to create a filter rule for each of the above
 `to:<list>@gsa.gov`s and add a label (e.g. `tech-portfolio`). Then
 [each day you can quickly process the queue](https://mail.google.com/mail/u/0/#search/label%3Atech-portfolio+is%3Aunread).
 
-## Knowledge Management
-
-- Handbook triage and maintenance
-  [Contributing to 18F Handbook](https://github.com/18F/handbook/blob/master/CONTRIBUTING.md)
 
 ## System Management - Cloud Management
 
