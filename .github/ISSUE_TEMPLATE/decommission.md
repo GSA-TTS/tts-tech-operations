@@ -14,7 +14,7 @@ assignees: ""
 The following checklist is used for decomissioning **any system**, regardless of
 whether it has a backend or not. Examples of systems that don't have a backend
 include micro/informational sites on Federalist such as `https://search.gov` and
-`https://login.gov`. This checklist also applies when decommissioning a site and merging its content
+This checklist also applies when decommissioning a site and merging its content
 into a different site.
 
 _Add/remove items, as applicable._
