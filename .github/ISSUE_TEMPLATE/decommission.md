@@ -54,7 +54,7 @@ content anywhere, then complete this sub-checklist instead.
  - [ ] If the site was operated on Federalist, contact [federalist-support@gsa.gov](mailto:federalist-support@gsa.gov) to deprovision the [custom domain](https://cloud.gov/docs/management/custom-domains/) for the site
 - [ ] [Update the TouchPoints record](https://touchpoints.app.cloud.gov/admin/websites)
   - [ ] Production status is updated to 'Decommissioned' or 'Archived'
-- [ ] Export any relevant [records](https://handbook.tts.gsa.gov/records-management/) and store in Google Drive.
+- [ ] Export any relevant [records](https://handbook.tts.gsa.gov/records-management/) and store in GitHub or Google Drive.
 
 
 ## Only systems with a backend
