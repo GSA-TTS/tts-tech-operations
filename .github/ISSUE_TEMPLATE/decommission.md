@@ -9,7 +9,7 @@ assignees: ""
 
 > [Helpful resource about sites vs systems.](https://docs.google.com/document/d/1chNbOfxs2vLGSUuIPtWZregaUeT-ruLc8EufEzt9GZk/edit) 
 
-_Feel free to delete any checklist items that aren't applicable._
+_Feel free to add/remove any checklist items that aren't applicable._
 
 ## All systems
 
