@@ -7,7 +7,7 @@ labels: "g: accepted, i: enterprise architecture"
 assignees: ""
 ---
 
-> [Helpful resource about sites vs systems](https://docs.google.com/document/d/1chNbOfxs2vLGSUuIPtWZregaUeT-ruLc8EufEzt9GZk/edit)
+> [Helpful resource about sites vs systems.](https://docs.google.com/document/d/1chNbOfxs2vLGSUuIPtWZregaUeT-ruLc8EufEzt9GZk/edit) Feel free to delete checklist items that aren't applicable.
 
 ## All systems
 
