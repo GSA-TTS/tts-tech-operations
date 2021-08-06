@@ -1,22 +1,22 @@
 # Roles
 
-| Role                                                                                                                                                     | @afeld | @jjediny | @adborden (detail) |
-| -------------------------------------------------------------------------------------------------------------------------------------------------------- | ------ | -------- | ------------------ |
-| [Contracting Officer Representative (COR)][cor] for TTS-wide software/infrastructure purchases                                                           | ---    | X        | ---                |
-| Cybersecurity [Authorizing Official](#authorizing-official)                                                                                              | X      | ---      | ---                |
-| [Digital Council](https://docs.google.com/document/d/1v_kidGvpfVsMze-hJdaApI61Q3Vr6E-zZ5t79drnqIM/edit) member                                           | X      | ---      | ---                |
-| [Director](#director)                                                                                                                                    | X      | ---      | ---                |
-| [DotGov points of contact](https://home.dotgov.gov/management/#points-of-contact)                                                                        | X      | ---      | ---                |
-| [FAS Systems Governance Committee (FSGC)](https://sites.google.com/a/gsa.gov/fas-systems-governance/home) representative                                 | X      | ---      | ---                |
-| [Infrastructure-as-a-Service (IaaS)](https://before-you-ship.18f.gov/infrastructure/)                                                                    | ---    | X        | X                  |
-| Mac Working Group representative                                                                                                                         | X      | ---      | ---                |
-| [Operations Rotation](ops_rotation.md) person                                                                                                            | X      | X        | X                  |
-| [P-Card](https://drive.google.com/drive/folders/1CkxpHq0mDFeAnXlaMQJ9RQOCioVHckgs) Approving Official                                                    | X      | ---      | ---                |
-| [P-Card](https://drive.google.com/drive/folders/1CkxpHq0mDFeAnXlaMQJ9RQOCioVHckgs) Holder                                                                | ---    | ---      | ---                |
-| Software concierge [(Security Authorization)](#security-authorizations)                                                                                  | X      | ---      | ---                |
-| Software concierge (acquisition)                                                                                                                         | ---    | ---      | ---                |
-| [TTS products and platforms Mission Essential Function (MEF)](https://drive.google.com/drive/folders/1I53LwxcMPHvoCWZziN4jvQ3wWFc2tvF8) point of contact | X      | ---      | ---                |
-| [Vulnerability Disclosure Lead](#vulnerability-disclosure-lead)                                                                                          | ---    | X        | ---                |
+| Role                                                                                                                                                     | @afeld | @jjediny | @adborden (detail) | @rocheller123 |
+| -------------------------------------------------------------------------------------------------------------------------------------------------------- | ------ | -------- | ------------------ | ------------- |
+| [Contracting Officer Representative (COR)][cor] for TTS-wide software/infrastructure purchases                                                           | ---    | X        | ---                | ---           |
+| Cybersecurity [Authorizing Official](#authorizing-official)                                                                                              | X      | ---      | ---                | ---           |
+| [Digital Council](https://docs.google.com/document/d/1v_kidGvpfVsMze-hJdaApI61Q3Vr6E-zZ5t79drnqIM/edit) member                                           | X      | ---      | ---                | ---           |
+| [Director](#director)                                                                                                                                    | X      | ---      | ---                | ---           |
+| [DotGov points of contact](https://home.dotgov.gov/management/#points-of-contact)                                                                        | X      | ---      | ---                | ---           |
+| [FAS Systems Governance Committee (FSGC)](https://sites.google.com/a/gsa.gov/fas-systems-governance/home) representative                                 | X      | ---      | ---                | ---           |
+| [Infrastructure-as-a-Service (IaaS)](https://handbook.tts.gsa.gov/launching-software/infrastructure/)                                                    | ---    | X        | X                  | X             |
+| Mac Working Group representative                                                                                                                         | X      | ---      | ---                | ---           |
+| [Operations Rotation](ops_rotation.md) person                                                                                                            | X      | X        | X                  | X             |
+| [P-Card](https://drive.google.com/drive/folders/1CkxpHq0mDFeAnXlaMQJ9RQOCioVHckgs) Approving Official                                                    | X      | ---      | ---                | ---           |
+| [P-Card](https://drive.google.com/drive/folders/1CkxpHq0mDFeAnXlaMQJ9RQOCioVHckgs) Holder                                                                | ---    | ---      | ---                | ---           |
+| Software concierge [(Security Authorization)](#security-authorizations)                                                                                  | X      | ---      | ---                | ---           |
+| Software concierge (acquisition)                                                                                                                         | ---    | ---      | ---                | ---           |
+| [TTS products and platforms Mission Essential Function (MEF)](https://drive.google.com/drive/folders/1I53LwxcMPHvoCWZziN4jvQ3wWFc2tvF8) point of contact | X      | ---      | ---                | ---           |
+| [Vulnerability Disclosure Lead](#vulnerability-disclosure-lead)                                                                                          | ---    | X        | ---                | ---           |
 
 We also have [Initiative](workflow.md#structure) owners—see the `Initiatives` column of [the board](https://github.com/orgs/18F/projects/11?fullscreen=true).
 
