@@ -76,10 +76,6 @@ It might be helpful to create a filter rule for each of the above
 `to:<list>@gsa.gov`s and add a label (e.g. `tech-portfolio`). Then
 [each day you can quickly process the queue](https://mail.google.com/mail/u/0/#search/label%3Atech-portfolio+is%3Aunread).
 
-## Knowledge Management
-
-- Handbook triage and maintenance
-  [Contributing to 18F Handbook](https://github.com/18F/handbook/blob/master/CONTRIBUTING.md)
 
 ## System Management - Cloud Management
 
