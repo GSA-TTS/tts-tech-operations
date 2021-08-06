@@ -26,3 +26,10 @@ jobs:
           GITHUB_TOKEN: "${{ secrets.GITHUB_TOKEN }}"
         env:
           GITHUB_TOKEN: "${{ secrets.GH_SECRET_TOKEN }}"
+
+      - name: push changes
+        uses: EndBug/add-and-commit@v7 # You can change this to use a specific version
+        with:
+          add: how_we_work/github.md
+          message: (automatically) re-generate the GitHub documentation
+          push: true

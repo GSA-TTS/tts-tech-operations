@@ -13,6 +13,16 @@ the context of the request. If you're not sure:
 We try to keep admin documentation and process close to the user documentation
 and process.
 
+
+## Urgent alerts
+
+There are a few things that you'll want to keep an eye on and address
+immediately if they come up.
+
+- tts-vulnerability-reports
+- #vulnerability-reports
+
+
 ## Communications Monitoring
 
 You don't have to have the answers to all the questions, but you should ensure all the questions get answers.
@@ -40,6 +50,11 @@ You don't have to have the answers to all the questions, but you should ensure a
 It might be helpful [customize your sidebar](https://slack.com/help/articles/360043207674-Organize-your-sidebar-with-custom-sections) to group these channels together or take advantage of other [Slack tips for organization](https://handbook.tts.gsa.gov/tools/slack/guidelines/#usage-tips).
 
 ### Google Groups
+
+You are responsible for monitoring email on these lists and triaging any
+requests. A simple "Thanks for the message, we'll get back to you on this" is
+perfectly okay. Often other team members will jump in on things where they have
+context.
 
 | Group                                                                                        | Permission |
 | -------------------------------------------------------------------------------------------- | ---------- |
