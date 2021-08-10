@@ -30,9 +30,9 @@ You don't have to have the answers to all the questions, but you should ensure a
 ### Slack Channels
 
 | Channel name                                                                   |                                                                  Responsibility                                                                   |
-| ----------------------------                                                   | :-----------------------------------------------------------------------------------------------------------------------------------------------: |
+| ------------------------------------------------------------------------------ | :-----------------------------------------------------------------------------------------------------------------------------------------------: |
 | [#admins-dns](https://gsa-tts.slack.com/archives/C4L58EQ5T)                    |                                                           Look for failure for DNS jobs                                                           |
-| [#admins-emoji](https://gsa-tts.slack.com/archives/C024EBDS1NC)                |                                                     Recruit reviewers to approve emoji requests                                                   |
+| [#admins-emoji](https://gsa-tts.slack.com/archives/C024EBDS1NC)                |                                                    Recruit reviewers to approve emoji requests                                                    |
 | [#admins-github](https://gsa-tts.slack.com/archives/C02KXM98G)                 |                                       Typically used for folks to request new accounts or transfer accounts                                       |
 | [#admins-govdelivery](https://gsa-tts.slack.com/archives/CBQ490G3Y)            |                                                                      unsure                                                                       |
 | [#admins-hubspot](https://gsa-tts.slack.com/archives/C72F606QG)                |                                                                      unsure                                                                       |
@@ -66,8 +66,7 @@ context.
 | [TTS Vulnerability Reports](https://groups.google.com/a/gsa.gov/g/tts-vulnerability-reports) | Owner      |
 
 For the `TTS Software` group, we use [Google's Collaborative Inbox](https://support.google.com/a/answer/167430?hl=en)
-features to manage the status of requests. When on ops-rotation use the `Mark as
-Completed` to ensure others know a request has been satisfied. For requests that
+features to manage the status of requests. When on ops-rotation use the `Mark as Completed` to ensure others know a request has been satisfied. For requests that
 need assistance from others on the team, use the `Assign` feature to task them,
 include a description of what you need from them. Feel free to use any
 additional features you may find useful.
@@ -75,59 +74,3 @@ additional features you may find useful.
 It might be helpful to create a filter rule for each of the above
 `to:<list>@gsa.gov`s and add a label (e.g. `tech-portfolio`). Then
 [each day you can quickly process the queue](https://mail.google.com/mail/u/0/#search/label%3Atech-portfolio+is%3Aunread).
-
-
-## System Management - Cloud Management
-
-[Creating new AWS accounts](https://before-you-ship.18f.gov/infrastructure/aws/#creating-new-accounts)
-
-## System Management - Software Management
-
-### Play: Managing Software requests
-
-Members of TTS will start the [request process](https://handbook.tts.gsa.gov/software/) when a user needs a piece of software that the TTS Tech Portfolio Manages. They will make a request by sending an email will be sent to tts-software@gsa.gov and show on the [Software Group](https://groups.google.com/a/gsa.gov/forum/?utm_medium=email&utm_source=footer#!forum/tts-software) and whomever is in rotation will answer it. Once the operations rotation receives the email they send a canned response to the requestor letting them know that they’ve gotten it. Once operations rotation person has completed all of their tasks, they will mark the item complete.
-
-Microsoft, Trello, Mural, and InVision require that you go into the back-end and manually add the person into the account.
-
-See the following [administration guide](https://docs.google.com/document/d/18Htav6TIgasBvvSroI8H_sQXxnvMlra2k9iabBwQYUs/edit#) and [document guide](https://github.com/18F/tts-tech-portfolio/blob/main/links.md) for links to the user lists, back-end accounts, and template responses.
-
-### Play: Microsoft Software Request
-
-Point them to [Office documentation](https://handbook.tts.gsa.gov/office/).
-
-### Play: Mural Software Request
-
-- [Mural How-To Guide](https://handbook.tts.gsa.gov/tools/mural/) - How to administer the TTS Mural account
-- [Mural user list](https://docs.google.com/spreadsheets/d/1V_1BoiM7A8fuqkvTFfv4Ma5ckc4NuesphX4OE58zgow/edit)
-
-### Play: Sketch Software Request
-
-[Sketch Handbook page](https://handbook.tts.gsa.gov/sketch/#for-admins)
-
-Canned Response:
-Please proceed with downloading and installing from the vendor:
-https://www.sketch.com/get/
-
-You have been granted access to the license you will need here:
-https://docs.google.com/document/d/1Qrn4J7mOcpGv51krZOyxpz93mBDp22hzl2wtVLulhUU/edit
-
-### Play: Omnigraffle Software Request
-
-- v6 (not 7+)
-- License Owner: 18F Software (GSA)
-- [Omnigraffle License key](https://docs.google.com/document/d/18k8yuM9oXQA7MNr-qvfq8gXliSHOb_bWElohb-KaObw/edit#)
-
-If employees are asking to be removed from Omigraffle, this software does not have that capability since it only inputs a code and there is not limit to users, Omnigraffle is just removed when the out boarded employee turns their Macbook in.
-
-### Play: Sublime Text Software Request
-
-[Sublime License Key](https://docs.google.com/document/d/1Oy-dh_s2T9KgOYLWs2tu4ZBe9nfIGj7PZWDOX3dQaLg/edit?ts=5ea1ecfe)
-
-### Play: Adobe Software Request
-
-Canned Response:
-
-You can request Acrobat Pro or Creative Cloud by submitting a Software Request through the GSA IT Help Desk. Make sure to specify that you are on a Mac.
-
-Thanks!
--TTS Tech Portfolio
