@@ -4,8 +4,7 @@ name: Pull Requests
 
 on:
   pull_request:
-    types: [opened]
-  push:
+  #  types: [opened]
 
 jobs:
   pr_created:
