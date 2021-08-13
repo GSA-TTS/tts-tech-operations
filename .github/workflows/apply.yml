@@ -13,7 +13,7 @@ env:
 
 jobs:
   apply:
-    name: apply
+    name: terraform apply
     runs-on: ubuntu-latest
     steps:
       - name: checkout
@@ -23,7 +23,6 @@ jobs:
         uses: dflook/terraform-apply@v1
         with:
           path: terraform
-          GITHUB_TOKEN: "${{ secrets.GITHUB_TOKEN }}"
         env:
           GITHUB_TOKEN: "${{ secrets.GH_SECRET_TOKEN }}"
 
@@ -33,3 +32,22 @@ jobs:
           add: how_we_work/github.md
           message: (automatically) re-generate the GitHub documentation
           push: true
+
+  github-apply:
+    name: github apply
+    runs-on: ubuntu-latest
+    steps:
+      - name: checkout
+        uses: actions/checkout@v2
+
+      # TODO verify the binary (or use a package manager)
+      - name: install git-xargs
+        run: |
+          wget -O /usr/local/bin/git-xargs "https://github.com/gruntwork-io/git-xargs/releases/download/v0.0.11/git-xargs_linux_amd64"
+          chmod +x /usr/local/bin/git-xargs
+
+      - name: apply template changes to GitHub repositories
+        run: bin/ci_update_github_repositories.sh
+        env:
+          DRYRUN: 1 # TODO change this to 0 to apply
+          GITHUB_OAUTH_TOKEN: ${{ secrets.GH_APPLY_TEMPLATES_TOKEN }}

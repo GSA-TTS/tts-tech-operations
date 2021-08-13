@@ -51,6 +51,29 @@ See also:
 
 We're open and excited to hear [(anonymous) feedback](https://docs.google.com/forms/d/1Z9ozErUeMW2mmo4VW-0wfYXD7GllbvCuuZ9AVNAyS_s/edit) to hear how we're doing!
 
+## Development
+
+There are a few tools/scripts in this repo the Tech Portfolio uses to manage our
+[GitHub repositories](how_we_work/github.md).
+
+### Requirements
+
+- Terraform v1.x (we recommend using [tfenv](https://github.com/tfutils/tfenv))
+- [git-xargs](https://github.com/gruntwork-io/git-xargs) (available in Homebrew)
+- GitHub [personal access token](https://github.com/settings/tokens) with scope: `repo,workflow`
+
+### Applying GitHub templates
+
+We use a few GitHub Actions and issue templates across most of the repositories
+we manage. This is applied with
+[git-xargs](https://github.com/gruntwork-io/git-xargs) via a script that runs in
+CI.
+
+Run the script.
+
+    $ GITHUB_OAUTH_TOKEN=... bin/ci_update_github_repositories.sh
+
+
 ## Continuous Integration
 
 Secret                    | Description
