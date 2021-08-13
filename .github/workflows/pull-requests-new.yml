@@ -21,7 +21,8 @@ jobs:
 
       - name: Add to Review column
         uses: alex-page/github-project-automation-plus@v0.8.1
-        if: !github.event.pull_request.draft
+        if: >
+          !github.event.pull_request.draft
         with:
           project: TTS Tech Portfolio (Pull Requests)
           column: Review required
