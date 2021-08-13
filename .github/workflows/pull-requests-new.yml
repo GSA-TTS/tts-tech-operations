@@ -5,13 +5,24 @@ name: Pull Requests
 on:
   pull_request:
     types: [opened]
+  push:
 
 jobs:
   pr_created:
     name: Add pull request to PR board
     runs-on: ubuntu-latest
     steps:
-      - uses: alex-page/github-project-automation-plus@v0.8.1
+      - name: Add to Drafts column
+        uses: alex-page/github-project-automation-plus@v0.8.1
+        if: github.event.pull_request.draft
+        with:
+          project: TTS Tech Portfolio (Pull Requests)
+          column: Draft/WIP
+          repo-token: ${{ secrets.GH_PROJECT_WORKFLOW_TOKEN }}
+
+      - name: Add to Review column
+        uses: alex-page/github-project-automation-plus@v0.8.1
+        if: !github.event.pull_request.draft
         with:
           project: TTS Tech Portfolio (Pull Requests)
           column: Review required
