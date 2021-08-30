@@ -56,6 +56,8 @@ Add them to:
 - [ ] The OpsRotation schedule by editing the existing calendar invites (it's a little tedious, but you'll be inserting a new invite, shifting others, and adjusting the recurrence)
 - [ ] [The TTS Tech Portfolio Roles](https://github.com/18F/tts-tech-portfolio/blob/main/how_we_work/roles.md)
 - [ ] [TTS Technology Portfolio](https://groups.google.com/a/gsa.gov/forum/#!managemembers/devops/add) (devops) as a Member
+- [ ] [GSA Archer](https://handbook.tts.gsa.gov/launching-software/lifecycle/#rsa-archer) read access to system security plans (SSPs)
+  - [ ] Check the boxes for [all TTS FISMA systems](https://docs.google.com/spreadsheets/d/12pfcEIEXaJTjIKex-3wnI89erIvgKf9B_XpGkDl6qsM/edit#gid=1235102795&fvid=1731762212)
 
 ### Account Access
 
