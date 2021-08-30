@@ -56,7 +56,7 @@ Add them to:
 - [ ] The OpsRotation schedule by editing the existing calendar invites (it's a little tedious, but you'll be inserting a new invite, shifting others, and adjusting the recurrence)
 - [ ] [The TTS Tech Portfolio Roles](https://github.com/18F/tts-tech-portfolio/blob/main/how_we_work/roles.md)
 - [ ] [TTS Technology Portfolio](https://groups.google.com/a/gsa.gov/forum/#!managemembers/devops/add) (devops) as a Member
-- [ ] [GSA Archer](https://docs.google.com/forms/d/e/1FAIpQLSccaOu1DpvnjQjw481iNsLDLEZp0hq3tovZv0xPjYNwnAbnlA/viewform) read access to system security plans (SSPs)
+- [ ] [GSA Archer](https://handbook.tts.gsa.gov/launching-software/lifecycle/#rsa-archer) read access to system security plans (SSPs)
   - [ ]   Check the following SSPs on the form: `Acuant COFRS`, `analytics.usa.gov`, `Api.Data.gov`, `Data.gov`, `Federalist`, `Search.gov`, `Tock`, `usa.gov`
 
 ### Account Access
