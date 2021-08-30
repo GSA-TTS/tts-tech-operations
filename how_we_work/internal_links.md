@@ -84,7 +84,15 @@ See [shared credential info](standards.md).
 - [COR Playbook](https://docs.google.com/document/d/14xOFvIGwlG0Gbd52o1D4AyJ52RqzHpX91nfEYJKu5qQ/edit#)
 - [CTO Liaison Trello board](https://trello.com/b/BFp37KQ6/gsa-cto-tts-liaison)
 
-## Domains
+## Systems
+
+Lists of TTS/GSA systems, their contacts, etc. exist various places:
+
+- [Archer](https://handbook.tts.gsa.gov/launching-software/lifecycle/#rsa-archer)
+- [GEAR](https://ea.gsa.gov/#!/FISMA)
+- [TTS systems inventory](https://docs.google.com/spreadsheets/d/12pfcEIEXaJTjIKex-3wnI89erIvgKf9B_XpGkDl6qsM/edit#gid=1235102795)
+
+### Domains
 
 - [TTS DNS](https://github.com/18F/dns)
 - List of TTS [domains](https://docs.google.com/spreadsheets/d/12pfcEIEXaJTjIKex-3wnI89erIvgKf9B_XpGkDl6qsM/edit#gid=824448842)
