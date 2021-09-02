@@ -2,9 +2,9 @@
 
 | Name | About | Title | Labels | Assignees |
 | --- | --- | --- | --- | --- |
-| [Onboarding Process](#onboarding-process) | Checklist for onboarding someone to the Tech Portfolio team |  | g: accepted, i: misc || 
-| [Offboarding Process](#offboarding-process) | Checklist for offboarding someone from the Tech Portfolio team | | g: accepted, i: misc||
-| [Access for Onboarding/Offboarding Person](#update-access)| Checklist for offboarding someone from the Tech Portfolio team | | ||
+| [Onboarding Process](#onboarding-process) | Checklist for onboarding person to the Tech Portfolio team |  | g: accepted, i: misc || 
+| [Offboarding Process](#offboarding-process) | Checklist for offboarding person from the Tech Portfolio team | | g: accepted, i: misc||
+| [Access for Onboarding/Offboarding Person](#update-access)| Checklist for adding/removing access to person from the Tech Portfolio team | | ||
 
 
 Assignee: The tasks below are organized by the role needed to complete them. If you canʼt complete
