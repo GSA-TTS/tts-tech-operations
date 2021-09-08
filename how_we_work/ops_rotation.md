@@ -74,3 +74,18 @@ additional features you may find useful.
 It might be helpful to create a filter rule for each of the above
 `to:<list>@gsa.gov`s and add a label (e.g. `tech-portfolio`). Then
 [each day you can quickly process the queue](https://mail.google.com/mail/u/0/#search/label%3Atech-portfolio+is%3Aunread).
+
+#### How to handle email alerts
+
+- Let's Encrypt 
+  - "Let's Encrypt certificate expiration notice for domain"
+    - This can be ignored.
+
+- DotGov 
+  - "Your .GOV Domain <domain>.GOV is due for renewal"
+    - Reach out to domain owners to determine if the domain is still needed. 
+
+- AWS
+  - "AWS Budgets: <group/program> has exceeded your alert threshold"
+  - "Attention required on case ..."
+  - "Amazon EC2 Instance Retirement ..."
