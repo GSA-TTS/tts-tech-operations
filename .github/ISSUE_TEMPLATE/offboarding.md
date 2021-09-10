@@ -1,10 +1,10 @@
-
-
-| Name | About | Title | Labels | Assignees |
-| --- | --- | --- | --- | --- |
-| [Onboarding Process](#onboarding-process) | Checklist for onboarding person to the Tech Portfolio team |  | g: accepted, i: misc || 
-| [Offboarding Process](#offboarding-process) | Checklist for offboarding person from the Tech Portfolio team | | g: accepted, i: misc||
-| [Access for Onboarding/Offboarding Person](#update-access)| Checklist for adding/removing access to person from the Tech Portfolio team | | ||
+---
+name: Onboarding/Offboarding Process
+about: Checklists for onboarding, offboarding and adding/removing access from the Tech Portfolio team
+title: ""
+labels: "g: accepted, i: misc"
+assignees: ""
+---
 
 
 Assignee: The tasks below are organized by the role needed to complete them. If you canʼt complete
@@ -61,7 +61,7 @@ Learn about what we do:
 - [ ] Document any work in progress and schedule a hand-off for any remaining tasks
 
 
-# Update Access
+# Checklist to update person's access
 Assignee should complete the following for the Onboarding/Offboarding person:
 - [ ] Update access to:
   - [ ] #tts-tech-portfolio-private Slack channel
