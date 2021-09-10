@@ -2,9 +2,7 @@
 
 [Create an issue using the Operations Rotation template](https://github.com/18F/tts-tech-portfolio/issues/new?template=ops.md) before each Rotation to track tasks. Close once the rotation has ended.
 
-We wear a lot of different hats and it's not always clear what process to follow
-in order to address a request. In general, look for documented instructions in
-the context of the request. If you're not sure:
+We wear a lot of different hats and it's not always clear what process to follow in order to address a request. In general, look for documented instructions in the context of the request. If you're not sure:
 
 1. Check the Handbook
 1. Check this repo
@@ -13,15 +11,13 @@ the context of the request. If you're not sure:
 We try to keep admin documentation and process close to the user documentation
 and process.
 
-
 ## Urgent alerts
 
 There are a few things that you'll want to keep an eye on and address
 immediately if they come up.
 
-- tts-vulnerability-reports
-- #vulnerability-reports
-
+- tts-vulnerability-reports (google group / email)
+- #vulnerability-reports (slack)
 
 ## Communications Monitoring
 
