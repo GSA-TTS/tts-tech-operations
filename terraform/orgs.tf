@@ -11,12 +11,12 @@ module "org_18f" {
 
 module "cloud_gov" {
   source = "./org"
-  org    = "cloud_gov"
+  org    = "cloud-gov"
 }
 
 module "digital_analytics_program" {
   source = "./org"
-  org    = "digital_analytics_program"
+  org    = "digital-analytics-program"
 }
 
 module "digitalgov" {
@@ -26,7 +26,7 @@ module "digitalgov" {
 
 module "federalist_users" {
   source = "./org"
-  org    = "federalist_users"
+  org    = "federalist-users"
 }
 
 module "fedramp" {
@@ -36,17 +36,17 @@ module "fedramp" {
 
 module "fellows_in_innovation" {
   source = "./org"
-  org    = "fellows_in_innovation"
+  org    = "fellows-in-innovation"
 }
 
 module "project_open_data" {
   source = "./org"
-  org    = "project_open_data"
+  org    = "project-open-data"
 }
 
 module "presidential_innovation_fellows" {
   source = "./org"
-  org    = "presidential_innovation_fellows"
+  org    = "presidential-innovation-fellows"
 }
 
 module "usagov" {

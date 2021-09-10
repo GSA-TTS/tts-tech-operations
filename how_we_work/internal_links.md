@@ -8,12 +8,13 @@ Access to many of these are restricted.
 - [Presentations/decks/slides about the team](https://drive.google.com/drive/folders/10LCPsg-ENLbqO_xEXPsbx81vTZc36iIX?usp=sharing)
 
 ## Credentials
-The Tech Portfolio tightly manages shared credentials using [Google Team Drive](https://drive.google.com/drive/u/0/folders/1B0INOeCQQAv5eDBaoM4rgtaNkU9S6zDs), keepassxc databases are stored and synced using Google Drive Filestream (both can be installed from the GSA Self Service App). 
+
+See [shared credential info](standards.md).
 
 ## Money
 
 - [FY20 Contractual Services Lines of Accounting](https://docs.google.com/spreadsheets/d/1P_OfocNGGDq9Mivl3yc8DmjMN_AXqSmFRs74m3Ue8Ww/edit?ts=5db9bddd#gid=1655384448)
-- [Official budget line tracking for FAS](https://docs.google.com/spreadsheets/d/1m9IWexQQ-PhGsyxrP6JZjGFJl59Q6-8gfoe6kgB1oUU/edit#gid=43404947)
+- [Official budget line tracking for FAS](https://docs.google.com/spreadsheets/d/1pf8ngH5t2al6vbzIHmF8zgWsUgvH5__pq9iywPLIqkI/edit#gid=1719459718)
   - `TTS SaaS` is the one we generally use for purchases of SaaS/IaaS.
 
 ## Purchase card Documents
@@ -60,22 +61,11 @@ The Tech Portfolio tightly manages shared credentials using [Google Team Drive](
   - Where our existing SaaS buys are tracked.
 - [Software available for Mac](https://docs.google.com/document/d/1RFxxEC52UD-pnWVYGertD6zx6YJDFrOog5AMjjGA1hU/edit)
 
-### User Lists
-
-User lists to keep track of SaaS users for systems that are not easy to track in the admin consoles.
-
-- [Adobe User List](https://docs.google.com/spreadsheets/d/1xekApmAkp2xtBzck92X03nA4GMNJykrFmjdI4cvld58/edit#gid=573821992)
-- [Microsoft Word User List](https://docs.google.com/spreadsheets/d/1fhSTmoTmnkuPnFcpwAjcgJgZbaB5zaYN8y6UraFliuk/edit#gid=243236610)
-  - It’s unclear how many licenses we should be allowed/if we need to do a new contract with Microsoft. When I was handed the licenses, I was told they are unlimited, but I am not sure if that is actually the case.
-- [Mural User List](https://docs.google.com/spreadsheets/d/1DT_3_SDM8ezbaN3I0FnN3ZYVtJpgkyXqYkO54FcnBro/edit#gid=243236610)
-- [Sketch User List](https://docs.google.com/spreadsheets/d/1SCkLr0GXgoeqmIMPLic8QnX1INkyoP1YCNp17Sarx9s/edit#gid=243236610)
-
-SaaS Manager needs to be added to 18F Software and TTS Software Google groups
-
 ## Staff lists
 
 - [HRLinks Roster](https://docs.google.com/spreadsheets/d/1tRzGxnI1E4soOkHsod5xd-XmO33cy0cKRx7LpSNAaF0/edit?usp=sharing)
 - [Talent Database](https://docs.google.com/spreadsheets/d/16x18nV5jHwsBzw12b32PDxV6zQtFkzbaGV6W2uNhaUY/edit#gid=361159397)
+- [Org chart pivot table](https://docs.google.com/spreadsheets/d/1hp8Xw2qbW9SUdahRFKr6I2pAcsg1LrxwD9HxDxfppcg/edit#gid=1627662065)
 - [GSA Separations (people who've left GSA)](https://d2d.gsa.gov/dataset/gsa-separations)
 
 ## IaaS Management
@@ -94,12 +84,21 @@ SaaS Manager needs to be added to 18F Software and TTS Software Google groups
 - [COR Playbook](https://docs.google.com/document/d/14xOFvIGwlG0Gbd52o1D4AyJ52RqzHpX91nfEYJKu5qQ/edit#)
 - [CTO Liaison Trello board](https://trello.com/b/BFp37KQ6/gsa-cto-tts-liaison)
 
-## Domains
+## Systems
+
+Lists of TTS/GSA systems, their contacts, etc. exist various places:
+
+- [Archer](https://handbook.tts.gsa.gov/launching-software/lifecycle/#rsa-archer)
+- [GEAR](https://ea.gsa.gov/#!/FISMA)
+- [TTS systems inventory](https://docs.google.com/spreadsheets/d/12pfcEIEXaJTjIKex-3wnI89erIvgKf9B_XpGkDl6qsM/edit#gid=1235102795)
+
+### Domains
 
 - [TTS DNS](https://github.com/18F/dns)
 - List of TTS [domains](https://docs.google.com/spreadsheets/d/12pfcEIEXaJTjIKex-3wnI89erIvgKf9B_XpGkDl6qsM/edit#gid=824448842)
 - [Modernization plans](https://docs.google.com/spreadsheets/d/1kxtHnxs2Us3OyPNOIyVQvWs5vUPcEhSaQHBIvSZmtzw/edit#gid=1884617968)
 - [GSA's list of websites](https://docs.google.com/spreadsheets/d/1OBO6g7_OsVBv0vG8WSCI6L2FD_iRh3A7a_6eQWj2zLE/edit#gid=2013137748)
+- [Candidates for decommissioning](https://docs.google.com/spreadsheets/d/1EGgQpwq8kc43TuTYxtQAhzEnhf_p7m_6T0Q8Dt9mqjo/edit#gid=0)
 
 ## Interviewing
 

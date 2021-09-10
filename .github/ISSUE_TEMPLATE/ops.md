@@ -17,7 +17,7 @@ Each of the following should be done within the dates above. See the [playbook](
   - You don't need to merge everything yourself, but try and make sure everything gets merged (by pinging the relevant people, etc).
   - If you need help reviewing/merging any, ask in [#tts-tech-portfolio](https://gsa-tts.slack.com/messages/tts-tech-portfolio/) or another relevant channel.
 - [ ] [Update the public IT Standards dataset](https://github.com/GSA/data/tree/master/enterprise-architecture#updating-the-list)
-- [ ] [Run the Inspector](https://github.com/18F/tts-tech-portfolio/tree/main/inspector#usage)
+- [x] ~[Run the Inspector](https://github.com/18F/tts-tech-portfolio/tree/main/inspector#usage)~ _see [#1526](https://github.com/18F/tts-tech-portfolio/issues/1526)_
 
 ## Communications Monitoring
 

@@ -29,9 +29,7 @@ Ensure you know what's happening on the team:
 
 Learn our policies and procedures:
 
-- [ ] Coordinate with your onboarding buddy to go through [Incident Response Training](https://docs.google.com/presentation/d/1AZjQE8zBzMRWZIFUuJPkJLted1ykGtALrLPoPRx5Vls/edit#slide=id.p) within 60 days of joining the team (and annually after that). This will cover the following document, which you should also review before or after training:
 - [ ] Read [Before You Ship](https://before-you-ship.18f.gov/)
-- [ ] Coordinate with your onboarding buddy to go through [nonpublic information training](https://docs.google.com/presentation/d/1rXSZZ0t0kadsoP1EMJoM0T7ROkGD3Pr5wojWnf2GksI/edit) within 60 days of joining the team (and annually after that). This will cover the following documents, which you should also review before or after training:
 - [ ] Review the [18F open source policy guidance about protecting sensitive information](https://github.com/18F/open-source-policy/blob/master/practice.md#protecting-sensitive-information)
   - [ ] Review the [TTS requirements for password management](https://handbook.tts.gsa.gov/password-requirements/)
 
@@ -58,6 +56,8 @@ Add them to:
 - [ ] The OpsRotation schedule by editing the existing calendar invites (it's a little tedious, but you'll be inserting a new invite, shifting others, and adjusting the recurrence)
 - [ ] [The TTS Tech Portfolio Roles](https://github.com/18F/tts-tech-portfolio/blob/main/how_we_work/roles.md)
 - [ ] [TTS Technology Portfolio](https://groups.google.com/a/gsa.gov/forum/#!managemembers/devops/add) (devops) as a Member
+- [ ] [GSA Archer](https://handbook.tts.gsa.gov/launching-software/lifecycle/#rsa-archer) read access to system security plans (SSPs)
+  - [ ] Check the boxes for [all TTS FISMA systems](https://docs.google.com/spreadsheets/d/12pfcEIEXaJTjIKex-3wnI89erIvgKf9B_XpGkDl6qsM/edit#gid=1235102795&fvid=1731762212)
 
 ### Account Access
 
