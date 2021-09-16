@@ -85,7 +85,12 @@ It might be helpful to create a filter rule for each of the above
   - "Your .GOV Domain <domain>.GOV is due for renewal"
     - Reach out to domain owners to determine if the domain is still needed. 
 
-- AWS
-  - "AWS Budgets: <group/program> has exceeded your alert threshold"
-  - "Attention required on case ..."
-  - "Amazon EC2 Instance Retirement ..."
+- AWS 
+  - AWS email alerts will go directly to program contacts and will not require involvement from Ops-rotation person.
+    - "AWS Budgets: <group/program> has exceeded your alert threshold"
+    - "Attention required on case ..."
+    - "Amazon EC2 Instance Retirement ..."
+
+- Amazon Cloudwatch (from "GRACE Alerting")
+  - Email alerts will go directly to program contacts (same as above issue) and will not require involvement from Ops-rotation person.
+    - "ALARM: " 
