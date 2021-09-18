@@ -14,7 +14,7 @@ When someone new joins the TTS Tech Portoflio team:
 
 1. [Create a new card in the Tech Portfolio Github repo.](https://github.com/18F/tts-tech-portfolio/issues/new?template=onboarding.md&title=onboard+%5BNewPerson%5D)
 1. Replace "NewPerson" with the new person's name and "Buddy" with the onboarding buddy's name.
-1. Copy/paste the [Checklist to update user access](.github/ISSUE_TEMPLATE/team_access.md) into the card created above.
+1. Copy/paste the [Checklist to update person's access](https://github.com/18F/tts-tech-portfolio/blob/main/how_we_work/offboarding.md#checklist-to-update-persons-access) from the Offboarding page into the card created above.
 1. Submit the card.
 1. Assign the person who bravely volunteered to be the new person's Onboarding Buddy to the card.
 1. Put the issue into the _In Progress_ column.
