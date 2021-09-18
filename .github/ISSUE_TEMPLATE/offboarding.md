@@ -22,5 +22,4 @@ task. (PS-4: Personnel termination)
 - [ ] Document any work in progress and schedule a hand-off for any remaining tasks
 
 #### Assignee (Ops Rotation Person)
-- [ ] Update user access (copy/paste below from [User Access Checklist](team_access.md))
-
+- [ ] Update person's access (copy/paste below from [Checklist](https://github.com/18F/tts-tech-portfolio/blob/main/how_we_work/offboarding.md#checklist-to-update-persons-access) in Offboarding page)
