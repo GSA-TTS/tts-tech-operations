@@ -52,14 +52,14 @@ requests. A simple "Thanks for the message, we'll get back to you on this" is
 perfectly okay. Often other team members will jump in on things where they have
 context.
 
-| Group                                                                                        | Permission |
-| -------------------------------------------------------------------------------------------- | ---------- |
+| Group                                                                                        | Permission | Description |
+| -------------------------------------------------------------------------------------------- | ---------- | ----------- |
 | [18F PyPI](https://groups.google.com/a/gsa.gov/g/18f-pypi)                                   | Owner      |
 | [TTS Tech Portfolio IaaS Alerting](https://groups.google.com/a/gsa.gov/g/18fsoftware)        | Owner      |
 | [IS-TTS](https://groups.google.com/a/gsa.gov/g/is-tts)                                       | Manager    |
 | [TTS Software](https://groups.google.com/a/gsa.gov/g/tts-software)                           | Owner      |
 | [TTS Technology Portfolio](https://groups.google.com/a/gsa.gov/g/devops)                     | Owner      |
-| [TTS Vulnerability Reports](https://groups.google.com/a/gsa.gov/g/tts-vulnerability-reports) | Owner      |
+| [TTS Vulnerability Reports](https://groups.google.com/a/gsa.gov/g/tts-vulnerability-reports) | Owner      | DEPRECATED: forwards to gsa-vulnerability-reports |
 
 For the `TTS Software` group, we use [Google's Collaborative Inbox](https://support.google.com/a/answer/167430?hl=en)
 features to manage the status of requests. When on ops-rotation use the `Mark as Completed` to ensure others know a request has been satisfied. For requests that
