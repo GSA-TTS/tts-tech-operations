@@ -51,7 +51,10 @@ If you don't have permission to add the new team member, assign the task to anot
 Add them to:
 
 - [ ] [The @tech-portfolio user group in Slack](https://get.slack.help/hc/en-us/articles/212906697-User-Groups#edit-a-user-group)
-- [ ] [The @18F/tts-tech-portfolio team in GitHub](https://github.com/orgs/18F/teams/tts-tech-portfolio/members)
+- [ ]  GitHub Team
+  - [ ]  [TTS Tech Portfolio](https://github.com/orgs/18F/teams/tts-tech-portfolio/members)
+  - [ ]  [Presidential Innovation Fellows](https://github.com/orgs/presidential-innovation-fellows/teams/github-admins)
+  - [ ]  [Digital Analytics](https://github.com/orgs/digital-analytics-program/teams/core)
 - [ ] [The Everyone issue template](https://github.com/18F/tts-tech-portfolio/blob/main/.github/ISSUE_TEMPLATE/everyone.md)
 - [ ] The OpsRotation schedule by editing the existing calendar invites (it's a little tedious, but you'll be inserting a new invite, shifting others, and adjusting the recurrence)
 - [ ] [The TTS Tech Portfolio Roles](https://github.com/18F/tts-tech-portfolio/blob/main/how_we_work/roles.md)
