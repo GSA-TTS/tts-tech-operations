@@ -11,6 +11,8 @@ We wear a lot of different hats and it's not always clear what process to follow
 We try to keep admin documentation and process close to the user documentation
 and process.
 
+If the scheduled OpsRotation person is out (for more than a few hours), we default to the next scheduled OpsRotation person filling in.
+
 ## Urgent alerts
 
 There are a few things that you'll want to keep an eye on and address
