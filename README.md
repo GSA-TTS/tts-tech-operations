@@ -12,7 +12,14 @@ Pull Request Status
 
 ## Overview
 
-TTS Tech Portfolio oversee/manage/coordinate everything technology-related that cuts across TTS, or anything technology-related that will affect TTS from the outside.
+TTS Tech Portfolio oversee/manage/coordinate everything technology-related that
+cuts across TTS, or anything technology-related that will affect TTS from the
+outside. We provide all the things that allow TTS staff to get their jobs done
+at the highest quality level.
+
+Rather than try to exert control over everything technology at TTS, we focus
+instead on protecting, streamlining, and enabling our staff and systems, and
+doing so in an empathetic, transparent way.
 
 ## How we operate
 
