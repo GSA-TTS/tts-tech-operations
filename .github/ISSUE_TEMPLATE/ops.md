@@ -35,4 +35,5 @@ Check off the boxes above at the end of the Rotation if you believe you are caug
 - [ ] Check the [anonymous feedback responses](https://docs.google.com/spreadsheets/d/1ahj7CuoTAYr5c7miDCeGhplYx_wW1yj6ApMFLRdY-7Q/edit?usp=forms_web_b#gid=1730986218), and do the following as applicable:
   - Create or comment on issues
   - Drop anonymized feedback in #tts-tech-portfolio and the [kudos collector](https://docs.google.com/document/d/1JucZ_-P84VJLQ-ZI-VcYV2PVWOEuSW5DKCebCZECmTk/edit)
+- [ ] [Convert inactive Mural users to guests](https://handbook.tts.gsa.gov/tools/mural/#reclaim-member-seats)
 - [ ] Let the next person on Operations Rotation know what is outstanding

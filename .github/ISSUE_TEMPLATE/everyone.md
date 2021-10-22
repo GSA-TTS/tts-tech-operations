@@ -5,7 +5,6 @@ title: ""
 labels: "g: initial, i: misc"
 assignees:
   - adborden
-  - afeld
   - JJediny
   - rocheller123
 ---

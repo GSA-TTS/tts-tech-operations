@@ -51,3 +51,4 @@ If you don't have permission to add the new team member, assign the task to anot
 Add them to:
 
 ** Copy/paste the [Checklist to update person's access](https://github.com/18F/tts-tech-portfolio/blob/main/how_we_work/offboarding.md#checklist-to-update-persons-access) from the Offboarding page. ** 
+
