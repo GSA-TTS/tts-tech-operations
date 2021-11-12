@@ -1,10 +1,11 @@
 ---
-name: Departing team member
-about: Checklist for offboarding someone from the Tech Portfolio team
+name: Offboarding Process
+about: Checklist for offboarding and removing access from the Tech Portfolio team
 title: ""
 labels: "g: accepted, i: misc"
 assignees: ""
 ---
+
 
 Assignee: The tasks below are organized by the role needed to complete them. If you canʼt complete
 any of the items on your checklist personally, you are responsible for ensuring that an appropriate person
@@ -13,12 +14,12 @@ For compliance tracking purposes we need to show when offboarding actions happen
 occur in a 24-hour window. As you do this work, comment on this GitHub issue as you complete each
 task. (PS-4: Personnel termination)
 
-## Departing Person
+# Offboarding Process
+
+#### Offboarding Person
 
 - [ ] [Initiate the process](https://handbook.tts.gsa.gov/leaving-tts/)
+- [ ] Document any work in progress and schedule a hand-off for any remaining tasks
 
-## Assignee
-
-- [ ] Remove them from #tts-tech-portfolio-private
-- [ ] Copy in the [onboarding buddy checklist](hhttps://raw.githubusercontent.com/18F/tts-tech-portfolio/main/.github/ISSUE_TEMPLATE/onboarding.md)
-  - [ ] Adjust/reverse as appropriate
+#### Assignee (Ops Rotation Person)
+- [ ] Update person's access (copy/paste below from [Checklist](https://github.com/18F/tts-tech-portfolio/blob/main/how_we_work/offboarding.md#checklist-to-update-persons-access) in Offboarding page)
