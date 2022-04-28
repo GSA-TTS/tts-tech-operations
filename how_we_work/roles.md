@@ -1,6 +1,6 @@
 # Roles
 
-| Role                                                                                                                                                     | @afeld | @jjediny | @adborden (detail) | @rocheller123 |
+| Role                                                                                                                                                     | Tech Portfolio Lead (VACANT) | @jjediny | TTS Shared Engineer (VACANT) | @rocheller123 |
 | -------------------------------------------------------------------------------------------------------------------------------------------------------- | ------ | -------- | ------------------ | ------------- |
 | [Contracting Officer Representative (COR)][cor] for TTS-wide software/infrastructure purchases                                                           | ---    | X        | ---                | ---           |
 | Cybersecurity [Authorizing Official](#authorizing-official)                                                                                              | X      | ---      | ---                | ---           |

@@ -2,9 +2,7 @@
 
 [Create an issue using the Operations Rotation template](https://github.com/18F/tts-tech-portfolio/issues/new?template=ops.md) before each Rotation to track tasks. Close once the rotation has ended.
 
-We wear a lot of different hats and it's not always clear what process to follow
-in order to address a request. In general, look for documented instructions in
-the context of the request. If you're not sure:
+We wear a lot of different hats and it's not always clear what process to follow in order to address a request. In general, look for documented instructions in the context of the request. If you're not sure:
 
 1. Check the Handbook
 1. Check this repo
@@ -13,15 +11,15 @@ the context of the request. If you're not sure:
 We try to keep admin documentation and process close to the user documentation
 and process.
 
+If the scheduled OpsRotation person is out (for more than a few hours), we default to the next scheduled OpsRotation person filling in.
 
 ## Urgent alerts
 
 There are a few things that you'll want to keep an eye on and address
 immediately if they come up.
 
-- tts-vulnerability-reports
-- #vulnerability-reports
-
+- tts-vulnerability-reports (google group / email)
+- #vulnerability-reports (slack)
 
 ## Communications Monitoring
 
@@ -56,14 +54,14 @@ requests. A simple "Thanks for the message, we'll get back to you on this" is
 perfectly okay. Often other team members will jump in on things where they have
 context.
 
-| Group                                                                                        | Permission |
-| -------------------------------------------------------------------------------------------- | ---------- |
+| Group                                                                                        | Permission | Description |
+| -------------------------------------------------------------------------------------------- | ---------- | ----------- |
 | [18F PyPI](https://groups.google.com/a/gsa.gov/g/18f-pypi)                                   | Owner      |
 | [TTS Tech Portfolio IaaS Alerting](https://groups.google.com/a/gsa.gov/g/18fsoftware)        | Owner      |
 | [IS-TTS](https://groups.google.com/a/gsa.gov/g/is-tts)                                       | Manager    |
 | [TTS Software](https://groups.google.com/a/gsa.gov/g/tts-software)                           | Owner      |
 | [TTS Technology Portfolio](https://groups.google.com/a/gsa.gov/g/devops)                     | Owner      |
-| [TTS Vulnerability Reports](https://groups.google.com/a/gsa.gov/g/tts-vulnerability-reports) | Owner      |
+| [TTS Vulnerability Reports](https://groups.google.com/a/gsa.gov/g/tts-vulnerability-reports) | Owner      | DEPRECATED: forwards to gsa-vulnerability-reports |
 
 For the `TTS Software` group, we use [Google's Collaborative Inbox](https://support.google.com/a/answer/167430?hl=en)
 features to manage the status of requests. When on ops-rotation use the `Mark as Completed` to ensure others know a request has been satisfied. For requests that

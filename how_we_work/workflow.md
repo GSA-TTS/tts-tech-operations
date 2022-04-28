@@ -78,8 +78,8 @@ Optional. We talk about whatever we want, work-related or not.
 **Meeting Flow:**
 
 1. New Card Review - Teammates will brief others on the new cards they created and the group will decide where the card should go to `Icebox` or `Backlog (Sprint Staging)`.
-1. Teammates will order the cards within their initiative in the `Icebox` based on their own criteria
 1. Review [non-groomed issues](https://github.com/orgs/18F/projects/11?fullscreen=true&card_filter_query=-label%3A%22g%3A+accepted%22) right to left, [grooming](#grooming-status) each
+1. Teammates will order the cards within their initiative in the `Icebox` based on their own criteria
 
 ### Icebox Thaw
 
