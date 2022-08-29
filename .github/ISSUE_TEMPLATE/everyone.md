@@ -4,8 +4,7 @@ about: A task that must be completed by everyone on the team
 title: ""
 labels: "g: initial, i: misc"
 assignees:
-  - JJediny
-  - rocheller123
+  - 18F/tts-tech-portfolio
 ---
 
 _DESCRIPTION GOES HERE_
