@@ -51,6 +51,12 @@ See also:
 
 We're open and excited to hear [(anonymous) feedback](https://docs.google.com/forms/d/1Z9ozErUeMW2mmo4VW-0wfYXD7GllbvCuuZ9AVNAyS_s/edit) to hear how we're doing!
 
+## Continuous Integration
+
+Secret                    | Description
+------                    | -----------
+GH_PROJECT_WORKFLOW_TOKEN | GitHub personal access token with read,read:org,write:org scope.
+
 ## License
 
 See [LICENSE](LICENSE.md)

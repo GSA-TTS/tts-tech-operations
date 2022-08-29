@@ -180,6 +180,7 @@ Needs to start within 30 days of penetration test.
 
 1. [ ] Assessment kickoff meeting
 1. [ ] Complete [Security Assessment Plan (SAP)](https://insite.gsa.gov/employee-resources/information-technology/security-and-privacy/it-security/it-security-procedural-guides)
+1. [ ] Complete [Security Assessment Report (SAR)](https://insite.gsa.gov/employee-resources/information-technology/security-and-privacy/it-security/it-security-procedural-guides)
 
 #### Project team
 

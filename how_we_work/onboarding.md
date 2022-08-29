@@ -14,6 +14,7 @@ When someone new joins the TTS Tech Portoflio team:
 
 1. [Create a new card in the Tech Portfolio Github repo.](https://github.com/18F/tts-tech-portfolio/issues/new?template=onboarding.md&title=onboard+%5BNewPerson%5D)
 1. Replace "NewPerson" with the new person's name and "Buddy" with the onboarding buddy's name.
+1. Copy/paste the [Checklist to update person's access](https://github.com/18F/tts-tech-portfolio/blob/main/how_we_work/offboarding.md#checklist-to-update-persons-access) from the Offboarding page into the card created above.
 1. Submit the card.
 1. Assign the person who bravely volunteered to be the new person's Onboarding Buddy to the card.
 1. Put the issue into the _In Progress_ column.
@@ -25,10 +26,3 @@ In order to get NewPerson productively contributing to the TTS Tech Portfolio te
 Whenever possible, we err on the side of putting information where the public can see it and others can benefit from it. Some data might be kept in Google Drive for convenience of presentation, commenting, etc. but we consider public GitHub repositories the intended destination whenever possible.
 
 Several tools are used for project management, but the main one you will probably be using is GitHub to submit and merge pull requests.
-
-## Things we maintain
-
-- [TTS Tech Portfolio repositories](https://github.com/orgs/18F/teams/tts-tech-portfolio/repositories)
-- a [Google Drive folder](https://drive.google.com/a/gsa.gov/folderview?id=0Bx6EvBXVDWwheUtVckVnOE1pRzA&usp=sharing) full of artifacts related to design, user research, etc (also expected to move to GitHub in time)
-
-We try to move others to the [opencontrol](https://github.com/opencontrol) or [fisma-ready](https://github.com/fisma-ready) GitHub organizations whenever appropriate.
