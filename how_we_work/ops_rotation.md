@@ -31,14 +31,13 @@ You don't have to have the answers to all the questions, but you should ensure a
 | ------------------------------------------------------------------------------ | :-----------------------------------------------------------------------------------------------------------------------------------------------: |
 | [#admins-dns](https://gsa-tts.slack.com/archives/C4L58EQ5T)                    |                                                           Look for failure for DNS jobs                                                           |
 | [#admins-emoji](https://gsa-tts.slack.com/archives/C024EBDS1NC)                |                                                    Recruit reviewers to approve emoji requests                                                    |
-| [#admins-github](https://gsa-tts.slack.com/archives/C02KXM98G)                 |                                       Typically used for folks to request new accounts or transfer accounts                                       |
+| [#admins-github](https://gsa-tts.slack.com/archives/C02KXM98G)                 |                                       Typically used for folks to request new accounts or transfer accounts or delete repos                                       |
 | [#admins-govdelivery](https://gsa-tts.slack.com/archives/CBQ490G3Y)            |                                                                      unsure                                                                       |
 | [#admins-hubspot](https://gsa-tts.slack.com/archives/C72F606QG)                |                                                                      unsure                                                                       |
 | [#admins-iaas](https://gsa-tts.slack.com/archives/CMB19370T)                   |                                                                      unsure                                                                       |
-| [#admins-mural](https://gsa-tts.slack.com/archives/C056CAN2F)                  |                                                 Typically used for folks to request new accounts
-| [#admins-newrelic](https://gsa-tts.slack.com/archives/C14EF2XEC)               |                                                 Typically used for folks to request new accounts|
-| [#admins-slack](https://gsa-tts.slack.com/archives/C02KW46DP)                  |                                     Mostly managed by GSA IT, but recommend monitoring if a question pops up                                      |
-| [#admins-trello](https://gsa-tts.slack.com/archives/C055J0BL0)                 |                                                 Typically used for folks to request new accounts                                                  |
+| [#admins-mural](https://gsa-tts.slack.com/archives/C056CAN2F)                  |                                                 Typically used for folks to request new accounts or reactivate accounts                                                  |
+| [#admins-slack](https://gsa-tts.slack.com/archives/C02KW46DP)                  |                                     Mostly managed by GSA IT, but recommend monitoring if a question pops up, GSA IT handles requests to @github-admins-login                                      |
+| [#admins-trello](https://gsa-tts.slack.com/archives/C055J0BL0)                 |                                                 Typically used for folks to request new accounts or remove accounts                                                  |
 | [#cto-ciso-tts-liason-private](https://gsa-tts.slack.com/archives/G012Y9UCN9E) |                                       Communication avenue between the CTO's plust the CISO's office & TTS                                        |
 | [#cto-tts-liason-private](https://gsa-tts.slack.com/archives/GKDTT9D3N)        |                                                Communication avenue between the CTO's office & TTS                                                |
 | [#incident-response](https://gsa-tts.slack.com/archives/C0G6G1UNM)             |                                                 Channel to post incidents that need responding to                                                 |
@@ -73,3 +72,23 @@ additional features you may find useful.
 It might be helpful to create a filter rule for each of the above
 `to:<list>@gsa.gov`s and add a label (e.g. `tech-portfolio`). Then
 [each day you can quickly process the queue](https://mail.google.com/mail/u/0/#search/label%3Atech-portfolio+is%3Aunread).
+
+#### How to handle email alerts
+
+- Let's Encrypt 
+  - "Let's Encrypt certificate expiration notice for domain"
+    - This can be ignored.
+
+- DotGov 
+  - "Your .GOV Domain <domain>.GOV is due for renewal"
+    - Reach out to domain owners to determine if the domain is still needed. 
+
+- AWS 
+  - AWS email alerts will go directly to program contacts and will not require involvement from Ops-rotation person.
+    - "AWS Budgets: <group/program> has exceeded your alert threshold"
+    - "Attention required on case ..."
+    - "Amazon EC2 Instance Retirement ..."
+
+- Amazon Cloudwatch (from "GRACE Alerting")
+  - Email alerts will go directly to program contacts (same as above issue) and will not require involvement from Ops-rotation person.
+    - "ALARM: " 
