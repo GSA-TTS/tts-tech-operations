@@ -1,17 +1,18 @@
 # Roles
 
-| Role                                                                                                                                                     | Tech Portfolio Director | @jjediny | @rocheller123 | TTS Shared Engineer (VACANT) |
+| Role                                                                                                                                                     | @lrussell01 | @jjediny | @rocheller123 | TTS Shared Engineer (VACANT) |
 | -------------------------------------------------------------------------------------------------------------------------------------------------------- | ------ | -------- | ------------------ | ------------- |
-| [Contracting Officer Representative (COR)][cor] for TTS-wide software/infrastructure purchases                                                           | ---    | X        | X                | ---           |
+| [Contracting Officer Representative (COR)][cor] for TTS-wide software/infrastructure purchases                                                           | X    | X        | X                | ---           |
 | Cybersecurity [Authorizing Official](#authorizing-official)                                                                                              | ---      | ---      | ---                | ---           |
-| [Digital Council](https://docs.google.com/document/d/1v_kidGvpfVsMze-hJdaApI61Q3Vr6E-zZ5t79drnqIM/edit) member                                           | X      | ---      | ---                | ---           |
+| TTS C-SCRM Champion                                                                                              | X      | ---      | ---                | ---           |
+| [Digital Council](https://docs.google.com/document/d/1v_kidGvpfVsMze-hJdaApI61Q3Vr6E-zZ5t79drnqIM/edit) member                                           | X      | X      | ---                | ---           |
 | [DotGov points of contact](https://home.dotgov.gov/management/#points-of-contact)                                                                        | ---      | X      | X (Backup)                | ---           |
 | [Infrastructure-as-a-Service (IaaS)](https://handbook.tts.gsa.gov/launching-software/infrastructure/)                                                    | ---    | X        | X                  | X             |
 | Mac Working Group representative                                                                                                                         | ---      | ---      | X                | ---           |
-| [Operations Rotation](ops_rotation.md) person                                                                                                            | ---      | X        | X                  | ---            |
+| [Operations Rotation](ops_rotation.md) person                                                                                                            | ---      | X        | X                  | X            |
 | [Software concierge (Security Authorization)](#security-authorizations)                                                                                  | ---     | ---      | ---                | ---           |
 | [Software concierge (acquisition)](#acquisition)                                                                                                         | ---    | ---      | ---                | ---           |
-| [TTS products and platforms Mission Essential Function (MEF)](https://drive.google.com/drive/folders/1I53LwxcMPHvoCWZziN4jvQ3wWFc2tvF8) point of contact | X      | ---      | ---                | ---           |
+| [TTS products and platforms Mission Essential Function (MEF)](https://drive.google.com/drive/folders/1I53LwxcMPHvoCWZziN4jvQ3wWFc2tvF8) point of contact | X      | ---      | X (Backup)                 | ---           |
 | [Vulnerability Disclosure Lead](#vulnerability-disclosure-lead)                                                                                          | ---    | ---        | ---                | ---           |
 
 We also have [Initiative](workflow.md#structure) owners—see the `Initiatives` column of [the board](https://github.com/orgs/18F/projects/11?fullscreen=true).
