@@ -4,12 +4,12 @@
 | -------------------------------------------------------------------------------------------------------------------------------------------------------- | ------ | -------- | ------------------ | ------------- |
 | [Contracting Officer Representative (COR)][cor] for TTS-wide software/infrastructure purchases                                                           | X    | X        | X                | ---           |
 | Cybersecurity [Authorizing Official](#authorizing-official)                                                                                              | ---      | ---      | ---                | ---           |
-| TTS C-SCRM Champion                                                                                              | X      | ---      | ---                | ---           |
-| [Digital Council](https://docs.google.com/document/d/1v_kidGvpfVsMze-hJdaApI61Q3Vr6E-zZ5t79drnqIM/edit) member                                           | X      | X      | ---                | ---           |
-| [DotGov points of contact](https://home.dotgov.gov/management/#points-of-contact)                                                                        | ---      | X      | X (Backup)                | ---           |
+| TTS [C-SCRM Champion](#c-scrm-champion)                                                                                              | X      | ---      | ---                | ---           |
+| [Digital Council](https://docs.google.com/document/d/1v_kidGvpfVsMze-hJdaApI61Q3Vr6E-zZ5t79drnqIM/edit) Member                                           | X      | X      | ---                | ---           |
+| [DotGov Points of Contact](https://home.dotgov.gov/management/#points-of-contact)                                                                        | ---      | X      | X (Backup)                | ---           |
 | [Infrastructure-as-a-Service (IaaS)](https://handbook.tts.gsa.gov/launching-software/infrastructure/)                                                    | ---    | X        | X                  | X             |
-| Mac Working Group representative                                                                                                                         | ---      | ---      | X                | ---           |
-| [Operations Rotation](ops_rotation.md) person                                                                                                            | ---      | X        | X                  | X            |
+| Mac Working Group Representative                                                                                                                         | ---      | ---      | X                | ---           |
+| [Operations Rotation](ops_rotation.md)                                                                                                            | ---      | X        | X                  | X            |
 | [Software concierge (Security Authorization)](#security-authorizations)                                                                                  | ---     | ---      | ---                | ---           |
 | [Software concierge (acquisition)](#acquisition)                                                                                                         | ---    | ---      | ---                | ---           |
 | [TTS products and platforms Mission Essential Function (MEF)](https://drive.google.com/drive/folders/1I53LwxcMPHvoCWZziN4jvQ3wWFc2tvF8) point of contact | X      | ---      | X (Backup)                 | ---           |
@@ -54,6 +54,23 @@ The Director does the following:
 
 - Works with GSA IT Security and Vendor to assure that the products that TTS uses remain authorized.
 - This role is more focused on coordination to ensure that TTS user needs are met.
+
+## C-SCRM Champion
+The C-SCRM Champion does the following:
+- Supports technical SME in identifying relevant controls and risk mitigations post award, as well as sharing vendor risk data and responsiveness within GSA.
+- Acts as the SME in SCRM, providing assistance to the AWF with identifying steps in incorporating SCRM/IT Risk Management in acquisition eg. identify, assess, respond and monitor and control risk.
+- Assists technical SME in reviewing NIST controls, Consolidated Contract SCRM language, regulations and clauses and advise the AWF on the most appropriate to include in a solicitation, quality assurance surveillance plan, evaluation factors, monitoring and control plan, etc.
+- Section 889 Incident Reports (reviews w/CO, prepares SCRM Review Board package and attends board meeting.
+- Attends monthly SCRM Champion Summits, share information with respective portfolios and report back to senior leadership important SCRM activity and ways to incorporate SCRM into the portfolio.
+- Looks for SCRM related training opportunities to share with the SCRM Champion network and the business lines/portfolios.
+
+The SCRM Champion will:
+- Support the HCA in ensuring proper procedures and steps are followed concerning maintaining compliance for mandatory and voluntary information sharing with the Federal Acquisition Security Council (FASC).
+- Understand the system capability for maintaining records of substantial supply chain risks as identified by COs.
+- Support the CO and HCA in liaison efforts with the Supply Chain Support Cell (SC2), the SCRM Review Board, and any other Board or Working Group body for a case review.
+- Raise awareness of identified supply chain risks as appropriate, in efforts to reduce duplication of submitted supply chain risk information and further mature SCRM in FAS.
+- Assist FAS's Office of Policy and Compliance (OPC) in training COs on the new requirement from the FASC interim final rule (IFR) and internal procedures for GSA compliance.
+
 
 ## Vulnerability Disclosure Lead
 
