@@ -8,11 +8,11 @@
 | [Digital Council](https://docs.google.com/document/d/1v_kidGvpfVsMze-hJdaApI61Q3Vr6E-zZ5t79drnqIM/edit) Member                                           | X      | X      | ---                | ---           |
 | [DotGov Points of Contact](https://home.dotgov.gov/management/#points-of-contact)                                                                        | ---      | X      | X (Backup)                | ---           |
 | [Infrastructure-as-a-Service (IaaS)](https://handbook.tts.gsa.gov/launching-software/infrastructure/)                                                    | ---    | X        | X                  | X             |
-| Mac Working Group Representative                                                                                                                         | ---      | ---      | X                | ---           |
+| Mac Working Group Representative                                                                                                                         | X (Backup)      | ---      | X                | ---           |
 | [Operations Rotation](ops_rotation.md)                                                                                                            | ---      | X        | X                  | X            |
-| [Software concierge (Security Authorization)](#security-authorizations)                                                                                  | ---     | ---      | ---                | ---           |
-| [Software concierge (acquisition)](#acquisition)                                                                                                         | ---    | ---      | ---                | ---           |
-| [TTS products and platforms Mission Essential Function (MEF)](https://drive.google.com/drive/folders/1I53LwxcMPHvoCWZziN4jvQ3wWFc2tvF8) point of contact | X      | ---      | X (Backup)                 | ---           |
+| [Software Concierge (Security Authorization)](#security-authorizations)                                                                                  | ---     | ---      | ---                | ---           |
+| [Software Concierge (Acquisition)](#acquisition)                                                                                                         | ---    | ---      | ---                | ---           |
+| [TTS Products and Platforms Mission Essential Function (MEF)](https://drive.google.com/drive/folders/1I53LwxcMPHvoCWZziN4jvQ3wWFc2tvF8) point of contact | X      | ---      | X (Backup)                 | ---           |
 | [Vulnerability Disclosure Lead](#vulnerability-disclosure-lead)                                                                                          | ---    | ---        | ---                | ---           |
 
 We also have [Initiative](workflow.md#structure) owners—see the `Initiatives` column of [the board](https://github.com/orgs/18F/projects/11?fullscreen=true).
