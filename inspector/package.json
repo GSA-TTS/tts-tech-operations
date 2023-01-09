@@ -8,7 +8,7 @@
     "@slack/web-api": "^6.1.0",
     "dotenv": "^8.2.0",
     "lodash.countby": "^4.6.0",
-    "luxon": "^1.26.0",
+    "luxon": "^1.28.1",
     "node-fetch": "^2.6.7"
   },
   "devDependencies": {
