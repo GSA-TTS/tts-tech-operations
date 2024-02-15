@@ -16,11 +16,11 @@ jobs:
         run: |
           echo "::set-output name=current::$(date +'%m/%y')"
           echo "::set-output name=due::$(date -d '+15 days' +'%m/%d/%y')"
-      - name: Create issue
+       - name: Create issue
         uses: imjohnbo/issue-bot@v3
         with:
-          assignees: jjediny
-          labels: "g: accepted, m: due date, i: SaaS"
+          assignees: jjediny, ethanheppner, rocheller123, mtaylor-gsa          
+          labels: "g: accepted, m: due date, i: COR"
           title: process invoices for ${{ steps.date.outputs.current }} - due ${{ steps.date.outputs.due }}
           body: |
             ### Implementation steps
@@ -30,7 +30,8 @@ jobs:
             - [ ] AWS
             - [ ] Azure
             - [ ] GCP
-            - [ ] HackerOne
+            - [ ] Zendesk
+            - [ ] Airtable
             - [ ] Mural
             - [ ] New Relic
                     
@@ -38,6 +39,6 @@ jobs:
             
             - [ ] All invoices routed
           pinned: false
-          close-previous: false
+          close-previous: true
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
