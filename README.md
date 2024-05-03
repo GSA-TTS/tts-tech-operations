@@ -1,18 +1,6 @@
-![Terraform Lint and Security Checks](https://github.com/18f/tts-tech-portfolio/actions/workflows/main.yml/badge.svg)
-![Terraform Plan](https://github.com/18f/tts-tech-portfolio/actions/workflows/plan.yml/badge.svg)
-![Terraform Apply](https://github.com/18f/tts-tech-portfolio/actions/workflows/apply.yml/badge.svg)
-![Inspector](https://github.com/18f/tts-tech-portfolio/actions/workflows/inspector.yml/badge.svg)
+# [TTS Tech Operations](https://handbook.tts.gsa.gov/tech-operations) 
 
-
-Pull Request Status
-
-![Terraform Lint and Security Checks](https://github.com/18f/tts-tech-portfolio/actions/workflows/main.yml/badge.svg?event=pull_request)
-![Terraform Plan](https://github.com/18f/tts-tech-portfolio/actions/workflows/plan.yml/badge.svg?event=pull_request)
-
-
-## Overview
-
-TTS Tech Portfolio oversee/manage/coordinate everything technology-related that cuts across TTS, or anything technology-related that will affect TTS from the outside.
+oversee/manage/coordinate everything technology-related that cuts across TTS, or anything technology-related that will affect TTS from the outside.
 
 ## How we operate
 
