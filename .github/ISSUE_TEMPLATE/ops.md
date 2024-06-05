@@ -6,34 +6,39 @@ labels: "g: accepted, i: misc"
 assignees: ""
 ---
 
-Each of the following should be done within the dates above. See the [playbook](https://github.com/18F/tts-tech-portfolio/blob/main/how_we_work/ops_rotation.md) for additional info.
+Each of the following should be done within the dates above.
+
+## Perform actions in accordance with
+
+- [Standard Operating Procedures](https://docs.google.com/document/d/1Quv2TL5cOywqedS7iVWMWp3SMRXVy0sysOlWhO8MUFU/edit)
+- [Playbook](https://github.com/GSA-TTS/tts-tech-operations/blob/main/how_we_work/ops_rotation.md)
 
 ## GitHub
 
-- [ ] [Add issues from linked repositories to our project boards](https://docs.github.com/en/free-pro-team@latest/github/managing-your-work-on-github/adding-issues-and-pull-requests-to-a-project-board)
-  - [ ] [Issues](https://github.com/orgs/18F/projects/11?fullscreen=true)
-  - [ ] [Pull requests](https://github.com/orgs/18F/projects/19?fullscreen=true)
-- [ ] Review and ideally merge (or close) open [pull requests to Tech Portfolio repositories](https://github.com/orgs/18F/projects/19?fullscreen=true)
-  - You don't need to merge everything yourself, but try and make sure everything gets merged (by pinging the relevant people, etc).
-  - If you need help reviewing/merging any, ask in [#tts-tech-portfolio](https://gsa-tts.slack.com/messages/tts-tech-portfolio/) or another relevant channel.
-- [ ] [Update the public IT Standards dataset](https://github.com/GSA/data/tree/master/enterprise-architecture#updating-the-list)
-- [x] ~[Run the Inspector](https://github.com/18F/tts-tech-portfolio/tree/main/inspector#usage)~ _see [#1526](https://github.com/18F/tts-tech-portfolio/issues/1526)_
+- [ ] [Add issues from linked repositories to our project boards](https://github.com/orgs/GSA-TTS/projects/51/views/1?)
+  - [ ] [Issues](https://github.com/orgs/GSA-TTS/projects/51/views/1?)
+  - [ ] [Pull requests](https://github.com/orgs/GSA-TTS/projects/51/views/1?)
+- [ ] Review and ideally merge (or close) open [pull requests to Tech Operations repositories](https://github.com/GSA-TTS/tts-tech-operations/blob/main/README.md)
+  - If you need help reviewing/merging any, ask in [#tts-tech-operations-private](https://gsa.enterprise.slack.com/archives/GP559GCLD) or another relevant channel.
+- [ ] [Review Github Repos maintained by Tech Operations](https://github.com/GSA-TTS/tts-tech-operations/blob/main/README.md)
+
+- Perform actions in accordance with:
+  - [Github Standard Operating Procedures](https://docs.google.com/document/d/1Quv2TL5cOywqedS7iVWMWp3SMRXVy0sysOlWhO8MUFU/edit#heading=h.1kxielcf3jh3)
+  - [GSA Github Administration](https://github.com/GSA/GitHub-Administration)
 
 ## Communications Monitoring
 
 Ensure you are present in the following and are responding as needed:
 
-- [ ] [Slack Channels](https://github.com/18F/tts-tech-portfolio/blob/main/how_we_work/ops_rotation.md#slack-channels)
-- [ ] [Google Groups](https://github.com/18F/tts-tech-portfolio/blob/main/how_we_work/ops_rotation.md#google-groups) - Ensure all inbox items are marked completed. If not able to complete, use the `assign` task function to task the next person on ops rotation, providing them with a description of what's left to do to complete.
-
-Check off the boxes above at the end of the Rotation if you believe you are caught up.
-
+- [ ] [Slack Channels](https://github.com/GSA-TTS/tts-tech-operations/blob/main/how_we_work/ops_rotation.md#slack-channels)
+- [ ] [Google Groups](https://github.com/GSA-TTS/tts-tech-operations/blob/main/how_we_work/ops_rotation.md#google-groups) - Ensure all inbox items are marked completed. If not able to complete, use the `assign` task function to task the next person on ops rotation, providing them with a description of what's left to do to complete.
+- [ ] [New Relic](https://gsa.enterprise.slack.com/archives/C14EF2XEC) - `TEMP` assign @jjediny to all requests until further notice
 ## Other
 
-- [ ] Perform any outstanding `ACCOUNT DEACTIVATION (TP)` (Task(s) Due) [offboarding tasks](https://docs.google.com/spreadsheets/d/1rp8n78tFHqyvvHzsYuBo_XE3Jg1LwOuOX-R9TMRnZI8/edit#gid=1012037864). For any individual where Tasks are due, find their sheet (ordered by offboarding date) and look at the "ACCOUNT DEACTIVATION (TECH PORTFOLIO)" section for any tasks that should be completed.
-- [ ] Go through [SaaS user cleanup](https://docs.google.com/spreadsheets/d/16K3QEUdaXhSjeP-2vVGOX9PulRhlKqXXLnrx_RAZFJc/edit#gid=1913829200)
+- [ ] Perform any outstanding `ACCOUNT DEACTIVATION (TP)` (Task(s) Due) [offboarding tasks](https://docs.google.com/spreadsheets/d/1YWVryXSFp52cvus6Sml3lK1Mmaz1pO4RYZKCPRQMfqs/edit). For any individual where Tasks are due, find their sheet (ordered by offboarding date) and look at the "ACCOUNT DEACTIVATION (TECH PORTFOLIO)" section for any tasks that should be completed.
 - [ ] Check the [anonymous feedback responses](https://docs.google.com/spreadsheets/d/1ahj7CuoTAYr5c7miDCeGhplYx_wW1yj6ApMFLRdY-7Q/edit?usp=forms_web_b#gid=1730986218), and do the following as applicable:
-  - Create or comment on issues
-  - Drop anonymized feedback in #tts-tech-portfolio and the [kudos collector](https://docs.google.com/document/d/1JucZ_-P84VJLQ-ZI-VcYV2PVWOEuSW5DKCebCZECmTk/edit)
-- [ ] [Convert inactive Mural users to guests](https://handbook.tts.gsa.gov/tools/mural/#reclaim-member-seats)
-- [ ] Let the next person on Operations Rotation know what is outstanding
+
+## Closeout
+- [ ] Slack Requests - have a :done-check: emoji when completed
+- [ ] Google Groups - next person performing ops using are assigned using Google Tasks if issue still being worked.
+- [ ] Setup a quick meeting if needed with next person performing ops-rotation if needed 
