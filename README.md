@@ -5,7 +5,7 @@
 | repo | status | maintained | POC/Notes | 
 | --- | --- | --- | --- |
 | [18F/.github](https://github.com/18F/.github) | ? | ? | Hand back to @18f @nateprice18F |
-| [GSA-TTS/aws-admin](https://github.com/gsa-tsts/aws-admin) | active | Y | @nateprice18F |
+| [GSA-TTS/aws-admin](https://github.com/gsa-tts/aws-admin) | active | Y | @nateprice18F |
 | [GSA-TTS/aws-cleanup](https://github.com/gsa-tts/aws-cleanup) | active | Y | @nateprice18F |
 | [18F/before-you-ship](https://github.com/18F/before-you-ship) | archived | Y | Migrated into https://handbook.tts.gsa.gov |
 | [18F/billing-tools](https://github.com/18F/billing-tools) | archived | Y | NA |
